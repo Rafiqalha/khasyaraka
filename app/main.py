@@ -178,36 +178,63 @@ async def health_check():
 # Startup event
 @app.on_event("startup")
 async def startup_event():
-    """Application startup event"""
+    """
+    Application startup event.
+    
+    ✅ CRITICAL: Non-blocking startup for Cloud Run.
+    - Database verification runs with timeout
+    - App starts listening immediately even if DB check fails
+    - Prevents Cloud Run timeout errors
+    """
+    import asyncio
+    
     logger.info(f"Starting {settings.PROJECT_NAME} in {settings.ENVIRONMENT} mode")
     
-    # ✅ CRITICAL: Verify training data exists
+    # ✅ CRITICAL: Verify training data exists (with timeout)
     # This ensures core training data is seeded before accepting requests
-    try:
-        from app.db.session import SessionLocal
-        from app.modules.training.verification import verify_training_data
-        
-        async with SessionLocal() as db:
-            verification_result = await verify_training_data(db)
-            
-            if not verification_result.get("is_ready"):
-                logger.error(
-                    "⚠️ TRAINING DATA NOT READY - Core training data missing or incomplete",
-                    extra=verification_result
-                )
-                logger.error(
-                    "⚠️ Users will not be able to access training paths. "
-                    "Run migration '89f3741b3905_seed_training_data_puk_section' to seed data."
-                )
-            else:
-                logger.info(
-                    "✅ Training data verification passed - System ready",
-                    extra=verification_result
-                )
-    except Exception as e:
-        logger.error(f"❌ Failed to verify training data on startup: {e}", exc_info=True)
-        # Don't fail startup - log error but continue
-        # In production, consider failing fast if training data is critical
+    # BUT: Don't block startup if database is slow/unavailable
+    async def verify_training_data_background():
+        """Background task to verify training data without blocking startup"""
+        try:
+            # Add timeout to prevent blocking Cloud Run startup
+            async with asyncio.timeout(10.0):  # 10 second max timeout
+                from app.db.session import SessionLocal
+                from app.modules.training.verification import verify_training_data
+                
+                async with SessionLocal() as db:
+                    verification_result = await verify_training_data(db)
+                    
+                    if not verification_result.get("is_ready"):
+                        logger.error(
+                            "⚠️ TRAINING DATA NOT READY - Core training data missing or incomplete",
+                            extra=verification_result
+                        )
+                        logger.error(
+                            "⚠️ Users will not be able to access training paths. "
+                            "Run migration '89f3741b3905_seed_training_data_puk_section' to seed data."
+                        )
+                    else:
+                        logger.info(
+                            "✅ Training data verification passed - System ready",
+                            extra=verification_result
+                        )
+        except asyncio.TimeoutError:
+            logger.warning(
+                "⏱️ Training data verification timeout - App will start anyway. "
+                "Database may be slow or unavailable."
+            )
+        except Exception as e:
+            logger.error(
+                f"❌ Failed to verify training data on startup: {e}",
+                exc_info=True
+            )
+            # Don't fail startup - log error but continue
+            # App must start even if database check fails (for Cloud Run)
+    
+    # Run verification in background (non-blocking)
+    # App will start listening immediately
+    asyncio.create_task(verify_training_data_background())
+    logger.info("✅ Application startup complete - Server ready to accept requests")
 
 
 # Shutdown event
