@@ -1,0 +1,110 @@
+[
+  {
+    "id": "cy_morse_001",
+    "category": "morse",
+    "module_id": "mod_morse",
+    "difficulty": 1,
+    "encrypted_data": {
+      "type": "audio_protocol",
+      "cipher": "... --- ...",
+      "hint": "Signal darurat universal"
+    },
+    "decrypted_answer": "SOS",
+    "xp_reward": 5
+  },
+  {
+    "id": "cy_morse_002",
+    "category": "morse",
+    "module_id": "mod_morse",
+    "difficulty": 2,
+    "encrypted_data": {
+      "type": "audio_protocol",
+      "cipher": ".- -- .- -. .- ....",
+      "hint": "Sandi salam khas pramuka"
+    },
+    "decrypted_answer": "AMANAH",
+    "xp_reward": 8
+  },
+  {
+    "id": "cy_semaphore_001",
+    "category": "semaphore",
+    "module_id": "mod_semaphore",
+    "difficulty": 1,
+    "encrypted_data": {
+      "type": "flag_signals",
+      "code": "A-N",
+      "hint": "Kirim koordinat titik awal"
+    },
+    "decrypted_answer": "AN",
+    "xp_reward": 6
+  },
+  {
+    "id": "cy_semaphore_002",
+    "category": "semaphore",
+    "module_id": "mod_semaphore",
+    "difficulty": 2,
+    "encrypted_data": {
+      "type": "flag_signals",
+      "code": "A-Z",
+      "hint": "Kunci akses alfabet"
+    },
+    "decrypted_answer": "AZ",
+    "xp_reward": 9
+  },
+  {
+    "id": "cy_caesar_001",
+    "category": "caesar_cipher",
+    "module_id": "mod_an",
+    "difficulty": 2,
+    "encrypted_data": {
+      "type": "substitution_cipher",
+      "shift": 3,
+      "cipher": "VXNRW",
+      "hint": "Nama sistem kami"
+    },
+    "decrypted_answer": "SCOUT",
+    "xp_reward": 10
+  },
+  {
+    "id": "cy_caesar_002",
+    "category": "caesar_cipher",
+    "module_id": "mod_an",
+    "difficulty": 3,
+    "encrypted_data": {
+      "type": "substitution_cipher",
+      "shift": 1,
+      "cipher": "QSFNVB",
+      "hint": "Siaga di medan"
+    },
+    "decrypted_answer": "PRAMUA",
+    "xp_reward": 12
+  },
+  {
+    "id": "cy_rail_001",
+    "category": "rail_fence",
+    "module_id": "mod_kotak1",
+    "difficulty": 2,
+    "encrypted_data": {
+      "type": "grid_security",
+      "rails": 2,
+      "cipher": "PDNUA",
+      "hint": "Sandi kotak sederhana"
+    },
+    "decrypted_answer": "PUNTA",
+    "xp_reward": 9
+  },
+  {
+    "id": "cy_rail_002",
+    "category": "rail_fence",
+    "module_id": "mod_kotak1",
+    "difficulty": 3,
+    "encrypted_data": {
+      "type": "grid_security",
+      "rails": 3,
+      "cipher": "KSOETC",
+      "hint": "Kode kehormatan"
+    },
+    "decrypted_answer": "SCOUTE",
+    "xp_reward": 12
+  }
+]

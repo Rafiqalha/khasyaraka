@@ -1,0 +1,22 @@
+{
+  "unit_id": "ppgd_u1",
+  "questions": [
+    {
+      "id": "q_ppgd_u1_l1_01",
+      "level_id": "ppgd_u1_l1",
+      "type": "multiple_choice",
+      "question": "Apa kepanjangan dari DRABC dalam prinsip pertolongan pertama?",
+      "payload": {
+        "options": [
+          "Danger, Response, Airway, Breathing, Circulation",
+          "Doctor, Recovery, Ambulance, Bandage, Care",
+          "Direct, Rescue, Aid, Blood, Check",
+          "Danger, Rescue, Assess, Breathe, Call"
+        ],
+        "correct_answer": "Danger, Response, Airway, Breathing, Circulation",
+        "shuffle": true
+      },
+      "xp": 2
+    }
+  ]
+}

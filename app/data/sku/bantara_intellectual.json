@@ -1,0 +1,135 @@
+{
+  "level": "bantara",
+  "points": [
+    {
+      "id": "bantara_01",
+      "number": 1,
+      "title": "Agama & Ketuhanan",
+      "description": "Uji pemahaman dasar ketakwaan dan logika ibadah dalam situasi penegak.",
+      "category": "Agama",
+      "quiz_content": {
+        "questions": [
+          {
+            "question": "Saat perjalanan jauh, ketentuan shalat yang tepat adalah...",
+            "options": ["Dijamak dan diqashar", "Dibatalkan", "Ditunda tanpa alasan", "Tidak boleh shalat"],
+            "correct_index": 0
+          },
+          {
+            "question": "Makna sikap takwa dalam konteks Penegak adalah...",
+            "options": ["Takut tanpa usaha", "Menjaga ibadah dan akhlak", "Hanya taat ketika diawasi", "Menolak nasihat"],
+            "correct_index": 1
+          },
+          {
+            "question": "Keputusan paling bijak saat ada konflik ibadah dan tugas sosial adalah...",
+            "options": ["Pilih salah satu ekstrem", "Cari keseimbangan sesuai prioritas syariat", "Abaikan keduanya", "Tunggu instruksi teman"],
+            "correct_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "bantara_10",
+      "number": 10,
+      "title": "PBB: Komando & Orientasi",
+      "description": "Studi kasus komando dan orientasi barisan setelah melakukan Balik Kanan.",
+      "category": "PBB",
+      "quiz_content": {
+        "questions": [
+          {
+            "question": "Setelah perintah Balik Kanan, orientasi barisan menjadi...",
+            "options": ["Tetap menghadap depan", "Berbalik 180 derajat", "Menghadap kiri", "Menghadap kanan"],
+            "correct_index": 1
+          },
+          {
+            "question": "Komandan harus memastikan apa setelah Balik Kanan?",
+            "options": ["Jarak bebas", "Keseragaman arah hadap", "Kecepatan lari", "Jumlah barisan berkurang"],
+            "correct_index": 1
+          },
+          {
+            "question": "Jika satu anggota salah arah setelah Balik Kanan, tindakan yang benar adalah...",
+            "options": ["Biarkan", "Perbaiki dengan koreksi komando", "Hentikan latihan", "Ganti anggota"],
+            "correct_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "bantara_12",
+      "number": 12,
+      "title": "Logo & Tanda Pengenal",
+      "description": "Pengenalan bentuk dan makna simbol kepramukaan.",
+      "category": "Logo",
+      "quiz_content": {
+        "questions": [
+          {
+            "question": "Tunas kelapa melambangkan...",
+            "options": ["Keangkuhan", "Kemandirian dan daya guna", "Kelemahan", "Keberanian saja"],
+            "correct_index": 1
+          },
+          {
+            "question": "Fungsi utama tanda pengenal pramuka adalah...",
+            "options": ["Pajangan", "Identitas dan jenjang", "Hiasan seragam", "Pengganti tanda pangkat TNI"],
+            "correct_index": 1
+          },
+          {
+            "question": "Siluet tunas kelapa identik dengan identitas...",
+            "options": ["Gerakan Pramuka Indonesia", "PMR", "OSIS", "Paskibra"],
+            "correct_index": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "bantara_19",
+      "number": 19,
+      "title": "Kesehatan & Olahraga",
+      "description": "Prosedur keselamatan penyelamatan di air secara teori.",
+      "category": "Kesehatan",
+      "quiz_content": {
+        "questions": [
+          {
+            "question": "Langkah pertama saat melihat korban tenggelam adalah...",
+            "options": ["Langsung lompat", "Pastikan keselamatan penolong", "Menunggu instruktur", "Merekam"],
+            "correct_index": 1
+          },
+          {
+            "question": "Alat bantu yang paling aman digunakan adalah...",
+            "options": ["Rokok", "Tongkat/pelampung", "Batu besar", "Payung"],
+            "correct_index": 1
+          },
+          {
+            "question": "Setelah korban ditarik ke tepi, tindakan awal adalah...",
+            "options": ["Memberi makan", "Cek napas dan kesadaran", "Menyuruh berdiri", "Mengajak jalan"],
+            "correct_index": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "bantara_22",
+      "number": 22,
+      "title": "Navigasi & Peta",
+      "description": "Logika pembacaan peta dan azimut dasar.",
+      "category": "Navigasi",
+      "quiz_content": {
+        "questions": [
+          {
+            "question": "Azimut 90 derajat menunjuk ke arah...",
+            "options": ["Utara", "Timur", "Selatan", "Barat"],
+            "correct_index": 1
+          },
+          {
+            "question": "Garis kontur rapat pada peta menandakan...",
+            "options": ["Datar", "Lembah dangkal", "Kemiringan curam", "Area air"],
+            "correct_index": 2
+          },
+          {
+            "question": "Cara paling tepat membaca skala peta adalah...",
+            "options": ["Perkiraan mata", "Membandingkan jarak peta ke jarak nyata", "Menghitung langkah tanpa alat", "Mengabaikan legenda"],
+            "correct_index": 1
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+    {
+      "id": "puk",
+      "title": "Pengetahuan Umum (PUK)",
+      "description": "Sejarah, lambang, dan kode kehormatan.",
+      "tier": "free",
+      "order": 1
+    },
+    {
+      "id": "ppgd",
+      "title": "Pertolongan Pertama (PPGD)",
+      "description": "Penanganan darurat medis dan obat alami.",
+      "tier": "free",
+      "order": 2
+    },
+    {
+      "id": "nav",
+      "title": "Navigasi & Survival",
+      "description": "Kompas, peta, dan bertahan hidup di alam.",
+      "tier": "free",
+      "order": 3
+    },
+    {
+      "id": "tali",
+      "title": "Tali Temali",
+      "description": "Simpul, ikatan, dan bangunan darurat.",
+      "tier": "free",
+      "order": 4
+    },
+    {
+      "id": "sandi",
+      "title": "Sandi & Isyarat",
+      "description": "Semaphore, morse, dan pemecahan kode rahasia.",
+      "tier": "free",
+      "order": 5
+    }
+  ]

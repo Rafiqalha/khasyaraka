@@ -1,0 +1,33 @@
+{
+  "unit_id": "nav_u1",
+  "questions": [
+    {
+      "id": "q_nav_u1_l1_01",
+      "level_id": "nav_u1_l1",
+      "type": "matching",
+      "question": "Cocokkan arah mata angin dengan singkatannya yang benar!",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Utara",
+            "right": "U"
+          },
+          {
+            "left": "Selatan",
+            "right": "S"
+          },
+          {
+            "left": "Timur",
+            "right": "T"
+          },
+          {
+            "left": "Barat",
+            "right": "B"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 2
+    }
+  ]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+}

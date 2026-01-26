@@ -1,0 +1,681 @@
+{
+  "unit_id": "puk_unit_5",
+  "questions": [
+    {
+      "id": "q_puk_u5_l1_01",
+      "level_id": "puk_u5_l1",
+      "type": "multiple_choice",
+      "question": "Siapakah bapak pandu sedunia?",
+      "payload": {
+        "options": [
+          "Lord Baden Powell",
+          "William Smith",
+          "Sri Sultan HB IX",
+          "Agus Salim"
+        ],
+        "correct_answer": "Lord Baden Powell",
+        "shuffle": true
+      },
+      "xp": 2
+    },
+    {
+      "id": "q_puk_u5_l1_02",
+      "level_id": "puk_u5_l1",
+      "type": "fill_blank",
+      "question": "Baden Powell lahir di negara ____.",
+      "payload": {
+        "correct_answer": "inggris",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u5_l1_03",
+      "level_id": "puk_u5_l1",
+      "type": "multiple_choice",
+      "question": "Buku karangan Baden Powell yang menjadi dasar kepramukaan adalah?",
+      "payload": {
+        "options": [
+          "Scouting for Boys",
+          "Rovering to Success",
+          "Aids to Scouting",
+          "Jungle Book"
+        ],
+        "correct_answer": "Scouting for Boys",
+        "shuffle": true
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u5_l1_04",
+      "level_id": "puk_u5_l1",
+      "type": "word_bank",
+      "question": "Susun nama lengkap Bapak Pandu Dunia.",
+      "payload": {
+        "words": [
+          "Robert",
+          "Stephenson",
+          "Smyth",
+          "Baden",
+          "Powell"
+        ],
+        "correct_order": [
+          "Robert",
+          "Stephenson",
+          "Smyth",
+          "Baden",
+          "Powell"
+        ]
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u5_l1_05",
+      "level_id": "puk_u5_l1",
+      "type": "multiple_choice",
+      "question": "Perkemahan kepanduan pertama di dunia diadakan di pulau?",
+      "payload": {
+        "options": [
+          "Brownsea Island",
+          "Treasure Island",
+          "Java Island",
+          "Gilwell Park"
+        ],
+        "correct_answer": "Brownsea Island",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l1_06",
+      "level_id": "puk_u5_l1",
+      "type": "fill_blank",
+      "question": "Perkemahan pertama di Pulau Brownsea diadakan pada tahun ____.",
+      "payload": {
+        "correct_answer": "1907",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u5_l1_07",
+      "level_id": "puk_u5_l1",
+      "type": "matching",
+      "question": "Pasangkan tokoh dengan perannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Baden Powell",
+            "right": "Bapak Pandu Dunia"
+          },
+          {
+            "left": "Olave St. Clair Soames",
+            "right": "Istri Baden Powell"
+          },
+          {
+            "left": "Agnes Baden Powell",
+            "right": "Pendiri Girl Guides"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l1_08",
+      "level_id": "puk_u5_l1",
+      "type": "multiple_choice",
+      "question": "Pekerjaan Baden Powell sebelum mendirikan pramuka adalah?",
+      "payload": {
+        "options": [
+          "Tentara / Letnan Jenderal",
+          "Guru",
+          "Dokter",
+          "Pedagang"
+        ],
+        "correct_answer": "Tentara / Letnan Jenderal",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l2_01",
+      "level_id": "puk_u5_l2",
+      "type": "multiple_choice",
+      "question": "Organisasi kepanduan dunia untuk putra (dan campuran) disingkat?",
+      "payload": {
+        "options": [
+          "WOSM",
+          "WAGGGS",
+          "WHO",
+          "UNESCO"
+        ],
+        "correct_answer": "WOSM",
+        "shuffle": true
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u5_l2_02",
+      "level_id": "puk_u5_l2",
+      "type": "fill_blank",
+      "question": "Lambang WOSM adalah bunga ____ (Fleur-de-lis).",
+      "payload": {
+        "correct_answer": "lili",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u5_l2_03",
+      "level_id": "puk_u5_l2",
+      "type": "multiple_choice",
+      "question": "Warna dasar bendera WOSM adalah?",
+      "payload": {
+        "options": [
+          "Ungu",
+          "Biru",
+          "Merah",
+          "Coklat"
+        ],
+        "correct_answer": "Ungu",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l2_04",
+      "level_id": "puk_u5_l2",
+      "type": "word_bank",
+      "question": "Susun kepanjangan WOSM.",
+      "payload": {
+        "words": [
+          "World",
+          "Organization",
+          "Scout",
+          "Movement"
+        ],
+        "correct_order": [
+          "World",
+          "Organization",
+          "of",
+          "Scout",
+          "Movement"
+        ]
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l2_05",
+      "level_id": "puk_u5_l2",
+      "type": "multiple_choice",
+      "question": "Organisasi kepanduan dunia khusus putri disingkat?",
+      "payload": {
+        "options": [
+          "WAGGGS",
+          "WOSM",
+          "UNICEF",
+          "WWF"
+        ],
+        "correct_answer": "WAGGGS",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l2_06",
+      "level_id": "puk_u5_l2",
+      "type": "fill_blank",
+      "question": "Tali simpul mati pada lambang WOSM melambangkan ____ antar sesama pandu.",
+      "payload": {
+        "correct_answer": "persaudaraan",
+        "case_sensitive": false
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l2_07",
+      "level_id": "puk_u5_l2",
+      "type": "matching",
+      "question": "Pasangkan organisasi dengan markas/biro dunianya (World Scout Bureau).",
+      "payload": {
+        "pairs": [
+          {
+            "left": "WOSM (Pusat)",
+            "right": "Kuala Lumpur"
+          },
+          {
+            "left": "WAGGGS (Pusat)",
+            "right": "London"
+          },
+          {
+            "left": "WOSM (Hukum)",
+            "right": "Jenewa"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l2_08",
+      "level_id": "puk_u5_l2",
+      "type": "multiple_choice",
+      "question": "Dua bintang pada lambang WOSM melambangkan?",
+      "payload": {
+        "options": [
+          "Kebenaran dan Pengetahuan",
+          "Siaga dan Penggalang",
+          "Siang dan Malam",
+          "Matahari dan Bulan"
+        ],
+        "correct_answer": "Kebenaran dan Pengetahuan",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l3_01",
+      "level_id": "puk_u5_l3",
+      "type": "multiple_choice",
+      "question": "Jambore Dunia (World Scout Jamboree) diadakan setiap berapa tahun sekali?",
+      "payload": {
+        "options": [
+          "4 Tahun",
+          "2 Tahun",
+          "5 Tahun",
+          "1 Tahun"
+        ],
+        "correct_answer": "4 Tahun",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l3_02",
+      "level_id": "puk_u5_l3",
+      "type": "fill_blank",
+      "question": "Jambore Dunia pertama kali diadakan di kota ____, Inggris.",
+      "payload": {
+        "correct_answer": "london",
+        "case_sensitive": false
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u5_l3_03",
+      "level_id": "puk_u5_l3",
+      "type": "word_bank",
+      "question": "Susun kepanjangan JOTA.",
+      "payload": {
+        "words": [
+          "Jamboree",
+          "On",
+          "The",
+          "Air"
+        ],
+        "correct_order": [
+          "Jamboree",
+          "On",
+          "The",
+          "Air"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l3_04",
+      "level_id": "puk_u5_l3",
+      "type": "multiple_choice",
+      "question": "Kegiatan JOTA menggunakan media komunikasi berupa?",
+      "payload": {
+        "options": [
+          "Radio Amatir",
+          "Internet",
+          "Surat Menyurat",
+          "Sandi Morse"
+        ],
+        "correct_answer": "Radio Amatir",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l3_05",
+      "level_id": "puk_u5_l3",
+      "type": "fill_blank",
+      "question": "JOTI adalah singkatan dari Jamboree On The ____.",
+      "payload": {
+        "correct_answer": "internet",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l3_06",
+      "level_id": "puk_u5_l3",
+      "type": "matching",
+      "question": "Pasangkan kegiatan dengan deskripsinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Jambore Dunia",
+            "right": "Pesta Penggalang Sedunia"
+          },
+          {
+            "left": "Moot",
+            "right": "Pertemuan Penegak/Pandega Dunia"
+          },
+          {
+            "left": "Comdeca",
+            "right": "Pesta Pembangunan Masyarakat"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u5_l3_07",
+      "level_id": "puk_u5_l3",
+      "type": "multiple_choice",
+      "question": "Tujuan utama dari Jambore Dunia adalah?",
+      "payload": {
+        "options": [
+          "Mempererat persahabatan dan perdamaian dunia",
+          "Lomba baris berbaris",
+          "Pameran senjata",
+          "Liburan mewah"
+        ],
+        "correct_answer": "Mempererat persahabatan dan perdamaian dunia",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l3_08",
+      "level_id": "puk_u5_l3",
+      "type": "multiple_choice",
+      "question": "JOTA dan JOTI biasanya dilaksanakan setiap bulan?",
+      "payload": {
+        "options": [
+          "Oktober",
+          "Agustus",
+          "Februari",
+          "Desember"
+        ],
+        "correct_answer": "Oktober",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l4_01",
+      "level_id": "puk_u5_l4",
+      "type": "multiple_choice",
+      "question": "Ada berapa kawasan (Region) dalam WOSM?",
+      "payload": {
+        "options": [
+          "6",
+          "5",
+          "7",
+          "4"
+        ],
+        "correct_answer": "6",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l4_02",
+      "level_id": "puk_u5_l4",
+      "type": "fill_blank",
+      "question": "Indonesia termasuk dalam kawasan WOSM region ____.",
+      "payload": {
+        "correct_answer": "asia pasifik",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u5_l4_03",
+      "level_id": "puk_u5_l4",
+      "type": "multiple_choice",
+      "question": "Hari Bapak Pandu Dunia (Founder's Day) diperingati setiap tanggal?",
+      "payload": {
+        "options": [
+          "22 Februari",
+          "14 Agustus",
+          "20 Mei",
+          "1 Januari"
+        ],
+        "correct_answer": "22 Februari",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u5_l4_04",
+      "level_id": "puk_u5_l4",
+      "type": "word_bank",
+      "question": "Susun singkatan APR dalam kepramukaan.",
+      "payload": {
+        "words": [
+          "Asia",
+          "Pacific",
+          "Region"
+        ],
+        "correct_order": [
+          "Asia",
+          "Pacific",
+          "Region"
+        ]
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u5_l4_05",
+      "level_id": "puk_u5_l4",
+      "type": "multiple_choice",
+      "question": "Logo 'Messenger of Peace' (MoP) berbentuk?",
+      "payload": {
+        "options": [
+          "Burung Merpati",
+          "Bunga Lili",
+          "Tunas Kelapa",
+          "Bola Dunia"
+        ],
+        "correct_answer": "Burung Merpati",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u5_l4_06",
+      "level_id": "puk_u5_l4",
+      "type": "matching",
+      "question": "Pasangkan Kawasan dengan Benua/Lokasinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Eurasia",
+            "right": "Rusia & Sekitarnya"
+          },
+          {
+            "left": "Interamerica",
+            "right": "Benua Amerika"
+          },
+          {
+            "left": "Africa",
+            "right": "Benua Afrika"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u5_l4_07",
+      "level_id": "puk_u5_l4",
+      "type": "multiple_choice",
+      "question": "Markas WOSM Asia-Pacific Region berada di negara?",
+      "payload": {
+        "options": [
+          "Filipina (Makati City)",
+          "Indonesia (Jakarta)",
+          "Jepang (Tokyo)",
+          "Australia (Canberra)"
+        ],
+        "correct_answer": "Filipina (Makati City)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u5_l4_08",
+      "level_id": "puk_u5_l4",
+      "type": "fill_blank",
+      "question": "Woggle atau ring kacu khas yang terbuat dari anyaman kulit disebut ____ woggle.",
+      "payload": {
+        "correct_answer": "gilwell",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u5_l5_01",
+      "level_id": "puk_u5_l5",
+      "type": "multiple_choice",
+      "question": "SDGs adalah tujuan pembangunan berkelanjutan yang didukung Pramuka. Kepanjangan SDGs adalah?",
+      "payload": {
+        "options": [
+          "Sustainable Development Goals",
+          "Scout Development Guides",
+          "Social Development Groups",
+          "Systematic Design Goals"
+        ],
+        "correct_answer": "Sustainable Development Goals",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u5_l5_02",
+      "level_id": "puk_u5_l5",
+      "type": "fill_blank",
+      "question": "Ada berapa total tujuan (goals) dalam SDGs? (Tulis angka)",
+      "payload": {
+        "correct_answer": "17",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u5_l5_03",
+      "level_id": "puk_u5_l5",
+      "type": "word_bank",
+      "question": "Susun pesan terakhir Baden Powell.",
+      "payload": {
+        "words": [
+          "Leave",
+          "this",
+          "world",
+          "better"
+        ],
+        "correct_order": [
+          "Leave",
+          "this",
+          "world",
+          "better"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u5_l5_04",
+      "level_id": "puk_u5_l5",
+      "type": "multiple_choice",
+      "question": "Kalung manik-manik kayu (Wood Badge) diberikan kepada?",
+      "payload": {
+        "options": [
+          "Pembina yang lulus pelatihan mahir (KMD/KML)",
+          "Pramuka Garuda",
+          "Anggota baru",
+          "Pemenang lomba"
+        ],
+        "correct_answer": "Pembina yang lulus pelatihan mahir (KMD/KML)",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u5_l5_05",
+      "level_id": "puk_u5_l5",
+      "type": "multiple_choice",
+      "question": "Earth Hour adalah gerakan global mematikan lampu selama 1 jam untuk?",
+      "payload": {
+        "options": [
+          "Menghemat energi dan peduli perubahan iklim",
+          "Menghemat biaya listrik negara",
+          "Mengenang Baden Powell",
+          "Merayakan tahun baru"
+        ],
+        "correct_answer": "Menghemat energi dan peduli perubahan iklim",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u5_l5_06",
+      "level_id": "puk_u5_l5",
+      "type": "matching",
+      "question": "Pasangkan Tujuan SDGs dengan Nomornya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Tanpa Kemiskinan (No Poverty)",
+            "right": "Goal 1"
+          },
+          {
+            "left": "Pendidikan Berkualitas",
+            "right": "Goal 4"
+          },
+          {
+            "left": "Penanganan Perubahan Iklim",
+            "right": "Goal 13"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u5_l5_07",
+      "level_id": "puk_u5_l5",
+      "type": "fill_blank",
+      "question": "Slogan 'Creating a Better World' adalah visi dari organisasi ____.",
+      "payload": {
+        "correct_answer": "wosm",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u5_l5_08",
+      "level_id": "puk_u5_l5",
+      "type": "multiple_choice",
+      "question": "Penghargaan tertinggi PBB untuk lingkungan hidup yang juga didukung Pramuka adalah?",
+      "payload": {
+        "options": [
+          "Champions of the Earth",
+          "Nobel Peace Prize",
+          "Oscar",
+          "Grammy"
+        ],
+        "correct_answer": "Champions of the Earth",
+        "shuffle": true
+      },
+      "xp": 9
+    }
+  ]
+}

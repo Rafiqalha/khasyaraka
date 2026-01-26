@@ -1,0 +1,690 @@
+{
+  "unit_id": "puk_unit_3",
+  "questions": [
+    {
+      "id": "q_puk_u3_l1_01",
+      "level_id": "puk_u3_l1",
+      "type": "multiple_choice",
+      "question": "Kode kehormatan bagi anggota Pramuka golongan Penggalang ke atas terdiri dari?",
+      "payload": {
+        "options": [
+          "Trisatya dan Dasadarma",
+          "Dwisatya dan Dwidarma",
+          "Pancasila dan UUD 1945",
+          "Sumpah Pemuda"
+        ],
+        "correct_answer": "Trisatya dan Dasadarma",
+        "shuffle": true
+      },
+      "xp": 2
+    },
+    {
+      "id": "q_puk_u3_l1_02",
+      "level_id": "puk_u3_l1",
+      "type": "fill_blank",
+      "question": "Kata 'Tri' dalam Trisatya berarti ____.",
+      "payload": {
+        "correct_answer": "tiga",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u3_l1_03",
+      "level_id": "puk_u3_l1",
+      "type": "multiple_choice",
+      "question": "Demi kehormatanku aku berjanji akan bersungguh-sungguh menjalankan kewajibanku terhadap?",
+      "payload": {
+        "options": [
+          "Tuhan dan NKRI",
+          "Orang tua dan Guru",
+          "Teman dan Sahabat",
+          "Diri sendiri"
+        ],
+        "correct_answer": "Tuhan dan NKRI",
+        "shuffle": true
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u3_l1_04",
+      "level_id": "puk_u3_l1",
+      "type": "word_bank",
+      "question": "Susun kalimat awal bunyi Trisatya.",
+      "payload": {
+        "words": [
+          "Demi",
+          "Kehormatanku",
+          "Aku",
+          "Berjanji"
+        ],
+        "correct_order": [
+          "Demi",
+          "Kehormatanku",
+          "Aku",
+          "Berjanji"
+        ]
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u3_l1_05",
+      "level_id": "puk_u3_l1",
+      "type": "multiple_choice",
+      "question": "Poin kedua dalam Trisatya berisi janji untuk?",
+      "payload": {
+        "options": [
+          "Menolong sesama hidup dan mempersiapkan diri membangun masyarakat",
+          "Belajar dengan rajin di sekolah",
+          "Menabung untuk masa depan",
+          "Berolahraga setiap hari"
+        ],
+        "correct_answer": "Menolong sesama hidup dan mempersiapkan diri membangun masyarakat",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l1_06",
+      "level_id": "puk_u3_l1",
+      "type": "fill_blank",
+      "question": "Poin ketiga Trisatya adalah menepati ____.",
+      "payload": {
+        "correct_answer": "dasadarma",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u3_l1_07",
+      "level_id": "puk_u3_l1",
+      "type": "matching",
+      "question": "Pasangkan kode kehormatan dengan golongannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Siaga",
+            "right": "Dwisatya"
+          },
+          {
+            "left": "Penggalang",
+            "right": "Trisatya"
+          },
+          {
+            "left": "Penegak",
+            "right": "Trisatya"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l1_08",
+      "level_id": "puk_u3_l1",
+      "type": "multiple_choice",
+      "question": "Sikap 'bersungguh-sungguh' dalam Trisatya mengandung arti?",
+      "payload": {
+        "options": [
+          "Melakukan dengan segenap hati dan kemampuan",
+          "Melakukan jika ada hadiah",
+          "Melakukan semampunya saja",
+          "Melakukan jika diawasi Pembina"
+        ],
+        "correct_answer": "Melakukan dengan segenap hati dan kemampuan",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l2_01",
+      "level_id": "puk_u3_l2",
+      "type": "fill_blank",
+      "question": "Secara bahasa, 'Dasa' dalam Dasadarma berarti ____.",
+      "payload": {
+        "correct_answer": "sepuluh",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u3_l2_02",
+      "level_id": "puk_u3_l2",
+      "type": "multiple_choice",
+      "question": "Bunyi Dasadarma ke-1 adalah?",
+      "payload": {
+        "options": [
+          "Takwa kepada Tuhan Yang Maha Esa",
+          "Cinta alam dan kasih sayang sesama manusia",
+          "Patriot yang sopan dan ksatria",
+          "Suci dalam pikiran, perkataan dan perbuatan"
+        ],
+        "correct_answer": "Takwa kepada Tuhan Yang Maha Esa",
+        "shuffle": true
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u3_l2_03",
+      "level_id": "puk_u3_l2",
+      "type": "word_bank",
+      "question": "Lengkapi bunyi Dasadarma ke-2.",
+      "payload": {
+        "words": [
+          "Cinta",
+          "Alam",
+          "Kasih",
+          "Sayang"
+        ],
+        "correct_order": [
+          "Cinta",
+          "Alam",
+          "Kasih",
+          "Sayang"
+        ]
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l2_04",
+      "level_id": "puk_u3_l2",
+      "type": "multiple_choice",
+      "question": "Sikap menghormati orang tua dan guru adalah pengamalan Dasadarma ke-3, yaitu?",
+      "payload": {
+        "options": [
+          "Patriot yang sopan dan ksatria",
+          "Patuh dan suka bermusyawarah",
+          "Rajin terampil dan gembira",
+          "Hemat cermat dan bersahaja"
+        ],
+        "correct_answer": "Patriot yang sopan dan ksatria",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l2_05",
+      "level_id": "puk_u3_l2",
+      "type": "fill_blank",
+      "question": "Dasadarma ke-4 berbunyi: Patuh dan suka ____.",
+      "payload": {
+        "correct_answer": "bermusyawarah",
+        "case_sensitive": false
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l2_06",
+      "level_id": "puk_u3_l2",
+      "type": "multiple_choice",
+      "question": "Membantu teman yang sedang kesusahan tanpa mengharap imbalan sesuai dengan Darma ke?",
+      "payload": {
+        "options": [
+          "Ke-5 (Rela menolong dan tabah)",
+          "Ke-2 (Cinta alam)",
+          "Ke-8 (Disiplin)",
+          "Ke-10 (Suci)"
+        ],
+        "correct_answer": "Ke-5 (Rela menolong dan tabah)",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l2_07",
+      "level_id": "puk_u3_l2",
+      "type": "matching",
+      "question": "Pasangkan nomor Darma dengan kata kuncinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Darma 1",
+            "right": "Takwa"
+          },
+          {
+            "left": "Darma 3",
+            "right": "Patriot"
+          },
+          {
+            "left": "Darma 5",
+            "right": "Rela Menolong"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l2_08",
+      "level_id": "puk_u3_l2",
+      "type": "multiple_choice",
+      "question": "Arti kata 'Tabah' dalam Darma ke-5 adalah?",
+      "payload": {
+        "options": [
+          "Kuat hati dalam menghadapi cobaan",
+          "Suka memberi uang",
+          "Selalu tersenyum",
+          "Tidak pernah marah"
+        ],
+        "correct_answer": "Kuat hati dalam menghadapi cobaan",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l3_01",
+      "level_id": "puk_u3_l3",
+      "type": "multiple_choice",
+      "question": "Bunyi Dasadarma ke-6 adalah?",
+      "payload": {
+        "options": [
+          "Rajin, terampil, dan gembira",
+          "Hemat, cermat, dan bersahaja",
+          "Disiplin, berani, dan setia",
+          "Bertanggung jawab dan dapat dipercaya"
+        ],
+        "correct_answer": "Rajin, terampil, dan gembira",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l3_02",
+      "level_id": "puk_u3_l3",
+      "type": "fill_blank",
+      "question": "Tidak boros dan menggunakan uang saku seperlunya adalah pengamalan Darma ke- ____.",
+      "payload": {
+        "correct_answer": "7",
+        "case_sensitive": false
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l3_03",
+      "level_id": "puk_u3_l3",
+      "type": "word_bank",
+      "question": "Susun bunyi Dasadarma ke-8.",
+      "payload": {
+        "words": [
+          "Disiplin",
+          "Berani",
+          "Dan",
+          "Setia"
+        ],
+        "correct_order": [
+          "Disiplin",
+          "Berani",
+          "Dan",
+          "Setia"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l3_04",
+      "level_id": "puk_u3_l3",
+      "type": "multiple_choice",
+      "question": "Selalu menyelesaikan tugas yang diberikan dengan tuntas adalah contoh sikap?",
+      "payload": {
+        "options": [
+          "Bertanggung jawab",
+          "Hemat",
+          "Gembira",
+          "Suci"
+        ],
+        "correct_answer": "Bertanggung jawab",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l3_05",
+      "level_id": "puk_u3_l3",
+      "type": "fill_blank",
+      "question": "Dasadarma ke-10 berbunyi: Suci dalam pikiran, perkataan, dan ____.",
+      "payload": {
+        "correct_answer": "perbuatan",
+        "case_sensitive": false
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u3_l3_06",
+      "level_id": "puk_u3_l3",
+      "type": "matching",
+      "question": "Pasangkan perilaku dengan Darmanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Datang tepat waktu",
+            "right": "Disiplin"
+          },
+          {
+            "left": "Menabung",
+            "right": "Hemat"
+          },
+          {
+            "left": "Tidak berkata kotor",
+            "right": "Suci"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u3_l3_07",
+      "level_id": "puk_u3_l3",
+      "type": "multiple_choice",
+      "question": "Makna 'Bersahaja' dalam Darma ke-7 adalah?",
+      "payload": {
+        "options": [
+          "Sederhana dan tidak berlebihan",
+          "Sangat kaya raya",
+          "Pelit kepada teman",
+          "Selalu memakai barang mewah"
+        ],
+        "correct_answer": "Sederhana dan tidak berlebihan",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l3_08",
+      "level_id": "puk_u3_l3",
+      "type": "multiple_choice",
+      "question": "Darma ke-9 'Bertanggung jawab dan dapat dipercaya' mengajarkan kita untuk?",
+      "payload": {
+        "options": [
+          "Menjaga amanah dan jujur",
+          "Lari dari masalah",
+          "Menyalahkan orang lain",
+          "Berbohong demi kebaikan"
+        ],
+        "correct_answer": "Menjaga amanah dan jujur",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l4_01",
+      "level_id": "puk_u3_l4",
+      "type": "multiple_choice",
+      "question": "Semboyan/Motto Gerakan Pramuka adalah?",
+      "payload": {
+        "options": [
+          "Satyaku Kudarmakan, Darmaku Kubaktikan",
+          "Bhinneka Tunggal Ika",
+          "Maju Terus Pantang Mundur",
+          "Ing Ngarso Sung Tulodo"
+        ],
+        "correct_answer": "Satyaku Kudarmakan, Darmaku Kubaktikan",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l4_02",
+      "level_id": "puk_u3_l4",
+      "type": "fill_blank",
+      "question": "Dalam bahasa Inggris, motto kepanduan sedunia adalah 'Be ____'.",
+      "payload": {
+        "correct_answer": "prepared",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l4_03",
+      "level_id": "puk_u3_l4",
+      "type": "multiple_choice",
+      "question": "Membuang sampah pada tempatnya adalah penerapan nyata dari Darma ke?",
+      "payload": {
+        "options": [
+          "Ke-2 (Cinta Alam)",
+          "Ke-5 (Rela Menolong)",
+          "Ke-8 (Disiplin)",
+          "Ke-10 (Suci)"
+        ],
+        "correct_answer": "Ke-2 (Cinta Alam)",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l4_04",
+      "level_id": "puk_u3_l4",
+      "type": "word_bank",
+      "question": "Susun urutan motto Gerakan Pramuka.",
+      "payload": {
+        "words": [
+          "Satyaku",
+          "Kudarmakan",
+          "Darmaku",
+          "Kubaktikan"
+        ],
+        "correct_order": [
+          "Satyaku",
+          "Kudarmakan",
+          "Darmaku",
+          "Kubaktikan"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l4_05",
+      "level_id": "puk_u3_l4",
+      "type": "multiple_choice",
+      "question": "Mengikuti upacara bendera dengan khidmat mencerminkan sikap?",
+      "payload": {
+        "options": [
+          "Patriotisme",
+          "Hemat",
+          "Gembira",
+          "Kreatif"
+        ],
+        "correct_answer": "Patriotisme",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u3_l4_06",
+      "level_id": "puk_u3_l4",
+      "type": "matching",
+      "question": "Pasangkan situasi dengan Darma yang relevan.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Mengerjakan PR sendiri",
+            "right": "Dapat dipercaya"
+          },
+          {
+            "left": "Tidak memotong pembicaraan",
+            "right": "Sopan"
+          },
+          {
+            "left": "Antri dengan tertib",
+            "right": "Disiplin"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u3_l4_07",
+      "level_id": "puk_u3_l4",
+      "type": "multiple_choice",
+      "question": "Menerima hasil keputusan musyawarah regu meskipun berbeda pendapat adalah sikap?",
+      "payload": {
+        "options": [
+          "Patuh",
+          "Terpaksa",
+          "Masa bodoh",
+          "Kecewa"
+        ],
+        "correct_answer": "Patuh",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u3_l4_08",
+      "level_id": "puk_u3_l4",
+      "type": "fill_blank",
+      "question": "Lengkapilah: Ikhlas bakti bina bangsa, berbudi bawa ____.",
+      "payload": {
+        "correct_answer": "laksana",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u3_l5_01",
+      "level_id": "puk_u3_l5",
+      "type": "multiple_choice",
+      "question": "Apa fungsi utama Kode Kehormatan Pramuka?",
+      "payload": {
+        "options": [
+          "Sebagai landasan moral dan pedoman tingkah laku",
+          "Sebagai syarat administrasi saja",
+          "Agar terlihat gagah",
+          "Hanya untuk dihafal saat ujian"
+        ],
+        "correct_answer": "Sebagai landasan moral dan pedoman tingkah laku",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u3_l5_02",
+      "level_id": "puk_u3_l5",
+      "type": "word_bank",
+      "question": "Urutkan kata kunci Dasadarma 6 sampai 9.",
+      "payload": {
+        "words": [
+          "Rajin",
+          "Hemat",
+          "Disiplin",
+          "Bertanggung Jawab"
+        ],
+        "correct_order": [
+          "Rajin",
+          "Hemat",
+          "Disiplin",
+          "Bertanggung Jawab"
+        ]
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u3_l5_03",
+      "level_id": "puk_u3_l5",
+      "type": "multiple_choice",
+      "question": "Jika seorang Pramuka menemukan dompet jatuh dan mengembalikannya, ia mengamalkan Darma ke?",
+      "payload": {
+        "options": [
+          "9 (Dapat dipercaya) dan 10 (Suci)",
+          "1 (Takwa)",
+          "6 (Rajin)",
+          "3 (Patriot)"
+        ],
+        "correct_answer": "9 (Dapat dipercaya) dan 10 (Suci)",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u3_l5_04",
+      "level_id": "puk_u3_l5",
+      "type": "fill_blank",
+      "question": "Pelanggaran terhadap Kode Kehormatan akan dikenakan sanksi oleh Dewan ____.",
+      "payload": {
+        "correct_answer": "kehormatan",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u3_l5_05",
+      "level_id": "puk_u3_l5",
+      "type": "multiple_choice",
+      "question": "'Suci dalam pikiran' berarti?",
+      "payload": {
+        "options": [
+          "Selalu berpikir positif dan tidak merencanakan keburukan",
+          "Selalu memikirkan pelajaran sekolah",
+          "Tidak pernah memikirkan orang lain",
+          "Selalu melamun"
+        ],
+        "correct_answer": "Selalu berpikir positif dan tidak merencanakan keburukan",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u3_l5_06",
+      "level_id": "puk_u3_l5",
+      "type": "matching",
+      "question": "Pasangkan pengamalan dengan nilai Dasadarma.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Sholat tepat waktu",
+            "right": "Takwa"
+          },
+          {
+            "left": "Menanam pohon",
+            "right": "Cinta Alam"
+          },
+          {
+            "left": "Belajar ketrampilan baru",
+            "right": "Rajin & Terampil"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u3_l5_07",
+      "level_id": "puk_u3_l5",
+      "type": "multiple_choice",
+      "question": "Hubungan antara Trisatya dan Dasadarma adalah?",
+      "payload": {
+        "options": [
+          "Trisatya adalah janji, Dasadarma adalah ketentuan moral",
+          "Trisatya untuk putra, Dasadarma untuk putri",
+          "Tidak ada hubungannya",
+          "Dasadarma lebih penting dari Trisatya"
+        ],
+        "correct_answer": "Trisatya adalah janji, Dasadarma adalah ketentuan moral",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u3_l5_08",
+      "level_id": "puk_u3_l5",
+      "type": "word_bank",
+      "question": "Susun kata kunci Dasadarma 1 sampai 4.",
+      "payload": {
+        "words": [
+          "Takwa",
+          "Cinta Alam",
+          "Patriot",
+          "Patuh"
+        ],
+        "correct_order": [
+          "Takwa",
+          "Cinta Alam",
+          "Patriot",
+          "Patuh"
+        ]
+      },
+      "xp": 9
+    }
+  ]
+}

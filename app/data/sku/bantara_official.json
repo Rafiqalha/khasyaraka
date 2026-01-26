@@ -1,0 +1,101 @@
+{
+  "pillar_id": "bantara",
+  "title": "Penegak Bantara",
+  "points": [
+    {
+      "number": 1,
+      "category": "Spiritual",
+      "title": "Keagamaan (Islam)",
+      "official_ref": "Dapat menjelaskan makna Rukun Iman dan Rukun Islam",
+      "briefing": "Rukun Iman adalah pondasi keyakinan (6 perkara), Rukun Islam adalah pondasi tindakan (5 perkara). Penegak harus memahami maknanya, bukan sekadar hafal.",
+      "quiz": [
+        {
+          "q": "Inti dari Rukun Islam yang mengajarkan kepedulian sosial adalah?",
+          "options": ["Syahadat", "Sholat", "Zakat", "Haji"],
+          "a": "Zakat"
+        },
+        {
+          "q": "Makna sholat berjamaah dalam konteks sosial adalah?",
+          "options": ["Hemat waktu", "Melatih kepemimpinan & kepatuhan", "Biar terlihat rajin"],
+          "a": "Melatih kepemimpinan & kepatuhan"
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "category": "Intelektual",
+      "title": "Sejarah Kepramukaan",
+      "official_ref": "Dapat menjelaskan sejarah Kepramukaan Indonesia dan Dunia",
+      "briefing": "Pramuka dunia didirikan oleh Lord Baden Powell. Di Indonesia, berbagai organisasi kepanduan dilebur menjadi Gerakan Pramuka pada 14 Agustus 1961.",
+      "quiz": [
+        {
+          "q": "Siapa bapak pandu dunia?",
+          "options": ["Sri Sultan HB IX", "Baden Powell", "Soekarno"],
+          "a": "Baden Powell"
+        },
+        {
+          "q": "Peristiwa apa yang mendasari Hari Pramuka 14 Agustus?",
+          "options": ["Pelantikan Mapinas", "Sumpah Pemuda", "Proklamasi"],
+          "a": "Pelantikan Mapinas"
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "category": "Intelektual",
+      "title": "Navigasi & Tanda Jejak",
+      "official_ref": "Dapat menggunakan jam, kompas, tanda jejak dan tanda alam.",
+      "briefing": "Navigasi adalah seni menentukan arah. Kompas membidik Azimuth. Tanda jejak adalah bahasa sandi di alam menggunakan batu/ranting.",
+      "quiz": [
+        {
+          "q": "Sudut yang dibentuk antara utara magnetis dengan sasaran disebut?",
+          "options": ["Back Azimuth", "Azimuth", "Koordinat"],
+          "a": "Azimuth"
+        },
+        {
+          "q": "Tanda jejak: Batu ditumpuk dua, batu atas kecil. Artinya?",
+          "options": ["Jalan lurus", "Jalan ke arah batu kecil", "Bahaya"],
+          "a": "Jalan ke arah batu kecil"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "category": "Intelektual",
+      "title": "Pancasila & ASEAN/PBB",
+      "official_ref": "Dapat menjelaskan pengamalan Pancasila & Organisasi ASEAN/PBB.",
+      "briefing": "Pancasila adalah dasar negara. ASEAN adalah perhimpunan bangsa Asia Tenggara. PBB adalah Perserikatan Bangsa-Bangsa.",
+      "quiz": [
+        {
+          "q": "Sila 'Kerakyatan yang dipimpin oleh hikmat...' tercermin dalam kegiatan?",
+          "options": ["Sholat", "Musyawarah Ambalan", "Kerja Bakti"],
+          "a": "Musyawarah Ambalan"
+        },
+        {
+          "q": "Dimana sekretariat ASEAN berada?",
+          "options": ["Bangkok", "Singapura", "Jakarta"],
+          "a": "Jakarta"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "category": "Fisik",
+      "title": "Baris Berbaris (PBB)",
+      "official_ref": "Dapat memimpin baris berbaris dan menjelaskan peraturannya.",
+      "briefing": "PBB melatih disiplin, kekompakan, dan ketenangan. Aba-aba terdiri dari: Petunjuk, Peringatan, Pelaksanaan.",
+      "quiz": [
+        {
+          "q": "Posisi tangan saat sikap sempurna adalah?",
+          "options": ["Mengepal di samping paha", "Terbuka di samping", "Di belakang punggung"],
+          "a": "Mengepal di samping paha"
+        },
+        {
+          "q": "Apa aba-aba pelaksanaan untuk gerakan tanpa tongkat?",
+          "options": ["Jalan", "Gerak", "Mulai"],
+          "a": "Gerak"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "unit_id": "tali_u1",
+  "questions": [
+    {
+      "id": "q_tali_u1_l1_01",
+      "level_id": "tali_u1_l1",
+      "type": "multiple_choice",
+      "question": "Bagian tali yang paling ujung dan biasanya diberi simpul untuk mencegah terurai disebut?",
+      "payload": {
+        "options": [
+          "Ujung tali",
+          "Badan tali",
+          "Lengkungan tali",
+          "Tengah tali"
+        ],
+        "correct_answer": "Ujung tali",
+        "shuffle": true
+      },
+      "xp": 2
+    }
+  ]
+}

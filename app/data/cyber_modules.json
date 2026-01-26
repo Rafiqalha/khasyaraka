@@ -1,0 +1,242 @@
+[
+  {
+    "id": "mod_morse",
+    "title": "Audio Protocol",
+    "original_title": "Sandi Morse",
+    "difficulty": 1,
+    "min_read_seconds": 20,
+    "intel_content": {
+      "headline": "Audio Protocol",
+      "brief": "Decode pulse sequences into readable commands.",
+      "steps": [
+        "Short pulse = dot.",
+        "Long pulse = dash.",
+        "Group pulses into letters."
+      ]
+    }
+  },
+  {
+    "id": "mod_angka",
+    "title": "Numeric Hash",
+    "original_title": "Sandi Angka",
+    "difficulty": 1,
+    "min_read_seconds": 20,
+    "intel_content": {
+      "headline": "Numeric Hash",
+      "brief": "Numbers map directly to alphabet positions.",
+      "steps": [
+        "1 = A, 2 = B, 3 = C.",
+        "Split long sequences into chunks.",
+        "Rebuild the phrase."
+      ]
+    }
+  },
+  {
+    "id": "mod_abjad",
+    "title": "Voice Auth Protocol",
+    "original_title": "Sandi Abjad Inter",
+    "difficulty": 1,
+    "min_read_seconds": 20,
+    "intel_content": {
+      "headline": "Voice Auth Protocol",
+      "brief": "Alternate alphabet shift using paired signals.",
+      "steps": [
+        "Identify the current index.",
+        "Apply interleaved mapping.",
+        "Confirm with checksum word."
+      ]
+    }
+  },
+  {
+    "id": "mod_kotak1",
+    "title": "Geo-Lock Grid",
+    "original_title": "Sandi Kotak 1",
+    "difficulty": 2,
+    "min_read_seconds": 25,
+    "intel_content": {
+      "headline": "Geo-Lock Grid",
+      "brief": "Decode using a square grid coordinate map.",
+      "steps": [
+        "Locate row and column intersections.",
+        "Read coordinates in sequence.",
+        "Reconstruct the message."
+      ]
+    }
+  },
+  {
+    "id": "mod_rumput",
+    "title": "Spectrum Analysis",
+    "original_title": "Sandi Rumput",
+    "difficulty": 2,
+    "min_read_seconds": 25,
+    "intel_content": {
+      "headline": "Spectrum Analysis",
+      "brief": "Wave blades indicate letter shifts.",
+      "steps": [
+        "Count blade patterns.",
+        "Match to alphabet offsets.",
+        "Verify with anchor words."
+      ]
+    }
+  },
+  {
+    "id": "mod_semaphore",
+    "title": "Vector Signaling",
+    "original_title": "Semaphore",
+    "difficulty": 2,
+    "min_read_seconds": 25,
+    "intel_content": {
+      "headline": "Vector Signaling",
+      "brief": "Two-flag vectors encode letters.",
+      "steps": [
+        "Match vector angles to letters.",
+        "Read pairs in sequence.",
+        "Validate with a keyword."
+      ]
+    }
+  },
+  {
+    "id": "mod_coord",
+    "title": "Matrix Coordinates",
+    "original_title": "Sandi Merah Putih",
+    "difficulty": 2,
+    "min_read_seconds": 25,
+    "intel_content": {
+      "headline": "Matrix Coordinates",
+      "brief": "Dual-tone coordinates unlock entries.",
+      "steps": [
+        "Map red/white axis positions.",
+        "Combine into grid coordinates.",
+        "Extract final text."
+      ]
+    }
+  },
+  {
+    "id": "mod_ular",
+    "title": "Serpentine Routing",
+    "original_title": "Sandi Ular",
+    "difficulty": 3,
+    "min_read_seconds": 30,
+    "intel_content": {
+      "headline": "Serpentine Routing",
+      "brief": "Follow a snake path to decode data.",
+      "steps": [
+        "Trace the serpentine path.",
+        "Read characters in order.",
+        "Confirm with checksum."
+      ]
+    }
+  },
+  {
+    "id": "mod_napoleon",
+    "title": "Block Transposition",
+    "original_title": "Sandi Napoleon",
+    "difficulty": 3,
+    "min_read_seconds": 30,
+    "intel_content": {
+      "headline": "Block Transposition",
+      "brief": "Reorder blocks to reveal plaintext.",
+      "steps": [
+        "Split into equal blocks.",
+        "Reorder using key pattern.",
+        "Merge into final text."
+      ]
+    }
+  },
+  {
+    "id": "mod_jepang",
+    "title": "Vertical Stack Processing",
+    "original_title": "Sandi Jepang",
+    "difficulty": 3,
+    "min_read_seconds": 30,
+    "intel_content": {
+      "headline": "Vertical Stack Processing",
+      "brief": "Read vertically to decode messages.",
+      "steps": [
+        "Stack characters into columns.",
+        "Read top-to-bottom order.",
+        "Validate using marker token."
+      ]
+    }
+  },
+  {
+    "id": "mod_siput",
+    "title": "Vortex Algorithm",
+    "original_title": "Sandi Siput",
+    "difficulty": 3,
+    "min_read_seconds": 30,
+    "intel_content": {
+      "headline": "Vortex Algorithm",
+      "brief": "Spiral readout reveals hidden strings.",
+      "steps": [
+        "Start from outer ring.",
+        "Spiral inward by direction.",
+        "Assemble output."
+      ]
+    }
+  },
+  {
+    "id": "mod_an",
+    "title": "Mirror Encryption",
+    "original_title": "Sandi AN/AZ",
+    "difficulty": 4,
+    "min_read_seconds": 35,
+    "intel_content": {
+      "headline": "Mirror Encryption",
+      "brief": "Reflect characters over the alphabet axis.",
+      "steps": [
+        "A <-> Z, B <-> Y mapping.",
+        "Swap each letter.",
+        "Review integrity."
+      ]
+    }
+  },
+  {
+    "id": "mod_sisipan",
+    "title": "Noise Filtering",
+    "original_title": "Sandi Sisipan",
+    "difficulty": 4,
+    "min_read_seconds": 35,
+    "intel_content": {
+      "headline": "Noise Filtering",
+      "brief": "Remove injected noise to reveal plaintext.",
+      "steps": [
+        "Identify noise tokens.",
+        "Strip filler characters.",
+        "Rebuild clean message."
+      ]
+    }
+  },
+  {
+    "id": "mod_kurung",
+    "title": "Syntax Logic",
+    "original_title": "Sandi Kurung",
+    "difficulty": 4,
+    "min_read_seconds": 35,
+    "intel_content": {
+      "headline": "Syntax Logic",
+      "brief": "Bracket logic defines message order.",
+      "steps": [
+        "Resolve nested brackets.",
+        "Apply execution order.",
+        "Decode final string."
+      ]
+    }
+  },
+  {
+    "id": "mod_sungai",
+    "title": "Cross-Stream Bridge",
+    "original_title": "Sandi Sungai",
+    "difficulty": 4,
+    "min_read_seconds": 35,
+    "intel_content": {
+      "headline": "Cross-Stream Bridge",
+      "brief": "Jump between streams to decode.",
+      "steps": [
+        "Read alternating stream entries.",
+        "Bridge the gaps.",
+        "Validate with terminal keyword."
+      ]
+    }
+  }
+]

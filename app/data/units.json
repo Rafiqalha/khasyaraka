@@ -1,0 +1,31 @@
+[
+    { "id": "puk_u1", "section_id": "puk", "title": "Sejarah Kepanduan", "order": 1, "total_levels": 5 },
+    { "id": "puk_u2", "section_id": "puk", "title": "Identitas & Atribut", "order": 2, "total_levels": 5 },
+    { "id": "puk_u3", "section_id": "puk", "title": "Kode Kehormatan", "order": 3, "total_levels": 5 },
+    { "id": "puk_u4", "section_id": "puk", "title": "Struktur Organisasi", "order": 4, "total_levels": 5 },
+    { "id": "puk_u5", "section_id": "puk", "title": "Wawasan Global", "order": 5, "total_levels": 5 },
+  
+    { "id": "ppgd_u1", "section_id": "ppgd", "title": "Penolong Pertama", "order": 1, "total_levels": 5 },
+    { "id": "ppgd_u2", "section_id": "ppgd", "title": "Luka & Pendarahan", "order": 2, "total_levels": 5 },
+    { "id": "ppgd_u3", "section_id": "ppgd", "title": "Tulang & Otot", "order": 3, "total_levels": 5 },
+    { "id": "ppgd_u4", "section_id": "ppgd", "title": "Evakuasi", "order": 4, "total_levels": 5 },
+    { "id": "ppgd_u5", "section_id": "ppgd", "title": "Apotek Hidup", "order": 5, "total_levels": 5 },
+  
+    { "id": "nav_u1", "section_id": "nav", "title": "Penunjuk Arah", "order": 1, "total_levels": 5 },
+    { "id": "nav_u2", "section_id": "nav", "title": "Membaca Peta", "order": 2, "total_levels": 5 },
+    { "id": "nav_u3", "section_id": "nav", "title": "Menaksir Alam", "order": 3, "total_levels": 5 },
+    { "id": "nav_u4", "section_id": "nav", "title": "Tanda Jejak", "order": 4, "total_levels": 5 },
+    { "id": "nav_u5", "section_id": "nav", "title": "Laporan & Panorama", "order": 5, "total_levels": 5 },
+  
+    { "id": "tali_u1", "section_id": "tali", "title": "Simpul Dasar", "order": 1, "total_levels": 5 },
+    { "id": "tali_u2", "section_id": "tali", "title": "Penyambung & Pengaman", "order": 2, "total_levels": 5 },
+    { "id": "tali_u3", "section_id": "tali", "title": "Pengikat Tiang", "order": 3, "total_levels": 5 },
+    { "id": "tali_u4", "section_id": "tali", "title": "Pionering Dasar", "order": 4, "total_levels": 5 },
+    { "id": "tali_u5", "section_id": "tali", "title": "Pionering Lanjut", "order": 5, "total_levels": 5 },
+  
+    { "id": "sandi_u1", "section_id": "sandi", "title": "Semaphore", "order": 1, "total_levels": 5 },
+    { "id": "sandi_u2", "section_id": "sandi", "title": "Morse", "order": 2, "total_levels": 5 },
+    { "id": "sandi_u3", "section_id": "sandi", "title": "Sandi Dasar", "order": 3, "total_levels": 5 },
+    { "id": "sandi_u4", "section_id": "sandi", "title": "Sandi Kotak", "order": 4, "total_levels": 5 },
+    { "id": "sandi_u5", "section_id": "sandi", "title": "Sandi Sulit", "order": 5, "total_levels": 5 }
+  ]

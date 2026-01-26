@@ -1,0 +1,667 @@
+{
+  "unit_id": "puk_unit_2",
+  "questions": [
+    {
+      "id": "q_puk_u2_l1_01",
+      "level_id": "puk_u2_l1",
+      "type": "multiple_choice",
+      "question": "Nama resmi organisasi kepanduan di Indonesia adalah?",
+      "payload": {
+        "options": [
+          "Gerakan Pramuka",
+          "Pandu Indonesia",
+          "Kepanduan Nasional",
+          "Pemuda Indonesia"
+        ],
+        "correct_answer": "Gerakan Pramuka",
+        "shuffle": true
+      },
+      "xp": 2
+    },
+    {
+      "id": "q_puk_u2_l1_02",
+      "level_id": "puk_u2_l1",
+      "type": "fill_blank",
+      "question": "Lambang Gerakan Pramuka adalah bayangan (siluet) ____ kelapa.",
+      "payload": {
+        "correct_answer": "tunas",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u2_l1_03",
+      "level_id": "puk_u2_l1",
+      "type": "multiple_choice",
+      "question": "Warna dasar bendera Pramuka adalah?",
+      "payload": {
+        "options": [
+          "Merah putih",
+          "Coklat muda",
+          "Hijau putih",
+          "Biru putih"
+        ],
+        "correct_answer": "Merah putih",
+        "shuffle": true
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u2_l1_04",
+      "level_id": "puk_u2_l1",
+      "type": "word_bank",
+      "question": "Susun kata berikut untuk membentuk nama lambang Pramuka.",
+      "payload": {
+        "words": [
+          "Kelapa",
+          "Tunas"
+        ],
+        "correct_order": [
+          "Tunas",
+          "Kelapa"
+        ]
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u2_l1_05",
+      "level_id": "puk_u2_l1",
+      "type": "multiple_choice",
+      "question": "Seragam Pramuka digunakan saat?",
+      "payload": {
+        "options": [
+          "Kegiatan kepramukaan",
+          "Kegiatan olahraga",
+          "Upacara bendera sekolah",
+          "Kegiatan OSIS"
+        ],
+        "correct_answer": "Kegiatan kepramukaan",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l1_06",
+      "level_id": "puk_u2_l1",
+      "type": "multiple_choice",
+      "question": "Warna seragam Pramuka bagian atas (baju) adalah?",
+      "payload": {
+        "options": [
+          "Coklat Muda",
+          "Coklat Tua",
+          "Putih",
+          "Merah"
+        ],
+        "correct_answer": "Coklat Muda",
+        "shuffle": true
+      },
+      "xp": 2
+    },
+    {
+      "id": "q_puk_u2_l1_07",
+      "level_id": "puk_u2_l1",
+      "type": "fill_blank",
+      "question": "Setangan leher atau hasduk pramuka berbentuk ____.",
+      "payload": {
+        "correct_answer": "segitiga",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u2_l1_08",
+      "level_id": "puk_u2_l1",
+      "type": "multiple_choice",
+      "question": "Siapakah pencipta lambang Tunas Kelapa?",
+      "payload": {
+        "options": [
+          "Soenardjo Atmodipuro",
+          "Baden Powell",
+          "Sri Sultan HB IX",
+          "Soekarno"
+        ],
+        "correct_answer": "Soenardjo Atmodipuro",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l2_01",
+      "level_id": "puk_u2_l2",
+      "type": "multiple_choice",
+      "question": "Makna utama lambang Tunas Kelapa adalah?",
+      "payload": {
+        "options": [
+          "Tunas yang tumbuh menjadi manusia berguna",
+          "Lambang keberanian",
+          "Lambang persatuan",
+          "Lambang kepemimpinan"
+        ],
+        "correct_answer": "Tunas yang tumbuh menjadi manusia berguna",
+        "shuffle": true
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u2_l2_02",
+      "level_id": "puk_u2_l2",
+      "type": "fill_blank",
+      "question": "Topi Pramuka berfungsi sebagai bagian dari ____.",
+      "payload": {
+        "correct_answer": "seragam",
+        "case_sensitive": false
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u2_l2_03",
+      "level_id": "puk_u2_l2",
+      "type": "multiple_choice",
+      "question": "Hasduk atau setangan leher Pramuka biasanya berwarna?",
+      "payload": {
+        "options": [
+          "Merah putih",
+          "Coklat tua",
+          "Hijau",
+          "Biru"
+        ],
+        "correct_answer": "Merah putih",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l2_04",
+      "level_id": "puk_u2_l2",
+      "type": "word_bank",
+      "question": "Susun bagian seragam berikut menjadi urutan yang benar (Atas ke Bawah).",
+      "payload": {
+        "words": [
+          "Hasduk",
+          "Topi",
+          "Baju"
+        ],
+        "correct_order": [
+          "Topi",
+          "Baju",
+          "Hasduk"
+        ]
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l2_05",
+      "level_id": "puk_u2_l2",
+      "type": "multiple_choice",
+      "question": "Tanda kecakapan pada seragam berfungsi untuk menunjukkan?",
+      "payload": {
+        "options": [
+          "Prestasi dan kemampuan",
+          "Pangkat militer",
+          "Jabatan sekolah",
+          "Usia peserta"
+        ],
+        "correct_answer": "Prestasi dan kemampuan",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l2_06",
+      "level_id": "puk_u2_l2",
+      "type": "matching",
+      "question": "Pasangkan warna Tanda Kecakapan Umum (TKU) dengan golongannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Siaga",
+            "right": "Hijau"
+          },
+          {
+            "left": "Penggalang",
+            "right": "Merah"
+          },
+          {
+            "left": "Penegak",
+            "right": "Kuning"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l2_07",
+      "level_id": "puk_u2_l2",
+      "type": "multiple_choice",
+      "question": "Benda apa yang digunakan untuk mengikat setangan leher?",
+      "payload": {
+        "options": [
+          "Ring Kacu/Hasduk",
+          "Peniti",
+          "Ikat Pinggang",
+          "Tali Kur"
+        ],
+        "correct_answer": "Ring Kacu/Hasduk",
+        "shuffle": true
+      },
+      "xp": 3
+    },
+    {
+      "id": "q_puk_u2_l2_08",
+      "level_id": "puk_u2_l2",
+      "type": "fill_blank",
+      "question": "Lambang pandu dunia (WOSM) berwarna dasar ____.",
+      "payload": {
+        "correct_answer": "ungu",
+        "case_sensitive": false
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l3_01",
+      "level_id": "puk_u2_l3",
+      "type": "multiple_choice",
+      "question": "Letak lambang Tunas Kelapa (Tanda Pelantikan) pada seragam putra berada di?",
+      "payload": {
+        "options": [
+          "Saku dada kiri",
+          "Saku dada kanan",
+          "Lengan kiri",
+          "Kerah baju"
+        ],
+        "correct_answer": "Saku dada kiri",
+        "shuffle": true
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l3_02",
+      "level_id": "puk_u2_l3",
+      "type": "fill_blank",
+      "question": "Tanda pengenal yang menunjukkan tingkat golongan Pramuka (Siaga/Penggalang/Penegak) disebut tanda ____.",
+      "payload": {
+        "correct_answer": "umum",
+        "case_sensitive": false
+      },
+      "xp": 4
+    },
+    {
+      "id": "q_puk_u2_l3_03",
+      "level_id": "puk_u2_l3",
+      "type": "multiple_choice",
+      "question": "Tanda barung, regu, atau sangga termasuk dalam kelompok tanda?",
+      "payload": {
+        "options": [
+          "Tanda satuan",
+          "Tanda umum",
+          "Tanda kehormatan",
+          "Tanda jabatan"
+        ],
+        "correct_answer": "Tanda satuan",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l3_04",
+      "level_id": "puk_u2_l3",
+      "type": "word_bank",
+      "question": "Susun istilah berikut menjadi jenis tanda dalam Pramuka.",
+      "payload": {
+        "words": [
+          "Tanda",
+          "Kecakapan",
+          "Khusus"
+        ],
+        "correct_order": [
+          "Tanda",
+          "Kecakapan",
+          "Khusus"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l3_05",
+      "level_id": "puk_u2_l3",
+      "type": "multiple_choice",
+      "question": "Fungsi utama tanda jabatan pada seragam Pramuka adalah?",
+      "payload": {
+        "options": [
+          "Menunjukkan peran kepemimpinan",
+          "Menunjukkan usia",
+          "Menunjukkan asal sekolah",
+          "Menunjukkan hobi"
+        ],
+        "correct_answer": "Menunjukkan peran kepemimpinan",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l3_06",
+      "level_id": "puk_u2_l3",
+      "type": "matching",
+      "question": "Pasangkan letak atribut berikut dengan posisinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Papan Nama",
+            "right": "Dada Kanan"
+          },
+          {
+            "left": "Lencana Wilayah/Badge Daerah",
+            "right": "Lengan Kanan"
+          },
+          {
+            "left": "Tanda Regu/Sangga",
+            "right": "Lengan Kiri"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u2_l3_07",
+      "level_id": "puk_u2_l3",
+      "type": "multiple_choice",
+      "question": "Tanda Kecakapan Khusus (TKK) dipasang di bagian mana?",
+      "payload": {
+        "options": [
+          "Lengan kanan",
+          "Lengan kiri",
+          "Dada kiri",
+          "Punggung"
+        ],
+        "correct_answer": "Lengan kanan",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l3_08",
+      "level_id": "puk_u2_l3",
+      "type": "fill_blank",
+      "question": "Jika TKK yang dimiliki lebih dari 5, maka sisanya dipasang di ____.",
+      "payload": {
+        "correct_answer": "tetampan",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l4_01",
+      "level_id": "puk_u2_l4",
+      "type": "multiple_choice",
+      "question": "Makna filosofis bentuk kelapa yang 'tumbuh di mana saja' melambangkan?",
+      "payload": {
+        "options": [
+          "Pramuka dapat beradaptasi dalam kondisi apapun",
+          "Pramuka memiliki fisik yang kuat",
+          "Pramuka suka menanam pohon",
+          "Pramuka senang bepergian"
+        ],
+        "correct_answer": "Pramuka dapat beradaptasi dalam kondisi apapun",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l4_02",
+      "level_id": "puk_u2_l4",
+      "type": "fill_blank",
+      "question": "Akar kelapa yang kuat melambangkan tekad dan ____ yang kuat.",
+      "payload": {
+        "correct_answer": "keyakinan",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l4_03",
+      "level_id": "puk_u2_l4",
+      "type": "multiple_choice",
+      "question": "Tanda kehormatan diberikan kepada Pramuka yang?",
+      "payload": {
+        "options": [
+          "Memiliki jasa dan pengabdian luar biasa",
+          "Baru masuk Pramuka",
+          "Rajin hadir latihan",
+          "Sering mengikuti lomba"
+        ],
+        "correct_answer": "Memiliki jasa dan pengabdian luar biasa",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u2_l4_04",
+      "level_id": "puk_u2_l4",
+      "type": "matching",
+      "question": "Cocokkan jenis tanda dengan fungsinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Tanda Jabatan",
+            "right": "Kedudukan"
+          },
+          {
+            "left": "Tanda Kecakapan",
+            "right": "Kemampuan"
+          },
+          {
+            "left": "Tanda Kehormatan",
+            "right": "Penghargaan Jasa"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u2_l4_05",
+      "level_id": "puk_u2_l4",
+      "type": "multiple_choice",
+      "question": "Penempatan tanda golongan pada seragam harus sesuai dengan?",
+      "payload": {
+        "options": [
+          "Petunjuk penyelenggaraan (Jukran) seragam",
+          "Keinginan pribadi",
+          "Kebiasaan sekolah",
+          "Arahan teman"
+        ],
+        "correct_answer": "Petunjuk penyelenggaraan (Jukran) seragam",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u2_l4_06",
+      "level_id": "puk_u2_l4",
+      "type": "multiple_choice",
+      "question": "Bentuk TKK untuk Pramuka golongan Penegak adalah?",
+      "payload": {
+        "options": [
+          "Persegi dengan bingkai kuning",
+          "Segitiga terbalik",
+          "Lingkaran",
+          "Persegi panjang"
+        ],
+        "correct_answer": "Persegi dengan bingkai kuning",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u2_l4_07",
+      "level_id": "puk_u2_l4",
+      "type": "fill_blank",
+      "question": "Warna dasar kuning pada TKK menunjukkan bidang ____.",
+      "payload": {
+        "correct_answer": "agama",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_puk_u2_l4_08",
+      "level_id": "puk_u2_l4",
+      "type": "multiple_choice",
+      "question": "Arti kiasan Nyiur tumbuh menjulang lurus ke atas adalah?",
+      "payload": {
+        "options": [
+          "Cita-cita yang tinggi dan lurus",
+          "Fisik yang jangkung",
+          "Kesombongan",
+          "Hidup menyendiri"
+        ],
+        "correct_answer": "Cita-cita yang tinggi dan lurus",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_puk_u2_l5_01",
+      "level_id": "puk_u2_l5",
+      "type": "multiple_choice",
+      "question": "Makna keseluruhan lambang Tunas Kelapa mencerminkan pribadi Pramuka yang?",
+      "payload": {
+        "options": [
+          "Tangguh, mandiri, dan bermanfaat",
+          "Kuat secara fisik saja",
+          "Pandai dalam teori",
+          "Unggul dalam lomba"
+        ],
+        "correct_answer": "Tangguh, mandiri, dan bermanfaat",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u2_l5_02",
+      "level_id": "puk_u2_l5",
+      "type": "fill_blank",
+      "question": "Tanda kecakapan umum untuk golongan Penegak disebut ____.",
+      "payload": {
+        "correct_answer": "TKU",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_puk_u2_l5_03",
+      "level_id": "puk_u2_l5",
+      "type": "multiple_choice",
+      "question": "Perbedaan utama antara tanda kecakapan dan tanda kehormatan adalah?",
+      "payload": {
+        "options": [
+          "Kecakapan menunjukkan kemampuan, kehormatan menunjukkan jasa",
+          "Kecakapan untuk pembina, kehormatan untuk peserta",
+          "Kecakapan wajib, kehormatan dilarang",
+          "Tidak ada perbedaan"
+        ],
+        "correct_answer": "Kecakapan menunjukkan kemampuan, kehormatan menunjukkan jasa",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u2_l5_04",
+      "level_id": "puk_u2_l5",
+      "type": "multiple_choice",
+      "question": "Kesalahan penempatan atribut pada seragam dapat berdampak pada?",
+      "payload": {
+        "options": [
+          "Hilangnya makna pendidikan dan disiplin",
+          "Nilai akademik",
+          "Kehadiran sekolah",
+          "Prestasi olahraga"
+        ],
+        "correct_answer": "Hilangnya makna pendidikan dan disiplin",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u2_l5_05",
+      "level_id": "puk_u2_l5",
+      "type": "multiple_choice",
+      "question": "Tujuan utama penggunaan atribut Pramuka secara lengkap dan benar adalah?",
+      "payload": {
+        "options": [
+          "Membentuk identitas, disiplin, dan kebanggaan",
+          "Agar terlihat seragam saja",
+          "Agar mudah dikenali guru",
+          "Agar mengikuti tren"
+        ],
+        "correct_answer": "Membentuk identitas, disiplin, dan kebanggaan",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_puk_u2_l5_06",
+      "level_id": "puk_u2_l5",
+      "type": "matching",
+      "question": "Pasangkan tingkatan Pramuka Garuda dengan warna dasar Tanda Pramuka Garuda.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Siaga Garuda",
+            "right": "Hijau"
+          },
+          {
+            "left": "Penggalang Garuda",
+            "right": "Merah"
+          },
+          {
+            "left": "Penegak Garuda",
+            "right": "Kuning"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_puk_u2_l5_07",
+      "level_id": "puk_u2_l5",
+      "type": "multiple_choice",
+      "question": "Tanda penghargaan yang diberikan kepada anggota muda yang telah mencapai kecakapan tertinggi adalah?",
+      "payload": {
+        "options": [
+          "Pramuka Garuda",
+          "Bintang Tahunan",
+          "Lencana Wiratama",
+          "Lencana Teladan"
+        ],
+        "correct_answer": "Pramuka Garuda",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_puk_u2_l5_08",
+      "level_id": "puk_u2_l5",
+      "type": "word_bank",
+      "question": "Susun semboyan Gerakan Pramuka.",
+      "payload": {
+        "words": [
+          "Satyaku",
+          "Kudarmakan",
+          "Darmaku",
+          "Kubaktikan"
+        ],
+        "correct_order": [
+          "Satyaku",
+          "Kudarmakan",
+          "Darmaku",
+          "Kubaktikan"
+        ]
+      },
+      "xp": 8
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "unit_id": "sandi_u1",
+  "questions": [
+    {
+      "id": "q_sandi_u1_l1_01",
+      "level_id": "sandi_u1_l1",
+      "type": "matching",
+      "question": "Cocokkan posisi bendera Semaphore dengan huruf yang tepat! (Posisi Dasar A-D)",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Bendera kanan bawah, kiri bawah",
+            "right": "A"
+          },
+          {
+            "left": "Bendera kanan atas, kiri bawah",
+            "right": "B"
+          },
+          {
+            "left": "Bendera kanan samping, kiri bawah",
+            "right": "C"
+          },
+          {
+            "left": "Bendera kanan serong atas, kiri bawah",
+            "right": "D"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 2
+    }
+  ]
+}
