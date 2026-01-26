@@ -240,8 +240,35 @@ async def startup_event():
 # Shutdown event
 @app.on_event("shutdown")
 async def shutdown_event():
-    """Application shutdown event"""
+    """
+    Application shutdown event.
+    
+    ✅ CRITICAL: Graceful cleanup for Cloud Run.
+    - Close database engine connections
+    - Close Redis connection pool
+    - Prevents "Task was destroyed but it is pending" warnings
+    """
+    import asyncio
+    
     logger.info(f"Shutting down {settings.PROJECT_NAME}")
-    # Close Redis connection
-    from app.core.redis import close_redis
-    await close_redis()
+    
+    # Close Redis connection pool
+    try:
+        from app.core.redis import close_redis
+        await close_redis()
+        logger.info("✅ Redis connection pool closed")
+    except Exception as e:
+        logger.warning(f"⚠️ Error closing Redis: {e}")
+    
+    # Close database engine connections
+    try:
+        from app.db.session import engine
+        # Dispose of all connections in the pool
+        await engine.dispose()
+        logger.info("✅ Database engine connections closed")
+    except Exception as e:
+        logger.warning(f"⚠️ Error closing database connections: {e}")
+    
+    # Give a small delay for cleanup tasks to complete
+    await asyncio.sleep(0.1)
+    logger.info("✅ Shutdown complete")

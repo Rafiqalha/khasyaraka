@@ -10,7 +10,10 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = "development"
     
     # --- SECURITY ---
-    SECRET_KEY: str = Field(..., description="JWT secret key (REQUIRED for authentication)")
+    # ✅ SECRET_KEY: Optional at init, validated in model_post_init for production
+    # This prevents Pydantic ValidationError during Settings() initialization
+    # Validation happens in model_post_init() for production environments
+    SECRET_KEY: str = Field(default="", description="JWT secret key (REQUIRED in production)")
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 7 # 7 hari default
     
     # --- CORS (Penting buat Flutter) ---
