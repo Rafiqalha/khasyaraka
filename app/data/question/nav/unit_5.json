@@ -1,4 +1,680 @@
 {
-  "unit_id": "nav_unit_5",
-  "questions": []
+  "unit_id": "nav_u5",
+  "questions": [
+    {
+      "id": "q_nav_u5_l1_01",
+      "level_id": "nav_u5_l1",
+      "type": "multiple_choice",
+      "question": "Laporan dalam bentuk gambar sketsa yang menunjukkan pandangan suatu daerah secara mendatar (jalur memanjang) disebut?",
+      "payload": {
+        "options": [
+          "Laporan Panorama",
+          "Peta Pita",
+          "Peta Lokasi",
+          "Sketsa Kuadran"
+        ],
+        "correct_answer": "Laporan Panorama",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u5_l1_02",
+      "level_id": "nav_u5_l1",
+      "type": "fill_blank",
+      "question": "Tujuan utama pembuatan laporan panorama dalam kegiatan intelijen pramuka adalah untuk melaporkan situasi ____ secara akurat.",
+      "payload": {
+        "correct_answer": "medan",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u5_l1_03",
+      "level_id": "nav_u5_l1",
+      "type": "multiple_choice",
+      "question": "Berapakah sudut pandang (field of view) standar yang umum digunakan dalam pembuatan laporan panorama pramuka?",
+      "payload": {
+        "options": [
+          "120 derajat",
+          "45 derajat",
+          "180 derajat",
+          "360 derajat"
+        ],
+        "correct_answer": "120 derajat",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u5_l1_04",
+      "level_id": "nav_u5_l1",
+      "type": "word_bank",
+      "question": "Susun komponen wajib yang harus dicantumkan pada bagian atas laporan panorama.",
+      "payload": {
+        "words": [
+          "Tempat",
+          "Waktu",
+          "Arah",
+          "Cuaca"
+        ],
+        "correct_order": [
+          "Tempat",
+          "Waktu",
+          "Arah",
+          "Cuaca"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u5_l1_05",
+      "level_id": "nav_u5_l1",
+      "type": "multiple_choice",
+      "question": "Dalam laporan panorama, pemandangan dibagi menjadi tiga bagian kedalaman, yaitu?",
+      "payload": {
+        "options": [
+          "Depan, Tengah, dan Belakang",
+          "Atas, Tengah, dan Bawah",
+          "Kiri, Tengah, dan Kanan",
+          "Dekat, Sedang, dan Jauh"
+        ],
+        "correct_answer": "Depan, Tengah, dan Belakang",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u5_l1_06",
+      "level_id": "nav_u5_l1",
+      "type": "fill_blank",
+      "question": "Alat bantu sederhana untuk membidik dan membatasi pandangan mata saat menggambar panorama disebut ____.",
+      "payload": {
+        "correct_answer": "pembidik",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u5_l1_07",
+      "level_id": "nav_u5_l1",
+      "type": "matching",
+      "question": "Pasangkan bagian pandangan dengan urutannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Latar Depan",
+            "right": "Foreground"
+          },
+          {
+            "left": "Latar Tengah",
+            "right": "Middle-ground"
+          },
+          {
+            "left": "Latar Belakang",
+            "right": "Background"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u5_l1_08",
+      "level_id": "nav_u5_l1",
+      "type": "multiple_choice",
+      "question": "Kertas untuk laporan panorama biasanya dibuat dengan perbandingan panjang dan lebar tertentu. Perbandingan yang paling umum adalah?",
+      "payload": {
+        "options": [
+          "2 : 1",
+          "1 : 1",
+          "4 : 3",
+          "16 : 9"
+        ],
+        "correct_answer": "2 : 1",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u5_l2_01",
+      "level_id": "nav_u5_l2",
+      "type": "multiple_choice",
+      "question": "Alat pembidik panorama manual biasanya berbentuk persegi panjang dengan benang silang yang membaginya menjadi?",
+      "payload": {
+        "options": [
+          "8 kotak (dua baris empat kolom)",
+          "4 kotak",
+          "10 kotak",
+          "Tidak dibagi-bagi"
+        ],
+        "correct_answer": "8 kotak (dua baris empat kolom)",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u5_l2_02",
+      "level_id": "nav_u5_l2",
+      "type": "fill_blank",
+      "question": "Saat meletakkan kompas untuk menentukan arah panorama, kita harus membidik ke arah ____ panggung pemandangan.",
+      "payload": {
+        "correct_answer": "tengah",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u5_l2_03",
+      "level_id": "nav_u5_l2",
+      "type": "multiple_choice",
+      "question": "Jika sudut bidik paling kiri adalah 30 derajat dan field of view adalah 120 derajat, berapakah sudut bidik paling kanan?",
+      "payload": {
+        "options": [
+          "150 derajat",
+          "90 derajat",
+          "120 derajat",
+          "180 derajat"
+        ],
+        "correct_answer": "150 derajat",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u5_l2_04",
+      "level_id": "nav_u5_l2",
+      "type": "word_bank",
+      "question": "Susun alat yang dibutuhkan untuk membuat laporan panorama di lapangan.",
+      "payload": {
+        "words": [
+          "Kompas",
+          "Pembidik",
+          "Alat Tulis",
+          "Meja Jalan"
+        ],
+        "correct_order": [
+          "Kompas",
+          "Pembidik",
+          "Alat Tulis",
+          "Meja Jalan"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u5_l2_05",
+      "level_id": "nav_u5_l2",
+      "type": "multiple_choice",
+      "question": "Mengapa pengamat dilarang berpindah tempat (bergeser) saat sedang menggambar sketsa panorama?",
+      "payload": {
+        "options": [
+          "Dapat merusak perspektif dan koordinat benda pada sketsa",
+          "Agar tidak capek",
+          "Agar kompas tidak rusak",
+          "Agar tidak terlihat musuh"
+        ],
+        "correct_answer": "Dapat merusak perspektif dan koordinat benda pada sketsa",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u5_l2_06",
+      "level_id": "nav_u5_l2",
+      "type": "fill_blank",
+      "question": "Skala derajat pada laporan panorama biasanya ditulis di bagian ____ setiap kotak pembagi.",
+      "payload": {
+        "correct_answer": "bawah",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u5_l2_07",
+      "level_id": "nav_u5_l2",
+      "type": "matching",
+      "question": "Pasangkan alat dengan fungsinya dalam panorama.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Pembidik",
+            "right": "Menentukan Batas Gambar"
+          },
+          {
+            "left": "Kompas",
+            "right": "Mencari Azimuth Objek"
+          },
+          {
+            "left": "Pencil HB",
+            "right": "Membuat Garis Sketsa Lembut"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u5_l2_08",
+      "level_id": "nav_u5_l2",
+      "type": "multiple_choice",
+      "question": "Batas pandangan mendatar (horizontal) pada laporan panorama disebut juga dengan?",
+      "payload": {
+        "options": [
+          "Sektor Pandang",
+          "Garis Cakrawala",
+          "Elevasi",
+          "Garis Kontur"
+        ],
+        "correct_answer": "Sektor Pandang",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u5_l3_01",
+      "level_id": "nav_u5_l3",
+      "type": "multiple_choice",
+      "question": "Teknik 'Arsir' dalam laporan panorama digunakan untuk membedakan jarak. Aturan arsiran untuk objek yang paling dekat adalah?",
+      "payload": {
+        "options": [
+          "Rapat dan tebal (gelap)",
+          "Renggang dan tipis",
+          "Hanya berupa garis luar",
+          "Diberi warna hijau"
+        ],
+        "correct_answer": "Rapat dan tebal (gelap)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u5_l3_02",
+      "level_id": "nav_u5_l3",
+      "type": "fill_blank",
+      "question": "Objek yang berada di latar belakang (Background) biasanya digambarkan hanya berupa ____ atau garis luar saja.",
+      "payload": {
+        "correct_answer": "siluet",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u5_l3_03",
+      "level_id": "nav_u5_l3",
+      "type": "multiple_choice",
+      "question": "Garis mendatar yang memisahkan antara bumi (tanah) dan langit dalam gambar sketsa disebut?",
+      "payload": {
+        "options": [
+          "Garis Horison (Cakrawala)",
+          "Garis Meridian",
+          "Garis Lintang",
+          "Garis Grid"
+        ],
+        "correct_answer": "Garis Horison (Cakrawala)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u5_l3_04",
+      "level_id": "nav_u5_l3",
+      "type": "word_bank",
+      "question": "Susun tingkat kepadatan arsiran berdasarkan jarak (dari paling dekat ke paling jauh).",
+      "payload": {
+        "words": [
+          "Sangat Rapat",
+          "Rapat",
+          "Renggang",
+          "Tanpa Arsiran"
+        ],
+        "correct_order": [
+          "Sangat Rapat",
+          "Rapat",
+          "Renggang",
+          "Tanpa Arsiran"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u5_l3_05",
+      "level_id": "nav_u5_l3",
+      "type": "multiple_choice",
+      "question": "Arah arsiran untuk objek di latar tengah (Middle-ground) biasanya dibuat dengan gaya?",
+      "payload": {
+        "options": [
+          "Miring/Diagonal",
+          "Tegak lurus (Vertikal)",
+          "Mendatar (Horizontal)",
+          "Titik-titik (Stippling)"
+        ],
+        "correct_answer": "Miring/Diagonal",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u5_l3_06",
+      "level_id": "nav_u5_l3",
+      "type": "fill_blank",
+      "question": "Saat menggambar pohon yang berada sangat jauh, detail daun tidak perlu digambar, cukup bentuk ____ dasarnya saja.",
+      "payload": {
+        "correct_answer": "massa",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u5_l3_07",
+      "level_id": "nav_u5_l3",
+      "type": "matching",
+      "question": "Pasangkan jarak dengan teknik arsiran standarnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "0 - 500m (Depan)",
+            "right": "Vertikal & Rapat"
+          },
+          {
+            "left": "500 - 1000m (Tengah)",
+            "right": "Miring & Sedang"
+          },
+          {
+            "left": "> 1000m (Belakang)",
+            "right": "Horizontal & Renggang"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u5_l3_08",
+      "level_id": "nav_u5_l3",
+      "type": "multiple_choice",
+      "question": "Kerapian arsiran sangat penting karena laporan panorama bukan karya seni lukis, melainkan sebuah?",
+      "payload": {
+        "options": [
+          "Dokumen Teknis Navigasi",
+          "Kenang-kenangan kemah",
+          "Hiasan dinding regu",
+          "Tugas melukis bebas"
+        ],
+        "correct_answer": "Dokumen Teknis Navigasi",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u5_l4_01",
+      "level_id": "nav_u5_l4",
+      "type": "multiple_choice",
+      "question": "Di bagian bawah setiap kolom sketsa, biasanya terdapat keterangan objek. Simbol untuk 'Hutan' atau 'Semak' digambarkan dengan?",
+      "payload": {
+        "options": [
+          "Garis bergelombang seperti awan",
+          "Segitiga runcing",
+          "Garis lurus sejajar",
+          "Lingkaran hitam"
+        ],
+        "correct_answer": "Garis bergelombang seperti awan",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u5_l4_02",
+      "level_id": "nav_u5_l4",
+      "type": "fill_blank",
+      "question": "Keterangan jarak pada laporan panorama harus diestimasi (ditaksir) dalam satuan ____.",
+      "payload": {
+        "correct_answer": "meter",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u5_l4_03",
+      "level_id": "nav_u5_l4",
+      "type": "multiple_choice",
+      "question": "Informasi cuaca sangat penting dalam panorama. Jika pandangan terganggu kabut, maka pengamat harus menuliskan?",
+      "payload": {
+        "options": [
+          "Visibilitas terbatas / Kabut",
+          "Cerah berawan",
+          "Cuaca buruk",
+          "Tidak ada data"
+        ],
+        "correct_answer": "Visibilitas terbatas / Kabut",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u5_l4_04",
+      "level_id": "nav_u5_l4",
+      "type": "word_bank",
+      "question": "Susun hirarki identifikasi objek dalam panorama (dari yang paling permanen).",
+      "payload": {
+        "words": [
+          "Gunung",
+          "Sungai",
+          "Bangunan Besar",
+          "Pohon Tunggal"
+        ],
+        "correct_order": [
+          "Gunung",
+          "Sungai",
+          "Bangunan Besar",
+          "Pohon Tunggal"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u5_l4_05",
+      "level_id": "nav_u5_l4",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan 'Azimuth Tepi' dalam laporan panorama?",
+      "payload": {
+        "options": [
+          "Sudut kompas pada batas paling kiri dan paling kanan sketsa",
+          "Sudut mata pengamat",
+          "Sudut kemiringan kertas",
+          "Sudut bayangan matahari"
+        ],
+        "correct_answer": "Sudut kompas pada batas paling kiri dan paling kanan sketsa",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u5_l4_06",
+      "level_id": "nav_u5_l4",
+      "type": "fill_blank",
+      "question": "Pemberian nomor pada setiap objek di sketsa panorama berguna untuk memudahkan pembaca melihat rincian pada tabel ____.",
+      "payload": {
+        "correct_answer": "keterangan",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u5_l4_07",
+      "level_id": "nav_u5_l4",
+      "type": "matching",
+      "question": "Pasangkan elemen panorama dengan data yang dicatat.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Puncak Gunung",
+            "right": "Azimuth & Ketinggian"
+          },
+          {
+            "left": "Jalan Raya",
+            "right": "Arah Menuju Ke..."
+          },
+          {
+            "left": "Titik Pengamatan",
+            "right": "Koordinat Posisi"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u5_l4_08",
+      "level_id": "nav_u5_l4",
+      "type": "multiple_choice",
+      "question": "Mengapa waktu pembuatan (jam dan menit) wajib dicantumkan dalam laporan panorama?",
+      "payload": {
+        "options": [
+          "Karena posisi bayangan benda akan berubah seiring pergerakan matahari",
+          "Agar tahu waktu istirahat",
+          "Syarat mendapatkan TKK",
+          "Agar laporan terlihat penuh"
+        ],
+        "correct_answer": "Karena posisi bayangan benda akan berubah seiring pergerakan matahari",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u5_l5_01",
+      "level_id": "nav_u5_l5",
+      "type": "multiple_choice",
+      "question": "Analisis Taktis: Jika dalam panorama terlihat ada menara tinggi yang tidak ada di peta, apa interpretasi navigasi Anda?",
+      "payload": {
+        "options": [
+          "Objek tersebut adalah bangunan baru yang bisa dijadikan 'check point' tambahan",
+          "Peta yang digunakan salah",
+          "Abaikan karena tidak ada di peta",
+          "Segera kembali pulang"
+        ],
+        "correct_answer": "Objek tersebut adalah bangunan baru yang bisa dijadikan 'check point' tambahan",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u5_l5_02",
+      "level_id": "nav_u5_l5",
+      "type": "fill_blank",
+      "question": "Dalam navigasi militer yang diadaptasi pramuka, laporan panorama digunakan untuk menentukan target atau area ____.",
+      "payload": {
+        "correct_answer": "sasaran",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u5_l5_03",
+      "level_id": "nav_u5_l5",
+      "type": "multiple_choice",
+      "question": "Bagaimana cara mengoreksi kesalahan gambar jika objek yang dibidik tidak muat dalam satu kertas panorama standar?",
+      "payload": {
+        "options": [
+          "Menyambung dengan kertas baru (Panorama Berangkai)",
+          "Menghapus objek yang tidak muat",
+          "Memperkecil gambar secara paksa",
+          "Mengganti arah bidikan"
+        ],
+        "correct_answer": "Menyambung dengan kertas baru (Panorama Berangkai)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u5_l5_04",
+      "level_id": "nav_u5_l5",
+      "type": "word_bank",
+      "question": "Susun langkah evaluasi laporan panorama sebelum diserahkan ke pembina.",
+      "payload": {
+        "words": [
+          "Cek Kesesuaian Azimuth",
+          "Pastikan Arsiran Rapi",
+          "Lengkapi Data Identitas",
+          "Tanda Tangan Pembuat"
+        ],
+        "correct_order": [
+          "Cek Kesesuaian Azimuth",
+          "Pastikan Arsiran Rapi",
+          "Lengkapi Data Identitas",
+          "Tanda Tangan Pembuat"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u5_l5_05",
+      "level_id": "nav_u5_l5",
+      "type": "multiple_choice",
+      "question": "Jika Azimuth Pusat panorama adalah 180 (Selatan), dan lebar sektor adalah 120 derajat, berapakah rentang derajat dari kiri ke kanan?",
+      "payload": {
+        "options": [
+          "120 sampai 240",
+          "150 sampai 210",
+          "180 sampai 300",
+          "60 sampai 180"
+        ],
+        "correct_answer": "120 sampai 240",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u5_l5_06",
+      "level_id": "nav_u5_l5",
+      "type": "fill_blank",
+      "question": "Tingkat akurasi laporan panorama diuji dengan cara membandingkannya langsung dengan ____ asli di lapangan oleh tim pemeriksa.",
+      "payload": {
+        "correct_answer": "bentang alam",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u5_l5_07",
+      "level_id": "nav_u5_l5",
+      "type": "matching",
+      "question": "Pasangkan kondisi medan dengan tantangan panoramanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Hutan Lebat",
+            "right": "Jarak Pandang Sangat Pendek"
+          },
+          {
+            "left": "Puncak Gunung",
+            "right": "Banyak Objek Latar Belakang"
+          },
+          {
+            "left": "Padang Rumput",
+            "right": "Minim Landmark Permanen"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u5_l5_08",
+      "level_id": "nav_u5_l5",
+      "type": "multiple_choice",
+      "question": "Manakah pernyataan yang paling tepat mengenai filosofi laporan panorama?",
+      "payload": {
+        "options": [
+          "Menyampaikan data visual medan secara ringkas, jelas, dan dapat dipercaya",
+          "Menampilkan keindahan pemandangan alam",
+          "Menguji kemampuan melukis anggota",
+          "Sebagai pengganti kamera foto"
+        ],
+        "correct_answer": "Menyampaikan data visual medan secara ringkas, jelas, dan dapat dipercaya",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

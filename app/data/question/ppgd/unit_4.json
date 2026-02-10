@@ -1,0 +1,680 @@
+{
+    "unit_id": "ppgd_u4",
+    "questions": [
+        {
+            "id": "q_ppgd_u4_l1_01",
+            "level_id": "ppgd_u4_l1",
+            "type": "multiple_choice",
+            "question": "Prinsip mekanika tubuh yang paling benar saat hendak mengangkat beban berat atau korban adalah?",
+            "payload": {
+                "options": [
+                    "Menjaga punggung tetap lurus dan tumpuan beban pada otot paha",
+                    "Membungkukkan punggung agar jangkauan lebih jauh",
+                    "Menggunakan otot pinggang sebagai tumpuan utama",
+                    "Mengunci kedua lutut dalam posisi tegak lurus"
+                ],
+                "correct_answer": "Menjaga punggung tetap lurus dan tumpuan beban pada otot paha",
+                "shuffle": true
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u4_l1_02",
+            "level_id": "ppgd_u4_l1",
+            "type": "fill_blank",
+            "question": "Agar keseimbangan terjaga saat mengangkat korban, penolong harus memperlebar jarak antara kedua kaki yang disebut sebagai basis ____.",
+            "payload": {
+                "correct_answer": "tumpuan",
+                "case_sensitive": false
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u4_l1_03",
+            "level_id": "ppgd_u4_l1",
+            "type": "multiple_choice",
+            "question": "Tindakan 'Emergency Move' (Pemindahan Darurat) hanya boleh dilakukan apabila?",
+            "payload": {
+                "options": [
+                    "Terdapat ancaman bahaya langsung seperti api, ledakan, atau gas beracun",
+                    "Korban mengeluh ingin cepat sampai rumah sakit",
+                    "Cuaca sedang mendung",
+                    "Penolong merasa bosan menunggu ambulans"
+                ],
+                "correct_answer": "Terdapat ancaman bahaya langsung seperti api, ledakan, atau gas beracun",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u4_l1_04",
+            "level_id": "ppgd_u4_l1",
+            "type": "word_bank",
+            "question": "Susun langkah persiapan sebelum mengangkat korban.",
+            "payload": {
+                "words": [
+                    "Rencanakan Gerakan",
+                    "Cek Rute Jalur",
+                    "Komunikasi Antar Penolong",
+                    "Angkat Secara Bersamaan"
+                ],
+                "correct_order": [
+                    "Rencanakan Gerakan",
+                    "Cek Rute Jalur",
+                    "Komunikasi Antar Penolong",
+                    "Angkat Secara Bersamaan"
+                ]
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u4_l1_05",
+            "level_id": "ppgd_u4_l1",
+            "type": "multiple_choice",
+            "question": "Risiko utama bagi penolong yang mengangkat korban dengan posisi punggung membungkuk adalah?",
+            "payload": {
+                "options": [
+                    "Cedera diskus intervertebralis (HNP) pada tulang belakang",
+                    "Kram pada jari tangan",
+                    "Pusing kepala",
+                    "Luka lecet pada kaki"
+                ],
+                "correct_answer": "Cedera diskus intervertebralis (HNP) pada tulang belakang",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u4_l1_06",
+            "level_id": "ppgd_u4_l1",
+            "type": "fill_blank",
+            "question": "Sebelum memindahkan korban, penolong harus melakukan penilaian dini dan memastikan bahwa jalan ____ korban tetap terbuka.",
+            "payload": {
+                "correct_answer": "napas",
+                "case_sensitive": false
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u4_l1_07",
+            "level_id": "ppgd_u4_l1",
+            "type": "matching",
+            "question": "Pasangkan jenis pemindahan dengan situasinya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Emergency Move",
+                        "right": "Ancaman Ledakan/Kebakaran"
+                    },
+                    {
+                        "left": "Urgent Move",
+                        "right": "Kondisi Korban Menurun Cepat"
+                    },
+                    {
+                        "left": "Non-Urgent Move",
+                        "right": "Korban Stabil & Lokasi Aman"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u4_l1_08",
+            "level_id": "ppgd_u4_l1",
+            "type": "multiple_choice",
+            "question": "Dalam tim evakuasi, penolong yang paling bertanggung jawab memberikan komando atau aba-aba adalah?",
+            "payload": {
+                "options": [
+                    "Penolong yang berada di posisi paling atas (memegang kepala)",
+                    "Penolong yang paling kuat fisiknya",
+                    "Penolong yang memegang kaki",
+                    "Penolong yang paling senior usianya"
+                ],
+                "correct_answer": "Penolong yang berada di posisi paling atas (memegang kepala)",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u4_l2_01",
+            "level_id": "ppgd_u4_l2",
+            "type": "multiple_choice",
+            "question": "Teknik evakuasi satu penolong dengan cara menggendong korban di punggung disebut?",
+            "payload": {
+                "options": [
+                    "Piggyback Carry",
+                    "Cradle Carry",
+                    "Fireman Lift",
+                    "Human Crutch"
+                ],
+                "correct_answer": "Piggyback Carry",
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u4_l2_02",
+            "level_id": "ppgd_u4_l2",
+            "type": "fill_blank",
+            "question": "Teknik 'Human Crutch' dilakukan dengan cara penolong memapah korban yang masih bisa ____.",
+            "payload": {
+                "correct_answer": "berjalan",
+                "case_sensitive": false
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u4_l2_03",
+            "level_id": "ppgd_u4_l2",
+            "type": "multiple_choice",
+            "question": "Metode pemindahan darurat dengan cara menarik kerah baju korban atau menggunakan selimut disebut?",
+            "payload": {
+                "options": [
+                    "Drag Technique",
+                    "Shoulder Carry",
+                    "Cradle Carry",
+                    "Pack-Strap Carry"
+                ],
+                "correct_answer": "Drag Technique",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u4_l2_04",
+            "level_id": "ppgd_u4_l2",
+            "type": "word_bank",
+            "question": "Susun langkah melakukan 'Fireman Lift' (Panggul) secara aman.",
+            "payload": {
+                "words": [
+                    "Berlutut Depan Korban",
+                    "Masukan Bahu ke Selangkangan",
+                    "Angkat dengan Otot Paha",
+                    "Pegang Tangan Korban"
+                ],
+                "correct_order": [
+                    "Berlutut Depan Korban",
+                    "Masukan Bahu ke Selangkangan",
+                    "Angkat dengan Otot Paha",
+                    "Pegang Tangan Korban"
+                ]
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u4_l2_05",
+            "level_id": "ppgd_u4_l2",
+            "type": "multiple_choice",
+            "question": "Kapan teknik 'Cradle Carry' (menggendong di depan) paling tepat digunakan?",
+            "payload": {
+                "options": [
+                    "Untuk korban anak-anak atau orang dewasa dengan berat badan ringan",
+                    "Untuk korban patah tulang paha",
+                    "Untuk korban dengan berat badan 100kg",
+                    "Untuk jarak evakuasi lebih dari 5 KM"
+                ],
+                "correct_answer": "Untuk korban anak-anak atau orang dewasa dengan berat badan ringan",
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u4_l2_06",
+            "level_id": "ppgd_u4_l2",
+            "type": "fill_blank",
+            "question": "Saat melakukan 'Shoulder Drag', penolong menarik korban dengan memegang bagian bawah ____ korban.",
+            "payload": {
+                "correct_answer": "ketiak",
+                "case_sensitive": false
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u4_l2_07",
+            "level_id": "ppgd_u4_l2",
+            "type": "matching",
+            "question": "Pasangkan nama teknik dengan deskripsi posisinya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Fireman Carry",
+                        "right": "Korban di Atas Bahu"
+                    },
+                    {
+                        "left": "Pack-strap Carry",
+                        "right": "Lengan Korban Menyilang di Dada Penolong"
+                    },
+                    {
+                        "left": "Blanket Drag",
+                        "right": "Menarik Korban Menggunakan Alas"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u4_l2_08",
+            "level_id": "ppgd_u4_l2",
+            "type": "multiple_choice",
+            "question": "Apa kelemahan utama dari evakuasi satu penolong?",
+            "payload": {
+                "options": [
+                    "Penolong cepat lelah dan risiko cedera tulang belakang korban lebih tinggi",
+                    "Terlalu cepat sampai ke tujuan",
+                    "Tidak memerlukan alat",
+                    "Bisa dilakukan di tempat sempit"
+                ],
+                "correct_answer": "Penolong cepat lelah dan risiko cedera tulang belakang korban lebih tinggi",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u4_l3_01",
+            "level_id": "ppgd_u3_l3",
+            "type": "multiple_choice",
+            "question": "Teknik evakuasi dua penolong untuk memindahkan korban melalui gang sempit dengan posisi satu penolong di depan kaki dan satu di belakang kepala disebut?",
+            "payload": {
+                "options": [
+                    "Fore-and-aft Carry",
+                    "Two-person Seat",
+                    "Side-by-side Carry",
+                    "Log Roll"
+                ],
+                "correct_answer": "Fore-and-aft Carry",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u4_l3_02",
+            "level_id": "ppgd_u4_l3",
+            "type": "fill_blank",
+            "question": "Dua penolong dapat membuat 'Kursi' manual dengan saling mengunci pergelangan tangan yang disebut sebagai Four-handed ____ seat.",
+            "payload": {
+                "correct_answer": "chair",
+                "case_sensitive": false
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u4_l3_03",
+            "level_id": "ppgd_u4_l3",
+            "type": "multiple_choice",
+            "question": "Teknik 'Log Roll' minimal membutuhkan berapa penolong untuk menjaga kelurusan tulang belakang secara ideal?",
+            "payload": {
+                "options": [
+                    "3 sampai 4 orang",
+                    "Hanya 1 orang",
+                    "Cukup 2 orang",
+                    "Minimal 10 orang"
+                ],
+                "correct_answer": "3 sampai 4 orang",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l3_04",
+            "level_id": "ppgd_u4_l3",
+            "type": "word_bank",
+            "question": "Susun langkah melakukan 'Three-person Lift' (Angkut Tiga Penolong).",
+            "payload": {
+                "words": [
+                    "Berlutut di Satu Sisi",
+                    "Selipkan Tangan Bawah Korban",
+                    "Angkat ke Atas Lutut",
+                    "Angkat ke Dada dan Berdiri"
+                ],
+                "correct_order": [
+                    "Berlutut di Satu Sisi",
+                    "Selipkan Tangan Bawah Korban",
+                    "Angkat ke Atas Lutut",
+                    "Angkat ke Dada dan Berdiri"
+                ]
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l3_05",
+            "level_id": "ppgd_u4_l3",
+            "type": "multiple_choice",
+            "question": "Dalam teknik angkut depan-belakang, penolong di bagian kepala memegang korban pada bagian?",
+            "payload": {
+                "options": [
+                    "Menyilang tangan korban di dada dan memegang pergelangan tangannya",
+                    "Memegang ketiak saja",
+                    "Memegang kepala saja",
+                    "Memegang sabuk korban"
+                ],
+                "correct_answer": "Menyilang tangan korban di dada dan memegang pergelangan tangannya",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l3_06",
+            "level_id": "ppgd_u4_l3",
+            "type": "fill_blank",
+            "question": "Aba-aba dalam evakuasi beregu harus jelas, singkat, dan diawali dengan kata ____ (seperti: persediaan... angkat!).",
+            "payload": {
+                "correct_answer": "peringatan",
+                "case_sensitive": false
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u4_l3_07",
+            "level_id": "ppgd_u4_l3",
+            "type": "matching",
+            "question": "Pasangkan jumlah penolong dengan teknik yang sesuai.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Dua Orang",
+                        "right": "Chair Carry"
+                    },
+                    {
+                        "left": "Tiga Orang",
+                        "right": "Three-person Flat Lift"
+                    },
+                    {
+                        "left": "Empat Orang",
+                        "right": "Angkut Tandu Manual"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l3_08",
+            "level_id": "ppgd_u4_l3",
+            "type": "multiple_choice",
+            "question": "Mengapa koordinasi saat melangkah (misal: kaki kiri serempak) sangat penting saat menandu korban?",
+            "payload": {
+                "options": [
+                    "Mencegah goyangan/ayunan tandu yang dapat memperparah cedera",
+                    "Agar terlihat rapi",
+                    "Supaya cepat sampai",
+                    "Agar penolong tidak mengantuk"
+                ],
+                "correct_answer": "Mencegah goyangan/ayunan tandu yang dapat memperparah cedera",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l4_01",
+            "level_id": "ppgd_u4_l4",
+            "type": "multiple_choice",
+            "question": "Alat bantu evakuasi yang dapat 'terbelah' menjadi dua bagian untuk mengangkat korban tanpa melakukan log roll disebut?",
+            "payload": {
+                "options": [
+                    "Scoop Stretcher",
+                    "Long Spine Board",
+                    "Basket Stretcher",
+                    "Ambulance Stretcher"
+                ],
+                "correct_answer": "Scoop Stretcher",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l4_02",
+            "level_id": "ppgd_u4_l4",
+            "type": "fill_blank",
+            "question": "Tandu basket yang sering digunakan dalam evakuasi di tebing atau helikopter disebut ____ Stretcher.",
+            "payload": {
+                "correct_answer": "stokes",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l4_03",
+            "level_id": "ppgd_u4_l4",
+            "type": "multiple_choice",
+            "question": "Bahan darurat apa yang paling sering digunakan pramuka untuk membuat tandu improvisasi di hutan?",
+            "payload": {
+                "options": [
+                    "Dua batang tongkat pramuka dan dua buah jaket/kaos",
+                    "Tali rafia dan plastik",
+                    "Kardus bekas dan lakban",
+                    "Daun pisang dan ranting kering"
+                ],
+                "correct_answer": "Dua batang tongkat pramuka dan dua buah jaket/kaos",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u4_l4_04",
+            "level_id": "ppgd_u4_l4",
+            "type": "word_bank",
+            "question": "Susun langkah pembuatan tandu selimut (Blanket Stretcher).",
+            "payload": {
+                "words": [
+                    "Bentangkan Selimut",
+                    "Letakkan Satu Batang",
+                    "Lipat Selimut",
+                    "Letakkan Batang Kedua"
+                ],
+                "correct_order": [
+                    "Bentangkan Selimut",
+                    "Letakkan Satu Batang",
+                    "Lipat Selimut",
+                    "Letakkan Batang Kedua"
+                ]
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u4_l4_05",
+            "level_id": "ppgd_u4_l4",
+            "type": "multiple_choice",
+            "question": "Urutan pengikatan sabuk pengaman (Strap) yang benar pada Long Spine Board untuk stabilitas maksimal adalah?",
+            "payload": {
+                "options": [
+                    "Dada, Panggul, baru Kaki",
+                    "Kaki dulu baru Kepala",
+                    "Bebas mana saja yang dekat",
+                    "Hanya bagian perut saja"
+                ],
+                "correct_answer": "Dada, Panggul, baru Kaki",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u4_l4_06",
+            "level_id": "ppgd_u4_l4",
+            "type": "fill_blank",
+            "question": "Alat KED (Kendrick Extrication Device) digunakan khusus untuk menstabilkan tulang belakang korban saat dievakuasi dari dalam ____.",
+            "payload": {
+                "correct_answer": "mobil",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u4_l4_07",
+            "level_id": "ppgd_u4_l4",
+            "type": "matching",
+            "question": "Pasangkan jenis tandu dengan kegunaan khususnya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Chair Stretcher",
+                        "right": "Melalui Tangga Sempit"
+                    },
+                    {
+                        "left": "LSB (Long Spine Board)",
+                        "right": "Curiga Patah Tulang Belakang"
+                    },
+                    {
+                        "left": "Tandu Lipat",
+                        "right": "Kepraktisan & Ringan"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u4_l4_08",
+            "level_id": "ppgd_u4_l4",
+            "type": "multiple_choice",
+            "question": "Saat menuruni tangga atau masuk ke ambulans, posisi korban yang benar adalah?",
+            "payload": {
+                "options": [
+                    "Kaki di depan (Kecuali kondisi khusus seperti pendarahan hebat di kaki)",
+                    "Kepala di depan",
+                    "Miring ke kanan",
+                    "Tengkurap"
+                ],
+                "correct_answer": "Kaki di depan (Kecuali kondisi khusus seperti pendarahan hebat di kaki)",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u4_l5_01",
+            "level_id": "ppgd_u4_l5",
+            "type": "multiple_choice",
+            "question": "Dalam skenario kebakaran hebat di sebuah gedung, evakuasi apa yang harus dilakukan terhadap korban pingsan?",
+            "payload": {
+                "options": [
+                    "Rapid Extrication (Pemindahan Cepat) tanpa menunggu penilaian lengkap",
+                    "Melakukan pemeriksaan fisik head-to-toe di lokasi",
+                    "Mencoba membangunkan korban di tempat",
+                    "Mencari data SAMPLE dulu"
+                ],
+                "correct_answer": "Rapid Extrication (Pemindahan Cepat) tanpa menunggu penilaian lengkap",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u4_l5_02",
+            "level_id": "ppgd_u4_l5",
+            "type": "fill_blank",
+            "question": "Dalam evakuasi massal, urutan keberangkatan ambulans ditentukan oleh label warna ____ pada kartu triage korban.",
+            "payload": {
+                "correct_answer": "merah",
+                "case_sensitive": false
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u4_l5_03",
+            "level_id": "ppgd_u4_l5",
+            "type": "multiple_choice",
+            "question": "Bagaimana cara mengevakuasi korban dari area yang dipenuhi asap tebal?",
+            "payload": {
+                "options": [
+                    "Merangkak di bawah asap sambil menarik korban (Drag)",
+                    "Berlari sambil menggendong korban",
+                    "Berdiri tegak agar bisa melihat jalan",
+                    "Menunggu asap hilang baru masuk"
+                ],
+                "correct_answer": "Merangkak di bawah asap sambil menarik korban (Drag)",
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u4_l5_04",
+            "level_id": "ppgd_u4_l5",
+            "type": "word_bank",
+            "question": "Susun urutan prioritas evakuasi berdasarkan warna Triage.",
+            "payload": {
+                "words": [
+                    "Merah",
+                    "Kuning",
+                    "Hijau",
+                    "Hitam"
+                ],
+                "correct_order": [
+                    "Merah",
+                    "Kuning",
+                    "Hijau",
+                    "Hitam"
+                ]
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u4_l5_05",
+            "level_id": "ppgd_u4_l5",
+            "type": "multiple_choice",
+            "question": "Kapan pemindahan 'Urgent Move' dilakukan pada korban stabil?",
+            "payload": {
+                "options": [
+                    "Saat lokasi korban menghalangi akses ke korban lain yang kondisinya kritis",
+                    "Saat penolong ingin cepat pulang",
+                    "Saat ada wartawan datang",
+                    "Saat korban ingin pindah tempat tidur"
+                ],
+                "correct_answer": "Saat lokasi korban menghalangi akses ke korban lain yang kondisinya kritis",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u4_l5_06",
+            "level_id": "ppgd_u4_l5",
+            "type": "fill_blank",
+            "question": "Sebelum transportasi jarak jauh dilakukan, penolong harus melakukan 'Secondary ____' untuk mendata semua luka korban.",
+            "payload": {
+                "correct_answer": "survey",
+                "case_sensitive": false
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u4_l5_07",
+            "level_id": "ppgd_u4_l5",
+            "type": "matching",
+            "question": "Pasangkan tag warna triage dengan urgensi evakuasinya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Merah",
+                        "right": "Segera (Ancaman Nyawa)"
+                    },
+                    {
+                        "left": "Kuning",
+                        "right": "Dapat Ditunda (Cedera Berat tapi Stabil)"
+                    },
+                    {
+                        "left": "Hijau",
+                        "right": "Minimal (Bisa Berjalan)"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u4_l5_08",
+            "level_id": "ppgd_u4_l5",
+            "type": "multiple_choice",
+            "question": "Apa syarat utama keselamatan saat mengevakuasi korban menggunakan helikopter (Medical Evacuation)?",
+            "payload": {
+                "options": [
+                    "Jangan pernah mendekati helikopter dari arah belakang (ekor)",
+                    "Lambaikan bendera setinggi mungkin saat baling-baling berputar",
+                    "Gunakan pakaian yang sangat longgar",
+                    "Dekati helikopter dengan posisi berdiri tegak"
+                ],
+                "correct_answer": "Jangan pernah mendekati helikopter dari arah belakang (ekor)",
+                "shuffle": true
+            },
+            "xp": 13
+        }
+    ]
+}

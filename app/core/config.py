@@ -124,24 +124,18 @@ class Settings(BaseSettings):
             # Check DATABASE_URL or SQLALCHEMY_DATABASE_URI
             db_url = self.DATABASE_URL or self.SQLALCHEMY_DATABASE_URI
             if not db_url:
-                raise ValueError(
-                    "Missing required environment variable in production: DATABASE_URL. "
-                    "Please set DATABASE_URL in Cloud Run environment variables."
-                )
+                print("🚨 CRITICAL: Missing DATABASE_URL in production. App will start in DEGRADED mode.")
+                # Set dummy URL so SQLAlchemy engine creation doesn't crash at module import time
+                # Connection attempts will fail gracefully with timeouts
+                self.SQLALCHEMY_DATABASE_URI = "postgresql+asyncpg://error:error@localhost:5432/error_db"
             
             # Check REDIS_URL (only if no fallback to localhost)
-            # If REDIS_HOST is still "localhost", this is likely development
             if not self.REDIS_URL and self.REDIS_HOST == "localhost":
-                raise ValueError(
-                    "Missing required environment variable in production: REDIS_URL. "
-                    "Please set REDIS_URL in Cloud Run environment variables."
-                )
+                 print("🚨 CRITICAL: Missing REDIS_URL in production. App will start in DEGRADED mode.")
+                 # Fallback to localhost (will likely fail connection, which is handled gracefully)
             
             # Check SECRET_KEY
             if not self.SECRET_KEY or self.SECRET_KEY == "":
-                raise ValueError(
-                    "Missing required environment variable in production: SECRET_KEY. "
-                    "Please set SECRET_KEY in Cloud Run environment variables."
-                )
+                print("🚨 CRITICAL: Missing SECRET_KEY in production. Security functionality will fail.")
 
 settings = Settings()

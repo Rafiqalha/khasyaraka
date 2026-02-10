@@ -4,6 +4,8 @@ Cyber Module Schemas
 Pydantic models for CyberScout API requests and responses.
 """
 
+from enum import Enum
+from datetime import datetime
 from typing import Any, Dict, Optional
 from pydantic import BaseModel, Field
 
@@ -86,3 +88,75 @@ class CyberSubmitResponse(BaseModel):
     message: str = Field(..., description="Result message")
     stars: int = Field(0, description="Stars awarded")
     unlocked_next_level: bool = Field(False, description="Next level unlocked")
+
+
+# ============ SANDI PRAMUKA SCHEMAS ============
+
+class SandiBase(BaseModel):
+    """Base schema for Sandi Type"""
+    codename: str = Field(..., description="Unique codename (e.g., 'morse', 'an_rot13')")
+    name: str = Field(..., description="Display name (e.g., 'Morse Code')")
+    description: Optional[str] = Field(None, description="Description of the cipher")
+    difficulty: int = Field(1, ge=1, le=4, description="Difficulty level 1-4")
+    category: str = Field(..., description="Category: encoding, substitution, transposition, visual")
+
+
+class SandiCreate(SandiBase):
+    """Schema for creating Sandi Type"""
+    pass
+
+
+class SandiResponse(SandiBase):
+    """Schema for Sandi Type response"""
+    id: int = Field(..., description="Sandi Type ID")
+    created_at: datetime = Field(..., description="Creation timestamp")
+    updated_at: datetime = Field(..., description="Last update timestamp")
+
+    model_config = {"from_attributes": True}
+
+
+class SandiListResponse(BaseModel):
+    """Response for list of Sandi Types"""
+    total: int = Field(..., description="Total Sandi types")
+    sandi_types: list[SandiResponse] = Field(..., description="List of Sandi types")
+
+
+class OperationMode(str, Enum):
+    """Operation mode for encryption/decryption"""
+    ENCRYPT = "ENCRYPT"
+    DECRYPT = "DECRYPT"
+
+
+class CyberToolRequest(BaseModel):
+    """Request for encryption/decryption tool"""
+    text: str = Field(..., description="Input text to process", min_length=1, max_length=1000)
+    operation_mode: OperationMode = Field(..., description="ENCRYPT or DECRYPT")
+    sandi_codename: str = Field(..., description="Sandi codename (e.g., 'morse', 'an_rot13')")
+
+
+class CyberToolResponse(BaseModel):
+    """Response from encryption/decryption tool"""
+    result: str = Field(..., description="Encrypted or decrypted result")
+    sandi_codename: str = Field(..., description="Sandi codename used")
+    operation_mode: str = Field(..., description="Operation mode performed")
+
+
+class SandiQuestionResponse(BaseModel):
+    """Response for Sandi exam question"""
+    id: int = Field(..., description="Question ID")
+    sandi_id: int = Field(..., description="Sandi Type ID")
+    question_text: str = Field(..., description="Question text")
+    encrypted_text: str = Field(..., description="Encrypted text to decode")
+    hint: Optional[str] = Field(None, description="Optional hint")
+    difficulty: int = Field(..., description="Difficulty level")
+    xp_reward: int = Field(..., description="XP reward for correct answer")
+
+    model_config = {"from_attributes": True}
+
+
+class SandiExamResponse(BaseModel):
+    """Response for Sandi exam questions"""
+    sandi_id: int = Field(..., description="Sandi Type ID")
+    sandi_name: str = Field(..., description="Sandi name")
+    total: int = Field(..., description="Total questions")
+    questions: list[SandiQuestionResponse] = Field(..., description="List of questions")

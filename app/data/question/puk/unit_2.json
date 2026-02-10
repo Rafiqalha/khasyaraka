@@ -5,13 +5,13 @@
       "id": "q_puk_u2_l1_01",
       "level_id": "puk_u2_l1",
       "type": "multiple_choice",
-      "question": "Nama resmi organisasi kepanduan di Indonesia adalah?",
+      "question": "Berdasarkan Undang-Undang Nomor 12 Tahun 2010, nama resmi organisasi kepanduan yang sah dan diakui di Indonesia adalah?",
       "payload": {
         "options": [
+          "Pandu Rakyat Indonesia",
+          "Gerakan Kepanduan Nasional",
           "Gerakan Pramuka",
-          "Pandu Indonesia",
-          "Kepanduan Nasional",
-          "Pemuda Indonesia"
+          "Persatuan Kepanduan Indonesia"
         ],
         "correct_answer": "Gerakan Pramuka",
         "shuffle": true
@@ -22,7 +22,7 @@
       "id": "q_puk_u2_l1_02",
       "level_id": "puk_u2_l1",
       "type": "fill_blank",
-      "question": "Lambang Gerakan Pramuka adalah bayangan (siluet) ____ kelapa.",
+      "question": "Lambang resmi Gerakan Pramuka Indonesia adalah bayangan atau siluet ____ kelapa.",
       "payload": {
         "correct_answer": "tunas",
         "case_sensitive": false
@@ -33,15 +33,15 @@
       "id": "q_puk_u2_l1_03",
       "level_id": "puk_u2_l1",
       "type": "multiple_choice",
-      "question": "Warna dasar bendera Pramuka adalah?",
+      "question": "Warna dasar bendera panji-panji Gerakan Pramuka yang mencerminkan semangat kebangsaan adalah?",
       "payload": {
         "options": [
-          "Merah putih",
-          "Coklat muda",
-          "Hijau putih",
-          "Biru putih"
+          "Coklat tua dan coklat muda",
+          "Merah dan putih",
+          "Hijau dan kuning",
+          "Biru dan putih"
         ],
-        "correct_answer": "Merah putih",
+        "correct_answer": "Merah dan putih",
         "shuffle": true
       },
       "xp": 3
@@ -50,11 +50,11 @@
       "id": "q_puk_u2_l1_04",
       "level_id": "puk_u2_l1",
       "type": "word_bank",
-      "question": "Susun kata berikut untuk membentuk nama lambang Pramuka.",
+      "question": "Susun kata berikut untuk membentuk nama lengkap lambang identitas Gerakan Pramuka Indonesia.",
       "payload": {
         "words": [
-          "Kelapa",
-          "Tunas"
+          "Tunas",
+          "Kelapa"
         ],
         "correct_order": [
           "Tunas",
@@ -67,15 +67,15 @@
       "id": "q_puk_u2_l1_05",
       "level_id": "puk_u2_l1",
       "type": "multiple_choice",
-      "question": "Seragam Pramuka digunakan saat?",
+      "question": "Seragam lengkap Gerakan Pramuka wajib dikenakan pada saat mengikuti kegiatan?",
       "payload": {
         "options": [
-          "Kegiatan kepramukaan",
-          "Kegiatan olahraga",
-          "Upacara bendera sekolah",
-          "Kegiatan OSIS"
+          "Upacara bendera Senin di sekolah",
+          "Kegiatan kepramukaan resmi dan upacara Pramuka",
+          "Kegiatan ekstrakurikuler non-Pramuka",
+          "Kegiatan olahraga dan perlombaan umum"
         ],
-        "correct_answer": "Kegiatan kepramukaan",
+        "correct_answer": "Kegiatan kepramukaan resmi dan upacara Pramuka",
         "shuffle": true
       },
       "xp": 4
@@ -84,15 +84,15 @@
       "id": "q_puk_u2_l1_06",
       "level_id": "puk_u2_l1",
       "type": "multiple_choice",
-      "question": "Warna seragam Pramuka bagian atas (baju) adalah?",
+      "question": "Warna standar seragam harian Gerakan Pramuka untuk bagian atasan (kemeja) sesuai ketentuan resmi adalah?",
       "payload": {
         "options": [
-          "Coklat Muda",
-          "Coklat Tua",
-          "Putih",
-          "Merah"
+          "Putih gading",
+          "Coklat tua",
+          "Coklat muda (khaki)",
+          "Krem"
         ],
-        "correct_answer": "Coklat Muda",
+        "correct_answer": "Coklat muda (khaki)",
         "shuffle": true
       },
       "xp": 2
@@ -101,7 +101,7 @@
       "id": "q_puk_u2_l1_07",
       "level_id": "puk_u2_l1",
       "type": "fill_blank",
-      "question": "Setangan leher atau hasduk pramuka berbentuk ____.",
+      "question": "Setangan leher atau hasduk Pramuka yang digunakan sebagai identitas golongan berbentuk kain ____.",
       "payload": {
         "correct_answer": "segitiga",
         "case_sensitive": false
@@ -112,13 +112,13 @@
       "id": "q_puk_u2_l1_08",
       "level_id": "puk_u2_l1",
       "type": "multiple_choice",
-      "question": "Siapakah pencipta lambang Tunas Kelapa?",
+      "question": "Perancang dan pencipta lambang Tunas Kelapa yang diresmikan sebagai lambang Gerakan Pramuka adalah?",
       "payload": {
         "options": [
+          "Sri Sultan Hamengkubuwono IX",
           "Soenardjo Atmodipuro",
-          "Baden Powell",
-          "Sri Sultan HB IX",
-          "Soekarno"
+          "Prof. Muhammad Yamin",
+          "Dr. Azis Saleh"
         ],
         "correct_answer": "Soenardjo Atmodipuro",
         "shuffle": true
@@ -129,15 +129,15 @@
       "id": "q_puk_u2_l2_01",
       "level_id": "puk_u2_l2",
       "type": "multiple_choice",
-      "question": "Makna utama lambang Tunas Kelapa adalah?",
+      "question": "Filosofi utama dari lambang Tunas Kelapa yang menggambarkan harapan terhadap anggota Pramuka adalah?",
       "payload": {
         "options": [
-          "Tunas yang tumbuh menjadi manusia berguna",
-          "Lambang keberanian",
-          "Lambang persatuan",
-          "Lambang kepemimpinan"
+          "Menjadi pemimpin yang kuat dan disegani",
+          "Tumbuh menjadi tunas bangsa yang berguna bagi nusa dan bangsa",
+          "Menjadi prajurit yang gagah berani",
+          "Menjadi pengusaha yang sukses dan mandiri"
         ],
-        "correct_answer": "Tunas yang tumbuh menjadi manusia berguna",
+        "correct_answer": "Tumbuh menjadi tunas bangsa yang berguna bagi nusa dan bangsa",
         "shuffle": true
       },
       "xp": 3
@@ -146,9 +146,9 @@
       "id": "q_puk_u2_l2_02",
       "level_id": "puk_u2_l2",
       "type": "fill_blank",
-      "question": "Topi Pramuka berfungsi sebagai bagian dari ____.",
+      "question": "Topi atau tutup kepala dalam seragam Pramuka merupakan kelengkapan wajib yang berfungsi sebagai bagian dari ____ resmi.",
       "payload": {
-        "correct_answer": "seragam",
+        "correct_answer": "atribut",
         "case_sensitive": false
       },
       "xp": 3
@@ -157,15 +157,15 @@
       "id": "q_puk_u2_l2_03",
       "level_id": "puk_u2_l2",
       "type": "multiple_choice",
-      "question": "Hasduk atau setangan leher Pramuka biasanya berwarna?",
+      "question": "Warna hasduk atau setangan leher Gerakan Pramuka yang mencerminkan bendera nasional Indonesia adalah kombinasi?",
       "payload": {
         "options": [
-          "Merah putih",
-          "Coklat tua",
-          "Hijau",
-          "Biru"
+          "Coklat muda dan coklat tua",
+          "Merah dan putih",
+          "Hijau dan kuning",
+          "Biru dan merah"
         ],
-        "correct_answer": "Merah putih",
+        "correct_answer": "Merah dan putih",
         "shuffle": true
       },
       "xp": 4
@@ -174,12 +174,12 @@
       "id": "q_puk_u2_l2_04",
       "level_id": "puk_u2_l2",
       "type": "word_bank",
-      "question": "Susun bagian seragam berikut menjadi urutan yang benar (Atas ke Bawah).",
+      "question": "Susun komponen seragam Pramuka berikut dari posisi teratas hingga ke bawah.",
       "payload": {
         "words": [
-          "Hasduk",
           "Topi",
-          "Baju"
+          "Baju",
+          "Hasduk"
         ],
         "correct_order": [
           "Topi",
@@ -193,15 +193,15 @@
       "id": "q_puk_u2_l2_05",
       "level_id": "puk_u2_l2",
       "type": "multiple_choice",
-      "question": "Tanda kecakapan pada seragam berfungsi untuk menunjukkan?",
+      "question": "Tanda Kecakapan yang dipasang pada seragam Pramuka memiliki fungsi utama untuk?",
       "payload": {
         "options": [
-          "Prestasi dan kemampuan",
-          "Pangkat militer",
-          "Jabatan sekolah",
-          "Usia peserta"
+          "Menunjukkan asal sekolah dan wilayah",
+          "Menunjukkan prestasi, kemampuan dan keterampilan yang dikuasai",
+          "Menunjukkan jabatan dalam organisasi Pramuka",
+          "Menunjukkan lama waktu menjadi anggota Pramuka"
         ],
-        "correct_answer": "Prestasi dan kemampuan",
+        "correct_answer": "Menunjukkan prestasi, kemampuan dan keterampilan yang dikuasai",
         "shuffle": true
       },
       "xp": 4
@@ -210,19 +210,19 @@
       "id": "q_puk_u2_l2_06",
       "level_id": "puk_u2_l2",
       "type": "matching",
-      "question": "Pasangkan warna Tanda Kecakapan Umum (TKU) dengan golongannya.",
+      "question": "Pasangkan golongan Pramuka dengan warna dasar Tanda Kecakapan Umum (TKU) yang sesuai.",
       "payload": {
         "pairs": [
           {
-            "left": "Siaga",
+            "left": "Pramuka Siaga",
             "right": "Hijau"
           },
           {
-            "left": "Penggalang",
+            "left": "Pramuka Penggalang",
             "right": "Merah"
           },
           {
-            "left": "Penegak",
+            "left": "Pramuka Penegak",
             "right": "Kuning"
           }
         ],
@@ -234,15 +234,15 @@
       "id": "q_puk_u2_l2_07",
       "level_id": "puk_u2_l2",
       "type": "multiple_choice",
-      "question": "Benda apa yang digunakan untuk mengikat setangan leher?",
+      "question": "Alat yang digunakan untuk mengikat dan mengunci setangan leher (hasduk) agar tetap rapi pada posisinya disebut?",
       "payload": {
         "options": [
-          "Ring Kacu/Hasduk",
-          "Peniti",
-          "Ikat Pinggang",
-          "Tali Kur"
+          "Penjepitan hasduk",
+          "Simpul pramuka",
+          "Ring hasduk atau ring kacu",
+          "Gesper leher"
         ],
-        "correct_answer": "Ring Kacu/Hasduk",
+        "correct_answer": "Ring hasduk atau ring kacu",
         "shuffle": true
       },
       "xp": 3
@@ -251,7 +251,7 @@
       "id": "q_puk_u2_l2_08",
       "level_id": "puk_u2_l2",
       "type": "fill_blank",
-      "question": "Lambang pandu dunia (WOSM) berwarna dasar ____.",
+      "question": "Lambang kepanduan dunia WOSM (World Organization of the Scout Movement) menggunakan warna dasar ____ yang melambangkan persatuan kepanduan sedunia.",
       "payload": {
         "correct_answer": "ungu",
         "case_sensitive": false
@@ -262,15 +262,15 @@
       "id": "q_puk_u2_l3_01",
       "level_id": "puk_u2_l3",
       "type": "multiple_choice",
-      "question": "Letak lambang Tunas Kelapa (Tanda Pelantikan) pada seragam putra berada di?",
+      "question": "Posisi pemasangan lambang Tunas Kelapa (Tanda Pelantikan) pada seragam Pramuka putra sesuai ketentuan berada di?",
       "payload": {
         "options": [
-          "Saku dada kiri",
-          "Saku dada kanan",
-          "Lengan kiri",
-          "Kerah baju"
+          "Saku dada sebelah kanan atas",
+          "Saku dada sebelah kiri atas",
+          "Lengan kanan bagian atas",
+          "Kerah baju sebelah kanan"
         ],
-        "correct_answer": "Saku dada kiri",
+        "correct_answer": "Saku dada sebelah kiri atas",
         "shuffle": true
       },
       "xp": 4
@@ -279,7 +279,7 @@
       "id": "q_puk_u2_l3_02",
       "level_id": "puk_u2_l3",
       "type": "fill_blank",
-      "question": "Tanda pengenal yang menunjukkan tingkat golongan Pramuka (Siaga/Penggalang/Penegak) disebut tanda ____.",
+      "question": "Tanda yang menunjukkan tingkat pencapaian dan golongan dalam Gerakan Pramuka (Siaga/Penggalang/Penegak/Pandega) disebut Tanda Kecakapan ____.",
       "payload": {
         "correct_answer": "umum",
         "case_sensitive": false
@@ -290,15 +290,15 @@
       "id": "q_puk_u2_l3_03",
       "level_id": "puk_u2_l3",
       "type": "multiple_choice",
-      "question": "Tanda barung, regu, atau sangga termasuk dalam kelompok tanda?",
+      "question": "Tanda identitas kesatuan seperti tanda barung (Siaga), tanda regu (Penggalang), atau tanda sangga (Penegak) termasuk dalam kategori?",
       "payload": {
         "options": [
-          "Tanda satuan",
-          "Tanda umum",
-          "Tanda kehormatan",
-          "Tanda jabatan"
+          "Tanda jabatan struktural",
+          "Tanda kecakapan khusus",
+          "Tanda satuan (gugus depan)",
+          "Tanda penghargaan"
         ],
-        "correct_answer": "Tanda satuan",
+        "correct_answer": "Tanda satuan (gugus depan)",
         "shuffle": true
       },
       "xp": 5
@@ -307,7 +307,7 @@
       "id": "q_puk_u2_l3_04",
       "level_id": "puk_u2_l3",
       "type": "word_bank",
-      "question": "Susun istilah berikut menjadi jenis tanda dalam Pramuka.",
+      "question": "Susun istilah berikut untuk membentuk nama lengkap jenis tanda kemampuan spesifik dalam Pramuka.",
       "payload": {
         "words": [
           "Tanda",
@@ -326,15 +326,15 @@
       "id": "q_puk_u2_l3_05",
       "level_id": "puk_u2_l3",
       "type": "multiple_choice",
-      "question": "Fungsi utama tanda jabatan pada seragam Pramuka adalah?",
+      "question": "Fungsi utama dari tanda jabatan yang dikenakan pada seragam Pramuka adalah untuk menunjukkan?",
       "payload": {
         "options": [
-          "Menunjukkan peran kepemimpinan",
-          "Menunjukkan usia",
-          "Menunjukkan asal sekolah",
-          "Menunjukkan hobi"
+          "Tingkat keterampilan teknis yang dimiliki",
+          "Posisi kepemimpinan dan tanggung jawab organisasi",
+          "Masa pengabdian dalam Gerakan Pramuka",
+          "Asal gugus depan dan wilayah kwartir"
         ],
-        "correct_answer": "Menunjukkan peran kepemimpinan",
+        "correct_answer": "Posisi kepemimpinan dan tanggung jawab organisasi",
         "shuffle": true
       },
       "xp": 5
@@ -343,20 +343,20 @@
       "id": "q_puk_u2_l3_06",
       "level_id": "puk_u2_l3",
       "type": "matching",
-      "question": "Pasangkan letak atribut berikut dengan posisinya.",
+      "question": "Pasangkan jenis atribut dengan lokasi pemasangan yang benar pada seragam Pramuka.",
       "payload": {
         "pairs": [
           {
-            "left": "Papan Nama",
-            "right": "Dada Kanan"
+            "left": "Papan Nama (Nama Anggota)",
+            "right": "Saku Dada Kanan"
           },
           {
-            "left": "Lencana Wilayah/Badge Daerah",
-            "right": "Lengan Kanan"
+            "left": "Lencana Wilayah/Badge Kwartir Daerah",
+            "right": "Lengan Kanan Atas"
           },
           {
             "left": "Tanda Regu/Sangga",
-            "right": "Lengan Kiri"
+            "right": "Lengan Kiri Atas"
           }
         ],
         "shuffle": true
@@ -367,15 +367,15 @@
       "id": "q_puk_u2_l3_07",
       "level_id": "puk_u2_l3",
       "type": "multiple_choice",
-      "question": "Tanda Kecakapan Khusus (TKK) dipasang di bagian mana?",
+      "question": "Lokasi pemasangan Tanda Kecakapan Khusus (TKK) pada seragam Pramuka yang sesuai dengan ketentuan adalah di?",
       "payload": {
         "options": [
-          "Lengan kanan",
-          "Lengan kiri",
-          "Dada kiri",
-          "Punggung"
+          "Lengan kiri bagian bawah",
+          "Lengan kanan bagian bawah",
+          "Saku dada kanan",
+          "Punggung bagian atas"
         ],
-        "correct_answer": "Lengan kanan",
+        "correct_answer": "Lengan kanan bagian bawah",
         "shuffle": true
       },
       "xp": 5
@@ -384,7 +384,7 @@
       "id": "q_puk_u2_l3_08",
       "level_id": "puk_u2_l3",
       "type": "fill_blank",
-      "question": "Jika TKK yang dimiliki lebih dari 5, maka sisanya dipasang di ____.",
+      "question": "Apabila jumlah TKK yang dimiliki anggota Pramuka melebihi kapasitas lengan (lebih dari 5 buah), maka TKK tambahan dipasang pada kain khusus yang disebut ____.",
       "payload": {
         "correct_answer": "tetampan",
         "case_sensitive": false
@@ -395,15 +395,15 @@
       "id": "q_puk_u2_l4_01",
       "level_id": "puk_u2_l4",
       "type": "multiple_choice",
-      "question": "Makna filosofis bentuk kelapa yang 'tumbuh di mana saja' melambangkan?",
+      "question": "Filosofi dari pohon kelapa yang 'mampu tumbuh dan berkembang di berbagai kondisi tanah dan iklim' melambangkan karakter Pramuka yang?",
       "payload": {
         "options": [
-          "Pramuka dapat beradaptasi dalam kondisi apapun",
-          "Pramuka memiliki fisik yang kuat",
-          "Pramuka suka menanam pohon",
-          "Pramuka senang bepergian"
+          "Memiliki kemampuan fisik yang prima",
+          "Mampu beradaptasi dan bertahan dalam segala kondisi",
+          "Senang melakukan petualangan ke berbagai tempat",
+          "Ahli dalam bidang pertanian dan perkebunan"
         ],
-        "correct_answer": "Pramuka dapat beradaptasi dalam kondisi apapun",
+        "correct_answer": "Mampu beradaptasi dan bertahan dalam segala kondisi",
         "shuffle": true
       },
       "xp": 5
@@ -412,9 +412,9 @@
       "id": "q_puk_u2_l4_02",
       "level_id": "puk_u2_l4",
       "type": "fill_blank",
-      "question": "Akar kelapa yang kuat melambangkan tekad dan ____ yang kuat.",
+      "question": "Akar pohon kelapa yang tumbuh kuat dan dalam melambangkan tekad, keyakinan, dan ____ yang kokoh pada diri Pramuka.",
       "payload": {
-        "correct_answer": "keyakinan",
+        "correct_answer": "pendirian",
         "case_sensitive": false
       },
       "xp": 5
@@ -423,15 +423,15 @@
       "id": "q_puk_u2_l4_03",
       "level_id": "puk_u2_l4",
       "type": "multiple_choice",
-      "question": "Tanda kehormatan diberikan kepada Pramuka yang?",
+      "question": "Tanda kehormatan dalam Gerakan Pramuka diberikan kepada anggota Pramuka atau Pembina yang telah?",
       "payload": {
         "options": [
-          "Memiliki jasa dan pengabdian luar biasa",
-          "Baru masuk Pramuka",
-          "Rajin hadir latihan",
-          "Sering mengikuti lomba"
+          "Lulus ujian kecakapan tingkat lanjut",
+          "Aktif mengikuti latihan rutin selama setahun",
+          "Memiliki jasa luar biasa dan pengabdian panjang",
+          "Menjuarai perlombaan tingkat nasional"
         ],
-        "correct_answer": "Memiliki jasa dan pengabdian luar biasa",
+        "correct_answer": "Memiliki jasa luar biasa dan pengabdian panjang",
         "shuffle": true
       },
       "xp": 6
@@ -440,20 +440,20 @@
       "id": "q_puk_u2_l4_04",
       "level_id": "puk_u2_l4",
       "type": "matching",
-      "question": "Cocokkan jenis tanda dengan fungsinya.",
+      "question": "Pasangkan kategori tanda pada seragam dengan tujuan atau makna utamanya.",
       "payload": {
         "pairs": [
           {
             "left": "Tanda Jabatan",
-            "right": "Kedudukan"
+            "right": "Menunjukkan posisi kepemimpinan"
           },
           {
             "left": "Tanda Kecakapan",
-            "right": "Kemampuan"
+            "right": "Menunjukkan kemampuan dan keterampilan"
           },
           {
             "left": "Tanda Kehormatan",
-            "right": "Penghargaan Jasa"
+            "right": "Penghargaan atas jasa dan dedikasi"
           }
         ],
         "shuffle": true
@@ -464,15 +464,15 @@
       "id": "q_puk_u2_l4_05",
       "level_id": "puk_u2_l4",
       "type": "multiple_choice",
-      "question": "Penempatan tanda golongan pada seragam harus sesuai dengan?",
+      "question": "Ketentuan standar penempatan dan pemasangan tanda golongan pada seragam Pramuka harus mengacu pada?",
       "payload": {
         "options": [
-          "Petunjuk penyelenggaraan (Jukran) seragam",
-          "Keinginan pribadi",
-          "Kebiasaan sekolah",
-          "Arahan teman"
+          "Kebiasaan lokal di masing-masing gugus depan",
+          "Petunjuk Penyelenggaraan (Jukran) Pakaian Seragam Pramuka",
+          "Kebijakan pembina masing-masing regu",
+          "Kesepakatan antar anggota dalam pertemuan"
         ],
-        "correct_answer": "Petunjuk penyelenggaraan (Jukran) seragam",
+        "correct_answer": "Petunjuk Penyelenggaraan (Jukran) Pakaian Seragam Pramuka",
         "shuffle": true
       },
       "xp": 6
@@ -481,15 +481,15 @@
       "id": "q_puk_u2_l4_06",
       "level_id": "puk_u2_l4",
       "type": "multiple_choice",
-      "question": "Bentuk TKK untuk Pramuka golongan Penegak adalah?",
+      "question": "Bentuk geometris TKK (Tanda Kecakapan Khusus) untuk anggota Pramuka golongan Penegak adalah?",
       "payload": {
         "options": [
-          "Persegi dengan bingkai kuning",
-          "Segitiga terbalik",
-          "Lingkaran",
-          "Persegi panjang"
+          "Segitiga sama sisi dengan bingkai merah",
+          "Persegi dengan bingkai kuning keemasan",
+          "Lingkaran dengan bingkai biru",
+          "Segi lima dengan bingkai hijau"
         ],
-        "correct_answer": "Persegi dengan bingkai kuning",
+        "correct_answer": "Persegi dengan bingkai kuning keemasan",
         "shuffle": true
       },
       "xp": 6
@@ -498,9 +498,9 @@
       "id": "q_puk_u2_l4_07",
       "level_id": "puk_u2_l4",
       "type": "fill_blank",
-      "question": "Warna dasar kuning pada TKK menunjukkan bidang ____.",
+      "question": "Warna dasar kuning pada TKK (Tanda Kecakapan Khusus) melambangkan keterampilan di bidang ____ dan spiritual.",
       "payload": {
-        "correct_answer": "agama",
+        "correct_answer": "mental",
         "case_sensitive": false
       },
       "xp": 6
@@ -509,15 +509,15 @@
       "id": "q_puk_u2_l4_08",
       "level_id": "puk_u2_l4",
       "type": "multiple_choice",
-      "question": "Arti kiasan Nyiur tumbuh menjulang lurus ke atas adalah?",
+      "question": "Makna kiasan dari batang pohon nyiur (kelapa) yang tumbuh menjulang lurus ke atas adalah?",
       "payload": {
         "options": [
-          "Cita-cita yang tinggi dan lurus",
-          "Fisik yang jangkung",
-          "Kesombongan",
-          "Hidup menyendiri"
+          "Kebanggaan diri dan arogansi",
+          "Pertumbuhan fisik yang optimal",
+          "Cita-cita yang tinggi dan jalan hidup yang lurus",
+          "Keinginan untuk meninggalkan kampung halaman"
         ],
-        "correct_answer": "Cita-cita yang tinggi dan lurus",
+        "correct_answer": "Cita-cita yang tinggi dan jalan hidup yang lurus",
         "shuffle": true
       },
       "xp": 5
@@ -526,15 +526,15 @@
       "id": "q_puk_u2_l5_01",
       "level_id": "puk_u2_l5",
       "type": "multiple_choice",
-      "question": "Makna keseluruhan lambang Tunas Kelapa mencerminkan pribadi Pramuka yang?",
+      "question": "Makna filosofis menyeluruh dari lambang Tunas Kelapa mencerminkan harapan terbentuknya pribadi Pramuka yang?",
       "payload": {
         "options": [
-          "Tangguh, mandiri, dan bermanfaat",
-          "Kuat secara fisik saja",
-          "Pandai dalam teori",
-          "Unggul dalam lomba"
+          "Cerdas dalam bidang akademik dan teknologi",
+          "Tangguh, mandiri, berakar kuat, dan bermanfaat bagi bangsa",
+          "Mahir dalam seni bela diri dan olahraga",
+          "Sukses dalam karir dan kehidupan material"
         ],
-        "correct_answer": "Tangguh, mandiri, dan bermanfaat",
+        "correct_answer": "Tangguh, mandiri, berakar kuat, dan bermanfaat bagi bangsa",
         "shuffle": true
       },
       "xp": 7
@@ -543,9 +543,9 @@
       "id": "q_puk_u2_l5_02",
       "level_id": "puk_u2_l5",
       "type": "fill_blank",
-      "question": "Tanda kecakapan umum untuk golongan Penegak disebut ____.",
+      "question": "Singkatan dari Tanda Kecakapan Umum yang menunjukkan tingkat pencapaian dasar setiap golongan Pramuka adalah ____.",
       "payload": {
-        "correct_answer": "TKU",
+        "correct_answer": "tku",
         "case_sensitive": false
       },
       "xp": 7
@@ -554,15 +554,15 @@
       "id": "q_puk_u2_l5_03",
       "level_id": "puk_u2_l5",
       "type": "multiple_choice",
-      "question": "Perbedaan utama antara tanda kecakapan dan tanda kehormatan adalah?",
+      "question": "Perbedaan fundamental antara Tanda Kecakapan dan Tanda Kehormatan dalam sistem penghargaan Pramuka adalah?",
       "payload": {
         "options": [
-          "Kecakapan menunjukkan kemampuan, kehormatan menunjukkan jasa",
-          "Kecakapan untuk pembina, kehormatan untuk peserta",
-          "Kecakapan wajib, kehormatan dilarang",
-          "Tidak ada perbedaan"
+          "Kecakapan untuk anggota muda, kehormatan untuk pembina dewasa",
+          "Kecakapan menunjukkan kemampuan yang dikuasai, kehormatan menunjukkan jasa dan pengabdian",
+          "Kecakapan bersifat wajib, kehormatan bersifat terlarang",
+          "Kecakapan dipasang di lengan, kehormatan di dada"
         ],
-        "correct_answer": "Kecakapan menunjukkan kemampuan, kehormatan menunjukkan jasa",
+        "correct_answer": "Kecakapan menunjukkan kemampuan yang dikuasai, kehormatan menunjukkan jasa dan pengabdian",
         "shuffle": true
       },
       "xp": 8
@@ -571,15 +571,15 @@
       "id": "q_puk_u2_l5_04",
       "level_id": "puk_u2_l5",
       "type": "multiple_choice",
-      "question": "Kesalahan penempatan atribut pada seragam dapat berdampak pada?",
+      "question": "Dampak negatif dari kesalahan penempatan atribut pada seragam Pramuka terhadap pembentukan karakter adalah?",
       "payload": {
         "options": [
-          "Hilangnya makna pendidikan dan disiplin",
-          "Nilai akademik",
-          "Kehadiran sekolah",
-          "Prestasi olahraga"
+          "Menurunnya prestasi akademik di sekolah",
+          "Hilangnya esensi nilai kedisiplinan dan makna pendidikan kepramukaan",
+          "Berkurangnya jumlah teman dalam pergaulan",
+          "Menurunnya kemampuan fisik dalam kegiatan outdoor"
         ],
-        "correct_answer": "Hilangnya makna pendidikan dan disiplin",
+        "correct_answer": "Hilangnya esensi nilai kedisiplinan dan makna pendidikan kepramukaan",
         "shuffle": true
       },
       "xp": 8
@@ -588,15 +588,15 @@
       "id": "q_puk_u2_l5_05",
       "level_id": "puk_u2_l5",
       "type": "multiple_choice",
-      "question": "Tujuan utama penggunaan atribut Pramuka secara lengkap dan benar adalah?",
+      "question": "Tujuan filosofis utama dari penggunaan atribut Pramuka secara lengkap, benar, dan tertib adalah untuk?",
       "payload": {
         "options": [
-          "Membentuk identitas, disiplin, dan kebanggaan",
-          "Agar terlihat seragam saja",
-          "Agar mudah dikenali guru",
-          "Agar mengikuti tren"
+          "Memudahkan identifikasi oleh guru dan orang tua",
+          "Membentuk identitas diri, kedisiplinan, kebanggaan, dan karakter Pramuka",
+          "Mengikuti tren mode kepramukaan terkini",
+          "Memenuhi persyaratan administratif organisasi"
         ],
-        "correct_answer": "Membentuk identitas, disiplin, dan kebanggaan",
+        "correct_answer": "Membentuk identitas diri, kedisiplinan, kebanggaan, dan karakter Pramuka",
         "shuffle": true
       },
       "xp": 8
@@ -605,20 +605,20 @@
       "id": "q_puk_u2_l5_06",
       "level_id": "puk_u2_l5",
       "type": "matching",
-      "question": "Pasangkan tingkatan Pramuka Garuda dengan warna dasar Tanda Pramuka Garuda.",
+      "question": "Pasangkan tingkatan tertinggi dalam setiap golongan Pramuka (Pramuka Garuda) dengan warna dasar tanda kehormatan yang sesuai.",
       "payload": {
         "pairs": [
           {
-            "left": "Siaga Garuda",
-            "right": "Hijau"
+            "left": "Pramuka Siaga Garuda",
+            "right": "Dasar Hijau"
           },
           {
-            "left": "Penggalang Garuda",
-            "right": "Merah"
+            "left": "Pramuka Penggalang Garuda",
+            "right": "Dasar Merah"
           },
           {
-            "left": "Penegak Garuda",
-            "right": "Kuning"
+            "left": "Pramuka Penegak Garuda",
+            "right": "Dasar Kuning"
           }
         ],
         "shuffle": true
@@ -629,13 +629,13 @@
       "id": "q_puk_u2_l5_07",
       "level_id": "puk_u2_l5",
       "type": "multiple_choice",
-      "question": "Tanda penghargaan yang diberikan kepada anggota muda yang telah mencapai kecakapan tertinggi adalah?",
+      "question": "Tanda penghargaan prestasi tertinggi yang dapat diraih oleh anggota Pramuka pada setiap golongan (Siaga/Penggalang/Penegak) adalah?",
       "payload": {
         "options": [
+          "Lencana Melati atau Tunas Kencana",
+          "Tanda Kecakapan Umum Tingkat III",
           "Pramuka Garuda",
-          "Bintang Tahunan",
-          "Lencana Wiratama",
-          "Lencana Teladan"
+          "Lencana Wiratama"
         ],
         "correct_answer": "Pramuka Garuda",
         "shuffle": true
@@ -646,7 +646,7 @@
       "id": "q_puk_u2_l5_08",
       "level_id": "puk_u2_l5",
       "type": "word_bank",
-      "question": "Susun semboyan Gerakan Pramuka.",
+      "question": "Susun dengan benar semboyan resmi Gerakan Pramuka Indonesia yang menjadi pedoman pengamalan janji.",
       "payload": {
         "words": [
           "Satyaku",

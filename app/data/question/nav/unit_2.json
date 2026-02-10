@@ -1,4 +1,690 @@
 {
-  "unit_id": "nav_unit_2",
-  "questions": []
+  "unit_id": "nav_u2",
+  "questions": [
+    {
+      "id": "q_nav_u2_l1_01",
+      "level_id": "nav_u2_l1",
+      "type": "multiple_choice",
+      "question": "Peta yang menyajikan gambaran permukaan bumi secara detail dengan menonjolkan relief (ketinggian) disebut peta?",
+      "payload": {
+        "options": [
+          "Peta Topografi",
+          "Peta Korografi",
+          "Peta Tematik",
+          "Peta Dunia"
+        ],
+        "correct_answer": "Peta Topografi",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u2_l1_02",
+      "level_id": "nav_u2_l1",
+      "type": "fill_blank",
+      "question": "Tahun pembuatan peta sangat penting untuk mengetahui tingkat ____ (up-to-date) data pada peta tersebut.",
+      "payload": {
+        "correct_answer": "kemutakhiran",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u2_l1_03",
+      "level_id": "nav_u2_l1",
+      "type": "multiple_choice",
+      "question": "Instansi resmi di Indonesia yang bertanggung jawab menerbitkan Peta Rupa Bumi Indonesia (RBI) adalah?",
+      "payload": {
+        "options": [
+          "BIG (Badan Informasi Geospasial)",
+          "BPN (Badan Pertanahan Nasional)",
+          "BPS (Badan Pusat Statistik)",
+          "BMKG"
+        ],
+        "correct_answer": "BIG (Badan Informasi Geospasial)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u2_l1_04",
+      "level_id": "nav_u2_l1",
+      "type": "word_bank",
+      "question": "Susun komponen kelengkapan peta yang umum ditemukan di pinggir peta (Marginal Information).",
+      "payload": {
+        "words": [
+          "Judul",
+          "Legenda",
+          "Skala",
+          "Insert",
+          "Sumber"
+        ],
+        "correct_order": [
+          "Judul",
+          "Legenda",
+          "Skala",
+          "Insert",
+          "Sumber"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u2_l1_05",
+      "level_id": "nav_u2_l1",
+      "type": "multiple_choice",
+      "question": "Diagram yang menunjukkan selisih sudut antara Utara Sebenarnya, Utara Peta, dan Utara Magnetis disebut?",
+      "payload": {
+        "options": [
+          "Diagram Deklinasi",
+          "Diagram Inklinasi",
+          "Legenda",
+          "Skala Garis"
+        ],
+        "correct_answer": "Diagram Deklinasi",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u2_l1_06",
+      "level_id": "nav_u2_l1",
+      "type": "fill_blank",
+      "question": "Kolom pada peta yang berisi keterangan simbol-simbol agar peta mudah dibaca disebut ____.",
+      "payload": {
+        "correct_answer": "legenda",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u2_l1_07",
+      "level_id": "nav_u2_l1",
+      "type": "matching",
+      "question": "Pasangkan jenis peta dengan skala umumnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Peta Kadaster",
+            "right": "1:100 - 1:5.000"
+          },
+          {
+            "left": "Peta RBI (Besar)",
+            "right": "1:25.000 - 1:50.000"
+          },
+          {
+            "left": "Peta Geografis",
+            "right": "Lebih dari 1:1.000.000"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u2_l1_08",
+      "level_id": "nav_u2_l1",
+      "type": "multiple_choice",
+      "question": "Arah utara yang sejajar dengan garis tegak (meridian) pada peta disebut?",
+      "payload": {
+        "options": [
+          "Utara Peta (Grid North)",
+          "Utara Sebenarnya (True North)",
+          "Utara Magnetis (Magnetic North)",
+          "Utara Semu"
+        ],
+        "correct_answer": "Utara Peta (Grid North)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u2_l2_01",
+      "level_id": "nav_u2_l2",
+      "type": "multiple_choice",
+      "question": "Warna biru pada peta topografi standar digunakan untuk melambangkan unsur?",
+      "payload": {
+        "options": [
+          "Hidrografi (Perairan/Air)",
+          "Vegetasi (Hutan)",
+          "Relief (Ketinggian)",
+          "Budaya (Bangunan)"
+        ],
+        "correct_answer": "Hidrografi (Perairan/Air)",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u2_l2_02",
+      "level_id": "nav_u2_l2",
+      "type": "fill_blank",
+      "question": "Warna merah pada peta topografi (RBI) biasanya digunakan untuk menunjukkan jalan raya atau batas ____.",
+      "payload": {
+        "correct_answer": "administrasi",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u2_l2_03",
+      "level_id": "nav_u2_l2",
+      "type": "multiple_choice",
+      "question": "Simbol garis kontur yang menunjukkan ketinggian daratan digambarkan dengan warna?",
+      "payload": {
+        "options": [
+          "Cokelat",
+          "Hitam",
+          "Hijau",
+          "Biru"
+        ],
+        "correct_answer": "Cokelat",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u2_l2_04",
+      "level_id": "nav_u2_l2",
+      "type": "word_bank",
+      "question": "Susunlah hirarki warna pada peta dari yang mewakili ketinggian rendah ke tinggi (vegetasi ke relief).",
+      "payload": {
+        "words": [
+          "Hijau",
+          "Kuning",
+          "Cokelat",
+          "Putih"
+        ],
+        "correct_order": [
+          "Hijau",
+          "Kuning",
+          "Cokelat",
+          "Putih"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u2_l2_05",
+      "level_id": "nav_u2_l2",
+      "type": "multiple_choice",
+      "question": "Simbol berupa titik (dot) pada peta biasanya digunakan untuk merepresentasikan?",
+      "payload": {
+        "options": [
+          "Lokasi spesifik (Kota, Gunung, Bangunan)",
+          "Aliran sungai",
+          "Hutan rimba",
+          "Batas wilayah"
+        ],
+        "correct_answer": "Lokasi spesifik (Kota, Gunung, Bangunan)",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u2_l2_06",
+      "level_id": "nav_u2_l2",
+      "type": "fill_blank",
+      "question": "Unsur buatan manusia seperti rel kereta api atau gedung pada peta topografi digambarkan dengan warna ____.",
+      "payload": {
+        "correct_answer": "hitam",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u2_l2_07",
+      "level_id": "nav_u2_l2",
+      "type": "matching",
+      "question": "Pasangkan simbol dengan artinya pada peta RBI.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Segitiga Biru",
+            "right": "Gunung Tidak Aktif"
+          },
+          {
+            "left": "Segitiga Merah",
+            "right": "Gunung Aktif"
+          },
+          {
+            "left": "Garis Putus-putus",
+            "right": "Jalan Setapak"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u2_l2_08",
+      "level_id": "nav_u2_l2",
+      "type": "multiple_choice",
+      "question": "Simbol area (poligon) pada peta biasanya digunakan untuk menggambarkan?",
+      "payload": {
+        "options": [
+          "Sawah, Danau, atau Pemukiman",
+          "Jalan setapak",
+          "Puncak gunung",
+          "Tiang listrik"
+        ],
+        "correct_answer": "Sawah, Danau, atau Pemukiman",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u2_l3_01",
+      "level_id": "nav_u2_l3",
+      "type": "multiple_choice",
+      "question": "Jika skala peta tertulis 1:50.000, maka arti dari skala tersebut adalah?",
+      "payload": {
+        "options": [
+          "1 cm di peta mewakili 50.000 cm (500 meter) di lapangan",
+          "1 cm di peta mewakili 50.000 meter di lapangan",
+          "1 meter di peta mewakili 50 km di lapangan",
+          "1 cm di peta mewakili 5 km di lapangan"
+        ],
+        "correct_answer": "1 cm di peta mewakili 50.000 cm (500 meter) di lapangan",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u2_l3_02",
+      "level_id": "nav_u2_l3",
+      "type": "fill_blank",
+      "question": "Pada peta skala 1:25.000, jika jarak antara titik A ke B adalah 4 cm, maka jarak sebenarnya di lapangan adalah ____ km.",
+      "payload": {
+        "correct_answer": "1",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u2_l3_03",
+      "level_id": "nav_u2_l3",
+      "type": "multiple_choice",
+      "question": "Manakah pernyataan yang benar mengenai perbandingan skala peta?",
+      "payload": {
+        "options": [
+          "Skala 1:10.000 lebih besar daripada 1:50.000",
+          "Skala 1:100.000 lebih detail daripada 1:25.000",
+          "Skala besar digunakan untuk peta dunia",
+          "Skala kecil menunjukkan daerah yang sempit"
+        ],
+        "correct_answer": "Skala 1:10.000 lebih besar daripada 1:50.000",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u2_l3_04",
+      "level_id": "nav_u2_l3",
+      "type": "word_bank",
+      "question": "Susunlah rumus mencari Jarak Sebenarnya (JS) jika diketahui Jarak Peta (JP) dan Skala (S).",
+      "payload": {
+        "words": [
+          "JS",
+          "=",
+          "JP",
+          "x",
+          "Penyebut Skala"
+        ],
+        "correct_order": [
+          "JS",
+          "=",
+          "JP",
+          "x",
+          "Penyebut Skala"
+        ]
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u2_l3_05",
+      "level_id": "nav_u2_l3",
+      "type": "multiple_choice",
+      "question": "Skala yang digambarkan dalam bentuk batang garis dengan pembagian jarak tertentu disebut?",
+      "payload": {
+        "options": [
+          "Skala Grafis (Garis)",
+          "Skala Numerik (Angka)",
+          "Skala Verbal",
+          "Skala Koordinat"
+        ],
+        "correct_answer": "Skala Grafis (Garis)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u2_l3_06",
+      "level_id": "nav_u2_l3",
+      "type": "fill_blank",
+      "question": "Untuk menghitung jarak di lapangan yang berkelok (seperti sungai), penolong navigasi biasanya menggunakan bantuan benang atau alat bernama ____.",
+      "payload": {
+        "correct_answer": "kurvimeter",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u2_l3_07",
+      "level_id": "nav_u2_l3",
+      "type": "matching",
+      "question": "Pasangkan jarak peta (skala 1:50.000) dengan jarak sebenarnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "2 cm",
+            "right": "1 km"
+          },
+          {
+            "left": "10 cm",
+            "right": "5 km"
+          },
+          {
+            "left": "5 cm",
+            "right": "2,5 km"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u2_l3_08",
+      "level_id": "nav_u2_l3",
+      "type": "multiple_choice",
+      "question": "Mengapa jarak yang diukur di peta seringkali lebih pendek daripada jarak tempuh asli saat mendaki gunung?",
+      "payload": {
+        "options": [
+          "Peta mengukur jarak horizontal, tidak menghitung elevasi/kemiringan medan",
+          "Skala peta salah cetak",
+          "Peta topografi tidak akurat",
+          "Jarak peta selalu dikali dua"
+        ],
+        "correct_answer": "Peta mengukur jarak horizontal, tidak menghitung elevasi/kemiringan medan",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u2_l4_01",
+      "level_id": "nav_u2_l4",
+      "type": "multiple_choice",
+      "question": "Selisih ketinggian antara dua garis kontur yang berurutan pada peta topografi disebut?",
+      "payload": {
+        "options": [
+          "Contour Interval (CI)",
+          "Garis Indeks",
+          "Elevasi",
+          "Titik Triangulasi"
+        ],
+        "correct_answer": "Contour Interval (CI)",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u2_l4_02",
+      "level_id": "nav_u2_l4",
+      "type": "fill_blank",
+      "question": "Jika garis-garis kontur pada peta terlihat sangat rapat dan berdekatan, hal ini menandakan medan tersebut bersifat ____.",
+      "payload": {
+        "correct_answer": "terjal",
+        "case_sensitive": false
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u2_l4_03",
+      "level_id": "nav_u2_l4",
+      "type": "multiple_choice",
+      "question": "Bentuk garis kontur yang menyerupai huruf 'V' dengan ujung runcing menunjuk ke arah ketinggian yang lebih tinggi menandakan adanya?",
+      "payload": {
+        "options": [
+          "Lembah / Aliran Sungai",
+          "Punggungan Gunung",
+          "Puncak (Peak)",
+          "Cekungan (Depresi)"
+        ],
+        "correct_answer": "Lembah / Aliran Sungai",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u2_l4_04",
+      "level_id": "nav_u2_l4",
+      "type": "word_bank",
+      "question": "Susun langkah menghitung CI (Contour Interval) jika diketahui skala peta.",
+      "payload": {
+        "words": [
+          "CI",
+          "=",
+          "1",
+          "/",
+          "2000",
+          "x",
+          "Penyebut Skala"
+        ],
+        "correct_order": [
+          "CI",
+          "=",
+          "1",
+          "/",
+          "2000",
+          "x",
+          "Penyebut Skala"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u2_l4_05",
+      "level_id": "nav_u2_l4",
+      "type": "multiple_choice",
+      "question": "Garis kontur yang lebih tebal dan biasanya disertai angka ketinggian (misal setiap kelipatan 5 atau 10 garis) disebut?",
+      "payload": {
+        "options": [
+          "Garis Kontur Indeks",
+          "Garis Kontur Bantu",
+          "Garis Horizontal",
+          "Garis Meridian"
+        ],
+        "correct_answer": "Garis Kontur Indeks",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u2_l4_06",
+      "level_id": "nav_u2_l4",
+      "type": "fill_blank",
+      "question": "Daerah yang berada di antara dua puncak gunung yang berupa cekungan landai disebut ____.",
+      "payload": {
+        "correct_answer": "saddle",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u2_l4_07",
+      "level_id": "nav_u2_l4",
+      "type": "matching",
+      "question": "Pasangkan bentang alam dengan bentuk konturnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Bukit",
+            "right": "Lingkaran Tertutup"
+          },
+          {
+            "left": "Sungai",
+            "right": "V menunjuk ke Hulu"
+          },
+          {
+            "left": "Punggungan",
+            "right": "U/V menunjuk ke arah Rendah"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u2_l4_08",
+      "level_id": "nav_u2_l4",
+      "type": "multiple_choice",
+      "question": "Jika peta skala 1:50.000, berapakah Contour Interval (CI) peta tersebut?",
+      "payload": {
+        "options": [
+          "25 meter",
+          "50 meter",
+          "12,5 meter",
+          "10 meter"
+        ],
+        "correct_answer": "25 meter",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u2_l5_01",
+      "level_id": "nav_u2_l5",
+      "type": "multiple_choice",
+      "question": "Sistem koordinat yang membagi bumi menjadi kotak-kotak berukuran 6 derajat (bujur) dan 8 derajat (lintang) disebut sistem?",
+      "payload": {
+        "options": [
+          "UTM (Universal Transverse Mercator)",
+          "Geografis (Lintang/Bujur)",
+          "MGRS",
+          "Cartesian"
+        ],
+        "correct_answer": "UTM (Universal Transverse Mercator)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u2_l5_02",
+      "level_id": "nav_u2_l5",
+      "type": "fill_blank",
+      "question": "Garis khayal yang sejajar dengan garis khatulistiwa dan digunakan untuk mengukur posisi Utara-Selatan disebut garis ____.",
+      "payload": {
+        "correct_answer": "lintang",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u2_l5_03",
+      "level_id": "nav_u2_l5",
+      "type": "multiple_choice",
+      "question": "Pembacaan Grid Reference (Koordinat Grid) pada peta topografi yang benar adalah?",
+      "payload": {
+        "options": [
+          "Sumbu X (Kanan) lalu Sumbu Y (Atas)",
+          "Sumbu Y (Atas) lalu Sumbu X (Kanan)",
+          "Tergantung arah mata angin",
+          "Dari angka yang terkecil"
+        ],
+        "correct_answer": "Sumbu X (Kanan) lalu Sumbu Y (Atas)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u2_l5_04",
+      "level_id": "nav_u2_l5",
+      "type": "word_bank",
+      "question": "Susun komponen penulisan koordinat Geografis yang lengkap.",
+      "payload": {
+        "words": [
+          "Derajat",
+          "Menit",
+          "Detik",
+          "Arah (LS/LU/BT)"
+        ],
+        "correct_order": [
+          "Derajat",
+          "Menit",
+          "Detik",
+          "Arah (LS/LU/BT)"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u2_l5_05",
+      "level_id": "nav_u2_l5",
+      "type": "multiple_choice",
+      "question": "Berapakah nilai 1 derajat dalam satuan menit (navigasi)?",
+      "payload": {
+        "options": [
+          "60 menit",
+          "100 menit",
+          "10 menit",
+          "360 menit"
+        ],
+        "correct_answer": "60 menit",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u2_l5_06",
+      "level_id": "nav_u2_l5",
+      "type": "fill_blank",
+      "question": "Alat bantu transparan yang digunakan untuk memplot koordinat atau mengukur sudut pada peta disebut ____.",
+      "payload": {
+        "correct_answer": "protractor",
+        "case_sensitive": false
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u2_l5_07",
+      "level_id": "nav_u2_l5",
+      "type": "matching",
+      "question": "Pasangkan satuan koordinat dengan pecahannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "1 Derajat",
+            "right": "60 Menit"
+          },
+          {
+            "left": "1 Menit",
+            "right": "60 Detik"
+          },
+          {
+            "left": "360 Derajat",
+            "right": "Satu Lingkaran Penuh"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u2_l5_08",
+      "level_id": "nav_u2_l5",
+      "type": "multiple_choice",
+      "question": "Jika Anda melakukan plotting koordinat 8 angka (8-figure grid), tingkat akurasi posisi Anda di lapangan adalah sekitar?",
+      "payload": {
+        "options": [
+          "10 meter",
+          "100 meter",
+          "1 kilometer",
+          "1 meter"
+        ],
+        "correct_answer": "10 meter",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

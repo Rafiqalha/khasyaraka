@@ -1,0 +1,672 @@
+{
+    "unit_id": "ppgd_u2",
+    "questions": [
+        {
+            "id": "q_ppgd_u2_l1_01",
+            "level_id": "ppgd_u2_l1",
+            "type": "multiple_choice",
+            "question": "Luka yang disebabkan oleh gesekan permukaan kulit dengan benda kasar sehingga hanya lapisan atas kulit yang terkelupas disebut?",
+            "payload": {
+                "options": [
+                    "Luka Lecet (Abrasi)",
+                    "Luka Sayat (Insisus)",
+                    "Luka Tusuk (Punktur)",
+                    "Luka Robek (Laserasi)"
+                ],
+                "correct_answer": "Luka Lecet (Abrasi)",
+                "shuffle": true
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u2_l1_02",
+            "level_id": "ppgd_u2_l1",
+            "type": "fill_blank",
+            "question": "Luka yang memiliki tepi rata dan biasanya disebabkan oleh benda tajam seperti pisau atau silet disebut luka ____.",
+            "payload": {
+                "correct_answer": "sayat",
+                "case_sensitive": false
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u2_l1_03",
+            "level_id": "ppgd_u2_l1",
+            "type": "multiple_choice",
+            "question": "Apa risiko utama dari luka tusuk yang dalam meskipun pendarahan luarnya terlihat sedikit?",
+            "payload": {
+                "options": [
+                    "Infeksi dalam (Tetanus) dan kerusakan organ dalam",
+                    "Kulit menjadi biru",
+                    "Luka cepat mengering",
+                    "Hanya rasa nyeri biasa"
+                ],
+                "correct_answer": "Infeksi dalam (Tetanus) dan kerusakan organ dalam",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u2_l1_04",
+            "level_id": "ppgd_u2_l1",
+            "type": "word_bank",
+            "question": "Susun langkah awal pembersihan luka ringan.",
+            "payload": {
+                "words": [
+                    "Cuci Tangan",
+                    "Bilas dengan Air Mengalir",
+                    "Keringkan dengan Kasa",
+                    "Beri Antiseptik"
+                ],
+                "correct_order": [
+                    "Cuci Tangan",
+                    "Bilas dengan Air Mengalir",
+                    "Keringkan dengan Kasa",
+                    "Beri Antiseptik"
+                ]
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u2_l1_05",
+            "level_id": "ppgd_u2_l1",
+            "type": "multiple_choice",
+            "question": "Luka robek (Laserasi) berbeda dengan luka sayat karena?",
+            "payload": {
+                "options": [
+                    "Tepi lukanya tidak teratur atau compang-camping",
+                    "Selalu mengeluarkan darah merah terang",
+                    "Lukanya selalu dangkal",
+                    "Tidak terasa sakit"
+                ],
+                "correct_answer": "Tepi lukanya tidak teratur atau compang-camping",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u2_l1_06",
+            "level_id": "ppgd_u2_l1",
+            "type": "fill_blank",
+            "question": "Luka yang mengakibatkan sebagian kulit atau jaringan terlepas/terkoyak dari tubuh disebut luka ____ (Avulsi).",
+            "payload": {
+                "correct_answer": "koyak",
+                "case_sensitive": false
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u2_l1_07",
+            "level_id": "ppgd_u2_l1",
+            "type": "matching",
+            "question": "Pasangkan jenis luka dengan penyebab umumnya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Luka Bakar",
+                        "right": "Panas/Bahan Kimia"
+                    },
+                    {
+                        "left": "Luka Memar",
+                        "right": "Benturan Benda Tumpul"
+                    },
+                    {
+                        "left": "Luka Tusuk",
+                        "right": "Paku/Jarum"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u2_l1_08",
+            "level_id": "ppgd_u2_l1",
+            "type": "multiple_choice",
+            "question": "Tanda-tanda awal luka mengalami infeksi adalah?",
+            "payload": {
+                "options": [
+                    "Kemerahan, bengkak, terasa panas, dan nyeri bertambah",
+                    "Luka menjadi putih",
+                    "Luka berhenti berdarah",
+                    "Luka mengecil"
+                ],
+                "correct_answer": "Kemerahan, bengkak, terasa panas, dan nyeri bertambah",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u2_l2_01",
+            "level_id": "ppgd_u2_l2",
+            "type": "multiple_choice",
+            "question": "Pendarahan yang memancar mengikuti denyut jantung dan berwarna merah terang menunjukkan kerusakan pada pembuluh?",
+            "payload": {
+                "options": [
+                    "Arteri (Nadi)",
+                    "Vena (Balik)",
+                    "Kapiler",
+                    "Limfa"
+                ],
+                "correct_answer": "Arteri (Nadi)",
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u2_l2_02",
+            "level_id": "ppgd_u2_l2",
+            "type": "fill_blank",
+            "question": "Pendarahan yang mengalir perlahan dan berwarna merah tua/gelap berasal dari pembuluh ____.",
+            "payload": {
+                "correct_answer": "vena",
+                "case_sensitive": false
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u2_l2_03",
+            "level_id": "ppgd_u2_l2",
+            "type": "multiple_choice",
+            "question": "Metode paling efektif dan utama untuk menghentikan pendarahan luar adalah?",
+            "payload": {
+                "options": [
+                    "Tekanan Langsung (Direct Pressure)",
+                    "Diberi es batu",
+                    "Dibiarkan saja",
+                    "Dibakar"
+                ],
+                "correct_answer": "Tekanan Langsung (Direct Pressure)",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u2_l2_04",
+            "level_id": "ppgd_u2_l2",
+            "type": "word_bank",
+            "question": "Susun langkah menangani pendarahan luar.",
+            "payload": {
+                "words": [
+                    "Gunakan Sarung Tangan",
+                    "Tekan Luka dengan Kasa",
+                    "Balut Tekan dengan Perban"
+                ],
+                "correct_order": [
+                    "Gunakan Sarung Tangan",
+                    "Tekan Luka dengan Kasa",
+                    "Balut Tekan dengan Perban"
+                ]
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u2_l2_05",
+            "level_id": "ppgd_u2_l2",
+            "type": "multiple_choice",
+            "question": "Jika kasa yang digunakan untuk menekan luka sudah jenuh/penuh darah, apa yang harus dilakukan?",
+            "payload": {
+                "options": [
+                    "Tambahkan kasa baru di atasnya (jangan dilepas)",
+                    "Lepas kasa lama dan ganti baru",
+                    "Cuci kasa lama",
+                    "Dibiarkan terbuka"
+                ],
+                "correct_answer": "Tambahkan kasa baru di atasnya (jangan dilepas)",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u2_l2_06",
+            "level_id": "ppgd_u2_l2",
+            "type": "fill_blank",
+            "question": "Meninggikan bagian tubuh yang berdarah melebihi tinggi jantung disebut metode ____ (Elevation).",
+            "payload": {
+                "correct_answer": "elevasi",
+                "case_sensitive": false
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u2_l2_07",
+            "level_id": "ppgd_u2_l2",
+            "type": "matching",
+            "question": "Pasangkan warna darah dengan jenis pembuluhnya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Merah Terang",
+                        "right": "Arteri"
+                    },
+                    {
+                        "left": "Merah Gelap",
+                        "right": "Vena"
+                    },
+                    {
+                        "left": "Merah Rembes",
+                        "right": "Kapiler"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u2_l2_08",
+            "level_id": "ppgd_u2_l2",
+            "type": "multiple_choice",
+            "question": "Mengapa kita dilarang melepas kasa yang sudah menempel kuat pada luka pendarahan?",
+            "payload": {
+                "options": [
+                    "Karena dapat merusak bekuan darah yang sudah terbentuk",
+                    "Kasa akan menjadi kotor",
+                    "Agar luka cepat dingin",
+                    "Kasa sangat mahal"
+                ],
+                "correct_answer": "Karena dapat merusak bekuan darah yang sudah terbentuk",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u2_l3_01",
+            "level_id": "ppgd_u2_l3",
+            "type": "multiple_choice",
+            "question": "Kapan torniket (Tourniquet) boleh digunakan dalam P3K?",
+            "payload": {
+                "options": [
+                    "Hanya pada pendarahan masif di ekstremitas yang tidak berhenti dengan tekanan langsung",
+                    "Pada setiap luka kecil",
+                    "Pada luka di kepala",
+                    "Pada luka di perut"
+                ],
+                "correct_answer": "Hanya pada pendarahan masif di ekstremitas yang tidak berhenti dengan tekanan langsung",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u2_l3_02",
+            "level_id": "ppgd_u2_l3",
+            "type": "fill_blank",
+            "question": "Posisi pemasangan torniket yang benar adalah sekitar 5-8 cm di ____ luka (ke arah jantung).",
+            "payload": {
+                "correct_answer": "atas",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u2_l3_03",
+            "level_id": "ppgd_u2_l3",
+            "type": "multiple_choice",
+            "question": "Hal paling penting yang harus dicatat setelah memasang torniket adalah?",
+            "payload": {
+                "options": [
+                    "Waktu/Jam pemasangan",
+                    "Warna baju korban",
+                    "Suhu udara",
+                    "Nama penemu"
+                ],
+                "correct_answer": "Waktu/Jam pemasangan",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u2_l3_04",
+            "level_id": "ppgd_u2_l3",
+            "type": "word_bank",
+            "question": "Susun langkah penanganan mimisan (Epistaksis).",
+            "payload": {
+                "words": [
+                    "Duduk Tegak",
+                    "Menunduk ke Depan",
+                    "Pencet Hidung 5-10 Menit"
+                ],
+                "correct_order": [
+                    "Duduk Tegak",
+                    "Menunduk ke Depan",
+                    "Pencet Hidung 5-10 Menit"
+                ]
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u2_l3_05",
+            "level_id": "ppgd_u2_l3",
+            "type": "multiple_choice",
+            "question": "Mengapa saat mimisan dilarang mendongakkan kepala ke belakang?",
+            "payload": {
+                "options": [
+                    "Agar darah tidak masuk ke saluran napas atau lambung",
+                    "Agar hidung tidak sakit",
+                    "Agar darah tidak tumpah ke baju",
+                    "Supaya mata tidak pusing"
+                ],
+                "correct_answer": "Agar darah tidak masuk ke saluran napas atau lambung",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u2_l3_06",
+            "level_id": "ppgd_u2_l3",
+            "type": "fill_blank",
+            "question": "Tindakan menekan pembuluh darah besar di antara luka dan jantung disebut menekan Titik ____ (Pressure Point).",
+            "payload": {
+                "correct_answer": "tekan",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u2_l3_07",
+            "level_id": "ppgd_u2_l3",
+            "type": "matching",
+            "question": "Pasangkan titik tekan dengan lokasinya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Nadi Brakialis",
+                        "right": "Lengan Atas"
+                    },
+                    {
+                        "left": "Nadi Femoralis",
+                        "right": "Lipat Paha"
+                    },
+                    {
+                        "left": "Nadi Radialis",
+                        "right": "Pergelangan Tangan"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u2_l3_08",
+            "level_id": "ppgd_u2_l3",
+            "type": "multiple_choice",
+            "question": "Apa tanda bahwa pemasangan torniket sudah berhasil?",
+            "payload": {
+                "options": [
+                    "Pendarahan berhenti dan nadi di bawah torniket tidak teraba",
+                    "Korban berteriak kesakitan",
+                    "Warna kulit menjadi biru",
+                    "Torniket sangat kendor"
+                ],
+                "correct_answer": "Pendarahan berhenti dan nadi di bawah torniket tidak teraba",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u2_l4_01",
+            "level_id": "ppgd_u2_l4",
+            "type": "multiple_choice",
+            "question": "Jika ada benda asing (seperti pisau atau kayu) menancap pada tubuh korban, apa tindakan yang benar?",
+            "payload": {
+                "options": [
+                    "Jangan dicabut, fiksasi benda agar tidak bergerak, dan balut sekitar luka",
+                    "Segera cabut benda tersebut",
+                    "Siram dengan air panas",
+                    "Dorong benda lebih dalam"
+                ],
+                "correct_answer": "Jangan dicabut, fiksasi benda agar tidak bergerak, dan balut sekitar luka",
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u2_l4_02",
+            "level_id": "ppgd_u2_l4",
+            "type": "fill_blank",
+            "question": "Penanganan organ tubuh yang terputus (amputasi) adalah membungkus organ dengan kasa ____ (lembab) steril.",
+            "payload": {
+                "correct_answer": "lembab",
+                "case_sensitive": false
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u2_l4_03",
+            "level_id": "ppgd_u2_l4",
+            "type": "multiple_choice",
+            "question": "Bagaimana cara mendinginkan organ tubuh yang terputus dengan benar?",
+            "payload": {
+                "options": [
+                    "Masukkan organ ke plastik, lalu letakkan plastik tersebut di wadah berisi es (jangan kena es langsung)",
+                    "Rendam organ di air es",
+                    "Tempelkan es batu langsung ke organ",
+                    "Dibakar"
+                ],
+                "correct_answer": "Masukkan organ ke plastik, lalu letakkan plastik tersebut di wadah berisi es (jangan kena es langsung)",
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u2_l4_04",
+            "level_id": "ppgd_u2_l4",
+            "type": "word_bank",
+            "question": "Susun langkah menangani luka tusuk di dada (Sucking Chest Wound).",
+            "payload": {
+                "words": [
+                    "Tutup dengan Plastik/Kasa Kedap",
+                    "Sisakan Satu Sisi Terbuka (Ventilasi)",
+                    "Posisikan Miring ke Sisi Luka"
+                ],
+                "correct_order": [
+                    "Tutup dengan Plastik/Kasa Kedap",
+                    "Sisakan Satu Sisi Terbuka (Ventilasi)",
+                    "Posisikan Miring ke Sisi Luka"
+                ]
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u2_l4_05",
+            "level_id": "ppgd_u2_l4",
+            "type": "multiple_choice",
+            "question": "Jika usus terburai akibat luka perut (Eviserasi), tindakan yang dilarang adalah?",
+            "payload": {
+                "options": [
+                    "Memasukkan kembali usus ke dalam perut",
+                    "Menutup usus dengan kasa lembab",
+                    "Menutup dengan kain bersih",
+                    "Membawa ke rumah sakit"
+                ],
+                "correct_answer": "Memasukkan kembali usus ke dalam perut",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u2_l4_06",
+            "level_id": "ppgd_u2_l4",
+            "type": "fill_blank",
+            "question": "Jika ada benda menancap di mata, kita harus menutup ____ mata agar pergerakan mata berkurang.",
+            "payload": {
+                "correct_answer": "kedua",
+                "case_sensitive": false
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u2_l4_07",
+            "level_id": "ppgd_u2_l4",
+            "type": "matching",
+            "question": "Pasangkan jenis benda asing dengan penanganan matanya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Zat Kimia",
+                        "right": "Irigasi Air Mengalir 20 Menit"
+                    },
+                    {
+                        "left": "Serpihan Kecil",
+                        "right": "Bilas Perlahan"
+                    },
+                    {
+                        "left": "Benda Menancap",
+                        "right": "Fiksasi dengan Cup/Gelas"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u2_l4_08",
+            "level_id": "ppgd_u2_l4",
+            "type": "multiple_choice",
+            "question": "Apa tujuan utama dari menutup kedua belah mata saat salah satu mata terkena cedera serius?",
+            "payload": {
+                "options": [
+                    "Mencegah pergerakan bola mata secara sinkron (Conjugate Movement)",
+                    "Agar mata tidak silau",
+                    "Supaya korban tidur",
+                    "Supaya kuman tidak masuk"
+                ],
+                "correct_answer": "Mencegah pergerakan bola mata secara sinkron (Conjugate Movement)",
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u2_l5_01",
+            "level_id": "ppgd_u2_l5",
+            "type": "multiple_choice",
+            "question": "Kondisi kegagalan sistem sirkulasi untuk menyuplai oksigen ke jaringan akibat kehilangan banyak darah disebut?",
+            "payload": {
+                "options": [
+                    "Syok Hipovolemik",
+                    "Diabetes",
+                    "Asma",
+                    "Hipotermia"
+                ],
+                "correct_answer": "Syok Hipovolemik",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u2_l5_02",
+            "level_id": "ppgd_u2_l5",
+            "type": "fill_blank",
+            "question": "Salah satu tanda pendarahan dalam (internal) yang parah adalah perut terasa ____ saat ditekan.",
+            "payload": {
+                "correct_answer": "keras",
+                "case_sensitive": false
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u2_l5_03",
+            "level_id": "ppgd_u2_l5",
+            "type": "multiple_choice",
+            "question": "Pemeriksaan CRT (Capillary Refill Time) dilakukan dengan menekan kuku. Jika warna merah kembali lebih dari 2 detik, itu tanda?",
+            "payload": {
+                "options": [
+                    "Sirkulasi buruk/Syok",
+                    "Kondisi normal",
+                    "Korban kedinginan",
+                    "Luka sudah sembuh"
+                ],
+                "correct_answer": "Sirkulasi buruk/Syok",
+                "shuffle": true
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u2_l5_04",
+            "level_id": "ppgd_u2_l5",
+            "type": "word_bank",
+            "question": "Susun gejala syok berat (Decompensated Shock).",
+            "payload": {
+                "words": [
+                    "Nadi Cepat & Lemah",
+                    "Napas Cepat & Dangkal",
+                    "Kesadaran Menurun"
+                ],
+                "correct_order": [
+                    "Nadi Cepat & Lemah",
+                    "Napas Cepat & Dangkal",
+                    "Kesadaran Menurun"
+                ]
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u2_l5_05",
+            "level_id": "ppgd_u2_l5",
+            "type": "multiple_choice",
+            "question": "Apa yang dimaksud dengan pendarahan 'Tersembunyi' (Occult)?",
+            "payload": {
+                "options": [
+                    "Pendarahan di dalam rongga tubuh yang tidak terlihat dari luar",
+                    "Pendarahan yang berhenti sendiri",
+                    "Luka lecet kecil",
+                    "Pendarahan di ujung jari"
+                ],
+                "correct_answer": "Pendarahan di dalam rongga tubuh yang tidak terlihat dari luar",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u2_l5_06",
+            "level_id": "ppgd_u2_l5",
+            "type": "fill_blank",
+            "question": "Dalam Triage, korban dengan pendarahan arteri yang belum terkontrol harus diberi label warna ____.",
+            "payload": {
+                "correct_answer": "merah",
+                "case_sensitive": false
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u2_l5_07",
+            "level_id": "ppgd_u2_l5",
+            "type": "matching",
+            "question": "Pasangkan tingkat syok dengan gejalanya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Syok Kompensasi",
+                        "right": "Gelisah, Nadi Mulai Cepat"
+                    },
+                    {
+                        "left": "Syok Dekompensasi",
+                        "right": "Tekanan Darah Turun Drastis"
+                    },
+                    {
+                        "left": "Syok Irreversibel",
+                        "right": "Nadi Tidak Teraba, Kematian"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u2_l5_08",
+            "level_id": "ppgd_u2_l5",
+            "type": "multiple_choice",
+            "question": "Mengapa memberikan minum pada korban syok akibat pendarahan perut sangat dilarang?",
+            "payload": {
+                "options": [
+                    "Dapat menyebabkan aspirasi/muntah dan menyulitkan jika harus operasi segera",
+                    "Agar korban tidak kencing",
+                    "Agar darah tidak encer",
+                    "Supaya korban tetap sadar"
+                ],
+                "correct_answer": "Dapat menyebabkan aspirasi/muntah dan menyulitkan jika harus operasi segera",
+                "shuffle": true
+            },
+            "xp": 13
+        }
+    ]
+}

@@ -1,4 +1,674 @@
 {
-  "unit_id": "sandi_unit_2",
-  "questions": []
+  "unit_id": "sandi_u2",
+  "questions": [
+    {
+      "id": "q_sandi_u2_l1_01",
+      "level_id": "sandi_u2_l1",
+      "type": "multiple_choice",
+      "question": "Siapakah penemu utama kode Morse yang digunakan secara global untuk telekomunikasi?",
+      "payload": {
+        "options": [
+          "Samuel Finley Breese Morse",
+          "Lord Baden Powell",
+          "Alexander Graham Bell",
+          "Thomas Alva Edison"
+        ],
+        "correct_answer": "Samuel Finley Breese Morse",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u2_l1_02",
+      "level_id": "sandi_u2_l1",
+      "type": "fill_blank",
+      "question": "Dalam kode Morse, durasi satu tanda strip (dash) adalah sama dengan ____ kali durasi tanda titik (dot).",
+      "payload": {
+        "correct_answer": "3",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u2_l1_03",
+      "level_id": "sandi_u2_l1",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang dilambangkan dengan satu titik (.) tunggal dalam kode Morse?",
+      "payload": {
+        "options": [
+          "Huruf E",
+          "Huruf I",
+          "Huruf S",
+          "Huruf A"
+        ],
+        "correct_answer": "Huruf E",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u2_l1_04",
+      "level_id": "sandi_u2_l1",
+      "type": "word_bank",
+      "question": "Susunlah simbol Morse untuk huruf 'A' (Titik - Strip).",
+      "payload": {
+        "words": [
+          ".",
+          "-"
+        ],
+        "correct_order": [
+          ".",
+          "-"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u2_l1_05",
+      "level_id": "sandi_u2_l1",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang merupakan kebalikan (negosiasi) dari huruf A (.-)?",
+      "payload": {
+        "options": [
+          "Huruf N (-.)",
+          "Huruf M (--)",
+          "Huruf I (..)",
+          "Huruf T (-)"
+        ],
+        "correct_answer": "Huruf N (-.)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u2_l1_06",
+      "level_id": "sandi_u2_l1",
+      "type": "fill_blank",
+      "question": "Huruf S dilambangkan dengan tiga titik berturut-turut, yaitu ____.",
+      "payload": {
+        "correct_answer": "...",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u2_l1_07",
+      "level_id": "sandi_u2_l1",
+      "type": "matching",
+      "question": "Pasangkan huruf Morse tunggal dengan kodenya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "E",
+            "right": "."
+          },
+          {
+            "left": "T",
+            "right": "-"
+          },
+          {
+            "left": "I",
+            "right": ".."
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u2_l1_08",
+      "level_id": "sandi_u2_l1",
+      "type": "multiple_choice",
+      "question": "Berapakah spasi (jeda waktu) yang digunakan antar huruf dalam satu kata?",
+      "payload": {
+        "options": [
+          "3 ketukan (sama dengan panjang dash)",
+          "1 ketukan (sama dengan panjang dot)",
+          "7 ketukan",
+          "Tidak ada jeda"
+        ],
+        "correct_answer": "3 ketukan (sama dengan panjang dash)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u2_l2_01",
+      "level_id": "sandi_u2_l2",
+      "type": "multiple_choice",
+      "question": "Dalam pengkodean angka Morse, berapakah jumlah total simbol (kombinasi dot dan dash) untuk setiap angka?",
+      "payload": {
+        "options": [
+          "5 simbol",
+          "3 simbol",
+          "4 simbol",
+          "6 simbol"
+        ],
+        "correct_answer": "5 simbol",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u2_l2_02",
+      "level_id": "sandi_u2_l2",
+      "type": "fill_blank",
+      "question": "Angka 1 dalam kode Morse dilambangkan dengan satu titik diikuti empat strip, yaitu ____.",
+      "payload": {
+        "correct_answer": ".----",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u2_l2_03",
+      "level_id": "sandi_u2_l2",
+      "type": "multiple_choice",
+      "question": "Simbol Morse '-----' (lima strip) melambangkan angka?",
+      "payload": {
+        "options": [
+          "Angka 0",
+          "Angka 5",
+          "Angka 9",
+          "Angka 1"
+        ],
+        "correct_answer": "Angka 0",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u2_l2_04",
+      "level_id": "sandi_u2_l2",
+      "type": "word_bank",
+      "question": "Susun kode Morse untuk angka 5.",
+      "payload": {
+        "words": [
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ],
+        "correct_order": [
+          ".",
+          ".",
+          ".",
+          ".",
+          "."
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u2_l2_05",
+      "level_id": "sandi_u2_l2",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang memiliki kode Morse simetris (sama jika dibaca terbalik) seperti huruf R (.-.)?",
+      "payload": {
+        "options": [
+          "Huruf K (-.-)",
+          "Huruf X (-..-)",
+          "Huruf P (.--.)",
+          "Huruf L (.-..)"
+        ],
+        "correct_answer": "Huruf K (-.-)",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u2_l2_06",
+      "level_id": "sandi_u2_l2",
+      "type": "fill_blank",
+      "question": "Angka 9 dilambangkan dengan kode Morse ____.",
+      "payload": {
+        "correct_answer": "----.",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u2_l2_07",
+      "level_id": "sandi_u2_l2",
+      "type": "matching",
+      "question": "Pasangkan kelompok huruf berlawanan (kebalikan).",
+      "payload": {
+        "pairs": [
+          {
+            "left": "K (-.-)",
+            "right": "R (.-.)"
+          },
+          {
+            "left": "G (--.)",
+            "right": "W (.--)"
+          },
+          {
+            "left": "D (-..)",
+            "right": "U (..-)"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u2_l2_08",
+      "level_id": "sandi_u2_l2",
+      "type": "multiple_choice",
+      "question": "Berapakah jumlah tanda titik pada angka 3?",
+      "payload": {
+        "options": [
+          "3 titik",
+          "2 titik",
+          "4 titik",
+          "5 titik"
+        ],
+        "correct_answer": "3 titik",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u2_l3_01",
+      "level_id": "sandi_u2_l3",
+      "type": "multiple_choice",
+      "question": "Saat menggunakan peluit, bunyi yang dianggap sebagai tanda strip (-) adalah?",
+      "payload": {
+        "options": [
+          "Tiupan panjang (sekitar 3 detik)",
+          "Tiupan pendek (sekitar 1 detik)",
+          "Dua tiupan pendek cepat",
+          "Tiupan yang sangat keras"
+        ],
+        "correct_answer": "Tiupan panjang (sekitar 3 detik)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u2_l3_02",
+      "level_id": "sandi_u2_l3",
+      "type": "fill_blank",
+      "question": "Pengiriman Morse menggunakan senter dilakukan dengan membedakan durasi cahaya ____.",
+      "payload": {
+        "correct_answer": "nyala",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u2_l3_03",
+      "level_id": "sandi_u2_l3",
+      "type": "multiple_choice",
+      "question": "Dalam Morse bendera, posisi bendera untuk melambangkan tanda titik (.) adalah?",
+      "payload": {
+        "options": [
+          "Bendera digerakkan dari tengah ke arah kanan (45 derajat)",
+          "Bendera digerakkan penuh dari kanan ke kiri",
+          "Bendera diturunkan ke bawah kaki",
+          "Bendera disilangkan di atas kepala"
+        ],
+        "correct_answer": "Bendera digerakkan dari tengah ke arah kanan (45 derajat)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u2_l3_04",
+      "level_id": "sandi_u2_l3",
+      "type": "word_bank",
+      "question": "Susun alat yang bisa digunakan untuk mengirim sandi Morse di lapangan.",
+      "payload": {
+        "words": [
+          "Peluit",
+          "Senter",
+          "Bendera",
+          "Asap",
+          "Cermin"
+        ],
+        "correct_order": [
+          "Peluit",
+          "Senter",
+          "Bendera",
+          "Asap",
+          "Cermin"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l3_05",
+      "level_id": "sandi_u2_l3",
+      "type": "multiple_choice",
+      "question": "Apa fungsi penggunaan cermin (Heliograph) dalam pengiriman Morse?",
+      "payload": {
+        "options": [
+          "Memanfaatkan pantulan sinar matahari untuk komunikasi jarak jauh",
+          "Melihat wajah pengirim",
+          "Membakar rumput kering",
+          "Menakuti hewan buas"
+        ],
+        "correct_answer": "Memanfaatkan pantulan sinar matahari untuk komunikasi jarak jauh",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l3_06",
+      "level_id": "sandi_u2_l3",
+      "type": "fill_blank",
+      "question": "Jeda waktu antar kata (spasi) dalam pengiriman menggunakan peluit atau cahaya adalah sepanjang ____ ketukan.",
+      "payload": {
+        "correct_answer": "7",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u2_l3_07",
+      "level_id": "sandi_u2_l3",
+      "type": "matching",
+      "question": "Pasangkan alat dengan panca indra penerimanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Peluit",
+            "right": "Pendengaran (Auditif)"
+          },
+          {
+            "left": "Senter",
+            "right": "Penglihatan (Visual)"
+          },
+          {
+            "left": "Ketukan Meja",
+            "right": "Pendengaran / Getaran"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l3_08",
+      "level_id": "sandi_u2_l3",
+      "type": "multiple_choice",
+      "question": "Manakah yang merupakan cara mengirim tanda strip (-) menggunakan bendera Morse?",
+      "payload": {
+        "options": [
+          "Digerakkan penuh dari kiri ke kanan (180 derajat) melewati atas kepala",
+          "Digerakkan setengah ke kiri",
+          "Diam di tempat",
+          "Diputar melingkar"
+        ],
+        "correct_answer": "Digerakkan penuh dari kiri ke kanan (180 derajat) melewati atas kepala",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u2_l4_01",
+      "level_id": "sandi_u2_l4",
+      "type": "multiple_choice",
+      "question": "Sandi yang visualisasinya menggunakan garis tinggi (rumput panjang) untuk strip dan garis rendah (rumput pendek) untuk titik disebut?",
+      "payload": {
+        "options": [
+          "Sandi Rumput",
+          "Sandi Kimia",
+          "Sandi Paku",
+          "Sandi Batang"
+        ],
+        "correct_answer": "Sandi Rumput",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l4_02",
+      "level_id": "sandi_u2_l4",
+      "type": "fill_blank",
+      "question": "Dalam Sandi Kimia, huruf hidup (A, I, U, E, O) biasanya melambangkan tanda ____ (titik/strip).",
+      "payload": {
+        "correct_answer": "titik",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l4_03",
+      "level_id": "sandi_u2_l4",
+      "type": "multiple_choice",
+      "question": "Jika kata 'KOH' dalam sandi kimia berarti huruf Morse '- .', maka konsonan (K, H) melambangkan?",
+      "payload": {
+        "options": [
+          "Tanda strip (-)",
+          "Tanda titik (.)",
+          "Spasi",
+          "Angka"
+        ],
+        "correct_answer": "Tanda strip (-)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l4_04",
+      "level_id": "sandi_u2_l4",
+      "type": "word_bank",
+      "question": "Susun visualisasi sandi rumput untuk huruf 'A' (.-).",
+      "payload": {
+        "words": [
+          "V",
+          "M"
+        ],
+        "correct_order": [
+          "V",
+          "M"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u2_l4_05",
+      "level_id": "sandi_u2_l4",
+      "type": "multiple_choice",
+      "question": "Sandi Morse yang ditulis menggunakan kombinasi angka (misal: 1 untuk titik, 2 untuk strip) disebut?",
+      "payload": {
+        "options": [
+          "Sandi Morse Angka / Sandi 1-2",
+          "Sandi Kotak 1",
+          "Sandi Koordinat",
+          "Sandi Jam"
+        ],
+        "correct_answer": "Sandi Morse Angka / Sandi 1-2",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u2_l4_06",
+      "level_id": "sandi_u2_l4",
+      "type": "fill_blank",
+      "question": "Pemisah antar huruf dalam Sandi Rumput biasanya digambarkan dengan tanda garis ____.",
+      "payload": {
+        "correct_answer": "datar",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l4_07",
+      "level_id": "sandi_u2_l4",
+      "type": "matching",
+      "question": "Pasangkan sandi dengan representasi Morse-nya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Sandi Rumput",
+            "right": "Tinggi & Rendah"
+          },
+          {
+            "left": "Sandi Kimia",
+            "right": "Vokal & Konsonan"
+          },
+          {
+            "left": "Sandi Morse Biner",
+            "right": "0 dan 1"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u2_l4_08",
+      "level_id": "sandi_u2_l4",
+      "type": "multiple_choice",
+      "question": "Dalam Sandi Morse Bendera (bukan bendera isyarat), simbol apakah yang biasanya digunakan untuk menggantikan titik dan strip di atas kertas?",
+      "payload": {
+        "options": [
+          "Bendera Putih (.) dan Bendera Merah (-)",
+          "Lingkaran dan Kotak",
+          "Angka 5 dan 0",
+          "Tanda Tambah dan Kurang"
+        ],
+        "correct_answer": "Bendera Putih (.) dan Bendera Merah (-)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u2_l5_01",
+      "level_id": "sandi_u2_l5",
+      "type": "multiple_choice",
+      "question": "Tanda darurat internasional 'SOS' dalam kode Morse adalah?",
+      "payload": {
+        "options": [
+          "... --- ...",
+          "--- ... ---",
+          "... ... ...",
+          "--- --- ---"
+        ],
+        "correct_answer": "... --- ...",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u2_l5_02",
+      "level_id": "sandi_u2_l5",
+      "type": "fill_blank",
+      "question": "Tanda prosedur untuk menyatakan pesan berakhir (End of Message) adalah gabungan huruf A dan R (.-.-.) yang disebut ____.",
+      "payload": {
+        "correct_answer": "ar",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u2_l5_03",
+      "level_id": "sandi_u2_l5",
+      "type": "multiple_choice",
+      "question": "Tanda Morse '.-.-.' (AR) dikirimkan oleh pengirim. Apa balasan dari penerima jika pesan sudah dimengerti sepenuhnya?",
+      "payload": {
+        "options": [
+          "Huruf R (.-.) yang berarti Roger / Received",
+          "Huruf K (-.-) yang berarti Go Ahead",
+          "Huruf S (...) yang berarti Selesai",
+          "Huruf O (---) yang berarti Oke"
+        ],
+        "correct_answer": "Huruf R (.-.) yang berarti Roger / Received",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u2_l5_04",
+      "level_id": "sandi_u2_l5",
+      "type": "word_bank",
+      "question": "Susun kode prosedur Morse yang dikirimkan saat memanggil stasiun lain (Calling).",
+      "payload": {
+        "words": [
+          "DE",
+          "K",
+          "CQ"
+        ],
+        "correct_order": [
+          "CQ",
+          "DE",
+          "K"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u2_l5_05",
+      "level_id": "sandi_u2_l5",
+      "type": "multiple_choice",
+      "question": "Apa arti dari kode Morse '........' (delapan titik) yang dikirimkan dengan sangat cepat?",
+      "payload": {
+        "options": [
+          "Tanda Koreksi / Ada Kesalahan (Error)",
+          "Tanda Perhatian (Attention)",
+          "Tanda Mengerti",
+          "Tanda Minta Ulang"
+        ],
+        "correct_answer": "Tanda Koreksi / Ada Kesalahan (Error)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u2_l5_06",
+      "level_id": "sandi_u2_l5",
+      "type": "fill_blank",
+      "question": "Tanda panggilan umum untuk semua stasiun yang mendengar dalam komunikasi radio Morse adalah ____.",
+      "payload": {
+        "correct_answer": "cq",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u2_l5_07",
+      "level_id": "sandi_u2_l5",
+      "type": "matching",
+      "question": "Pasangkan Prosigns Morse dengan fungsinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "K (-.-)",
+            "right": "Undangan untuk Mengirim (Over)"
+          },
+          {
+            "left": "AS (.-...)",
+            "right": "Tunggu (Wait)"
+          },
+          {
+            "left": "IMI (..--..)",
+            "right": "Tanda Tanya / Ulangi"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u2_l5_08",
+      "level_id": "sandi_u2_l5",
+      "type": "multiple_choice",
+      "question": "Mengapa kode SOS dipilih sebagai tanda darurat internasional?",
+      "payload": {
+        "options": [
+          "Karena polanya (... --- ...) unik dan sangat mudah dikenali bahkan dalam gangguan sinyal",
+          "Singkatan dari Save Our Ship",
+          "Singkatan dari Save Our Souls",
+          "Nama penemunya adalah SOS"
+        ],
+        "correct_answer": "Karena polanya (... --- ...) unik dan sangat mudah dikenali bahkan dalam gangguan sinyal",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

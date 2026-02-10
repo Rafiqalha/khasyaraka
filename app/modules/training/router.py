@@ -517,20 +517,49 @@ async def submit_progress(
             score=score,
             total_questions=total_questions,
             correct_answers=correct_answers,
-            correct_question_ids=correct_question_ids,  # ✅ NEW: Pass correct question IDs
+            correct_question_ids=correct_question_ids,
             time_spent_seconds=time_spent_seconds,
         )
         
-        # ✅ CRITICAL: Get current total_xp from database AFTER submit_progress
+        # ✅ CRITICAL: Get current user state from database AFTER submit_progress
         from app.modules.users.models import User
         from sqlalchemy import select
+        from datetime import date
+        
         stmt = select(User).where(User.id == user_id)
         result = await service.db.execute(stmt)
         user = result.scalar_one_or_none()
+        
         current_total_xp = user.total_xp or 0 if user else 0
+        current_streak = user.streak or 0 if user else 0
         
-        logger.info(f"✅ [SUBMIT_PROGRESS] Response: xp_earned={progress.xp_earned}, current_total_xp={current_total_xp}")
+        # ✅ Calculate and update streak server-side
+        today = date.today()
+        last_active = user.last_active_date if user else None
         
+        if last_active is None:
+            # First time playing
+            new_streak = 1
+        elif last_active == today:
+            # Already played today - keep streak
+            new_streak = current_streak
+        elif last_active == today - __import__('datetime').timedelta(days=1):
+            # Played yesterday - increment streak
+            new_streak = current_streak + 1
+        else:
+            # Streak broken - reset to 1
+            new_streak = 1
+        
+        # ✅ Update streak and last_active_date in database
+        if user:
+            user.streak = new_streak
+            user.last_active_date = today
+            await service.db.commit()
+            await service.db.refresh(user)
+        
+        logger.info(f"✅ [SUBMIT_PROGRESS] Response: xp_earned={progress.xp_earned}, total_xp={current_total_xp}, streak={new_streak}")
+        
+        # ✅ Return COMPLETE user state - frontend needs NO additional API calls
         return {
             "success": True,
             "level_id": progress.level_id,
@@ -538,8 +567,10 @@ async def submit_progress(
             "score": progress.score,
             "correct_answers": progress.correct_answers,
             "total_questions": progress.total_questions,
-            "xp_earned": progress.xp_earned,  # ✅ Server-calculated XP
-            "total_xp": current_total_xp,  # ✅ CRITICAL: Return current total_xp from database for verification
+            "xp_earned": progress.xp_earned,
+            "total_xp": user.total_xp if user else current_total_xp,
+            "streak": new_streak,
+            "last_active_date": today.isoformat() if today else None,
         }
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))
@@ -552,15 +583,15 @@ async def submit_progress(
     description="Get progress state for all levels in a section"
 )
 async def get_progress_state(
-    section_id: str,
     request: Request,
+    section_id: Optional[str] = None,
     service: TrainingService = Depends(get_service)
 ):
     """
     Get progress state for all levels in a section.
     
     Args:
-        - section_id: Section ID (e.g., 'puk')
+        - section_id: Section ID (e.g., 'puk') - Optional
         - request: FastAPI Request (for optional auth)
     
     Returns:

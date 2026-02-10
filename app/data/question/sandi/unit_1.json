@@ -4,30 +4,679 @@
     {
       "id": "q_sandi_u1_l1_01",
       "level_id": "sandi_u1_l1",
+      "type": "multiple_choice",
+      "question": "Berapakah ukuran standar bendera semaphore yang digunakan dalam kegiatan kepramukaan di Indonesia?",
+      "payload": {
+        "options": [
+          "45 cm x 45 cm",
+          "30 cm x 30 cm",
+          "60 cm x 60 cm",
+          "50 cm x 40 cm"
+        ],
+        "correct_answer": "45 cm x 45 cm",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u1_l1_02",
+      "level_id": "sandi_u1_l1",
+      "type": "fill_blank",
+      "question": "Panjang tongkat bendera semaphore yang ideal adalah ____ cm.",
+      "payload": {
+        "correct_answer": "60",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u1_l1_03",
+      "level_id": "sandi_u1_l1",
+      "type": "multiple_choice",
+      "question": "Warna bendera semaphore umumnya terdiri dari dua warna kontras (merah dan kuning). Posisi warna merah yang benar saat dipasang pada tongkat adalah?",
+      "payload": {
+        "options": [
+          "Berada di dekat kayu/tongkat (bagian dalam)",
+          "Berada di bagian luar",
+          "Berada di bagian bawah",
+          "Bebas sesuai keinginan"
+        ],
+        "correct_answer": "Berada di dekat kayu/tongkat (bagian dalam)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u1_l1_04",
+      "level_id": "sandi_u1_l1",
+      "type": "word_bank",
+      "question": "Susun komponen utama peralatan semaphore.",
+      "payload": {
+        "words": [
+          "Dua Bendera",
+          "Dua Tongkat",
+          "Tali Pengikat"
+        ],
+        "correct_order": [
+          "Dua Bendera",
+          "Dua Tongkat",
+          "Tali Pengikat"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u1_l1_05",
+      "level_id": "sandi_u1_l1",
+      "type": "multiple_choice",
+      "question": "Sistem komunikasi semaphore pada awalnya banyak digunakan oleh angkatan militer di bidang?",
+      "payload": {
+        "options": [
+          "Angkatan Laut (Maritime)",
+          "Angkatan Udara",
+          "Infanteri Darat",
+          "Kavaleri"
+        ],
+        "correct_answer": "Angkatan Laut (Maritime)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u1_l1_06",
+      "level_id": "sandi_u1_l1",
+      "type": "fill_blank",
+      "question": "Posisi awal (dasar) sebelum mengirim berita semaphore adalah posisi ____ di mana kedua tangan menyilang di depan kaki.",
+      "payload": {
+        "correct_answer": "sedia",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u1_l1_07",
+      "level_id": "sandi_u1_l1",
       "type": "matching",
-      "question": "Cocokkan posisi bendera Semaphore dengan huruf yang tepat! (Posisi Dasar A-D)",
+      "question": "Pasangkan bagian semaphore dengan keterangannya.",
       "payload": {
         "pairs": [
           {
-            "left": "Bendera kanan bawah, kiri bawah",
-            "right": "A"
+            "left": "Warna Kuning",
+            "right": "Bagian Luar Bendera"
           },
           {
-            "left": "Bendera kanan atas, kiri bawah",
-            "right": "B"
+            "left": "Warna Merah",
+            "right": "Bagian Dekat Tongkat"
           },
           {
-            "left": "Bendera kanan samping, kiri bawah",
-            "right": "C"
-          },
-          {
-            "left": "Bendera kanan serong atas, kiri bawah",
-            "right": "D"
+            "left": "Bentuk Bendera",
+            "right": "Persegi/Bujur Sangkar"
           }
         ],
         "shuffle": true
       },
-      "xp": 2
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u1_l1_08",
+      "level_id": "sandi_u1_l1",
+      "type": "multiple_choice",
+      "question": "Setiap gerakan tangan dalam semaphore membentuk sudut kelipatan ____ derajat.",
+      "payload": {
+        "options": [
+          "45 derajat",
+          "90 derajat",
+          "30 derajat",
+          "60 derajat"
+        ],
+        "correct_answer": "45 derajat",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u1_l2_01",
+      "level_id": "sandi_u1_l2",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang dibentuk dengan posisi tangan kanan di angka 6 (bawah) dan tangan kiri di angka 7 (serong kiri bawah)?",
+      "payload": {
+        "options": [
+          "Huruf A",
+          "Huruf B",
+          "Huruf C",
+          "Huruf D"
+        ],
+        "correct_answer": "Huruf A",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u1_l2_02",
+      "level_id": "sandi_u1_l2",
+      "type": "fill_blank",
+      "question": "Huruf G dalam lingkaran satu dibentuk dengan tangan kanan di posisi 4 (samping kanan) dan tangan kiri di posisi ____ (samping kiri).",
+      "payload": {
+        "correct_answer": "5",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u1_l2_03",
+      "level_id": "sandi_u1_l2",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang memiliki posisi tangan membentuk garis lurus mendatar (kanan di posisi 4, kiri di posisi 0/atas)?",
+      "payload": {
+        "options": [
+          "Huruf D",
+          "Huruf E",
+          "Huruf F",
+          "Huruf G"
+        ],
+        "correct_answer": "Huruf D",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u1_l2_04",
+      "level_id": "sandi_u1_l2",
+      "type": "word_bank",
+      "question": "Susun urutan huruf Lingkaran 1 (satu tangan tetap di posisi 6/bawah).",
+      "payload": {
+        "words": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "correct_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u1_l2_05",
+      "level_id": "sandi_u1_l2",
+      "type": "multiple_choice",
+      "question": "Pada Lingkaran 2, posisi tangan kanan berpindah ke posisi 7 (serong kanan bawah). Huruf pertama pada lingkaran ini adalah?",
+      "payload": {
+        "options": [
+          "Huruf H",
+          "Huruf I",
+          "Huruf J",
+          "Huruf K"
+        ],
+        "correct_answer": "Huruf H",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u1_l2_06",
+      "level_id": "sandi_u1_l2",
+      "type": "fill_blank",
+      "question": "Untuk membentuk huruf I, posisi tangan kanan berada di posisi 7 dan tangan kiri berada di posisi ____ (atas).",
+      "payload": {
+        "correct_answer": "0",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u1_l2_07",
+      "level_id": "sandi_u1_l2",
+      "type": "matching",
+      "question": "Pasangkan huruf dengan arah jarum jam (asumsi jam 6 adalah bawah).",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Huruf A",
+            "right": "6 dan 7.30"
+          },
+          {
+            "left": "Huruf D",
+            "right": "6 dan 12"
+          },
+          {
+            "left": "Huruf G",
+            "right": "4.30 dan 7.30"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u1_l2_08",
+      "level_id": "sandi_u1_l2",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang membentuk sudut siku-siku (90 derajat) di atas bahu (posisi 1 dan 7)?",
+      "payload": {
+        "options": [
+          "Huruf H",
+          "Huruf K",
+          "Huruf O",
+          "Huruf I"
+        ],
+        "correct_answer": "Huruf H",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u1_l3_01",
+      "level_id": "sandi_u1_l3",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang dibentuk dengan tangan kanan di posisi 8 (samping kanan) dan tangan kiri di posisi 2 (serong kiri atas)?",
+      "payload": {
+        "options": [
+          "Huruf O",
+          "Huruf P",
+          "Huruf Q",
+          "Huruf R"
+        ],
+        "correct_answer": "Huruf O",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u1_l3_02",
+      "level_id": "sandi_u1_l3",
+      "type": "fill_blank",
+      "question": "Huruf R dibentuk dengan tangan kanan di posisi 8 (samping kanan) dan tangan kiri di posisi ____ (samping kiri).",
+      "payload": {
+        "correct_answer": "4",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u1_l3_03",
+      "level_id": "sandi_u1_l3",
+      "type": "multiple_choice",
+      "question": "Posisi tangan yang membentuk garis lurus vertikal sempurna (satu tangan di posisi 0 dan satu tangan di posisi 6) melambangkan huruf?",
+      "payload": {
+        "options": [
+          "Huruf D",
+          "Huruf T",
+          "Huruf U",
+          "Huruf V"
+        ],
+        "correct_answer": "Huruf D",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u1_l3_04",
+      "level_id": "sandi_u1_l3",
+      "type": "word_bank",
+      "question": "Susun huruf penyusun kata 'SCOUT' secara urut sesuai kemunculannya dalam lingkaran semaphore.",
+      "payload": {
+        "words": [
+          "C",
+          "O",
+          "S",
+          "T",
+          "U"
+        ],
+        "correct_order": [
+          "C",
+          "O",
+          "S",
+          "T",
+          "U"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l3_05",
+      "level_id": "sandi_u1_l3",
+      "type": "multiple_choice",
+      "question": "Huruf T dibentuk dengan tangan kanan di posisi 1 (serong kanan atas) dan tangan kiri di posisi?",
+      "payload": {
+        "options": [
+          "Posisi 3 (serong kiri atas)",
+          "Posisi 4 (samping kiri)",
+          "Posisi 2 (atas)",
+          "Posisi 5 (serong kiri bawah)"
+        ],
+        "correct_answer": "Posisi 3 (serong kiri atas)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l3_06",
+      "level_id": "sandi_u1_l3",
+      "type": "fill_blank",
+      "question": "Untuk mengirim huruf U, tangan kanan diletakkan di posisi 1 (serong kanan atas) dan tangan kiri di posisi ____ (atas).",
+      "payload": {
+        "correct_answer": "0",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u1_l3_07",
+      "level_id": "sandi_u1_l3",
+      "type": "matching",
+      "question": "Pasangkan huruf dengan Lingkarannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Huruf H-N",
+            "right": "Lingkaran 2"
+          },
+          {
+            "left": "Huruf O-S",
+            "right": "Lingkaran 3"
+          },
+          {
+            "left": "Huruf T-U",
+            "right": "Lingkaran 4"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l3_08",
+      "level_id": "sandi_u1_l3",
+      "type": "multiple_choice",
+      "question": "Bagaimana posisi tangan untuk mengirim tanda 'Salah/Koreksi' dalam semaphore?",
+      "payload": {
+        "options": [
+          "Menggerakkan kedua bendera naik turun (seperti mengepakkan sayap)",
+          "Menyilangkan kedua bendera di atas kepala",
+          "Membentuk huruf E berulang kali",
+          "Menurunkan bendera ke posisi sedia"
+        ],
+        "correct_answer": "Menggerakkan kedua bendera naik turun (seperti mengepakkan sayap)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u1_l4_01",
+      "level_id": "sandi_u1_l4",
+      "type": "multiple_choice",
+      "question": "Jika ingin mengirim angka, pengirim harus memberikan tanda 'Angka' (Numeral Sign) terlebih dahulu. Posisi tangan untuk tanda angka adalah?",
+      "payload": {
+        "options": [
+          "Tangan kanan di posisi 1, tangan kiri di posisi 2",
+          "Tangan kanan di posisi 2, tangan kiri di posisi 3",
+          "Tangan kanan di posisi 3, tangan kiri di posisi 4",
+          "Tangan kanan di posisi 4, tangan kiri di posisi 5"
+        ],
+        "correct_answer": "Tangan kanan di posisi 1, tangan kiri di posisi 2",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l4_02",
+      "level_id": "sandi_u1_l4",
+      "type": "fill_blank",
+      "question": "Setelah mengirim angka dan ingin kembali mengirim huruf, pengirim memberikan tanda alfabet yaitu posisi huruf ____.",
+      "payload": {
+        "correct_answer": "j",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l4_03",
+      "level_id": "sandi_u1_l4",
+      "type": "multiple_choice",
+      "question": "Dalam pengiriman angka, huruf 'A' melambangkan angka 1, dan huruf 'I' melambangkan angka 9. Huruf manakah yang digunakan untuk melambangkan angka 0?",
+      "payload": {
+        "options": [
+          "Huruf J",
+          "Huruf K",
+          "Huruf L",
+          "Huruf M"
+        ],
+        "correct_answer": "Huruf K",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l4_04",
+      "level_id": "sandi_u1_l4",
+      "type": "word_bank",
+      "question": "Susun tanda prosedur semaphore.",
+      "payload": {
+        "words": [
+          "Tanda Perhatian",
+          "Tanda Berita",
+          "Tanda Selesai"
+        ],
+        "correct_order": [
+          "Tanda Perhatian",
+          "Tanda Berita",
+          "Tanda Selesai"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u1_l4_05",
+      "level_id": "sandi_u1_l4",
+      "type": "multiple_choice",
+      "question": "Huruf W dibentuk dengan posisi tangan?",
+      "payload": {
+        "options": [
+          "Tangan kanan posisi 2, tangan kiri posisi 3",
+          "Tangan kanan posisi 3, tangan kiri posisi 4",
+          "Tangan kanan posisi 4, tangan kiri posisi 5",
+          "Tangan kanan posisi 5, tangan kiri posisi 6"
+        ],
+        "correct_answer": "Tangan kanan posisi 2, tangan kiri posisi 3",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u1_l4_06",
+      "level_id": "sandi_u1_l4",
+      "type": "fill_blank",
+      "question": "Tanda 'Ulangi' (Repeat) dikirimkan jika penerima gagal menangkap pesan, ditandai dengan huruf ____ (Interval) sebanyak tiga kali.",
+      "payload": {
+        "correct_answer": "i",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l4_07",
+      "level_id": "sandi_u1_l4",
+      "type": "matching",
+      "question": "Pasangkan huruf terakhir setiap lingkaran.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Lingkaran 1",
+            "right": "G"
+          },
+          {
+            "left": "Lingkaran 2",
+            "right": "N"
+          },
+          {
+            "left": "Lingkaran 7",
+            "right": "Z"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u1_l4_08",
+      "level_id": "sandi_u1_l4",
+      "type": "multiple_choice",
+      "question": "Bagaimana posisi tangan untuk huruf Z?",
+      "payload": {
+        "options": [
+          "Tangan kanan posisi 4, tangan kiri posisi 7",
+          "Tangan kanan posisi 5, tangan kiri posisi 7",
+          "Tangan kanan posisi 3, tangan kiri posisi 5",
+          "Tangan kanan posisi 2, tangan kiri posisi 4"
+        ],
+        "correct_answer": "Tangan kanan posisi 4, tangan kiri posisi 7",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u1_l5_01",
+      "level_id": "sandi_u1_l5",
+      "type": "multiple_choice",
+      "question": "Jika Anda sebagai penerima melihat pengirim melakukan gerakan 'Kocok' (bendera digerakkan bolak-balik di bawah), apa artinya?",
+      "payload": {
+        "options": [
+          "Tanda Perhatian (Attention)",
+          "Pesan telah diterima",
+          "Ada kesalahan kata",
+          "Pesan berakhir"
+        ],
+        "correct_answer": "Tanda Perhatian (Attention)",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u1_l5_02",
+      "level_id": "sandi_u1_l5",
+      "type": "fill_blank",
+      "question": "Dalam pengiriman semaphore jarak jauh, faktor utama yang menentukan keberhasilan pesan selain kecepatan adalah ____ antara warna bendera dan latar belakang.",
+      "payload": {
+        "correct_answer": "kontras",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u1_l5_03",
+      "level_id": "sandi_u1_l5",
+      "type": "multiple_choice",
+      "question": "Saat menerima berita, jika penerima sudah mengerti satu kata yang dikirim, maka penerima membalas dengan kode?",
+      "payload": {
+        "options": [
+          "Huruf C",
+          "Huruf A",
+          "Huruf R",
+          "Huruf K"
+        ],
+        "correct_answer": "Huruf C",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u1_l5_04",
+      "level_id": "sandi_u1_l5",
+      "type": "word_bank",
+      "question": "Susun protokol panggilan stasiun (Station Call).",
+      "payload": {
+        "words": [
+          "Tanda Perhatian",
+          "Tunggu Balasan C",
+          "Mulai Kirim Berita"
+        ],
+        "correct_order": [
+          "Tanda Perhatian",
+          "Tunggu Balasan C",
+          "Mulai Kirim Berita"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u1_l5_05",
+      "level_id": "sandi_u1_l5",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan teknik 'Speller' dalam tim penerima semaphore?",
+      "payload": {
+        "options": [
+          "Orang yang membacakan huruf satu per satu dari pengirim",
+          "Orang yang mencatat berita di kertas",
+          "Orang yang mengirim balik sinyal",
+          "Pemimpin regu"
+        ],
+        "correct_answer": "Orang yang membacakan huruf satu per satu dari pengirim",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u1_l5_06",
+      "level_id": "sandi_u1_l5",
+      "type": "fill_blank",
+      "question": "Interval atau jeda waktu antar huruf yang ideal dalam semaphore adalah sekitar ____ detik agar penerima sempat mencatat.",
+      "payload": {
+        "correct_answer": "1",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u1_l5_07",
+      "level_id": "sandi_u1_l5",
+      "type": "matching",
+      "question": "Pasangkan kode prosedur dengan maknanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Kocok Atas",
+            "right": "Tanda Perhatian"
+          },
+          {
+            "left": "Huruf AR",
+            "right": "Pesan Berakhir"
+          },
+          {
+            "left": "Huruf Q",
+            "right": "Tunggu (Wait)"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u1_l5_08",
+      "level_id": "sandi_u1_l5",
+      "type": "multiple_choice",
+      "question": "Jika pengirim melakukan kesalahan di tengah kata, tindakan paling profesional adalah?",
+      "payload": {
+        "options": [
+          "Mengirim tanda koreksi (8 kali E), kembali ke awal kata tersebut, dan lanjut",
+          "Langsung melanjutkan kata berikutnya",
+          "Berhenti total",
+          "Menurunkan bendera"
+        ],
+        "correct_answer": "Mengirim tanda koreksi (8 kali E), kembali ke awal kata tersebut, dan lanjut",
+        "shuffle": true
+      },
+      "xp": 13
     }
   ]
 }

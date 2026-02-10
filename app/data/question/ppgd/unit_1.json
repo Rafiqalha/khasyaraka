@@ -1,22 +1,675 @@
 {
   "unit_id": "ppgd_u1",
+  "unit_name": "Penilaian Korban & Protokol Dasar",
   "questions": [
     {
       "id": "q_ppgd_u1_l1_01",
       "level_id": "ppgd_u1_l1",
       "type": "multiple_choice",
-      "question": "Apa kepanjangan dari DRABC dalam prinsip pertolongan pertama?",
+      "question": "Langkah paling awal dalam protokol DRABC sebelum menyentuh korban adalah?",
       "payload": {
         "options": [
-          "Danger, Response, Airway, Breathing, Circulation",
-          "Doctor, Recovery, Ambulance, Bandage, Care",
-          "Direct, Rescue, Aid, Blood, Check",
-          "Danger, Rescue, Assess, Breathe, Call"
+          "Memastikan keamanan diri, lingkungan, dan korban (Danger)",
+          "Mengecek pernapasan",
+          "Menghubungi ambulans",
+          "Menepuk bahu korban"
         ],
-        "correct_answer": "Danger, Response, Airway, Breathing, Circulation",
+        "correct_answer": "Memastikan keamanan diri, lingkungan, dan korban (Danger)",
         "shuffle": true
       },
-      "xp": 2
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l1_02",
+      "level_id": "ppgd_u1_l1",
+      "type": "fill_blank",
+      "question": "Metode penilaian kesadaran cepat menggunakan akronim AVPU. Huruf 'V' dalam AVPU berarti korban merespons terhadap rangsangan ____.",
+      "payload": {
+        "correct_answer": "suara",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l1_03",
+      "level_id": "ppgd_u1_l1",
+      "type": "multiple_choice",
+      "question": "Jika korban tidak sadar (Unresponsive) setelah diperiksa, tindakan selanjutnya yang harus segera dilakukan adalah?",
+      "payload": {
+        "options": [
+          "Meminta bantuan orang sekitar/Call for Help",
+          "Langsung melakukan RJP",
+          "Mencari kotak P3K",
+          "Memberi minum"
+        ],
+        "correct_answer": "Meminta bantuan orang sekitar/Call for Help",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l1_04",
+      "level_id": "ppgd_u1_l1",
+      "type": "word_bank",
+      "question": "Susun urutan penilaian kesadaran AVPU dari yang paling sadar hingga tidak sadar.",
+      "payload": {
+        "words": [
+          "Alert",
+          "Verbal",
+          "Pain",
+          "Unresponsive"
+        ],
+        "correct_order": [
+          "Alert",
+          "Verbal",
+          "Pain",
+          "Unresponsive"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l1_05",
+      "level_id": "ppgd_u1_l1",
+      "type": "multiple_choice",
+      "question": "Apa yang harus dilakukan jika lokasi kejadian tidak aman (misal: ada kabel listrik menjuntai)?",
+      "payload": {
+        "options": [
+          "Jangan mendekat dan amankan lokasi terlebih dahulu",
+          "Langsung menarik korban keluar",
+          "Menunggu ambulance tanpa melakukan apapun",
+          "Melompat melewati kabel"
+        ],
+        "correct_answer": "Jangan mendekat dan amankan lokasi terlebih dahulu",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l1_06",
+      "level_id": "ppgd_u1_l1",
+      "type": "fill_blank",
+      "question": "Tindakan memberikan rangsangan nyeri pada sternum dilakukan jika korban tidak merespons terhadap ____.",
+      "payload": {
+        "correct_answer": "suara",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l1_07",
+      "level_id": "ppgd_u1_l1",
+      "type": "matching",
+      "question": "Pasangkan kode area dengan potensi bahayanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Dapur",
+            "right": "Gas/Api"
+          },
+          {
+            "left": "Jalan Raya",
+            "right": "Kendaraan"
+          },
+          {
+            "left": "Sungai",
+            "right": "Arus/Tenggelam"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l1_08",
+      "level_id": "ppgd_u1_l1",
+      "type": "multiple_choice",
+      "question": "Tanda utama korban dalam kondisi 'Alert' (A) adalah?",
+      "payload": {
+        "options": [
+          "Mata terbuka dan sadar penuh terhadap sekitar",
+          "Hanya bisa merintih",
+          "Hanya bereaksi saat dicubit",
+          "Napasnya tersengal"
+        ],
+        "correct_answer": "Mata terbuka dan sadar penuh terhadap sekitar",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_ppgd_u1_l2_01",
+      "level_id": "ppgd_u1_l2",
+      "type": "multiple_choice",
+      "question": "Teknik membuka jalan napas dengan mendongakkan kepala dan mengangkat dagu disebut?",
+      "payload": {
+        "options": [
+          "Head-Tilt Chin-Lift",
+          "Jaw-Thrust",
+          "Finger Sweep",
+          "Recovery Position"
+        ],
+        "correct_answer": "Head-Tilt Chin-Lift",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_ppgd_u1_l2_02",
+      "level_id": "ppgd_u1_l2",
+      "type": "fill_blank",
+      "question": "Jika korban dicurigai mengalami cedera tulang leher, teknik membuka jalan napas yang aman adalah ____.",
+      "payload": {
+        "correct_answer": "jaw-thrust",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_ppgd_u1_l2_03",
+      "level_id": "ppgd_u1_l2",
+      "type": "multiple_choice",
+      "question": "Suara napas 'Gurgling' (berkumur) biasanya menandakan adanya sumbatan berupa?",
+      "payload": {
+        "options": [
+          "Cairan (darah/muntah)",
+          "Lidah yang jatuh",
+          "Benda padat",
+          "Penyempitan otot"
+        ],
+        "correct_answer": "Cairan (darah/muntah)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_ppgd_u1_l2_04",
+      "level_id": "ppgd_u1_l2",
+      "type": "word_bank",
+      "question": "Susun langkah teknik 'Finger Sweep' (sapuan jari) yang benar.",
+      "payload": {
+        "words": [
+          "Buka Mulut",
+          "Miringkan Kepala",
+          "Sapu dengan Jari"
+        ],
+        "correct_order": [
+          "Buka Mulut",
+          "Miringkan Kepala",
+          "Sapu dengan Jari"
+        ]
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_ppgd_u1_l2_05",
+      "level_id": "ppgd_u1_l2",
+      "type": "multiple_choice",
+      "question": "Apa fungsi utama dari Posisi Pemulihan (Recovery Position)?",
+      "payload": {
+        "options": [
+          "Mencegah lidah menyumbat jalan napas dan mencegah aspirasi muntah",
+          "Mempercepat kesadaran",
+          "Menghentikan pendarahan",
+          "Memudahkan transportasi"
+        ],
+        "correct_answer": "Mencegah lidah menyumbat jalan napas dan mencegah aspirasi muntah",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_ppgd_u1_l2_06",
+      "level_id": "ppgd_u1_l2",
+      "type": "fill_blank",
+      "question": "Suara napas 'Snoring' (mengorok) disebabkan oleh sumbatan sebagian jalan napas oleh ____.",
+      "payload": {
+        "correct_answer": "lidah",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_ppgd_u1_l2_07",
+      "level_id": "ppgd_u1_l2",
+      "type": "matching",
+      "question": "Pasangkan jenis suara napas dengan penyebabnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Snoring",
+            "right": "Lidah Jatuh"
+          },
+          {
+            "left": "Stridor",
+            "right": "Sumbatan Benda Padat"
+          },
+          {
+            "left": "Gurgling",
+            "right": "Cairan/Darah"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_ppgd_u1_l2_08",
+      "level_id": "ppgd_u1_l2",
+      "type": "multiple_choice",
+      "question": "Kapan teknik Jaw-Thrust dilarang dilakukan oleh penolong awam?",
+      "payload": {
+        "options": [
+          "Tidak dilarang, namun butuh pelatihan khusus agar tidak mencederai korban leher",
+          "Saat korban sadar",
+          "Saat korban luka bakar",
+          "Saat korban pendarahan kaki"
+        ],
+        "correct_answer": "Tidak dilarang, namun butuh pelatihan khusus agar tidak mencederai korban leher",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_ppgd_u1_l3_01",
+      "level_id": "ppgd_u1_l3",
+      "type": "multiple_choice",
+      "question": "Metode penilaian pernapasan yang benar adalah LDR, yaitu?",
+      "payload": {
+        "options": [
+          "Lihat, Dengar, Rasakan",
+          "Lari, Diam, Rebah",
+          "Luka, Darah, Respon",
+          "Lihat, Dekat, Raba"
+        ],
+        "correct_answer": "Lihat, Dengar, Rasakan",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_ppgd_u1_l3_02",
+      "level_id": "ppgd_u1_l3",
+      "type": "fill_blank",
+      "question": "Frekuensi pernapasan normal pada orang dewasa adalah ____ kali per menit.",
+      "payload": {
+        "correct_answer": "12-20",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_ppgd_u1_l3_03",
+      "level_id": "ppgd_u1_l3",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan 'Look' (Lihat) dalam metode penilaian pernapasan?",
+      "payload": {
+        "options": [
+          "Melihat pergerakan naik turunnya dada korban",
+          "Melihat warna mata korban",
+          "Melihat ada tidaknya pendarahan",
+          "Melihat tanda identitas korban"
+        ],
+        "correct_answer": "Melihat pergerakan naik turunnya dada korban",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_ppgd_u1_l3_04",
+      "level_id": "ppgd_u1_l3",
+      "type": "word_bank",
+      "question": "Susun urutan tindakan jika korban tidak bernapas tetapi jantung masih berdenyut.",
+      "payload": {
+        "words": [
+          "Pastikan Jalan Napas Terbuka",
+          "Berikan Napas Buatan",
+          "Evaluasi Setiap 2 Menit"
+        ],
+        "correct_order": [
+          "Pastikan Jalan Napas Terbuka",
+          "Berikan Napas Buatan",
+          "Evaluasi Setiap 2 Menit"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l3_05",
+      "level_id": "ppgd_u1_l3",
+      "type": "multiple_choice",
+      "question": "Kondisi di mana bibir dan ujung kuku korban berwarna kebiruan akibat kurang oksigen disebut?",
+      "payload": {
+        "options": [
+          "Sianosis",
+          "Anemia",
+          "Hipotermia",
+          "Hipertensi"
+        ],
+        "correct_answer": "Sianosis",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l3_06",
+      "level_id": "ppgd_u1_l3",
+      "type": "fill_blank",
+      "question": "Lama pemberian satu kali napas buatan yang efektif adalah selama ____ detik.",
+      "payload": {
+        "correct_answer": "1",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l3_07",
+      "level_id": "ppgd_u1_l3",
+      "type": "matching",
+      "question": "Pasangkan metode bantuan napas dengan alatnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Mouth to Mouth",
+            "right": "Tanpa Alat"
+          },
+          {
+            "left": "Mouth to Mask",
+            "right": "Pocket Mask"
+          },
+          {
+            "left": "Bag Valve Mask",
+            "right": "Ambu Bag"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l3_08",
+      "level_id": "ppgd_u1_l3",
+      "type": "multiple_choice",
+      "question": "Apa risiko utama memberikan napas buatan terlalu kuat/cepat?",
+      "payload": {
+        "options": [
+          "Udara masuk ke lambung (distensi lambung) dan memicu muntah",
+          "Paru-paru pecah",
+          "Korban langsung bangun",
+          "Gigi korban patah"
+        ],
+        "correct_answer": "Udara masuk ke lambung (distensi lambung) dan memicu muntah",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l4_01",
+      "level_id": "ppgd_u1_l4",
+      "type": "multiple_choice",
+      "question": "Titik pengecekan nadi yang paling akurat pada korban tidak sadar dewasa adalah?",
+      "payload": {
+        "options": [
+          "Nadi Karotis (Leher)",
+          "Nadi Radialis (Pergelangan Tangan)",
+          "Nadi Brakialis (Lengan)",
+          "Nadi Femoralis (Selangkangan)"
+        ],
+        "correct_answer": "Nadi Karotis (Leher)",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l4_02",
+      "level_id": "ppgd_u1_l4",
+      "type": "fill_blank",
+      "question": "Tanda syok awal ditandai dengan kulit yang terasa dingin, lembap, dan warna ____.",
+      "payload": {
+        "correct_answer": "pucat",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l4_03",
+      "level_id": "ppgd_u1_l4",
+      "type": "multiple_choice",
+      "question": "Tindakan pertama untuk menghentikan pendarahan luar yang masif adalah?",
+      "payload": {
+        "options": [
+          "Tekan langsung pada luka (Direct Pressure)",
+          "Memasang torniket",
+          "Memberi alkohol",
+          "Menutup dengan kapas"
+        ],
+        "correct_answer": "Tekan langsung pada luka (Direct Pressure)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_ppgd_u1_l4_04",
+      "level_id": "ppgd_u1_l4",
+      "type": "word_bank",
+      "question": "Susun langkah penanganan posisi syok (Shock Position).",
+      "payload": {
+        "words": [
+          "Baringkan Telentang",
+          "Tinggikan Kaki 20-30cm",
+          "Selimuti Korban"
+        ],
+        "correct_order": [
+          "Baringkan Telentang",
+          "Tinggikan Kaki 20-30cm",
+          "Selimuti Korban"
+        ]
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_ppgd_u1_l4_05",
+      "level_id": "ppgd_u1_l4",
+      "type": "multiple_choice",
+      "question": "Berapa lama waktu maksimal pengecekan nadi karotis dilakukan?",
+      "payload": {
+        "options": [
+          "10 detik",
+          "30 detik",
+          "1 menit",
+          "5 detik"
+        ],
+        "correct_answer": "10 detik",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_ppgd_u1_l4_06",
+      "level_id": "ppgd_u1_l4",
+      "type": "fill_blank",
+      "question": "CRT (Capillary Refill Time) normal adalah kembali merah dalam waktu kurang dari ____ detik.",
+      "payload": {
+        "correct_answer": "2",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_ppgd_u1_l4_07",
+      "level_id": "ppgd_u1_l4",
+      "type": "matching",
+      "question": "Pasangkan kondisi nadi dengan maknanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Nadi Cepat & Lemah",
+            "right": "Gejala Syok"
+          },
+          {
+            "left": "Nadi Tidak Teraba",
+            "right": "Henti Jantung"
+          },
+          {
+            "left": "Nadi Kuat & Teratur",
+            "right": "Kondisi Normal"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_ppgd_u1_l4_08",
+      "level_id": "ppgd_u1_l4",
+      "type": "multiple_choice",
+      "question": "Kapan posisi syok DILARANG dilakukan?",
+      "payload": {
+        "options": [
+          "Jika dicurigai ada patah tulang panggul, kaki, atau cedera kepala",
+          "Jika korban haus",
+          "Jika korban mengantuk",
+          "Jika korban lapar"
+        ],
+        "correct_answer": "Jika dicurigai ada patah tulang panggul, kaki, atau cedera kepala",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_01",
+      "level_id": "ppgd_u1_l5",
+      "type": "multiple_choice",
+      "question": "Akronim SAMPLE digunakan untuk wawancara korban. Apa arti 'S' dalam SAMPLE?",
+      "payload": {
+        "options": [
+          "Signs & Symptoms (Tanda & Gejala)",
+          "Safety (Keamanan)",
+          "Shock (Syok)",
+          "Situation (Situasi)"
+        ],
+        "correct_answer": "Signs & Symptoms (Tanda & Gejala)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_02",
+      "level_id": "ppgd_u1_l5",
+      "type": "fill_blank",
+      "question": "Pemeriksaan fisik sistematis dari kepala hingga kaki disebut ____-to-toe examination.",
+      "payload": {
+        "correct_answer": "head",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_03",
+      "level_id": "ppgd_u1_l5",
+      "type": "multiple_choice",
+      "question": "Dalam sistem Triage, label warna MERAH diberikan kepada korban yang?",
+      "payload": {
+        "options": [
+          "Gawat Darurat (ancaman nyawa, harus segera ditolong)",
+          "Luka ringan (bisa berjalan)",
+          "Meninggal dunia",
+          "Luka berat tapi stabil"
+        ],
+        "correct_answer": "Gawat Darurat (ancaman nyawa, harus segera ditolong)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_04",
+      "level_id": "ppgd_u1_l5",
+      "type": "word_bank",
+      "question": "Susun rincian laporan kejadian P3K ke petugas medis.",
+      "payload": {
+        "words": [
+          "Lokasi Kejadian",
+          "Jumlah Korban",
+          "Kondisi Terkini",
+          "Tindakan Yang Sudah Dilakukan"
+        ],
+        "correct_order": [
+          "Lokasi Kejadian",
+          "Jumlah Korban",
+          "Kondisi Terkini",
+          "Tindakan Yang Sudah Dilakukan"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_05",
+      "level_id": "ppgd_u1_l5",
+      "type": "multiple_choice",
+      "question": "Pemeriksaan GCS (Glasgow Coma Scale) menilai tiga komponen utama, yaitu?",
+      "payload": {
+        "options": [
+          "Mata (Eye), Suara (Verbal), Gerak (Motorik)",
+          "Nadi, Napas, Tekanan Darah",
+          "Kepala, Dada, Perut",
+          "Suhu, Warna Kulit, Kesadaran"
+        ],
+        "correct_answer": "Mata (Eye), Suara (Verbal), Gerak (Motorik)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_06",
+      "level_id": "ppgd_u1_l5",
+      "type": "fill_blank",
+      "question": "Label warna HIJAU pada Triage diberikan kepada korban yang sering dijuluki 'the walking ____'.",
+      "payload": {
+        "correct_answer": "wounded",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_07",
+      "level_id": "ppgd_u1_l5",
+      "type": "matching",
+      "question": "Pasangkan label Triage dengan prioritasnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Merah",
+            "right": "Prioritas 1 (Segera)"
+          },
+          {
+            "left": "Kuning",
+            "right": "Prioritas 2 (Tertunda)"
+          },
+          {
+            "left": "Hitam",
+            "right": "Prioritas 0 (Meninggal)"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_ppgd_u1_l5_08",
+      "level_id": "ppgd_u1_l5",
+      "type": "multiple_choice",
+      "question": "Prinsip 'Log Roll' saat memindahkan korban trauma bertujuan untuk?",
+      "payload": {
+        "options": [
+          "Menjaga kelurusan tulang belakang (Spinal Alignment)",
+          "Mempercepat proses angkut",
+          "Menghibur korban",
+          "Membersihkan baju korban"
+        ],
+        "correct_answer": "Menjaga kelurusan tulang belakang (Spinal Alignment)",
+        "shuffle": true
+      },
+      "xp": 10
     }
   ]
 }

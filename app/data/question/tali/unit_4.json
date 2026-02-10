@@ -1,4 +1,678 @@
 {
-  "unit_id": "tali_unit_4",
-  "questions": []
+  "unit_id": "tali_u4",
+  "questions": [
+    {
+      "id": "q_tali_u4_l1_01",
+      "level_id": "tali_u4_l1",
+      "type": "multiple_choice",
+      "question": "Mengapa bentuk segitiga selalu digunakan sebagai struktur dasar dalam pembangunan menara atau jembatan pionering?",
+      "payload": {
+        "options": [
+          "Bentuk segitiga bersifat statis dan tidak dapat berubah bentuk (rigid) saat menerima tekanan",
+          "Bentuk segitiga menghemat penggunaan tali",
+          "Agar bangunan terlihat lebih artistik",
+          "Memudahkan proses pembongkaran"
+        ],
+        "correct_answer": "Bentuk segitiga bersifat statis dan tidak dapat berubah bentuk (rigid) saat menerima tekanan",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u4_l1_02",
+      "level_id": "tali_u4_l1",
+      "type": "fill_blank",
+      "question": "Teknik memperkuat struktur persegi agar tidak miring dengan menambahkan tiang diagonal disebut sebagai ____.",
+      "payload": {
+        "correct_answer": "bracing",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u4_l1_03",
+      "level_id": "tali_u4_l1",
+      "type": "multiple_choice",
+      "question": "Bahan tiang manakah yang memiliki rasio kekuatan terhadap berat paling ideal untuk bangunan pionering portabel?",
+      "payload": {
+        "options": [
+          "Kayu jati mas",
+          "Bambu petung yang sudah tua",
+          "Pipa besi galvanis",
+          "Kayu albasia"
+        ],
+        "correct_answer": "Bambu petung yang sudah tua",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u4_l1_04",
+      "level_id": "tali_u4_l1",
+      "type": "word_bank",
+      "question": "Susunlah hirarki kekuatan material berdasarkan daya tahannya terhadap cuaca luar ruangan.",
+      "payload": {
+        "words": [
+          "Tali Ijuk",
+          "Tali Manila",
+          "Tali Nilon"
+        ],
+        "correct_order": [
+          "Tali Ijuk",
+          "Tali Manila",
+          "Tali Nilon"
+        ]
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u4_l1_05",
+      "level_id": "tali_u4_l1",
+      "type": "multiple_choice",
+      "question": "Apa fungsi utama dari 'Tiang Pancang' (Picket) dalam pembangunan jembatan monyet?",
+      "payload": {
+        "options": [
+          "Sebagai hiasan gerbang",
+          "Sebagai titik tambat utama penahan beban tarikan tali",
+          "Untuk mengukur kedalaman sungai",
+          "Tempat berpegangan peserta"
+        ],
+        "correct_answer": "Sebagai titik tambat utama penahan beban tarikan tali",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u4_l1_06",
+      "level_id": "tali_u4_l1",
+      "type": "fill_blank",
+      "question": "Dalam arsitektur pionering, beban yang berasal dari berat bangunan itu sendiri disebut sebagai ____ load.",
+      "payload": {
+        "correct_answer": "dead",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u4_l1_07",
+      "level_id": "tali_u4_l1",
+      "type": "matching",
+      "question": "Pasangkan jenis bambu dengan kegunaan spesifiknya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Bambu Petung",
+            "right": "Tiang Utama Menara"
+          },
+          {
+            "left": "Bambu Apus",
+            "right": "Lantai & Bracing"
+          },
+          {
+            "left": "Bambu Wulung",
+            "right": "Dekorasi & Gapura"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u4_l1_08",
+      "level_id": "tali_u4_l1",
+      "type": "multiple_choice",
+      "question": "Tanda utama bahwa bambu sudah tidak layak digunakan untuk struktur pionering berat adalah?",
+      "payload": {
+        "options": [
+          "Warna kulitnya berubah menjadi kusam",
+          "Terlihat serat pecah memanjang atau lubang bubuk kayu",
+          "Bambunya terlalu panjang",
+          "Bambunya terasa sangat dingin"
+        ],
+        "correct_answer": "Terlihat serat pecah memanjang atau lubang bubuk kayu",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u4_l2_01",
+      "level_id": "tali_u4_l2",
+      "type": "multiple_choice",
+      "question": "Jembatan 'Monkey Bridge' (Jembatan Monyet) minimal membutuhkan berapa jalur tali utama?",
+      "payload": {
+        "options": [
+          "2 jalur (tangan dan kaki)",
+          "3 jalur (dua tangan, satu kaki)",
+          "1 jalur saja",
+          "4 jalur simetris"
+        ],
+        "correct_answer": "3 jalur (dua tangan, satu kaki)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u4_l2_02",
+      "level_id": "tali_u4_l2",
+      "type": "fill_blank",
+      "question": "Struktur berbentuk huruf 'A' yang digunakan sebagai penyangga tali utama jembatan disebut ____ frame.",
+      "payload": {
+        "correct_answer": "a",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u4_l2_03",
+      "level_id": "tali_u4_l2",
+      "type": "multiple_choice",
+      "question": "Apa fungsi dari sistem 'Anchoring 3-2-1' pada pembangunan jembatan besar?",
+      "payload": {
+        "options": [
+          "Membagi beban tarikan ke beberapa pasak agar tanah tidak jebol",
+          "Sebagai urutan langkah kerja",
+          "Mempercepat waktu pengerjaan",
+          "Hanya sebagai cadangan jika satu pasak patah"
+        ],
+        "correct_answer": "Membagi beban tarikan ke beberapa pasak agar tanah tidak jebol",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l2_04",
+      "level_id": "tali_u4_l2",
+      "type": "word_bank",
+      "question": "Susun langkah instalasi tali utama jembatan monyet.",
+      "payload": {
+        "words": [
+          "Pasang Anchor",
+          "Berdirikan A-Frame",
+          "Tegangkan Tali",
+          "Ikat V-Shaped Ropes"
+        ],
+        "correct_order": [
+          "Pasang Anchor",
+          "Berdirikan A-Frame",
+          "Tegangkan Tali",
+          "Ikat V-Shaped Ropes"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l2_05",
+      "level_id": "tali_u4_l2",
+      "type": "multiple_choice",
+      "question": "Jembatan 'Drawbridge' (Jembatan Angkat) menggunakan prinsip mekanika apa untuk beroperasi?",
+      "payload": {
+        "options": [
+          "Tuas pengungkit dan katrol",
+          "Pegas elastis",
+          "Tekanan udara",
+          "Gaya magnet"
+        ],
+        "correct_answer": "Tuas pengungkit dan katrol",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u4_l2_06",
+      "level_id": "tali_u4_l2",
+      "type": "fill_blank",
+      "question": "Jembatan yang dibangun tanpa menggunakan tali sama sekali (hanya menggunakan tekanan beban dan kuncian kayu) disebut jembatan ____ (Leonardo da Vinci Bridge).",
+      "payload": {
+        "correct_answer": "reciprocal",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l2_07",
+      "level_id": "tali_u4_l2",
+      "type": "matching",
+      "question": "Pasangkan tipe jembatan dengan karakteristiknya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Suspension Bridge",
+            "right": "Tali menggantung di menara"
+          },
+          {
+            "left": "Trestle Bridge",
+            "right": "Penyangga kayu vertikal banyak"
+          },
+          {
+            "left": "Single Lock Bridge",
+            "right": "Dua tiang bertemu di tengah"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l2_08",
+      "level_id": "tali_u4_l2",
+      "type": "multiple_choice",
+      "question": "Mengapa sudut kemiringan tiang pancang (anchor) harus berlawanan dengan arah tarikan tali?",
+      "payload": {
+        "options": [
+          "Agar pasak tidak tercabut saat tali menegang",
+          "Agar pasak mudah dipukul",
+          "Agar tali tidak cepat aus",
+          "Hanya mengikuti instruksi buku"
+        ],
+        "correct_answer": "Agar pasak tidak tercabut saat tali menegang",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u4_l3_01",
+      "level_id": "tali_u4_l3",
+      "type": "multiple_choice",
+      "question": "Dalam membangun Menara Pandang Kaki Empat, apa fungsi dari 'Cross Bracing' (Ikatan Silang) pada setiap sisi?",
+      "payload": {
+        "options": [
+          "Menahan gaya puntir (torsion) dan geser (shearing) agar menara tidak roboh",
+          "Sebagai tangga naik cadangan",
+          "Hanya penahan lantai",
+          "Mengurangi biaya tali"
+        ],
+        "correct_answer": "Menahan gaya puntir (torsion) dan geser (shearing) agar menara tidak roboh",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l3_02",
+      "level_id": "tali_u4_l3",
+      "type": "fill_blank",
+      "question": "Pusat keseimbangan pada menara tinggi yang menentukan stabilitas terhadap angin disebut Center of ____.",
+      "payload": {
+        "correct_answer": "gravity",
+        "case_sensitive": false
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l3_03",
+      "level_id": "tali_u4_l3",
+      "type": "multiple_choice",
+      "question": "Berapakah perbandingan maksimal antara lebar dasar menara dengan tingginya agar tidak mudah terguling (tanpa tali pancang)?",
+      "payload": {
+        "options": [
+          "1 : 3",
+          "1 : 10",
+          "1 : 1",
+          "1 : 5"
+        ],
+        "correct_answer": "1 : 3",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l3_04",
+      "level_id": "tali_u4_l3",
+      "type": "word_bank",
+      "question": "Susunlah bagian menara dari bawah ke atas.",
+      "payload": {
+        "words": [
+          "Pondasi/Pasak",
+          "Tiang Utama",
+          "Gelagar Lantai",
+          "Pagar Pengaman"
+        ],
+        "correct_order": [
+          "Pondasi/Pasak",
+          "Tiang Utama",
+          "Gelagar Lantai",
+          "Pagar Pengaman"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l3_05",
+      "level_id": "tali_u4_l3",
+      "type": "multiple_choice",
+      "question": "Menara 'Hourglass Tower' (Menara Jam Pasir) memiliki keunikan yaitu?",
+      "payload": {
+        "options": [
+          "Bagian tengah mengecil dan melebar kembali di bagian atas",
+          "Hanya menggunakan 1 tiang utama",
+          "Seluruh ikatannya menggunakan simpul mati",
+          "Bangunan yang bisa berputar"
+        ],
+        "correct_answer": "Bagian tengah mengecil dan melebar kembali di bagian atas",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l3_06",
+      "level_id": "tali_u4_l3",
+      "type": "fill_blank",
+      "question": "Tali tambahan yang dipasang dari puncak menara ke tanah untuk menahan guncangan angin disebut tali ____ (Guy Wire/Rope).",
+      "payload": {
+        "correct_answer": "pancang",
+        "case_sensitive": false
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l3_07",
+      "level_id": "tali_u4_l3",
+      "type": "matching",
+      "question": "Pasangkan tipe menara dengan jumlah kaki utamanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Tripod Tower",
+            "right": "3 Kaki Utama"
+          },
+          {
+            "left": "Signal Tower",
+            "right": "4 Kaki Utama"
+          },
+          {
+            "left": "Pyramid Tower",
+            "right": "4 Kaki mengerucut"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l3_08",
+      "level_id": "tali_u4_l3",
+      "type": "multiple_choice",
+      "question": "Apa risiko utama jika pemasangan lantai menara tidak menggunakan balok gelagar (Joist) yang cukup?",
+      "payload": {
+        "options": [
+          "Lantai akan melengkung atau patah saat dinaiki",
+          "Warna lantai tidak seragam",
+          "Tangga akan menjadi miring",
+          "Tali ikatan akan basah"
+        ],
+        "correct_answer": "Lantai akan melengkung atau patah saat dinaiki",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u4_l4_01",
+      "level_id": "tali_u4_l4",
+      "type": "multiple_choice",
+      "question": "Sistem 'Z-Drag' (Sistem 3:1) dalam pionering rigging digunakan untuk?",
+      "payload": {
+        "options": [
+          "Mendapatkan keuntungan mekanis sehingga beban berat bisa ditarik dengan tenaga kecil",
+          "Menyambung 3 tali sekaligus",
+          "Mengukur sudut kemiringan tiang",
+          "Membuat jemuran yang sangat panjang"
+        ],
+        "correct_answer": "Mendapatkan keuntungan mekanis sehingga beban berat bisa ditarik dengan tenaga kecil",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l4_02",
+      "level_id": "tali_u4_l4",
+      "type": "fill_blank",
+      "question": "Alat bantu berupa roda berputar untuk jalannya tali guna mengurangi gesekan disebut ____ (Pulley).",
+      "payload": {
+        "correct_answer": "katrol",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l4_03",
+      "level_id": "tali_u4_l4",
+      "type": "multiple_choice",
+      "question": "Berapakah nilai keuntungan mekanis jika Anda menggunakan satu katrol bergerak (Mobile Pulley) untuk mengangkat beban?",
+      "payload": {
+        "options": [
+          "2 kali lipat",
+          "1 kali lipat (tetap)",
+          "10 kali lipat",
+          "Tidak ada perubahan"
+        ],
+        "correct_answer": "2 kali lipat",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l4_04",
+      "level_id": "tali_u4_l4",
+      "type": "word_bank",
+      "question": "Susunlah urutan tali pada sistem Block and Tackle.",
+      "payload": {
+        "words": [
+          "Fixed Block",
+          "Running Line",
+          "Moving Block",
+          "Hauling Part"
+        ],
+        "correct_order": [
+          "Fixed Block",
+          "Running Line",
+          "Moving Block",
+          "Hauling Part"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l4_05",
+      "level_id": "tali_u4_l4",
+      "type": "multiple_choice",
+      "question": "Apa itu 'Shear Legs' dalam pionering tingkat lanjut?",
+      "payload": {
+        "options": [
+          "Struktur dua kaki untuk mengangkat beban berat ke posisi vertikal (seperti crane)",
+          "Jenis ikatan baru",
+          "Pisau pemotong tali",
+          "Alat pengukur panjang bambu"
+        ],
+        "correct_answer": "Struktur dua kaki untuk mengangkat beban berat ke posisi vertikal (seperti crane)",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l4_06",
+      "level_id": "tali_u4_l4",
+      "type": "fill_blank",
+      "question": "Teknik memutar sebatang kayu di antara dua utas tali untuk mengencangkan lashing secara ekstrem disebut ____ Windlass.",
+      "payload": {
+        "correct_answer": "spanish",
+        "case_sensitive": false
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l4_07",
+      "level_id": "tali_u4_l4",
+      "type": "matching",
+      "question": "Pasangkan sistem dengan hasil mekanisnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Fixed Pulley",
+            "right": "Hanya mengubah arah tarikan"
+          },
+          {
+            "left": "Moveable Pulley",
+            "right": "Mengurangi beban jadi setengah"
+          },
+          {
+            "left": "Z-Drag System",
+            "right": "Beban berat ditarik 1 orang"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l4_08",
+      "level_id": "tali_u4_l4",
+      "type": "multiple_choice",
+      "question": "Dalam sistem katrol, apa dampak dari penambahan jumlah katrol terhadap panjang tali yang harus ditarik?",
+      "payload": {
+        "options": [
+          "Tali yang harus ditarik menjadi lebih panjang",
+          "Tali yang harus ditarik menjadi lebih pendek",
+          "Tidak ada pengaruh",
+          "Tali otomatis menjadi putus"
+        ],
+        "correct_answer": "Tali yang harus ditarik menjadi lebih panjang",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l5_01",
+      "level_id": "tali_u4_l5",
+      "type": "multiple_choice",
+      "question": "Sebelum membangun proyek pionering skala besar, mengapa pembuatan 'Maket' (Miniatur) sangat diwajibkan?",
+      "payload": {
+        "options": [
+          "Untuk mensimulasikan beban dan mendeteksi kesalahan desain sebelum pengerjaan asli",
+          "Sebagai syarat administrasi",
+          "Untuk dipajang di tenda",
+          "Agar pembina bangga"
+        ],
+        "correct_answer": "Untuk mensimulasikan beban dan mendeteksi kesalahan desain sebelum pengerjaan asli",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l5_02",
+      "level_id": "tali_u4_l5",
+      "type": "fill_blank",
+      "question": "Nilai keamanan minimal (Safety Factor) untuk struktur yang dinaiki manusia adalah ____ kali beban maksimal yang diperkirakan.",
+      "payload": {
+        "correct_answer": "5",
+        "case_sensitive": false
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l5_03",
+      "level_id": "tali_u4_l5",
+      "type": "multiple_choice",
+      "question": "Apa tanda fisik bahwa sebuah lashing (ikatan) sedang mengalami tekanan berlebih (overstress)?",
+      "payload": {
+        "options": [
+          "Tali mengeluarkan bunyi berderit (creaking) dan diameter tali mengecil",
+          "Tali berubah warna menjadi cerah",
+          "Bambu menjadi sangat licin",
+          "Ikatan terlihat sangat rapi"
+        ],
+        "correct_answer": "Tali mengeluarkan bunyi berderit (creaking) dan diameter tali mengecil",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l5_04",
+      "level_id": "tali_u4_l5",
+      "type": "word_bank",
+      "question": "Susun alur manajemen proyek pionering besar.",
+      "payload": {
+        "words": [
+          "Desain/Maket",
+          "Logistik Alat",
+          "Konstruksi",
+          "Uji Keamanan"
+        ],
+        "correct_order": [
+          "Desain/Maket",
+          "Logistik Alat",
+          "Konstruksi",
+          "Uji Keamanan"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l5_05",
+      "level_id": "tali_u4_l5",
+      "type": "multiple_choice",
+      "question": "Dalam rigging, istilah 'Shock Loading' sangat berbahaya karena?",
+      "payload": {
+        "options": [
+          "Beban jatuh mendadak memberikan tekanan berkali-kali lipat dari berat aslinya",
+          "Menyebabkan aliran listrik pada tali",
+          "Membuat tiang terbakar",
+          "Beban menjadi melayang"
+        ],
+        "correct_answer": "Beban jatuh mendadak memberikan tekanan berkali-kali lipat dari berat aslinya",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l5_06",
+      "level_id": "tali_u4_l5",
+      "type": "fill_blank",
+      "question": "Pemimpin proyek pionering yang bertanggung jawab penuh atas keselamatan struktur disebut Safety ____.",
+      "payload": {
+        "correct_answer": "officer",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u4_l5_07",
+      "level_id": "tali_u4_l5",
+      "type": "matching",
+      "question": "Pasangkan gaya dengan lokasinya pada menara.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Compression (Tekan)",
+            "right": "Tiang Utama Vertikal"
+          },
+          {
+            "left": "Tension (Tarik)",
+            "right": "Tali Pancang"
+          },
+          {
+            "left": "Shear (Geser)",
+            "right": "Titik Ikatan Palang"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u4_l5_08",
+      "level_id": "tali_u4_l5",
+      "type": "multiple_choice",
+      "question": "Langkah apa yang paling tepat jika saat pembangunan menara besar turun hujan lebat?",
+      "payload": {
+        "options": [
+          "Hentikan pengerjaan, turunkan personil, dan periksa kembali ketegangan tali setelah kering",
+          "Lanjutkan pengerjaan secepat mungkin",
+          "Gunakan payung pada tiang",
+          "Olesi tali dengan minyak agar air tidak meresap"
+        ],
+        "correct_answer": "Hentikan pengerjaan, turunkan personil, dan periksa kembali ketegangan tali setelah kering",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

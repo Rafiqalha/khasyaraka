@@ -1,0 +1,678 @@
+{
+    "unit_id": "ppgd_u5",
+    "questions": [
+        {
+            "id": "q_ppgd_u5_l1_01",
+            "level_id": "ppgd_u5_l1",
+            "type": "multiple_choice",
+            "question": "Zat aktif 'Kurkumin' yang berfungsi sebagai anti-inflamasi dan antioksidan paling banyak ditemukan pada tanaman?",
+            "payload": {
+                "options": [
+                    "Kunyit",
+                    "Jahe",
+                    "Kencur",
+                    "Lengkuas"
+                ],
+                "correct_answer": "Kunyit",
+                "shuffle": true
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u5_l1_02",
+            "level_id": "ppgd_u5_l1",
+            "type": "fill_blank",
+            "question": "Tanaman yang dikenal sebagai antibiotik alami dan memiliki rasa sangat pahit adalah ____ (Andrographis paniculata).",
+            "payload": {
+                "correct_answer": "sambiloto",
+                "case_sensitive": false
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u5_l1_03",
+            "level_id": "ppgd_u5_l1",
+            "type": "multiple_choice",
+            "question": "Tanaman Aloe Vera (Lidah Buaya) sangat efektif digunakan dalam P3K lapangan untuk menangani?",
+            "payload": {
+                "options": [
+                    "Luka bakar ringan (derajat 1) dan iritasi kulit",
+                    "Patah tulang terbuka",
+                    "Pendarahan arteri",
+                    "Diare berat"
+                ],
+                "correct_answer": "Luka bakar ringan (derajat 1) dan iritasi kulit",
+                "shuffle": true
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u5_l1_04",
+            "level_id": "ppgd_u5_l1",
+            "type": "word_bank",
+            "question": "Susun bagian tanaman yang sering digunakan sebagai obat.",
+            "payload": {
+                "words": [
+                    "Rimpang",
+                    "Daun",
+                    "Batang",
+                    "Bunga",
+                    "Buah"
+                ],
+                "correct_order": [
+                    "Rimpang",
+                    "Daun",
+                    "Batang",
+                    "Bunga",
+                    "Buah"
+                ]
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u5_l1_05",
+            "level_id": "ppgd_u5_l1",
+            "type": "multiple_choice",
+            "question": "Tanaman Sirih (Piper betle) mengandung zat antiseptik yang kuat yaitu?",
+            "payload": {
+                "options": [
+                    "Kavicol dan Kavibetol",
+                    "Kafein",
+                    "Vitamin C",
+                    "Kalsium Karbonat"
+                ],
+                "correct_answer": "Kavicol dan Kavibetol",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u5_l1_06",
+            "level_id": "ppgd_u5_l1",
+            "type": "fill_blank",
+            "question": "Bagian tanaman Jahe yang dimanfaatkan sebagai obat penghangat tubuh adalah bagian ____.",
+            "payload": {
+                "correct_answer": "rimpang",
+                "case_sensitive": false
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u5_l1_07",
+            "level_id": "ppgd_u5_l1",
+            "type": "matching",
+            "question": "Pasangkan tanaman dengan khasiat utamanya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Kumis Kucing",
+                        "right": "Peluruh Air Seni (Diuretik)"
+                    },
+                    {
+                        "left": "Jambu Biji",
+                        "right": "Obat Diare (Antidiare)"
+                    },
+                    {
+                        "left": "Kencur",
+                        "right": "Obat Batuk & Melegakan Tenggorokan"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u5_l1_08",
+            "level_id": "ppgd_u5_l1",
+            "type": "multiple_choice",
+            "question": "Istilah 'Apotek Hidup' merujuk pada?",
+            "payload": {
+                "options": [
+                    "Pemanfaatan lahan untuk menanam tanaman obat untuk keperluan sehari-hari",
+                    "Toko obat yang buka 24 jam",
+                    "Laboratorium pembuatan obat kimia",
+                    "Hutan lindung"
+                ],
+                "correct_answer": "Pemanfaatan lahan untuk menanam tanaman obat untuk keperluan sehari-hari",
+                "shuffle": true
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u5_l2_01",
+            "level_id": "ppgd_u5_l2",
+            "type": "multiple_choice",
+            "question": "Tanaman Binahong (Anredera cordifolia) sangat populer dalam P3K karena kemampuannya dalam?",
+            "payload": {
+                "options": [
+                    "Mempercepat penyembuhan luka operasi dan luka luar",
+                    "Mengobati rabun jauh",
+                    "Menurunkan berat badan",
+                    "Mencegah rambut rontok"
+                ],
+                "correct_answer": "Mempercepat penyembuhan luka operasi dan luka luar",
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u5_l2_02",
+            "level_id": "ppgd_u5_l2",
+            "type": "fill_blank",
+            "question": "Getah tanaman Jarak Cina (Jatropha multifida) sering dijuluki sebagai pohon '____' karena efektif menghentikan pendarahan luka baru.",
+            "payload": {
+                "correct_answer": "betadin",
+                "case_sensitive": false
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u5_l2_03",
+            "level_id": "ppgd_u5_l2",
+            "type": "multiple_choice",
+            "question": "Daun Bandotan (Ageratum conyzoides) sering digunakan pramuka di lapangan untuk?",
+            "payload": {
+                "options": [
+                    "Menyumbat pendarahan pada luka sayat ringan",
+                    "Sebagai alas tidur",
+                    "Obat sakit mata",
+                    "Penghalau nyamuk"
+                ],
+                "correct_answer": "Menyumbat pendarahan pada luka sayat ringan",
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u5_l2_04",
+            "level_id": "ppgd_u5_l2",
+            "type": "word_bank",
+            "question": "Susun langkah aplikasi daun Binahong pada luka luar.",
+            "payload": {
+                "words": [
+                    "Cuci Daun Bersih",
+                    "Tumbuk Hingga Halus",
+                    "Tempelkan ke Luka",
+                    "Balut dengan Kain"
+                ],
+                "correct_order": [
+                    "Cuci Daun Bersih",
+                    "Tumbuk Hingga Halus",
+                    "Tempelkan ke Luka",
+                    "Balut dengan Kain"
+                ]
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l2_05",
+            "level_id": "ppgd_u5_l2",
+            "type": "multiple_choice",
+            "question": "Kandungan saponin, alkaloid, dan polifenol pada Binahong berfungsi sebagai?",
+            "payload": {
+                "options": [
+                    "Antimikroba dan merangsang regenerasi sel",
+                    "Pewarna alami",
+                    "Pemicu rasa nyeri",
+                    "Penghancur tulang"
+                ],
+                "correct_answer": "Antimikroba dan merangsang regenerasi sel",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l2_06",
+            "level_id": "ppgd_u5_l2",
+            "type": "fill_blank",
+            "question": "Penggunaan daun Sirih untuk menghentikan mimisan dilakukan dengan cara digulung dan dimasukkan ke hidung karena mengandung zat penyempit pembuluh darah (____).",
+            "payload": {
+                "correct_answer": "vasokonstriktor",
+                "case_sensitive": false
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l2_07",
+            "level_id": "ppgd_u5_l2",
+            "type": "matching",
+            "question": "Pasangkan tanaman luka dengan mekanismenya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Daun Sirih",
+                        "right": "Antiseptik & Menghentikan Mimisan"
+                    },
+                    {
+                        "left": "Getah Jarak",
+                        "right": "Koagulan (Pembeku Darah)"
+                    },
+                    {
+                        "left": "Lidah Buaya",
+                        "right": "Mendinginkan Luka Bakar"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l2_08",
+            "level_id": "ppgd_u5_l2",
+            "type": "multiple_choice",
+            "question": "Apa syarat utama penggunaan tanaman obat untuk luka terbuka di lapangan?",
+            "payload": {
+                "options": [
+                    "Tanaman harus dicuci bersih agar tidak menyebabkan infeksi sekunder",
+                    "Harus dimasak dulu",
+                    "Harus dicampur gula",
+                    "Tidak ada syarat khusus"
+                ],
+                "correct_answer": "Tanaman harus dicuci bersih agar tidak menyebabkan infeksi sekunder",
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u5_l3_01",
+            "level_id": "ppgd_u5_l3",
+            "type": "multiple_choice",
+            "question": "Zat tanin yang tinggi pada daun Jambu Biji (Psidium guajava) berfungsi untuk?",
+            "payload": {
+                "options": [
+                    "Menciutkan selaput lendir usus (Adstringen) untuk menghentikan diare",
+                    "Memicu buang air besar",
+                    "Meningkatkan nafsu makan",
+                    "Mengobati pusing"
+                ],
+                "correct_answer": "Menciutkan selaput lendir usus (Adstringen) untuk menghentikan diare",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l3_02",
+            "level_id": "ppgd_u5_l3",
+            "type": "fill_blank",
+            "question": "Tanaman rimpang yang efektif mengurangi rasa mual dan muntah (Antiemetik) adalah ____.",
+            "payload": {
+                "correct_answer": "jahe",
+                "case_sensitive": false
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l3_03",
+            "level_id": "ppgd_u5_l3",
+            "type": "multiple_choice",
+            "question": "Temulawak (Curcuma zanthorrhiza) sering dikonsumsi untuk menjaga kesehatan organ?",
+            "payload": {
+                "options": [
+                    "Hati (Liver)",
+                    "Paru-paru",
+                    "Mata",
+                    "Kulit"
+                ],
+                "correct_answer": "Hati (Liver)",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l3_04",
+            "level_id": "ppgd_u5_l3",
+            "type": "word_bank",
+            "question": "Susun ramuan sederhana untuk sakit perut/masuk angin.",
+            "payload": {
+                "words": [
+                    "Jahe Geprek",
+                    "Gula Merah",
+                    "Air Panas",
+                    "Seduh"
+                ],
+                "correct_order": [
+                    "Jahe Geprek",
+                    "Gula Merah",
+                    "Air Panas",
+                    "Seduh"
+                ]
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l3_05",
+            "level_id": "ppgd_u5_l3",
+            "type": "multiple_choice",
+            "question": "Biji Pepaya ternyata dapat dimanfaatkan dalam pengobatan tradisional sebagai?",
+            "payload": {
+                "options": [
+                    "Obat cacing (Anthelmintik)",
+                    "Obat tidur",
+                    "Penyubur rambut",
+                    "Obat luka bakar"
+                ],
+                "correct_answer": "Obat cacing (Anthelmintik)",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u5_l3_06",
+            "level_id": "ppgd_u5_l3",
+            "type": "fill_blank",
+            "question": "Daun Pepaya mengandung enzim ____ yang membantu proses pencernaan protein.",
+            "payload": {
+                "correct_answer": "papain",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u5_l3_07",
+            "level_id": "ppgd_u5_l3",
+            "type": "matching",
+            "question": "Pasangkan gangguan pencernaan dengan tanamannya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Diare",
+                        "right": "Daun Jambu Biji Muda"
+                    },
+                    {
+                        "left": "Mual/Kembung",
+                        "right": "Jahe/Kunyit"
+                    },
+                    {
+                        "left": "Sembelit",
+                        "right": "Buah Pepaya Matang"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u5_l3_08",
+            "level_id": "ppgd_u5_l3",
+            "type": "multiple_choice",
+            "question": "Mengapa mengunyah daun Jambu Biji harus menggunakan daun yang masih muda?",
+            "payload": {
+                "options": [
+                    "Konsentrasi tanin paling tinggi terdapat pada pucuk daun",
+                    "Daun muda rasanya manis",
+                    "Daun tua beracun",
+                    "Daun muda lebih mudah ditelan"
+                ],
+                "correct_answer": "Konsentrasi tanin paling tinggi terdapat pada pucuk daun",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u5_l4_01",
+            "level_id": "ppgd_u5_l4",
+            "type": "multiple_choice",
+            "question": "Tanaman Dadap Serep (Erythrina subumbrans) sering digunakan secara tradisional untuk?",
+            "payload": {
+                "options": [
+                    "Menurunkan demam (Kompres dahi)",
+                    "Mengobati patah tulang",
+                    "Menghilangkan panu",
+                    "Mencegah diare"
+                ],
+                "correct_answer": "Menurunkan demam (Kompres dahi)",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u5_l4_02",
+            "level_id": "ppgd_u5_l4",
+            "type": "fill_blank",
+            "question": "Daun Sagel (Pegagan) dikenal bermanfaat untuk meningkatkan daya ingat dan kesehatan ____.",
+            "payload": {
+                "correct_answer": "saraf",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u5_l4_03",
+            "level_id": "ppgd_u5_l4",
+            "type": "multiple_choice",
+            "question": "Tanaman Sambiloto sering digunakan untuk malaria karena memiliki sifat?",
+            "payload": {
+                "options": [
+                    "Antipiretik (Penurun panas) dan Antimalaria",
+                    "Penambah darah",
+                    "Obat tidur",
+                    "Pemicu nafsu makan"
+                ],
+                "correct_answer": "Antipiretik (Penurun panas) dan Antimalaria",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u5_l4_04",
+            "level_id": "ppgd_u5_l4",
+            "type": "word_bank",
+            "question": "Susun urutan pembuatan teh Sambiloto untuk daya tahan tubuh.",
+            "payload": {
+                "words": [
+                    "Ambil Daun Kering",
+                    "Rebus Air",
+                    "Seduh Daun",
+                    "Saring"
+                ],
+                "correct_order": [
+                    "Ambil Daun Kering",
+                    "Rebus Air",
+                    "Seduh Daun",
+                    "Saring"
+                ]
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u5_l4_05",
+            "level_id": "ppgd_u5_l4",
+            "type": "multiple_choice",
+            "question": "Tanaman Lidah Mertua (Sansevieria) selain hiasan, secara medis dapat digunakan untuk?",
+            "payload": {
+                "options": [
+                    "Penyaring udara dan obat sakit kepala (tetesan getah)",
+                    "Obat diare",
+                    "Obat kencing manis",
+                    "Penguat tulang"
+                ],
+                "correct_answer": "Penyaring udara dan obat sakit kepala (tetesan getah)",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u5_l4_06",
+            "level_id": "ppgd_u5_l4",
+            "type": "fill_blank",
+            "question": "Tanaman Kumis Kucing mengandung zat ____ yang berfungsi sebagai peluruh kencing.",
+            "payload": {
+                "correct_answer": "ortosifonin",
+                "case_sensitive": false
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u5_l4_07",
+            "level_id": "ppgd_u5_l4",
+            "type": "matching",
+            "question": "Pasangkan keluhan pernapasan dengan tanamannya.",
+            "pairs": [
+                {
+                    "left": "Batuk Berdahak",
+                    "right": "Jeruk Nipis + Madu"
+                },
+                {
+                    "left": "Radang Tenggorokan",
+                    "right": "Kencur"
+                },
+                {
+                    "left": "Sesak Napas Ringan",
+                    "right": "Daun Mint"
+                }
+            ],
+            "shuffle": true,
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u5_l4_08",
+            "level_id": "ppgd_u5_l4",
+            "type": "multiple_choice",
+            "question": "Bunga Lawang (Pekak) sering digunakan dalam obat batuk karena mengandung asam sikimat yang merupakan bahan dasar obat?",
+            "payload": {
+                "options": [
+                    "Antivirus (seperti Tamiflu)",
+                    "Obat bius",
+                    "Obat merah",
+                    "Obat gatal"
+                ],
+                "correct_answer": "Antivirus (seperti Tamiflu)",
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u5_l5_01",
+            "level_id": "ppgd_u5_l5",
+            "type": "multiple_choice",
+            "question": "Metode ekstraksi tanaman obat dengan cara merendam dalam air mendidih selama 15 menit (suhu 90 derajat C) disebut?",
+            "payload": {
+                "options": [
+                    "Infusa",
+                    "Dekokta",
+                    "Maserasi",
+                    "Destilasi"
+                ],
+                "correct_answer": "Infusa",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u5_l5_02",
+            "level_id": "ppgd_u5_l5",
+            "type": "fill_blank",
+            "question": "Metode penyarian untuk bagian tanaman yang keras (seperti batang/akar) dengan perebusan selama 30 menit disebut ____.",
+            "payload": {
+                "correct_answer": "dekokta",
+                "case_sensitive": false
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u5_l5_03",
+            "level_id": "ppgd_u5_l5",
+            "type": "multiple_choice",
+            "question": "Mengapa penggunaan wadah aluminium dilarang saat merebus tanaman obat?",
+            "payload": {
+                "options": [
+                    "Zat aktif tanaman dapat bereaksi dengan logam dan menjadi racun",
+                    "Aluminium terlalu lambat panas",
+                    "Membuat air menjadi hitam",
+                    "Aluminium mudah bocor"
+                ],
+                "correct_answer": "Zat aktif tanaman dapat bereaksi dengan logam dan menjadi racun",
+                "shuffle": true
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u5_l5_04",
+            "level_id": "ppgd_u5_l5",
+            "type": "word_bank",
+            "question": "Susun klasifikasi obat bahan alam Indonesia dari terendah ke tertinggi.",
+            "payload": {
+                "words": [
+                    "Jamu",
+                    "OHT (Obat Herbal Terstandar)",
+                    "Fitofarmaka"
+                ],
+                "correct_order": [
+                    "Jamu",
+                    "OHT (Obat Herbal Terstandar)",
+                    "Fitofarmaka"
+                ]
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u5_l5_05",
+            "level_id": "ppgd_u5_l5",
+            "type": "multiple_choice",
+            "question": "Apa perbedaan utama antara OHT dan Fitofarmaka?",
+            "payload": {
+                "options": [
+                    "Fitofarmaka telah melewati uji klinis pada manusia, OHT baru uji praklinis (hewan)",
+                    "OHT lebih mahal",
+                    "Fitofarmaka hanya dari bunga",
+                    "OHT adalah jamu gendong"
+                ],
+                "correct_answer": "Fitofarmaka telah melewati uji klinis pada manusia, OHT baru uji praklinis (hewan)",
+                "shuffle": true
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u5_l5_06",
+            "level_id": "ppgd_u5_l5",
+            "type": "fill_blank",
+            "question": "Wadah yang paling ideal untuk merebus jamu/herbal adalah wadah yang terbuat dari ____ (tanah liat) atau kaca.",
+            "payload": {
+                "correct_answer": "keramik",
+                "case_sensitive": false
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u5_l5_07",
+            "level_id": "ppgd_u5_l5",
+            "type": "matching",
+            "question": "Pasangkan istilah farmakognosi dengan artinya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Simplisia",
+                        "right": "Bahan Alam Kering untuk Obat"
+                    },
+                    {
+                        "left": "Fitoterapi",
+                        "right": "Pengobatan dengan Tanaman"
+                    },
+                    {
+                        "left": "Efikasi",
+                        "right": "Kemanjuran Suatu Obat"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u5_l5_08",
+            "level_id": "ppgd_u5_l5",
+            "type": "multiple_choice",
+            "question": "Apa tanda bahwa sebuah tanaman obat sudah kadaluwarsa atau rusak?",
+            "payload": {
+                "options": [
+                    "Warna berubah kusam, berjamur, dan bau berubah menyengat/apak",
+                    "Warna menjadi lebih terang",
+                    "Harga menjadi murah",
+                    "Tanaman menjadi lebih keras"
+                ],
+                "correct_answer": "Warna berubah kusam, berjamur, dan bau berubah menyengat/apak",
+                "shuffle": true
+            },
+            "xp": 13
+        }
+    ]
+}

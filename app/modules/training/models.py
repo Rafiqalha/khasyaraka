@@ -86,7 +86,7 @@ class UserProgress(Base):
     id: Mapped[int] = mapped_column(Integer, primary_key=True, autoincrement=True)
     user_id: Mapped[int] = mapped_column(Integer, ForeignKey("users.id"), nullable=False, index=True)
     level_id: Mapped[str] = mapped_column(String(50), ForeignKey("training_levels.id"), nullable=False, index=True)
-    status: Mapped[str] = mapped_column(String(20), nullable=False, default="locked")  # locked, available, in_progress, completed
+    status: Mapped[str] = mapped_column(String(20), nullable=False, default="LOCKED")  # LOCKED, UNLOCKED, COMPLETED
     score: Mapped[int] = mapped_column(Integer, default=0)
     total_questions: Mapped[int] = mapped_column(Integer, default=0)
     correct_answers: Mapped[int] = mapped_column(Integer, default=0)

@@ -8,10 +8,19 @@ from typing import Optional, Tuple
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy import select
 
+from typing import Optional
+import hashlib
+from sqlalchemy.ext.asyncio import AsyncSession
+from sqlalchemy import select
+
 from app.modules.cyber.repository import CyberRepository
-from app.modules.cyber.models import CyberCategory, CyberChallenge
+from app.modules.cyber.models import CyberCategory, CyberChallenge, SandiType, SandiQuestion
+from app.modules.cyber.cipher_service import CipherFactory
+from app.modules.cyber.schemas import (
+    CyberSubmitResponse, CyberToolRequest, CyberToolResponse,
+    SandiExamResponse, SandiQuestionResponse
+)
 from app.modules.users.models import User
-from app.modules.cyber.schemas import CyberSubmitResponse
 
 
 class CyberService:
@@ -183,3 +192,94 @@ class CyberService:
             if total_xp >= xp:
                 current = level
         return current
+
+    # ============ SANDI PRAMUKA METHODS ============
+
+    async def get_all_sandi_types(self) -> list[SandiType]:
+        """Get all Sandi types"""
+        return await self.repository.get_all_sandi_types()
+
+    async def process_cipher_tool(
+        self,
+        user_id: int,
+        request: CyberToolRequest
+    ) -> CyberToolResponse:
+        """
+        Process encryption/decryption using cipher tool.
+        
+        Args:
+            user_id: User ID for logging
+            request: CyberToolRequest with text, operation_mode, sandi_codename
+            
+        Returns:
+            CyberToolResponse with result
+        """
+        # Get Sandi type by codename
+        sandi_type = await self.repository.get_sandi_by_codename(request.sandi_codename)
+        if not sandi_type:
+            raise ValueError(f"Sandi type '{request.sandi_codename}' not found")
+        
+        # Create cipher instance using factory
+        cipher = CipherFactory.create_cipher(sandi_type)
+        
+        # Process text based on operation mode
+        if request.operation_mode.value == "ENCRYPT":
+            result_text = cipher.encrypt(request.text)
+        else:  # DECRYPT
+            result_text = cipher.decrypt(request.text)
+        
+        # Create hash of input for audit log
+        input_hash = hashlib.sha256(request.text.encode('utf-8')).hexdigest()
+        
+        # Log encryption activity
+        await self.repository.create_encryption_log(
+            user_id=user_id,
+            sandi_id=sandi_type.id,
+            input_hash=input_hash,
+            operation_mode=request.operation_mode.value
+        )
+        
+        await self.db.commit()
+        
+        return CyberToolResponse(
+            result=result_text,
+            sandi_codename=request.sandi_codename,
+            operation_mode=request.operation_mode.value
+        )
+
+    async def get_sandi_exam(self, sandi_id: int, limit: int = 5) -> SandiExamResponse:
+        """
+        Get random exam questions for a Sandi type.
+        
+        Args:
+            sandi_id: Sandi Type ID
+            limit: Number of questions to return
+            
+        Returns:
+            SandiExamResponse with questions
+        """
+        sandi_type = await self.repository.get_sandi_by_id(sandi_id)
+        if not sandi_type:
+            raise ValueError(f"Sandi type with ID {sandi_id} not found")
+        
+        questions = await self.repository.get_random_sandi_questions(sandi_id, limit)
+        
+        question_responses = [
+            SandiQuestionResponse(
+                id=q.id,
+                sandi_id=q.sandi_id,
+                question_text=q.question_text,
+                encrypted_text=q.encrypted_text,
+                hint=q.hint,
+                difficulty=q.difficulty,
+                xp_reward=q.xp_reward
+            )
+            for q in questions
+        ]
+        
+        return SandiExamResponse(
+            sandi_id=sandi_id,
+            sandi_name=sandi_type.name,
+            total=len(question_responses),
+            questions=question_responses
+        )

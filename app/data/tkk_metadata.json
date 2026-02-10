@@ -1,0 +1,53 @@
+[
+    {
+        "slug": "p3k",
+        "name": "P3K",
+        "description": "Kecakapan dalam Pertolongan Pertama Pada Kecelakaan.",
+        "category": "Kesehatan",
+        "image_url": "https://example.com/assets/tkk/p3k.png",
+        "levels": [
+            "purwa",
+            "madya",
+            "utama"
+        ],
+        "requirements": {
+            "purwa": "Mengetahui cara membalut luka sederhana.",
+            "madya": "Mampu melakukan CPR dasar.",
+            "utama": "Menguasai penanganan patah tulang dan evakuasi."
+        }
+    },
+    {
+        "slug": "pengamat",
+        "name": "Pengamat",
+        "description": "Kecakapan dalam mengamati dan mengingat detail lingkungan.",
+        "category": "Teknik Kepramukaan",
+        "image_url": "https://example.com/assets/tkk/pengamat.png",
+        "levels": [
+            "purwa",
+            "madya",
+            "utama"
+        ],
+        "requirements": {
+            "purwa": "Dapat mengingat 10 dari 15 benda yang dilihat selama 1 menit.",
+            "madya": "Dapat mengikuti jejak buatan sejauh 500 meter.",
+            "utama": "Dapat membuat sketsa pemandangan dan mendeskripsikannya."
+        }
+    },
+    {
+        "slug": "berkemah",
+        "name": "Berkemah",
+        "description": "Kecakapan dalam teknik berkemah dan bertahan hidup di alam.",
+        "category": "Teknik Kepramukaan",
+        "image_url": "https://example.com/assets/tkk/berkemah.png",
+        "levels": [
+            "purwa",
+            "madya",
+            "utama"
+        ],
+        "requirements": {
+            "purwa": "Pernah berkemah minimal 3 malam.",
+            "madya": "Mampu mendirikan tenda sendiri dan memasak di alam.",
+            "utama": "Mampu memimpin regu dalam perkemahan selama 3 hari."
+        }
+    }
+]

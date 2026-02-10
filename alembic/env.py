@@ -48,7 +48,15 @@ from app.modules.sku.models import (  # noqa: F401
 )
 
 # Cyber
-from app.modules.cyber.models import CyberChallenge, UserSolvedChallenge, CyberModule, CyberLevelProgress  # noqa: F401
+from app.modules.cyber.models import (  # noqa: F401
+    CyberChallenge,
+    UserSolvedChallenge,
+    CyberModule,
+    CyberLevelProgress,
+    SandiType,
+    SandiQuestion,
+    EncryptionLog
+)
 
 # Survival
 from app.modules.survival.models import SurvivalMastery  # noqa: F401

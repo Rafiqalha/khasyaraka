@@ -1,4 +1,676 @@
 {
-  "unit_id": "nav_unit_4",
-  "questions": []
+  "unit_id": "nav_u4",
+  "questions": [
+    {
+      "id": "q_nav_u4_l1_01",
+      "level_id": "nav_u4_l1",
+      "type": "multiple_choice",
+      "question": "Tanda jejak yang menggunakan tumpukan dua batu dengan batu kecil di atasnya yang diletakkan agak ke kanan menandakan?",
+      "payload": {
+        "options": [
+          "Belok ke kanan",
+          "Jalan terus",
+          "Ada bahaya",
+          "Kembali ke titik awal"
+        ],
+        "correct_answer": "Belok ke kanan",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u4_l1_02",
+      "level_id": "nav_u4_l1",
+      "type": "fill_blank",
+      "question": "Tanda jejak berupa rumput yang diikat ujungnya dan diarahkan ke suatu posisi berfungsi sebagai penunjuk ____.",
+      "payload": {
+        "correct_answer": "arah",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u4_l1_03",
+      "level_id": "nav_u4_l1",
+      "type": "multiple_choice",
+      "question": "Di manakah posisi ideal untuk meletakkan tanda jejak agar mudah ditemukan oleh regu pengikut?",
+      "payload": {
+        "options": [
+          "Di sebelah kanan jalan atau tempat yang mencolok",
+          "Di tengah jalan agar terinjak",
+          "Tersembunyi di balik semak-semak",
+          "Hanya di atas pohon yang tinggi"
+        ],
+        "correct_answer": "Di sebelah kanan jalan atau tempat yang mencolok",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u4_l1_04",
+      "level_id": "nav_u4_l1",
+      "type": "word_bank",
+      "question": "Susun bahan alam yang paling sering digunakan untuk membuat tanda jejak di hutan.",
+      "payload": {
+        "words": [
+          "Batu",
+          "Rumput",
+          "Ranting",
+          "Tanah"
+        ],
+        "correct_order": [
+          "Batu",
+          "Rumput",
+          "Ranting",
+          "Tanah"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u4_l1_05",
+      "level_id": "nav_u4_l1",
+      "type": "multiple_choice",
+      "question": "Tanda jejak berupa tumpukan tiga batu secara vertikal (tegak lurus) memiliki arti?",
+      "payload": {
+        "options": [
+          "Bahaya / Awas",
+          "Jalan terus",
+          "Ada air bersih",
+          "Tempat berkemah"
+        ],
+        "correct_answer": "Bahaya / Awas",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u4_l1_06",
+      "level_id": "nav_u4_l1",
+      "type": "fill_blank",
+      "question": "Jika menemukan tanda jejak berupa goresan panah pada tanah, ujung panah tersebut menunjukkan ____ yang harus dilalui.",
+      "payload": {
+        "correct_answer": "tujuan",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u4_l1_07",
+      "level_id": "nav_u4_l1",
+      "type": "matching",
+      "question": "Pasangkan media tanda jejak dengan bentuk standarnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Batu",
+            "right": "Tumpukan Bersusun"
+          },
+          {
+            "left": "Rumput",
+            "right": "Ikatan Simpul"
+          },
+          {
+            "left": "Ranting",
+            "right": "Patahan / Silangan"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u4_l1_08",
+      "level_id": "nav_u4_l1",
+      "type": "multiple_choice",
+      "question": "Apa yang harus dilakukan jika regu Anda melewati tanda jejak yang sudah rusak?",
+      "payload": {
+        "options": [
+          "Memperbaikinya agar regu di belakang tidak tersesat",
+          "Mengabaikannya",
+          "Membuat tanda baru yang berbeda arah",
+          "Menghapusnya total"
+        ],
+        "correct_answer": "Memperbaikinya agar regu di belakang tidak tersesat",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u4_l2_01",
+      "level_id": "nav_u4_l2",
+      "type": "multiple_choice",
+      "question": "Tanda jejak menggunakan ranting: satu ranting ditancapkan tegak, dan satu ranting kecil diselipkan horizontal menunjuk ke kiri. Apa artinya?",
+      "payload": {
+        "options": [
+          "Belok ke kiri",
+          "Ada sungai di kiri",
+          "Jangan lewat kiri",
+          "Tunggu di sini"
+        ],
+        "correct_answer": "Belok ke kiri",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u4_l2_02",
+      "level_id": "nav_u4_l2",
+      "type": "fill_blank",
+      "question": "Simbol lingkaran dengan panah yang keluar menuju arah tertentu di dalam navigasi tanda jejak berarti jalan ____.",
+      "payload": {
+        "correct_answer": "terus",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u4_l2_03",
+      "level_id": "nav_u4_l2",
+      "type": "multiple_choice",
+      "question": "Bagaimana cara membuat tanda 'Jalan Terus' menggunakan media batu secara akurat?",
+      "payload": {
+        "options": [
+          "Meletakkan batu kecil tepat di depan batu besar dalam satu garis lurus",
+          "Meletakkan batu kecil di samping kiri batu besar",
+          "Menyusun batu membentuk huruf X",
+          "Menanam batu di dalam tanah"
+        ],
+        "correct_answer": "Meletakkan batu kecil tepat di depan batu besar dalam satu garis lurus",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u4_l2_04",
+      "level_id": "nav_u4_l2",
+      "type": "word_bank",
+      "question": "Susun langkah pembacaan tanda jejak jika regu menemui percabangan.",
+      "payload": {
+        "words": [
+          "Berhenti",
+          "Cari Tanda Jejak",
+          "Konfirmasi Arah",
+          "Lanjutkan Perjalanan"
+        ],
+        "correct_order": [
+          "Berhenti",
+          "Cari Tanda Jejak",
+          "Konfirmasi Arah",
+          "Lanjutkan Perjalanan"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u4_l2_05",
+      "level_id": "nav_u4_l2",
+      "type": "multiple_choice",
+      "question": "Tanda jejak rumput yang disimpul dan diletakkan di atas batu biasanya digunakan untuk kondisi medan yang?",
+      "payload": {
+        "options": [
+          "Terbuka (padang rumput) agar mudah terlihat dari jauh",
+          "Hutan lebat",
+          "Rawa-rawa",
+          "Dalam gua"
+        ],
+        "correct_answer": "Terbuka (padang rumput) agar mudah terlihat dari jauh",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u4_l2_06",
+      "level_id": "nav_u4_l2",
+      "type": "fill_blank",
+      "question": "Patahan ranting yang masih menempel pada pohonnya (tidak putus total) menunjuk ke arah ____ perjalanan.",
+      "payload": {
+        "correct_answer": "bawah",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u4_l2_07",
+      "level_id": "nav_u4_l2",
+      "type": "matching",
+      "question": "Pasangkan posisi batu kecil terhadap batu besar dengan artinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Di Atas",
+            "right": "Jalan Terus"
+          },
+          {
+            "left": "Di Kanan",
+            "right": "Belok Kanan"
+          },
+          {
+            "left": "Di Kiri",
+            "right": "Belok Kiri"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u4_l2_08",
+      "level_id": "nav_u4_l2",
+      "type": "multiple_choice",
+      "question": "Tanda jejak berupa dua ranting yang diletakkan sejajar di tanah berarti?",
+      "payload": {
+        "options": [
+          "Jalan terus",
+          "Berhenti",
+          "Rintangan di depan",
+          "Kembali pulang"
+        ],
+        "correct_answer": "Jalan terus",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u4_l3_01",
+      "level_id": "nav_u4_l3",
+      "type": "multiple_choice",
+      "question": "Simbol berupa tanda silang (X) yang terbuat dari dua ranting atau goresan di tanah memiliki arti yang sangat krusial, yaitu?",
+      "payload": {
+        "options": [
+          "Dilarang melalui jalan ini / Salah jalan",
+          "Tempat harta karun",
+          "Titik pertemuan",
+          "Ada air minum"
+        ],
+        "correct_answer": "Dilarang melalui jalan ini / Salah jalan",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u4_l3_02",
+      "level_id": "nav_u4_l3",
+      "type": "fill_blank",
+      "question": "Tanda jejak berupa tumpukan batu besar yang dikelilingi oleh banyak batu kecil (membentuk lingkaran) menandakan adanya ____.",
+      "payload": {
+        "correct_answer": "bahaya",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u4_l3_03",
+      "level_id": "nav_u4_l3",
+      "type": "multiple_choice",
+      "question": "Jika Anda menemukan tanda berupa lubang kecil di tanah yang ditutup dengan ranting menyilang, itu adalah peringatan untuk?",
+      "payload": {
+        "options": [
+          "Waspada terhadap lubang jebakan atau tanah amblas",
+          "Mencari air",
+          "Berhenti memasak",
+          "Menaruh surat"
+        ],
+        "correct_answer": "Waspada terhadap lubang jebakan atau tanah amblas",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u4_l3_04",
+      "level_id": "nav_u4_l3",
+      "type": "word_bank",
+      "question": "Urutkan tingkat bahaya tanda jejak batu dari terendah ke tertinggi.",
+      "payload": {
+        "words": [
+          "Satu Batu",
+          "Dua Batu",
+          "Tiga Batu Bersusun"
+        ],
+        "correct_order": [
+          "Satu Batu",
+          "Dua Batu",
+          "Tiga Batu Bersusun"
+        ]
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u4_l3_05",
+      "level_id": "nav_u4_l3",
+      "type": "multiple_choice",
+      "question": "Tanda jejak yang menandakan 'Air Tidak Boleh Diminum' atau beracun biasanya digambarkan dengan?",
+      "payload": {
+        "options": [
+          "Tanda silang di dekat sumber air",
+          "Tumpukan batu melingkar",
+          "Ranting yang dibakar",
+          "Tanah yang digali"
+        ],
+        "correct_answer": "Tanda silang di dekat sumber air",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u4_l3_06",
+      "level_id": "nav_u4_l3",
+      "type": "fill_blank",
+      "question": "Tanda jejak yang dibuat menggunakan media asap (tiga kepulan asap pendek) dalam kode darurat internasional berarti ____.",
+      "payload": {
+        "correct_answer": "tolong",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u4_l3_07",
+      "level_id": "nav_u4_l3",
+      "type": "matching",
+      "question": "Pasangkan tanda peringatan dengan pesannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Ranting Menyilang",
+            "right": "Jalan Ditutup"
+          },
+          {
+            "left": "Batu Bersusun Tiga",
+            "right": "Awas Bahaya"
+          },
+          {
+            "left": "Goresan Garis Bergelombang",
+            "right": "Ada Sungai / Air"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u4_l3_08",
+      "level_id": "nav_u4_l3",
+      "type": "multiple_choice",
+      "question": "Mengapa dalam kondisi darurat, tanda jejak harus dibuat lebih besar dari biasanya?",
+      "payload": {
+        "options": [
+          "Agar dapat terlihat oleh tim penyelamat dari udara (SAR)",
+          "Agar tidak mudah tertiup angin",
+          "Hanya sebagai tradisi",
+          "Untuk menghabiskan waktu"
+        ],
+        "correct_answer": "Agar dapat terlihat oleh tim penyelamat dari udara (SAR)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u4_l4_01",
+      "level_id": "nav_u4_l4",
+      "type": "multiple_choice",
+      "question": "Simbol lingkaran dengan satu titik di tengahnya (seperti donat) yang dibuat di atas tanah atau menggunakan batu berarti?",
+      "payload": {
+        "options": [
+          "Saya telah kembali pulang",
+          "Saya sedang menunggu di sini",
+          "Ada berita di sini",
+          "Makan siang di sini"
+        ],
+        "correct_answer": "Saya telah kembali pulang",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u4_l4_02",
+      "level_id": "nav_u4_l4",
+      "type": "fill_blank",
+      "question": "Simbol kotak (persegi) dengan angka di dalamnya menunjukkan bahwa ada sebuah ____ yang disembunyikan sejauh angka langkah tersebut.",
+      "payload": {
+        "correct_answer": "surat",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u4_l4_03",
+      "level_id": "nav_u4_l4",
+      "type": "multiple_choice",
+      "question": "Tanda jejak berupa sebatang tongkat yang ditancapkan miring dan di puncaknya diletakkan segenggam rumput berarti?",
+      "payload": {
+        "options": [
+          "Saya menunggu di sini / Ada pesan",
+          "Jalan buntu",
+          "Ada sumber air",
+          "Kembali ke pangkalan"
+        ],
+        "correct_answer": "Saya menunggu di sini / Ada pesan",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u4_l4_04",
+      "level_id": "nav_u4_l4",
+      "type": "word_bank",
+      "question": "Susun komponen pesan dalam tanda jejak informasi.",
+      "payload": {
+        "words": [
+          "Siapa Pengirimnya",
+          "Ke Mana Arahnya",
+          "Apa Pesannya"
+        ],
+        "correct_order": [
+          "Siapa Pengirimnya",
+          "Ke Mana Arahnya",
+          "Apa Pesannya"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u4_l4_05",
+      "level_id": "nav_u4_l4",
+      "type": "multiple_choice",
+      "question": "Tanda jejak berupa lingkaran dengan angka 5 di dalamnya dan sebuah panah menunjuk ke kanan berarti?",
+      "payload": {
+        "options": [
+          "Cari pesan 5 langkah ke arah kanan",
+          "Tunggu 5 menit di sebelah kanan",
+          "Regu berjumlah 5 orang belok kanan",
+          "Ada 5 bahaya di sebelah kanan"
+        ],
+        "correct_answer": "Cari pesan 5 langkah ke arah kanan",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u4_l4_06",
+      "level_id": "nav_u4_l4",
+      "type": "fill_blank",
+      "question": "Pesan rahasia dalam tanda jejak biasanya disembunyikan di bawah ____ yang ditandai secara khusus.",
+      "payload": {
+        "correct_answer": "batu",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u4_l4_07",
+      "level_id": "nav_u4_l4",
+      "type": "matching",
+      "question": "Pasangkan tanda informasi dengan maknanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Lingkaran Titik Tengah",
+            "right": "Sudah Pulang"
+          },
+          {
+            "left": "Kotak Berangka",
+            "right": "Ada Pesan"
+          },
+          {
+            "left": "Dua Garis Sejajar",
+            "right": "Jalan Terus"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u4_l4_08",
+      "level_id": "nav_u4_l4",
+      "type": "multiple_choice",
+      "question": "Tanda jejak yang dibuat dengan menyilangkan dua tongkat pramuka dan meletakkan topi di atasnya adalah kode internal untuk?",
+      "payload": {
+        "options": [
+          "Titik kumpul regu / Markas sementara",
+          "Peringatan adanya musuh",
+          "Tempat membuang sampah",
+          "Jalan buntu"
+        ],
+        "correct_answer": "Titik kumpul regu / Markas sementara",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u4_l5_01",
+      "level_id": "nav_u4_l5",
+      "type": "multiple_choice",
+      "question": "Dalam teknik pelacakan (tracking), bagaimana cara membedakan patahan ranting yang dibuat oleh manusia dengan patahan alami (angin)?",
+      "payload": {
+        "options": [
+          "Patahan manusia biasanya rapi, searah, dan berada pada ketinggian pinggang/bahu",
+          "Patahan manusia selalu basah",
+          "Patahan alami selalu berwarna hitam",
+          "Tidak ada bedanya"
+        ],
+        "correct_answer": "Patahan manusia biasanya rapi, searah, dan berada pada ketinggian pinggang/bahu",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u4_l5_02",
+      "level_id": "nav_u4_l5",
+      "type": "fill_blank",
+      "question": "Seorang 'Master Tracker' dapat mengetahui umur jejak kaki dari tingkat kelembapan tanah dan ketajaman tepi ____ jejak tersebut.",
+      "payload": {
+        "correct_answer": "cetakan",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u4_l5_03",
+      "level_id": "nav_u4_l5",
+      "type": "multiple_choice",
+      "question": "Metode 'Backtracking' dalam navigasi jejak adalah?",
+      "payload": {
+        "options": [
+          "Berjalan mundur mengikuti jejak sendiri untuk kembali ke titik aman jika tersesat",
+          "Menghapus jejak agar tidak diikuti",
+          "Berjalan zigzag",
+          "Melacak jejak hewan liar"
+        ],
+        "correct_answer": "Berjalan mundur mengikuti jejak sendiri untuk kembali ke titik aman jika tersesat",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u4_l5_04",
+      "level_id": "nav_u4_l5",
+      "type": "word_bank",
+      "question": "Susun prioritas pengamatan jejak bagi seorang penunjuk jalan.",
+      "payload": {
+        "words": [
+          "Jejak Kaki (Tanah)",
+          "Patahan Vegetasi (Tumbuhan)",
+          "Benda yang Terjatuh",
+          "Gangguan Satwa Sekitar"
+        ],
+        "correct_order": [
+          "Jejak Kaki (Tanah)",
+          "Patahan Vegetasi (Tumbuhan)",
+          "Benda yang Terjatuh",
+          "Gangguan Satwa Sekitar"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u4_l5_05",
+      "level_id": "nav_u4_l5",
+      "type": "multiple_choice",
+      "question": "Prinsip 'Counter-Tracking' yang digunakan pramuka saat simulasi intelijen (pelacakan musuh) adalah?",
+      "payload": {
+        "options": [
+          "Berjalan di atas air, batu, atau batang kayu untuk meminimalkan jejak",
+          "Berlari secepat mungkin",
+          "Membuat suara gaduh",
+          "Meninggalkan surat di setiap pohon"
+        ],
+        "correct_answer": "Berjalan di atas air, batu, atau batang kayu untuk meminimalkan jejak",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u4_l5_06",
+      "level_id": "nav_u4_l5",
+      "type": "fill_blank",
+      "question": "Dalam pelacakan taktis, embun yang tersapu dari permukaan daun merupakan tanda jejak ____ yang menunjukkan seseorang baru saja lewat.",
+      "payload": {
+        "correct_answer": "transien",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u4_l5_07",
+      "level_id": "nav_u4_l5",
+      "type": "matching",
+      "question": "Pasangkan tanda alami dengan interpretasi pelacakannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Serangga Terinjak",
+            "right": "Kejadian Baru Saja (Menit)"
+          },
+          {
+            "left": "Lumpur Kering",
+            "right": "Kejadian Sudah Lama (Jam)"
+          },
+          {
+            "left": "Daun Terbalik (Sisi Bawah)",
+            "right": "Arah Gerakan"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u4_l5_08",
+      "level_id": "nav_u4_l5",
+      "type": "multiple_choice",
+      "question": "Apa fungsi dari 'Tanda Diam' (Silent Sign) dalam sistem komunikasi jejak pramuka?",
+      "payload": {
+        "options": [
+          "Memberikan informasi tanpa menarik perhatian pihak luar / musuh",
+          "Menandakan waktu tidur",
+          "Agar tidak membangunkan hewan buas",
+          "Syarat mendapatkan TKK"
+        ],
+        "correct_answer": "Memberikan informasi tanpa menarik perhatian pihak luar / musuh",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

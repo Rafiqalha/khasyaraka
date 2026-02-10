@@ -217,15 +217,29 @@ class TrainingRepository:
         result = await self.db.execute(stmt)
         return result.scalar_one_or_none()
     
-    async def get_user_progress_by_section(self, user_id: int, section_id: str) -> List[UserProgress]:
-        """Get all user progress for levels in a section"""
-        # First get all levels in the section
+    async def get_user_progress_by_section(self, user_id: int, section_id: Optional[str] = None) -> List[UserProgress]:
+        """
+        Get all user progress for levels.
+        If section_id is provided, filter by section.
+        If section_id is None, return all progress (Global).
+        """
+        # First get relevant level IDs
         stmt = (
             select(TrainingLevel.id)
             .join(TrainingUnit)
             .join(TrainingSection)
-            .where(TrainingSection.id == section_id)
         )
+        
+        if section_id:
+            stmt = stmt.where(TrainingSection.id == section_id)
+            
+        # Ensure we only get progress for active content
+        stmt = stmt.where(
+            TrainingSection.is_active == True,
+            TrainingUnit.is_active == True,
+            TrainingLevel.is_active == True
+        )
+            
         level_ids_result = await self.db.execute(stmt)
         level_ids = [row[0] for row in level_ids_result.all()]
         

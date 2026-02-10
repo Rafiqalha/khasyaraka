@@ -1,4 +1,670 @@
 {
-  "unit_id": "sandi_unit_5",
-  "questions": []
+  "unit_id": "sandi_u5",
+  "questions": [
+    {
+      "id": "q_sandi_u5_l1_01",
+      "level_id": "sandi_u5_l1",
+      "type": "multiple_choice",
+      "question": "Sandi Jam menggunakan waktu sebagai pengganti alfabet. Jika titik pusat (Key) ditentukan pukul 08.00 = A dengan interval 5 menit, maka pukul berapakah huruf 'C'?",
+      "payload": {
+        "options": [
+          "08.10",
+          "08.15",
+          "08.05",
+          "08.20"
+        ],
+        "correct_answer": "08.10",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u5_l1_02",
+      "level_id": "sandi_u5_l1",
+      "type": "fill_blank",
+      "question": "Dua variabel utama yang harus disepakati antara pengirim dan penerima Sandi Jam adalah Waktu Mulai (Key) dan ____ waktu.",
+      "payload": {
+        "correct_answer": "selisih",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u5_l1_03",
+      "level_id": "sandi_u5_l1",
+      "type": "multiple_choice",
+      "question": "Jika Key adalah 12.00 = A dan interval 10 menit, pukul 13.00 melambangkan huruf?",
+      "payload": {
+        "options": [
+          "Huruf G",
+          "Huruf F",
+          "Huruf E",
+          "Huruf H"
+        ],
+        "correct_answer": "Huruf G",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u5_l1_04",
+      "level_id": "sandi_u5_l1",
+      "type": "word_bank",
+      "question": "Susun urutan waktu untuk kata 'ADA' jika 07.00 = A dan interval 5 menit.",
+      "payload": {
+        "words": [
+          "07.00",
+          "07.15",
+          "07.00"
+        ],
+        "correct_order": [
+          "07.00",
+          "07.15",
+          "07.00"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u5_l1_05",
+      "level_id": "sandi_u5_l1",
+      "type": "multiple_choice",
+      "question": "Apa kelemahan utama dari Sandi Jam jika interval yang digunakan terlalu besar (misal 30 menit)?",
+      "payload": {
+        "options": [
+          "Waktu yang dibutuhkan untuk menulis alfabet menjadi sangat panjang hingga melewati 24 jam",
+          "Sandi sulit dibaca",
+          "Jarum jam akan rusak",
+          "Angka jam tidak cukup"
+        ],
+        "correct_answer": "Waktu yang dibutuhkan untuk menulis alfabet menjadi sangat panjang hingga melewati 24 jam",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u5_l1_06",
+      "level_id": "sandi_u5_l1",
+      "type": "fill_blank",
+      "question": "Dalam Sandi Jam, tanda pemisah antar huruf biasanya menggunakan tanda titik dua (:) atau garis ____.",
+      "payload": {
+        "correct_answer": "datar",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u5_l1_07",
+      "level_id": "sandi_u5_l1",
+      "type": "matching",
+      "question": "Pasangkan interval dengan waktu untuk huruf 'B' jika Key 06.00 = A.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Interval 5 Menit",
+            "right": "06.05"
+          },
+          {
+            "left": "Interval 10 Menit",
+            "right": "06.10"
+          },
+          {
+            "left": "Interval 15 Menit",
+            "right": "06.15"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u5_l1_08",
+      "level_id": "sandi_u5_l1",
+      "type": "multiple_choice",
+      "question": "Sandi Jam dikategorikan sebagai sandi substitusi karena?",
+      "payload": {
+        "options": [
+          "Mengganti satu unit karakter dengan unit waktu yang tetap",
+          "Mengubah urutan huruf dalam kata",
+          "Menggunakan kunci rahasia",
+          "Hanya bisa dibaca saat siang hari"
+        ],
+        "correct_answer": "Mengganti satu unit karakter dengan unit waktu yang tetap",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u5_l2_01",
+      "level_id": "sandi_u5_l2",
+      "type": "multiple_choice",
+      "question": "Key: 10.00 = A, Interval: 2 Menit. Terjemahkan kata 'BISA'.",
+      "payload": {
+        "options": [
+          "10.02 - 10.16 - 10.36 - 10.00",
+          "10.02 - 10.14 - 10.34 - 10.00",
+          "10.04 - 10.16 - 10.36 - 10.00",
+          "10.02 - 10.18 - 10.36 - 10.02"
+        ],
+        "correct_answer": "10.02 - 10.16 - 10.36 - 10.00",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u5_l2_02",
+      "level_id": "sandi_u5_l2",
+      "type": "fill_blank",
+      "question": "Jika 01.00 = A dan interval 5 menit, maka pukul 02.00 mewakili huruf ke- ____ dalam alfabet.",
+      "payload": {
+        "correct_answer": "13",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u5_l2_03",
+      "level_id": "sandi_u5_l2",
+      "type": "multiple_choice",
+      "question": "Pesan: '05.10 - 05.00 - 05.45'. Jika Key 05.00 = A dan Interval 5 menit, apa artinya?",
+      "payload": {
+        "options": [
+          "CAT",
+          "BAT",
+          "CAR",
+          "BAG"
+        ],
+        "correct_answer": "CAT",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u5_l2_04",
+      "level_id": "sandi_u5_l2",
+      "type": "word_bank",
+      "question": "Susun waktu untuk huruf P, R, A jika 08.00 = A dan interval 10 menit.",
+      "payload": {
+        "words": [
+          "10.30",
+          "10.50",
+          "08.00"
+        ],
+        "correct_order": [
+          "10.30",
+          "10.50",
+          "08.00"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u5_l2_05",
+      "level_id": "sandi_u5_l2",
+      "type": "multiple_choice",
+      "question": "Bagaimana cara menulis angka dalam Sandi Jam?",
+      "payload": {
+        "options": [
+          "Biasanya angka ditulis langsung atau menggunakan sandi jam yang dilanjutkan setelah huruf Z",
+          "Angka tidak bisa ditulis",
+          "Menggunakan warna tinta berbeda",
+          "Dibalik urutannya"
+        ],
+        "correct_answer": "Biasanya angka ditulis langsung atau menggunakan sandi jam yang dilanjutkan setelah huruf Z",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u5_l2_06",
+      "level_id": "sandi_u5_l2",
+      "type": "fill_blank",
+      "question": "Jika Key 09.00 = A dan 09.10 = C, maka interval yang digunakan adalah ____ menit.",
+      "payload": {
+        "correct_answer": "5",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u5_l2_07",
+      "level_id": "sandi_u5_l2",
+      "type": "matching",
+      "question": "Pasangkan kode jam dengan hurufnya (Key 12.00=A, Int 5m).",
+      "payload": {
+        "pairs": [
+          {
+            "left": "12.20",
+            "right": "E"
+          },
+          {
+            "left": "12.45",
+            "right": "J"
+          },
+          {
+            "left": "13.00",
+            "right": "M"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u5_l2_08",
+      "level_id": "sandi_u5_l2",
+      "type": "multiple_choice",
+      "question": "Dalam enkripsi Sandi Jam, proses perhitungan '08.00 + (Posisi Huruf - 1) * Interval' digunakan untuk menentukan?",
+      "payload": {
+        "options": [
+          "Ciphertext (Waktu yang ditulis)",
+          "Plaintext",
+          "Jumlah kata",
+          "Kekuatan sandi"
+        ],
+        "correct_answer": "Ciphertext (Waktu yang ditulis)",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u5_l3_01",
+      "level_id": "sandi_u5_l3",
+      "type": "multiple_choice",
+      "question": "Sandi Ular bekerja dengan mengubah posisi huruf tanpa mengganti alfabetnya. Jenis sandi ini disebut?",
+      "payload": {
+        "options": [
+          "Transposition Cipher (Sandi Transposisi)",
+          "Substitution Cipher",
+          "Shift Cipher",
+          "Vigenere Cipher"
+        ],
+        "correct_answer": "Transposition Cipher (Sandi Transposisi)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u5_l3_02",
+      "level_id": "sandi_u5_l3",
+      "type": "fill_blank",
+      "question": "Dalam Sandi Ular, pesan ditulis dalam sebuah kotak (grid) dan dibaca dengan pola ____ (berkelok).",
+      "payload": {
+        "correct_answer": "zigzag",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u5_l3_03",
+      "level_id": "sandi_u5_l3",
+      "type": "multiple_choice",
+      "question": "Jika kata 'PRAMUKA' ditulis dalam Sandi Ular dengan lebar 3 kolom, baris manakah yang ditulis terbalik (dari kanan ke kiri)?",
+      "payload": {
+        "options": [
+          "Baris kedua",
+          "Baris pertama",
+          "Semua baris",
+          "Hanya baris ganjil"
+        ],
+        "correct_answer": "Baris kedua",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u5_l3_04",
+      "level_id": "sandi_u5_l3",
+      "type": "word_bank",
+      "question": "Susun langkah enkripsi Sandi Ular.",
+      "payload": {
+        "words": [
+          "Tentukan Lebar Kolom",
+          "Tulis Teks Berkelok",
+          "Baca Secara Linear"
+        ],
+        "correct_order": [
+          "Tentukan Lebar Kolom",
+          "Tulis Teks Berkelok",
+          "Baca Secara Linear"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l3_05",
+      "level_id": "sandi_u5_l3",
+      "type": "multiple_choice",
+      "question": "Apa tujuan utama penggunaan Sandi Ular dalam pengiriman pesan lapangan?",
+      "payload": {
+        "options": [
+          "Menyulitkan musuh menebak isi pesan meski alfabetnya tetap sama",
+          "Agar pesan terlihat artistik",
+          "Menghemat kertas",
+          "Mempercepat penulisan"
+        ],
+        "correct_answer": "Menyulitkan musuh menebak isi pesan meski alfabetnya tetap sama",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l3_06",
+      "level_id": "sandi_u5_l3",
+      "type": "fill_blank",
+      "question": "Jumlah kotak dalam grid Sandi Ular harus sama atau lebih besar dari ____ huruf dalam pesan.",
+      "payload": {
+        "correct_answer": "jumlah",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u5_l3_07",
+      "level_id": "sandi_u5_l3",
+      "type": "matching",
+      "question": "Pasangkan pola Sandi Ular dengan arah bacanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Bustrophedon",
+            "right": "Kiri-Kanan lalu Kanan-Kiri"
+          },
+          {
+            "left": "Spiral",
+            "right": "Melingkar ke Dalam"
+          },
+          {
+            "left": "Vertikal",
+            "right": "Atas-Bawah lalu Bawah-Atas"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l3_08",
+      "level_id": "sandi_u5_l3",
+      "type": "multiple_choice",
+      "question": "Jika Anda menemukan Ciphertext 'PRAM' 'AKUM' (dibaca berkelok), apa Plaintext-nya?",
+      "payload": {
+        "options": [
+          "PRAMUKA",
+          "MARKUPA",
+          "AMPRUK",
+          "KAMPURA"
+        ],
+        "correct_answer": "PRAMUKA",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u5_l4_01",
+      "level_id": "sandi_u5_l4",
+      "type": "multiple_choice",
+      "question": "Pesan 'SAYA MAU MAKAN' dienkripsi dengan Sandi Ular lebar 4 kolom. Bagaimanakah tampilan baris keduanya?",
+      "payload": {
+        "options": [
+          "U A M A",
+          "A M A U",
+          "M A K A",
+          "N A K A"
+        ],
+        "correct_answer": "U A M A",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l4_02",
+      "level_id": "sandi_u5_l4",
+      "type": "fill_blank",
+      "question": "Dalam Sandi Ular, jika jumlah huruf tidak memenuhi kotak grid yang tersedia, maka kotak kosong tersebut diisi dengan huruf ____ (dummy).",
+      "payload": {
+        "correct_answer": "acak",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l4_03",
+      "level_id": "sandi_u5_l4",
+      "type": "multiple_choice",
+      "question": "Analisis Ciphertext: 'AKU' 'NAS' 'UT'. Jika dibaca zigzag lebar 3, Plaintext-nya adalah?",
+      "payload": {
+        "options": [
+          "AKU TUNAS",
+          "AKUNAS UT",
+          "SATU KUNA",
+          "TUNAS AKU"
+        ],
+        "correct_answer": "AKU TUNAS",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l4_04",
+      "level_id": "sandi_u5_l4",
+      "type": "word_bank",
+      "question": "Susun Ciphertext dari kata 'SCOUT' pola ular lebar 2.",
+      "payload": {
+        "words": [
+          "SC",
+          "TU",
+          "O"
+        ],
+        "correct_order": [
+          "SC",
+          "TU",
+          "O"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u5_l4_05",
+      "level_id": "sandi_u5_l4",
+      "type": "multiple_choice",
+      "question": "Sandi Ular Spiral dimulai dari pojok kiri atas dan berakhir di?",
+      "payload": {
+        "options": [
+          "Tengah grid",
+          "Pojok kanan bawah",
+          "Pojok kiri bawah",
+          "Luar grid"
+        ],
+        "correct_answer": "Tengah grid",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u5_l4_06",
+      "level_id": "sandi_u5_l4",
+      "type": "fill_blank",
+      "question": "Teknik mendekripsi Sandi Ular tanpa mengetahui lebar kolom disebut sebagai teknik '____-force' secara visual.",
+      "payload": {
+        "correct_answer": "brute",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l4_07",
+      "level_id": "sandi_u5_l4",
+      "type": "matching",
+      "question": "Pasangkan pesan dengan jumlah barisnya (lebar kolom 4).",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Khasyaraka (10 hurf)",
+            "right": "3 Baris"
+          },
+          {
+            "left": "Tunas (5 huruf)",
+            "right": "2 Baris"
+          },
+          {
+            "left": "Pramuka (7 huruf)",
+            "right": "2 Baris"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u5_l4_08",
+      "level_id": "sandi_u5_l4",
+      "type": "multiple_choice",
+      "question": "Apa perbedaan Sandi Ular dengan Sandi Kotak?",
+      "payload": {
+        "options": [
+          "Sandi Ular memindahkan posisi huruf, Sandi Kotak mengganti bentuk huruf",
+          "Sandi Ular menggunakan titik",
+          "Sandi Kotak hanya untuk angka",
+          "Tidak ada perbedaan"
+        ],
+        "correct_answer": "Sandi Ular memindahkan posisi huruf, Sandi Kotak mengganti bentuk huruf",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u5_l5_01",
+      "level_id": "sandi_u5_l5",
+      "type": "multiple_choice",
+      "question": "Kombinasi Enkripsi: Sebuah pesan ditulis dalam Sandi Jam (08.00=A, Int 5m) lalu hasilnya disusun dalam pola Sandi Ular. Strategi ini disebut?",
+      "payload": {
+        "options": [
+          "Multiple Encryption (Enkripsi Ganda)",
+          "Simple Substitution",
+          "Digital Signature",
+          "Hashing"
+        ],
+        "correct_answer": "Multiple Encryption (Enkripsi Ganda)",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u5_l5_02",
+      "level_id": "sandi_u5_l5",
+      "type": "fill_blank",
+      "question": "Dalam kriptografi, Sandi Jam adalah algoritma simetris karena kunci enkripsi dan dekripsinya adalah ____.",
+      "payload": {
+        "correct_answer": "sama",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u5_l5_03",
+      "level_id": "sandi_u5_l5",
+      "type": "multiple_choice",
+      "question": "Seorang kurir membawa pesan: '12.00 - 12.10 - 12.05'. Jika musuh mengetahui ini Sandi Jam tetapi tidak tahu Key-nya, teknik apa yang digunakan musuh untuk menebak isi pesan?",
+      "payload": {
+        "options": [
+          "Analisis Pola (Pattern Analysis) berdasarkan struktur waktu",
+          "Menunggu kurir bicara",
+          "Membakar kertas",
+          "Menghitung jumlah titik"
+        ],
+        "correct_answer": "Analisis Pola (Pattern Analysis) berdasarkan struktur waktu",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u5_l5_04",
+      "level_id": "sandi_u5_l5",
+      "type": "word_bank",
+      "question": "Susun alur dekripsi Sandi Ular yang kompleks.",
+      "payload": {
+        "words": [
+          "Identifikasi Grid",
+          "Ikuti Alur Kelok",
+          "Rangkai Plaintext"
+        ],
+        "correct_order": [
+          "Identifikasi Grid",
+          "Ikuti Alur Kelok",
+          "Rangkai Plaintext"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u5_l5_05",
+      "level_id": "sandi_u5_l5",
+      "type": "multiple_choice",
+      "question": "Mengapa penggunaan interval ganjil (seperti 7 atau 13 menit) pada Sandi Jam lebih aman secara kriptografis?",
+      "payload": {
+        "options": [
+          "Karena polanya lebih sulit ditebak secara manual (tidak intuitif)",
+          "Karena jam akan berhenti",
+          "Karena angka ganjil sakral",
+          "Hanya mitos"
+        ],
+        "correct_answer": "Karena polanya lebih sulit ditebak secara manual (tidak intuitif)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u5_l5_06",
+      "level_id": "sandi_u5_l5",
+      "type": "fill_blank",
+      "question": "Dalam Sandi Ular, jika baris pertama adalah 'MUKA' dan baris kedua adalah 'ARPM', maka Plaintext aslinya adalah ____.",
+      "payload": {
+        "correct_answer": "pramuka",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u5_l5_07",
+      "level_id": "sandi_u5_l5",
+      "type": "matching",
+      "question": "Pasangkan konsep keamanan dengan metodenya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Confidentiality",
+            "right": "Menyembunyikan Pesan"
+          },
+          {
+            "left": "Integrity",
+            "right": "Memastikan Pesan Tak Berubah"
+          },
+          {
+            "left": "Non-repudiation",
+            "right": "Pengirim Tak Bisa Menyangkal"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u5_l5_08",
+      "level_id": "sandi_u5_l5",
+      "type": "multiple_choice",
+      "question": "Kapan seorang komunikator pramuka harus beralih dari Sandi Jam ke Sandi Ular?",
+      "payload": {
+        "options": [
+          "Saat media komunikasi berubah dari suara/peluit menjadi pesan tertulis yang berisiko disita",
+          "Saat baterai jam habis",
+          "Saat musim hujan",
+          "Tidak perlu beralih"
+        ],
+        "correct_answer": "Saat media komunikasi berubah dari suara/peluit menjadi pesan tertulis yang berisiko disita",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

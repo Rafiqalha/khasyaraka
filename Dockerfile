@@ -28,4 +28,4 @@ EXPOSE 8080
 # COMMAND STARTUP YANG BENAR
 # Menggunakan 0.0.0.0 adalah WAJIB untuk Cloud Run (bukan 127.0.0.1)
 # Format exec form untuk proper signal handling
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD exec uvicorn app.main:app --host 0.0.0.0 --port ${PORT:-8080}

@@ -6,6 +6,9 @@ from app.modules.cyber.router import router as cyber_router
 from app.modules.sku.router import router as sku_router
 from app.modules.survival.router import router as survival_router
 from app.modules.gamification.router import router as leaderboard_router
+from app.modules.admin.router import router as admin_router
+from app.api.endpoints.user_cache import router as user_cache_router
+from app.modules.tkk.router import router as tkk_router
 
 api_router = APIRouter()
 
@@ -21,6 +24,13 @@ api_router.include_router(training_router)
 api_router.include_router(cyber_router)
 api_router.include_router(sku_router, prefix="/sku", tags=["SKU"])
 api_router.include_router(survival_router, prefix="/survival", tags=["Survival"])
+api_router.include_router(tkk_router)
 
 # Sambungkan leaderboard router
 api_router.include_router(leaderboard_router)
+
+# ✅ NEW: User Cache endpoints (Cache-Aside + Write-Behind)
+api_router.include_router(user_cache_router)
+
+# ✅ ADMIN: Protected admin endpoints (reset-world, etc.)
+api_router.include_router(admin_router, prefix="/admin", tags=["Admin"])

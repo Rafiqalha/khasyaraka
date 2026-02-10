@@ -5,15 +5,15 @@
       "id": "q_puk_u4_l1_01",
       "level_id": "puk_u4_l1",
       "type": "multiple_choice",
-      "question": "Wadah pembinaan Pramuka yang berpangkalan di sekolah atau wilayah disebut?",
+      "question": "Secara yuridis, Gugus Depan (Gudep) bukan sekadar tempat berkumpul, melainkan berfungsi sebagai?",
       "payload": {
         "options": [
-          "Gugus Depan",
-          "Kwartir",
-          "Saka",
-          "Ambalan"
+          "Satuan Pendidikan dan Satuan Organisasi terdepan",
+          "Unit Pelaksana Teknis Daerah",
+          "Lembaga Swadaya Masyarakat",
+          "Ekstrakurikuler Wajib Sekolah"
         ],
-        "correct_answer": "Gugus Depan",
+        "correct_answer": "Satuan Pendidikan dan Satuan Organisasi terdepan",
         "shuffle": true
       },
       "xp": 2
@@ -22,9 +22,9 @@
       "id": "q_puk_u4_l1_02",
       "level_id": "puk_u4_l1",
       "type": "fill_blank",
-      "question": "Satuan terkecil dalam golongan Pramuka Penggalang disebut ____.",
+      "question": "Prinsip pemisahan satuan putra dan putri dalam struktur Gugus Depan dikenal dengan istilah Satuan ____.",
       "payload": {
-        "correct_answer": "regu",
+        "correct_answer": "terpisah",
         "case_sensitive": false
       },
       "xp": 3
@@ -33,15 +33,15 @@
       "id": "q_puk_u4_l1_03",
       "level_id": "puk_u4_l1",
       "type": "multiple_choice",
-      "question": "Kumpulan 3 sampai 4 Regu Penggalang dihimpun dalam?",
+      "question": "Dalam manajemen Pasukan Penggalang, peran Pratama (Pemimpin Regu Utama) adalah?",
       "payload": {
         "options": [
-          "Pasukan",
-          "Perindukan",
-          "Ambalan",
-          "Racana"
+          "Koordinator antar regu tanpa hak otoriter penuh",
+          "Komandan militer pasukan",
+          "Wakil Pembina",
+          "Sekretaris Pasukan"
         ],
-        "correct_answer": "Pasukan",
+        "correct_answer": "Koordinator antar regu tanpa hak otoriter penuh",
         "shuffle": true
       },
       "xp": 3
@@ -50,16 +50,23 @@
       "id": "q_puk_u4_l1_04",
       "level_id": "puk_u4_l1",
       "type": "word_bank",
-      "question": "Susun satuan terkecil Penegak.",
+      "question": "Susun hierarki lembaga dalam Ambalan Penegak.",
       "payload": {
         "words": [
-          "Sangga",
-          "Kerja",
-          "Ambalan"
+          "Musyawarah",
+          "Ambalan",
+          "Dewan",
+          "Ambalan",
+          "Dewan",
+          "Kehormatan"
         ],
         "correct_order": [
-          "Sangga",
-          "Kerja"
+          "Musyawarah",
+          "Ambalan",
+          "Dewan",
+          "Ambalan",
+          "Dewan",
+          "Kehormatan"
         ]
       },
       "xp": 3
@@ -68,15 +75,15 @@
       "id": "q_puk_u4_l1_05",
       "level_id": "puk_u4_l1",
       "type": "multiple_choice",
-      "question": "Pemimpin Sangga Utama dalam Ambalan Penegak disebut?",
+      "question": "Apa fungsi spesifik 'Pemangku Adat' (Juru Adat) dalam struktur Dewan Ambalan?",
       "payload": {
         "options": [
-          "Pradana",
-          "Sulung",
-          "Pratama",
-          "Pinru"
+          "Penjaga kode etik dan pelestari tradisi satuan",
+          "Mengatur keuangan ambalan",
+          "Menghukum anggota yang terlambat",
+          "Memimpin upacara bendera"
         ],
-        "correct_answer": "Pradana",
+        "correct_answer": "Penjaga kode etik dan pelestari tradisi satuan",
         "shuffle": true
       },
       "xp": 4
@@ -85,9 +92,9 @@
       "id": "q_puk_u4_l1_06",
       "level_id": "puk_u4_l1",
       "type": "fill_blank",
-      "question": "Musyawarah tingkat Gugus Depan diadakan setiap ____ tahun sekali.",
+      "question": "Setiap Gugus Depan wajib memiliki nomor registrasi yang diterbitkan oleh Kwartir ____.",
       "payload": {
-        "correct_answer": "3",
+        "correct_answer": "cabang",
         "case_sensitive": false
       },
       "xp": 3
@@ -96,20 +103,20 @@
       "id": "q_puk_u4_l1_07",
       "level_id": "puk_u4_l1",
       "type": "matching",
-      "question": "Pasangkan satuan dengan golongannya.",
+      "question": "Pasangkan organ Gudep dengan fungsinya.",
       "payload": {
         "pairs": [
           {
-            "left": "Barung",
-            "right": "Siaga"
+            "left": "Mugus",
+            "right": "Pemegang Kekuasaan Tertinggi"
           },
           {
-            "left": "Regu",
-            "right": "Penggalang"
+            "left": "Pembina Gudep",
+            "right": "Pengelola Pendidikan"
           },
           {
-            "left": "Sangga",
-            "right": "Penegak"
+            "left": "Mabigus",
+            "right": "Bantuan Moril & Materiil"
           }
         ],
         "shuffle": true
@@ -120,15 +127,15 @@
       "id": "q_puk_u4_l1_08",
       "level_id": "puk_u4_l1",
       "type": "multiple_choice",
-      "question": "Ketua Mabigus (Majelis Pembimbing Gugus Depan) di sekolah biasanya dijabat oleh?",
+      "question": "Hubungan antara Mabigus (Kepala Sekolah) dengan Pembina Gudep bersifat?",
       "payload": {
         "options": [
-          "Kepala Sekolah",
-          "Guru Olahraga",
-          "Ketua OSIS",
-          "Pembina Pramuka"
+          "Konsultatif dan Koordinatif",
+          "Komando Absolut",
+          "Terpisah Total",
+          "Instruktif Satu Arah"
         ],
-        "correct_answer": "Kepala Sekolah",
+        "correct_answer": "Konsultatif dan Koordinatif",
         "shuffle": true
       },
       "xp": 4
@@ -137,9 +144,9 @@
       "id": "q_puk_u4_l2_01",
       "level_id": "puk_u4_l2",
       "type": "fill_blank",
-      "question": "Organisasi Gerakan Pramuka di tingkat Kecamatan disebut Kwartir ____.",
+      "question": "Kwartir Ranting (Kwarran) memiliki fungsi strategis sebagai pengendali operasional kegiatan di garis depan karena membawahi langsung ____.",
       "payload": {
-        "correct_answer": "ranting",
+        "correct_answer": "gugus depan",
         "case_sensitive": false
       },
       "xp": 3
@@ -148,15 +155,15 @@
       "id": "q_puk_u4_l2_02",
       "level_id": "puk_u4_l2",
       "type": "multiple_choice",
-      "question": "Kwartir Cabang (Kwarcab) berkedudukan di tingkat?",
+      "question": "Mengapa Kwartir Cabang (Kwarcab) disebut sebagai titik sentral pembinaan (Centre of Excellence)?",
       "payload": {
         "options": [
-          "Kabupaten/Kota",
-          "Provinsi",
-          "Kecamatan",
-          "Nasional"
+          "Karena memiliki otonomi penuh dalam penerbitan ijazah KMD/KML dan tanda penghargaan",
+          "Karena letaknya di ibu kota",
+          "Karena memiliki anggaran terbesar",
+          "Karena membawahi Kwarda"
         ],
-        "correct_answer": "Kabupaten/Kota",
+        "correct_answer": "Karena memiliki otonomi penuh dalam penerbitan ijazah KMD/KML dan tanda penghargaan",
         "shuffle": true
       },
       "xp": 3
@@ -165,17 +172,23 @@
       "id": "q_puk_u4_l2_03",
       "level_id": "puk_u4_l2",
       "type": "word_bank",
-      "question": "Susun tingkatan Kwartir dari terendah ke tertinggi.",
+      "question": "Susun alur pertanggungjawaban Kwartir.",
       "payload": {
         "words": [
-          "Ranting",
-          "Cabang",
-          "Daerah"
+          "Kwartir",
+          "Bertanggung",
+          "Jawab",
+          "Kepada",
+          "Musyawarah",
+          "Tingkatnya"
         ],
         "correct_order": [
-          "Ranting",
-          "Cabang",
-          "Daerah"
+          "Kwartir",
+          "Bertanggung",
+          "Jawab",
+          "Kepada",
+          "Musyawarah",
+          "Tingkatnya"
         ]
       },
       "xp": 4
@@ -184,15 +197,15 @@
       "id": "q_puk_u4_l2_04",
       "level_id": "puk_u4_l2",
       "type": "multiple_choice",
-      "question": "Siapakah yang biasanya menjabat sebagai Ketua Mabida (Majelis Pembimbing Daerah)?",
+      "question": "Pejabat publik (Gubernur/Bupati) menjabat sebagai Ketua Mabi secara 'Ex-Officio'. Artinya?",
       "payload": {
         "options": [
-          "Gubernur",
-          "Bupati",
-          "Presiden",
-          "Camat"
+          "Menjabat karena jabatannya secara otomatis",
+          "Dipilih melalui voting terbuka",
+          "Ditunjuk oleh Presiden",
+          "Menjabat seumur hidup"
         ],
-        "correct_answer": "Gubernur",
+        "correct_answer": "Menjabat karena jabatannya secara otomatis",
         "shuffle": true
       },
       "xp": 4
@@ -201,9 +214,9 @@
       "id": "q_puk_u4_l2_05",
       "level_id": "puk_u4_l2",
       "type": "fill_blank",
-      "question": "Singkatan dari Kwartir Nasional adalah ____.",
+      "question": "Kwartir Nasional ditetapkan melalui Keputusan Presiden RI, sedangkan pengurusnya dikukuhkan oleh ____.",
       "payload": {
-        "correct_answer": "kwarnas",
+        "correct_answer": "presiden",
         "case_sensitive": false
       },
       "xp": 4
@@ -212,15 +225,15 @@
       "id": "q_puk_u4_l2_06",
       "level_id": "puk_u4_l2",
       "type": "multiple_choice",
-      "question": "Masa bakti pengurus Kwartir (Ranting hingga Nasional) adalah?",
+      "question": "Dalam struktur organisasi, hubungan antara Kwartir Daerah dengan Kwartir Cabang adalah?",
       "payload": {
         "options": [
-          "5 Tahun",
-          "3 Tahun",
-          "4 Tahun",
-          "2 Tahun"
+          "Hubungan pembinaan dan koordinasi kewilayahan",
+          "Hubungan atasan dan bawahan (Instruksi)",
+          "Hubungan federasi independen",
+          "Tidak ada hubungan struktural"
         ],
-        "correct_answer": "5 Tahun",
+        "correct_answer": "Hubungan pembinaan dan koordinasi kewilayahan",
         "shuffle": true
       },
       "xp": 4
@@ -229,20 +242,20 @@
       "id": "q_puk_u4_l2_07",
       "level_id": "puk_u4_l2",
       "type": "matching",
-      "question": "Pasangkan tingkatan wilayah dengan nama Kwartirnya.",
+      "question": "Pasangkan Badan Kelengkapan Kwartir dengan fungsinya.",
       "payload": {
         "pairs": [
           {
-            "left": "Kecamatan",
-            "right": "Kwarran"
+            "left": "Pusdiklat",
+            "right": "Wadah Pendidikan Pembina"
           },
           {
-            "left": "Kabupaten",
-            "right": "Kwarcab"
+            "left": "Puslitbang",
+            "right": "Evaluasi & Perencanaan"
           },
           {
-            "left": "Provinsi",
-            "right": "Kwarda"
+            "left": "Dewan Kehormatan",
+            "right": "Penilai Kode Etik"
           }
         ],
         "shuffle": true
@@ -253,15 +266,15 @@
       "id": "q_puk_u4_l2_08",
       "level_id": "puk_u4_l2",
       "type": "multiple_choice",
-      "question": "Lembaga yang bertugas memeriksa keuangan Kwartir disebut?",
+      "question": "Lembaga Pemeriksa Keuangan (LPK) Gerakan Pramuka bersifat?",
       "payload": {
         "options": [
-          "LPK (Lembaga Pemeriksa Keuangan)",
-          "DK (Dewan Kerja)",
-          "BPK (Badan Pemeriksa Keuangan)",
-          "KPK"
+          "Independen dan bertanggung jawab kepada Musyawarah",
+          "Di bawah bendahara Kwartir",
+          "Sub-bidang sarana prasarana",
+          "Di bawah kendali Pemerintah"
         ],
-        "correct_answer": "LPK (Lembaga Pemeriksa Keuangan)",
+        "correct_answer": "Independen dan bertanggung jawab kepada Musyawarah",
         "shuffle": true
       },
       "xp": 4
@@ -270,15 +283,15 @@
       "id": "q_puk_u4_l3_01",
       "level_id": "puk_u4_l3",
       "type": "multiple_choice",
-      "question": "Dewan Kerja Pramuka Penegak dan Pandega di tingkat Cabang disebut?",
+      "question": "Dewan Kerja (DK) berstatus sebagai 'Badan Kelengkapan Kwartir'. Implikasi hukumnya adalah?",
       "payload": {
         "options": [
-          "DKC",
-          "DKR",
-          "DKD",
-          "DKN"
+          "DK adalah bagian integral Kwartir yang diberi wewenang mengelola Binamuda",
+          "DK adalah organisasi terpisah yang berdiri sendiri",
+          "DK hanya sekadar panitia kegiatan",
+          "DK memiliki AD/ART sendiri yang terpisah"
         ],
-        "correct_answer": "DKC",
+        "correct_answer": "DK adalah bagian integral Kwartir yang diberi wewenang mengelola Binamuda",
         "shuffle": true
       },
       "xp": 4
@@ -287,9 +300,9 @@
       "id": "q_puk_u4_l3_02",
       "level_id": "puk_u4_l3",
       "type": "fill_blank",
-      "question": "DKR adalah singkatan dari Dewan Kerja ____.",
+      "question": "Ketua Dewan Kerja secara otomatis (Ex-Officio) menjabat sebagai ____ Ketua Kwartir bidang Pembinaan Anggota Muda.",
       "payload": {
-        "correct_answer": "ranting",
+        "correct_answer": "andalan",
         "case_sensitive": false
       },
       "xp": 4
@@ -298,15 +311,21 @@
       "id": "q_puk_u4_l3_03",
       "level_id": "puk_u4_l3",
       "type": "word_bank",
-      "question": "Susun kepanjangan MABI.",
+      "question": "Susun motto Dewan Kerja.",
       "payload": {
         "words": [
-          "Majelis",
-          "Pembimbing"
+          "Maksud",
+          "Kiasan",
+          "Membentuk",
+          "Kader",
+          "Pembangunan"
         ],
         "correct_order": [
-          "Majelis",
-          "Pembimbing"
+          "Maksud",
+          "Kiasan",
+          "Membentuk",
+          "Kader",
+          "Pembangunan"
         ]
       },
       "xp": 5
@@ -315,15 +334,15 @@
       "id": "q_puk_u4_l3_04",
       "level_id": "puk_u4_l3",
       "type": "multiple_choice",
-      "question": "Tugas utama Dewan Kerja adalah?",
+      "question": "Fungsi utama Dewan Kerja adalah kaderisasi kepemimpinan. Hal ini diwujudkan melalui mekanisme?",
       "payload": {
         "options": [
-          "Mengelola kegiatan Pramuka Penegak dan Pandega",
-          "Mengelola keuangan Kwartir",
-          "Membuat Undang-Undang",
-          "Melatih Pramuka Siaga"
+          "Tut Wuri Handayani (Dari, Oleh, dan Untuk Pramuka)",
+          "Instruksi Militer",
+          "Manajemen Perusahaan",
+          "Sistem Voting Terbuka"
         ],
-        "correct_answer": "Mengelola kegiatan Pramuka Penegak dan Pandega",
+        "correct_answer": "Tut Wuri Handayani (Dari, Oleh, dan Untuk Pramuka)",
         "shuffle": true
       },
       "xp": 5
@@ -332,9 +351,9 @@
       "id": "q_puk_u4_l3_05",
       "level_id": "puk_u4_l3",
       "type": "fill_blank",
-      "question": "Ketua Dewan Kerja Ranting (DKR) dipilih melalui sidang ____.",
+      "question": "Sidang Paripurna Dewan Kerja berfungsi untuk menyusun rencana kerja yang akan diajukan dalam ____ Kwartir.",
       "payload": {
-        "correct_answer": "musppanitera",
+        "correct_answer": "raker",
         "case_sensitive": false
       },
       "xp": 5
@@ -343,20 +362,20 @@
       "id": "q_puk_u4_l3_06",
       "level_id": "puk_u4_l3",
       "type": "matching",
-      "question": "Pasangkan singkatan Dewan Kerja dengan tingkatannya.",
+      "question": "Pasangkan persyaratan Dewan Kerja dengan maknanya.",
       "payload": {
         "pairs": [
           {
-            "left": "DKN",
-            "right": "Nasional"
+            "left": "Kolektif",
+            "right": "Keputusan Bersama"
           },
           {
-            "left": "DKD",
-            "right": "Daerah"
+            "left": "Kolegial",
+            "right": "Setara/Rekan Kerja"
           },
           {
-            "left": "DKR",
-            "right": "Ranting"
+            "left": "Integral",
+            "right": "Bagian Tak Terpisahkan Kwartir"
           }
         ],
         "shuffle": true
@@ -367,15 +386,15 @@
       "id": "q_puk_u4_l3_07",
       "level_id": "puk_u4_l3",
       "type": "multiple_choice",
-      "question": "Ketua Mabinas (Majelis Pembimbing Nasional) dijabat oleh?",
+      "question": "Jika Ketua Dewan Kerja berhalangan tetap, mekanisme penggantiannya dilakukan melalui?",
       "payload": {
         "options": [
-          "Presiden Republik Indonesia",
-          "Menteri Pendidikan",
-          "Menteri Pemuda dan Olahraga",
-          "Ketua Kwarnas"
+          "Musppanitera Luar Biasa",
+          "Penunjukan Langsung Ketua Kwartir",
+          "Rapat Pleno Dewan Kerja",
+          "Voting di Media Sosial"
         ],
-        "correct_answer": "Presiden Republik Indonesia",
+        "correct_answer": "Musppanitera Luar Biasa",
         "shuffle": true
       },
       "xp": 5
@@ -384,15 +403,15 @@
       "id": "q_puk_u4_l3_08",
       "level_id": "puk_u4_l3",
       "type": "multiple_choice",
-      "question": "Sifat keanggotaan Dewan Kerja bersifat?",
+      "question": "Batas usia maksimal untuk menjadi anggota Dewan Kerja adalah?",
       "payload": {
         "options": [
-          "Kolektif Kolegial",
-          "Otoriter",
-          "Komando Militer",
-          "Bebas"
+          "25 Tahun (Sesuai usia Pandega)",
+          "20 Tahun",
+          "30 Tahun",
+          "Tidak dibatasi"
         ],
-        "correct_answer": "Kolektif Kolegial",
+        "correct_answer": "25 Tahun (Sesuai usia Pandega)",
         "shuffle": true
       },
       "xp": 5
@@ -401,15 +420,15 @@
       "id": "q_puk_u4_l4_01",
       "level_id": "puk_u4_l4",
       "type": "multiple_choice",
-      "question": "Musyawarah tingkat Nasional disebut?",
+      "question": "Agenda utama Munas (Musyawarah Nasional) selain memilih Ketua Kwarnas adalah?",
       "payload": {
         "options": [
-          "Munas",
-          "Musda",
-          "Muscab",
-          "Mugus"
+          "Menetapkan AD/ART dan Rencana Strategis (Renstra)",
+          "Membagikan atribut",
+          "Pesta kesenian daerah",
+          "Lomba tingkat nasional"
         ],
-        "correct_answer": "Munas",
+        "correct_answer": "Menetapkan AD/ART dan Rencana Strategis (Renstra)",
         "shuffle": true
       },
       "xp": 5
@@ -418,9 +437,9 @@
       "id": "q_puk_u4_l4_02",
       "level_id": "puk_u4_l4",
       "type": "fill_blank",
-      "question": "Musyawarah Daerah (Musda) diadakan setiap ____ tahun sekali.",
+      "question": "Pengambilan keputusan dalam musyawarah Pramuka mengutamakan prinsip ____ untuk mufakat.",
       "payload": {
-        "correct_answer": "5",
+        "correct_answer": "musyawarah",
         "case_sensitive": false
       },
       "xp": 5
@@ -429,15 +448,15 @@
       "id": "q_puk_u4_l4_03",
       "level_id": "puk_u4_l4",
       "type": "multiple_choice",
-      "question": "Forum tertinggi untuk memilih Ketua Kwartir Cabang adalah?",
+      "question": "Apa yang dimaksud dengan 'Tim Formatur' dalam hasil Musyawarah?",
       "payload": {
         "options": [
-          "Muscab (Musyawarah Cabang)",
-          "Rakercab",
-          "Sidang Paripurna",
-          "Musran"
+          "Tim yang bertugas menyusun kepengurusan lengkap bersama Ketua Terpilih",
+          "Tim keamanan sidang",
+          "Tim penyedia konsumsi",
+          "Tim peninjau dari kwartir atas"
         ],
-        "correct_answer": "Muscab (Musyawarah Cabang)",
+        "correct_answer": "Tim yang bertugas menyusun kepengurusan lengkap bersama Ketua Terpilih",
         "shuffle": true
       },
       "xp": 5
@@ -446,15 +465,25 @@
       "id": "q_puk_u4_l4_04",
       "level_id": "puk_u4_l4",
       "type": "word_bank",
-      "question": "Susun nama musyawarah tingkat Ranting.",
+      "question": "Susun urutan kekuatan hukum di Pramuka.",
       "payload": {
         "words": [
-          "Musyawarah",
-          "Ranting"
+          "UU",
+          "Pramuka",
+          "Anggaran",
+          "Dasar",
+          "Anggaran",
+          "Rumah",
+          "Tangga"
         ],
         "correct_order": [
-          "Musyawarah",
-          "Ranting"
+          "UU",
+          "Pramuka",
+          "Anggaran",
+          "Dasar",
+          "Anggaran",
+          "Rumah",
+          "Tangga"
         ]
       },
       "xp": 5
@@ -463,15 +492,15 @@
       "id": "q_puk_u4_l4_05",
       "level_id": "puk_u4_l4",
       "type": "multiple_choice",
-      "question": "Musppanitera adalah singkatan dari?",
+      "question": "Musppanitera menghasilkan rekomendasi yang bersifat?",
       "payload": {
         "options": [
-          "Musyawarah Pramuka Penegak dan Pandega Putera Puteri",
-          "Musyawarah Para Penegak Terampil",
-          "Musyawarah Pimpinan Kwartir",
-          "Musyawarah Perencanaan Kegiatan"
+          "Mengikat bagi Dewan Kerja dan usulan bagi Kwartir",
+          "Wajib dilaksanakan Presiden",
+          "Hanya saran sukarela",
+          "Mutlak tidak bisa diubah"
         ],
-        "correct_answer": "Musyawarah Pramuka Penegak dan Pandega Putera Puteri",
+        "correct_answer": "Mengikat bagi Dewan Kerja dan usulan bagi Kwartir",
         "shuffle": true
       },
       "xp": 6
@@ -480,20 +509,20 @@
       "id": "q_puk_u4_l4_06",
       "level_id": "puk_u4_l4",
       "type": "matching",
-      "question": "Pasangkan jenis musyawarah dengan tingkatannya.",
+      "question": "Pasangkan istilah sidang dengan tujuannya.",
       "payload": {
         "pairs": [
           {
-            "left": "Munas",
-            "right": "Nasional"
+            "left": "Sidang Pleno",
+            "right": "Pengambilan Keputusan Tertinggi"
           },
           {
-            "left": "Musda",
-            "right": "Daerah"
+            "left": "Sidang Komisi",
+            "right": "Pembahasan Bidang Spesifik"
           },
           {
-            "left": "Mugus",
-            "right": "Gugus Depan"
+            "left": "Sidang Paripurna",
+            "right": "Pengesahan Hasil"
           }
         ],
         "shuffle": true
@@ -504,15 +533,15 @@
       "id": "q_puk_u4_l4_07",
       "level_id": "puk_u4_l4",
       "type": "multiple_choice",
-      "question": "Rapat Kerja Nasional (Rakernas) diadakan minimal?",
+      "question": "Kuorum dalam sebuah Musyawarah dianggap sah jika dihadiri oleh?",
       "payload": {
         "options": [
-          "Satu tahun sekali",
-          "Dua tahun sekali",
-          "Lima tahun sekali",
-          "Sebulan sekali"
+          "Lebih dari setengah (50% + 1) jumlah utusan yang berhak",
+          "Seluruh anggota tanpa terkecuali",
+          "Sepertiga anggota",
+          "Hanya ketua dan sekretaris"
         ],
-        "correct_answer": "Satu tahun sekali",
+        "correct_answer": "Lebih dari setengah (50% + 1) jumlah utusan yang berhak",
         "shuffle": true
       },
       "xp": 6
@@ -521,9 +550,9 @@
       "id": "q_puk_u4_l4_08",
       "level_id": "puk_u4_l4",
       "type": "fill_blank",
-      "question": "Pemegang kekuasaan tertinggi dalam Gerakan Pramuka adalah ____ Nasional.",
+      "question": "Jika terjadi keadaan mendesak/darurat, Kwartir dapat menyelenggarakan Musyawarah ____.",
       "payload": {
-        "correct_answer": "musyawarah",
+        "correct_answer": "luar biasa",
         "case_sensitive": false
       },
       "xp": 6
@@ -532,15 +561,15 @@
       "id": "q_puk_u4_l5_01",
       "level_id": "puk_u4_l5",
       "type": "multiple_choice",
-      "question": "Landasan hukum organisasi Gerakan Pramuka (Anggaran Dasar/Anggaran Rumah Tangga) ditetapkan dalam?",
+      "question": "UU No. 12 Tahun 2010 menegaskan Gerakan Pramuka sebagai organisasi yang bersifat?",
       "payload": {
         "options": [
-          "Munas",
-          "Keputusan Presiden",
-          "Rakernas",
-          "Sidang Istimewa"
+          "Mandiri, Sukarela, dan Non-Politis",
+          "Di bawah kementerian pertahanan",
+          "Organisasi Partai Politik",
+          "Lembaga Profit (Mencari Keuntungan)"
         ],
-        "correct_answer": "Munas",
+        "correct_answer": "Mandiri, Sukarela, dan Non-Politis",
         "shuffle": true
       },
       "xp": 7
@@ -549,9 +578,9 @@
       "id": "q_puk_u4_l5_02",
       "level_id": "puk_u4_l5",
       "type": "fill_blank",
-      "question": "Satuan Karya (Saka) berada di bawah pembinaan dan tanggung jawab Kwartir, namun secara teknis dibantu oleh instansi ____.",
+      "question": "Pola pembinaan Saka menggunakan sistem 'Pamong Saka' dari unsur Pramuka dan 'Instruktur Saka' dari unsur ____.",
       "payload": {
-        "correct_answer": "terkait",
+        "correct_answer": "profesional",
         "case_sensitive": false
       },
       "xp": 7
@@ -560,15 +589,15 @@
       "id": "q_puk_u4_l5_03",
       "level_id": "puk_u4_l5",
       "type": "multiple_choice",
-      "question": "Pusdiklat (Pusat Pendidikan dan Pelatihan) tingkat Cabang disebut?",
+      "question": "Lemdikanas (Lembaga Pendidikan Kader Nasional) sekarang dikenal dengan nama?",
       "payload": {
         "options": [
-          "Pusdiklatcab",
-          "Pusdiklatda",
           "Pusdiklatnas",
-          "Lemdikacab"
+          "Puslitbangnas",
+          "Pusinfonas",
+          "Badan Diklat"
         ],
-        "correct_answer": "Pusdiklatcab",
+        "correct_answer": "Pusdiklatnas",
         "shuffle": true
       },
       "xp": 7
@@ -577,19 +606,23 @@
       "id": "q_puk_u4_l5_04",
       "level_id": "puk_u4_l5",
       "type": "word_bank",
-      "question": "Susun hierarki organisasi dari bawah ke atas.",
+      "question": "Susun Tri Bina Pramuka.",
       "payload": {
         "words": [
-          "Gudep",
-          "Ranting",
-          "Cabang",
-          "Daerah"
+          "Bina",
+          "Diri",
+          "Bina",
+          "Satuan",
+          "Bina",
+          "Masyarakat"
         ],
         "correct_order": [
-          "Gudep",
-          "Ranting",
-          "Cabang",
-          "Daerah"
+          "Bina",
+          "Diri",
+          "Bina",
+          "Satuan",
+          "Bina",
+          "Masyarakat"
         ]
       },
       "xp": 7
@@ -598,15 +631,15 @@
       "id": "q_puk_u4_l5_05",
       "level_id": "puk_u4_l5",
       "type": "multiple_choice",
-      "question": "Gugus Darma adalah satuan organisasi bagi?",
+      "question": "Gugus Darma berbeda dengan Gugus Depan karena?",
       "payload": {
         "options": [
-          "Anggota Dewasa",
-          "Pramuka Siaga",
-          "Pramuka Luar Biasa",
-          "Simpatisan"
+          "Gugus Darma tidak memiliki peserta didik (hanya anggota dewasa)",
+          "Gugus Darma hanya untuk militer",
+          "Gugus Darma berbasis di luar negeri",
+          "Gugus Darma tidak memiliki struktur"
         ],
-        "correct_answer": "Anggota Dewasa",
+        "correct_answer": "Gugus Darma tidak memiliki peserta didik (hanya anggota dewasa)",
         "shuffle": true
       },
       "xp": 8
@@ -615,20 +648,20 @@
       "id": "q_puk_u4_l5_06",
       "level_id": "puk_u4_l5",
       "type": "matching",
-      "question": "Pasangkan jabatan dengan tingkatannya.",
+      "question": "Pasangkan istilah administratif.",
       "payload": {
         "pairs": [
           {
-            "left": "Ka Kwarnas",
-            "right": "Nasional"
+            "left": "Andalan",
+            "right": "Pengurus Kwartir (Fungsional)"
           },
           {
-            "left": "Ka Kwarda",
-            "right": "Daerah"
+            "left": "Pamong",
+            "right": "Pembina Saka"
           },
           {
-            "left": "Ka Kwarcab",
-            "right": "Cabang"
+            "left": "Pelatih",
+            "right": "Korps Pusdiklat"
           }
         ],
         "shuffle": true
@@ -639,15 +672,15 @@
       "id": "q_puk_u4_l5_07",
       "level_id": "puk_u4_l5",
       "type": "multiple_choice",
-      "question": "Pramuka Utama Indonesia adalah gelar yang diberikan kepada?",
+      "question": "Gelar 'Pramuka Utama' bagi Presiden RI bermakna?",
       "payload": {
         "options": [
-          "Presiden RI",
-          "Bapak Pandu Indonesia",
-          "Ketua Kwarnas",
-          "Menteri Pemuda"
+          "Simbol kepemimpinan tertinggi dan pelindung gerakan",
+          "Presiden adalah Ketua Kwarnas otomatis",
+          "Presiden harus ikut kemah setiap bulan",
+          "Hanya gelar kehormatan tanpa makna"
         ],
-        "correct_answer": "Presiden RI",
+        "correct_answer": "Simbol kepemimpinan tertinggi dan pelindung gerakan",
         "shuffle": true
       },
       "xp": 8
@@ -656,20 +689,21 @@
       "id": "q_puk_u4_l5_08",
       "level_id": "puk_u4_l5",
       "type": "word_bank",
-      "question": "Susun kepanjangan WOSM.",
+      "question": "Susun hierarki organisasi kepanduan dunia.",
       "payload": {
         "words": [
           "World",
-          "Organization",
           "Scout",
-          "Movement"
+          "Conference",
+          "Committee",
+          "Bureau"
         ],
         "correct_order": [
           "World",
-          "Organization",
-          "of",
           "Scout",
-          "Movement"
+          "Conference",
+          "Committee",
+          "Bureau"
         ]
       },
       "xp": 9

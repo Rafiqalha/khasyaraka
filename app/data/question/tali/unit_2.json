@@ -1,4 +1,676 @@
 {
-  "unit_id": "tali_unit_2",
-  "questions": []
+  "unit_id": "tali_u2",
+  "questions": [
+    {
+      "id": "q_tali_u2_l1_01",
+      "level_id": "tali_u2_l1",
+      "type": "multiple_choice",
+      "question": "Manakah simpul yang paling direkomendasikan untuk menyambung dua tali sintetis (nilon) yang licin agar tidak terlepas saat diberi beban sentakan?",
+      "payload": {
+        "options": [
+          "Simpul Kembar Berganda (Double Fisherman's)",
+          "Simpul Mati",
+          "Simpul Anyam Tunggal",
+          "Simpul Pangkal"
+        ],
+        "correct_answer": "Simpul Kembar Berganda (Double Fisherman's)",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u2_l1_02",
+      "level_id": "tali_u2_l1",
+      "type": "fill_blank",
+      "question": "Simpul yang sangat tidak disarankan untuk menyambung tali dengan diameter berbeda karena risiko 'capsizing' (berubah bentuk) adalah simpul ____.",
+      "payload": {
+        "correct_answer": "mati",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u2_l1_03",
+      "level_id": "tali_u2_l1",
+      "type": "multiple_choice",
+      "question": "Dalam konteks keamanan, mengapa ujung sisa tali (tail) setelah membuat simpul penyambung harus disisakan minimal 5-10 kali diameter tali?",
+      "payload": {
+        "options": [
+          "Mencegah simpul terurai total saat tali meregang atau mengalami penyusutan beban",
+          "Agar terlihat lebih rapi",
+          "Memudahkan saat akan dipotong",
+          "Hanya masalah estetika kepramukaan"
+        ],
+        "correct_answer": "Mencegah simpul terurai total saat tali meregang atau mengalami penyusutan beban",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u2_l1_04",
+      "level_id": "tali_u2_l1",
+      "type": "word_bank",
+      "question": "Susunlah urutan simpul penyambung dari yang paling lemah hingga paling kuat untuk tali basah.",
+      "payload": {
+        "words": [
+          "Simpul Mati",
+          "Simpul Anyam",
+          "Simpul Kembar"
+        ],
+        "correct_order": [
+          "Simpul Mati",
+          "Simpul Anyam",
+          "Simpul Kembar"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u2_l1_05",
+      "level_id": "tali_u2_l1",
+      "type": "multiple_choice",
+      "question": "Simpul 'Carrick Bend' adalah simpul penyambung tingkat mahir yang digunakan untuk?",
+      "payload": {
+        "options": [
+          "Menyambung dua tali besar atau kabel yang sangat kaku dan berat",
+          "Mengikat kacu leher",
+          "Menyambung senar pancing tipis",
+          "Hanya untuk hiasan dinding"
+        ],
+        "correct_answer": "Menyambung dua tali besar atau kabel yang sangat kaku dan berat",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u2_l1_06",
+      "level_id": "tali_u2_l1",
+      "type": "fill_blank",
+      "question": "Penyambungan tali yang bersifat permanen dengan cara menganyam ujung serat tali secara langsung disebut ____ (Splicing).",
+      "payload": {
+        "correct_answer": "perajutan",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u2_l1_07",
+      "level_id": "tali_u2_l1",
+      "type": "matching",
+      "question": "Pasangkan jenis sambungan dengan material yang paling cocok.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Double Fisherman",
+            "right": "Tali Prusik / Kernmantle"
+          },
+          {
+            "left": "Carrick Bend",
+            "right": "Tali Kapal Besar / Kaku"
+          },
+          {
+            "left": "Sheet Bend",
+            "right": "Tali Alami (Manila/Ijuk)"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u2_l1_08",
+      "level_id": "tali_u2_l1",
+      "type": "multiple_choice",
+      "question": "Apa yang terjadi secara teknis pada serat tali di dalam sebuah simpul saat ditarik beban?",
+      "payload": {
+        "options": [
+          "Terjadi kompresi dan tekukan tajam yang mengurangi kekuatan putus asli tali",
+          "Tali menjadi lebih elastis",
+          "Kekuatan tali meningkat dua kali lipat",
+          "Serat tali memanjang secara permanen"
+        ],
+        "correct_answer": "Terjadi kompresi dan tekukan tajam yang mengurangi kekuatan putus asli tali",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u2_l2_01",
+      "level_id": "tali_u2_l2",
+      "type": "multiple_choice",
+      "question": "Dalam operasi penyelamatan, 'Simpul Tiang Berganda' (Bowline on a Bight) lebih unggul karena memiliki dua kolong yang dapat digunakan untuk?",
+      "payload": {
+        "options": [
+          "Menopang bagian paha dan punggung korban secara seimbang",
+          "Menyambung dua tali sekaligus",
+          "Mengunci tiang pancang",
+          "Memperpendek tali yang terlalu panjang"
+        ],
+        "correct_answer": "Menopang bagian paha dan punggung korban secara seimbang",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u2_l2_02",
+      "level_id": "tali_u2_l2",
+      "type": "fill_blank",
+      "question": "Simpul yang membentuk lingkaran tetap di tengah-tengah tali tanpa harus memutus atau menggunakan ujung tali adalah simpul ____ (Butterfly Knot).",
+      "payload": {
+        "correct_answer": "kupu-kupu",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u2_l2_03",
+      "level_id": "tali_u2_l2",
+      "type": "multiple_choice",
+      "question": "Mengapa Simpul Delapan Ganda (Figure-eight Loop) lebih sering digunakan pendaki gunung daripada Simpul Tiang untuk membuat loop utama?",
+      "payload": {
+        "options": [
+          "Karena polanya lebih mudah diperiksa secara visual (check-and-recheck)",
+          "Karena lebih hemat tali",
+          "Karena tidak bisa dibuka lagi",
+          "Karena lebih ringan"
+        ],
+        "correct_answer": "Karena polanya lebih mudah diperiksa secara visual (check-and-recheck)",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u2_l2_04",
+      "level_id": "tali_u2_l2",
+      "type": "word_bank",
+      "question": "Susun langkah pembuatan simpul tiang berganda.",
+      "payload": {
+        "words": [
+          "Lipat Tali Jadi Dua",
+          "Buat Loop Utama",
+          "Masukkan Ujung Lipatan",
+          "Balikkan Menyelimuti Loop"
+        ],
+        "correct_order": [
+          "Lipat Tali Jadi Dua",
+          "Buat Loop Utama",
+          "Masukkan Ujung Lipatan",
+          "Balikkan Menyelimuti Loop"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u2_l2_05",
+      "level_id": "tali_u2_l2",
+      "type": "multiple_choice",
+      "question": "Simpul 'French Bowline' adalah variasi simpul tiang yang memiliki dua kolong yang dapat bergerak secara independen. Fungsi utamanya adalah?",
+      "payload": {
+        "options": [
+          "Mengirimkan barang dan menyeimbangkan berat korban yang pingsan",
+          "Menyambung tali pancing",
+          "Mengikat tiang bendera",
+          "Membuat jaring laba-laba"
+        ],
+        "correct_answer": "Mengirimkan barang dan menyeimbangkan berat korban yang pingsan",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u2_l2_06",
+      "level_id": "tali_u2_l2",
+      "type": "fill_blank",
+      "question": "Simpul ____ (Water Knot) adalah simpul penyambung wajib untuk tali berbentuk pipih atau 'Webbing'.",
+      "payload": {
+        "correct_answer": "pita",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u2_l2_07",
+      "level_id": "tali_u2_l2",
+      "type": "matching",
+      "question": "Pasangkan jumlah loop dengan nama simpulnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Satu Loop",
+            "right": "Simpul Tiang (Bowline)"
+          },
+          {
+            "left": "Dua Loop",
+            "right": "Simpul Kursi (Chair Knot)"
+          },
+          {
+            "left": "Tiga Loop",
+            "right": "Triple Bowline"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u2_l2_08",
+      "level_id": "tali_u2_l2",
+      "type": "multiple_choice",
+      "question": "Manakah yang merupakan syarat 'Simpul Pengaman' yang baik dalam sebuah sistem angkut (hauling system)?",
+      "payload": {
+        "options": [
+          "Kuat menahan beban, mudah diperiksa, dan tetap mudah dibuka setelah diberi beban",
+          "Sangat sulit dibuka selamanya",
+          "Menggunakan tali yang berwarna warni",
+          "Terdiri dari banyak lilitan acak"
+        ],
+        "correct_answer": "Kuat menahan beban, mudah diperiksa, dan tetap mudah dibuka setelah diberi beban",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u2_l3_01",
+      "level_id": "tali_u2_l3",
+      "type": "multiple_choice",
+      "question": "Simpul 'Overhand Loop' sering digunakan sebagai pengaman tambahan di belakang simpul utama. Teknik ini secara teknis disebut sebagai?",
+      "payload": {
+        "options": [
+          "Backup Knot (Simpul Pengunci)",
+          "Primary Knot",
+          "Decorative Knot",
+          "Friction Knot"
+        ],
+        "correct_answer": "Backup Knot (Simpul Pengunci)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u2_l3_02",
+      "level_id": "tali_u2_l3",
+      "type": "fill_blank",
+      "question": "Simpul delapan yang dibuat dengan memasukkan kembali ujung tali mengikuti pola simpul pertama disebut Figure-eight ____.",
+      "payload": {
+        "correct_answer": "follow through",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u2_l3_03",
+      "level_id": "tali_u2_l3",
+      "type": "multiple_choice",
+      "question": "Kapan penggunaan simpul pengunci (Backup Knot) menjadi wajib dalam tali temali?",
+      "payload": {
+        "options": [
+          "Saat menggunakan tali yang sangat licin atau beban yang menyangkut nyawa manusia",
+          "Setiap kali membuat jemuran",
+          "Hanya saat lomba pionering",
+          "Jika tali sudah terlalu tua"
+        ],
+        "correct_answer": "Saat menggunakan tali yang sangat licin atau beban yang menyangkut nyawa manusia",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u2_l3_04",
+      "level_id": "tali_u2_l3",
+      "type": "word_bank",
+      "question": "Susun hierarki sistem keamanan tali (Life Safety).",
+      "payload": {
+        "words": [
+          "Anchor",
+          "Primary Knot",
+          "Backup Knot",
+          "Load"
+        ],
+        "correct_order": [
+          "Anchor",
+          "Primary Knot",
+          "Backup Knot",
+          "Load"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u2_l3_05",
+      "level_id": "tali_u2_l3",
+      "type": "multiple_choice",
+      "question": "Apa kelemahan utama simpul sederhana (Overhand Knot) sebagai stopper jika dibandingkan simpul delapan?",
+      "payload": {
+        "options": [
+          "Cenderung 'jammed' (terjepit sangat keras) dan merusak serat tali jika ditarik beban besar",
+          "Terlalu besar",
+          "Mudah lepas sendiri",
+          "Hanya bisa dibuat di ujung tali"
+        ],
+        "correct_answer": "Cenderung 'jammed' (terjepit sangat keras) dan merusak serat tali jika ditarik beban besar",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u2_l3_06",
+      "level_id": "tali_u2_l3",
+      "type": "fill_blank",
+      "question": "Tindakan merapikan lilitan tali agar setiap utas berada pada posisi sejajar dan tidak tumpang tindih disebut ____ (Dressing).",
+      "payload": {
+        "correct_answer": "penyisiran",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u2_l3_07",
+      "level_id": "tali_u2_l3",
+      "type": "matching",
+      "question": "Pasangkan simpul dengan nilai keamanan (Safety Rating)-nya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Simpul Delapan",
+            "right": "Sangat Tinggi (High Reliability)"
+          },
+          {
+            "left": "Simpul Mati",
+            "right": "Rendah (Low for Safety Load)"
+          },
+          {
+            "left": "Double Fisherman",
+            "right": "Tinggi untuk Sambungan"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u2_l3_08",
+      "level_id": "tali_u2_l3",
+      "type": "multiple_choice",
+      "question": "Simpul 'Alpine Butterfly' sangat aman karena dapat ditarik dari berapa arah?",
+      "payload": {
+        "options": [
+          "Tiga arah (Dua ujung badan tali dan satu loop)",
+          "Hanya satu arah",
+          "Dua arah berlawanan saja",
+          "Hanya dari sisi loop"
+        ],
+        "correct_answer": "Tiga arah (Dua ujung badan tali dan satu loop)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u2_l4_01",
+      "level_id": "tali_u2_l4",
+      "type": "multiple_choice",
+      "question": "Simpul friksi 'Prusik Hitch' bekerja berdasarkan prinsip?",
+      "payload": {
+        "options": [
+          "Friksi dinamis: mengunci saat ditarik beban dan melonggar saat beban dilepas",
+          "Mengunci permanen dengan lem",
+          "Lilitan tanpa gesekan",
+          "Penyambungan serat"
+        ],
+        "correct_answer": "Friksi dinamis: mengunci saat ditarik beban dan melonggar saat beban dilepas",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u2_l4_02",
+      "level_id": "tali_u2_l4",
+      "type": "fill_blank",
+      "question": "Untuk membuat sistem pengencang tali tenda yang bisa diatur (tensioning), simpul ____ (Taut-line Hitch) adalah standar utama.",
+      "payload": {
+        "correct_answer": "penarik",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u2_l4_03",
+      "level_id": "tali_u2_l4",
+      "type": "multiple_choice",
+      "question": "Simpul 'Italian Hitch' (Munter Hitch) sering digunakan dalam evakuasi untuk?",
+      "payload": {
+        "options": [
+          "Memberikan gaya gesek sebagai alat penurun (belaying/rappelling) darurat",
+          "Menambatkan perahu",
+          "Menyambung tali baja",
+          "Membuat jembatan tali"
+        ],
+        "correct_answer": "Memberikan gaya gesek sebagai alat penurun (belaying/rappelling) darurat",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u2_l4_04",
+      "level_id": "tali_u2_l4",
+      "type": "word_bank",
+      "question": "Susunlah simpul friksi dari yang paling sedikit lilitannya hingga yang paling banyak.",
+      "payload": {
+        "words": [
+          "Lark's Head",
+          "Prusik (2 wraps)",
+          "Prusik (3 wraps)"
+        ],
+        "correct_order": [
+          "Lark's Head",
+          "Prusik (2 wraps)",
+          "Prusik (3 wraps)"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u2_l4_05",
+      "level_id": "tali_u2_l4",
+      "type": "multiple_choice",
+      "question": "Kapan simpul Prusik gagal berfungsi (meluncur/slip)?",
+      "payload": {
+        "options": [
+          "Jika diameter tali prusik hampir sama atau lebih besar dari tali utama",
+          "Jika tali terlalu kering",
+          "Jika beban terlalu ringan",
+          "Jika lilitannya terlalu banyak"
+        ],
+        "correct_answer": "Jika diameter tali prusik hampir sama atau lebih besar dari tali utama",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u2_l4_06",
+      "level_id": "tali_u2_l4",
+      "type": "fill_blank",
+      "question": "Simpul 'Kleimheist' adalah variasi simpul friksi yang paling efektif digunakan pada tali pipih (____).",
+      "payload": {
+        "correct_answer": "webbing",
+        "case_sensitive": false
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u2_l4_07",
+      "level_id": "tali_u2_l4",
+      "type": "matching",
+      "question": "Pasangkan simpul dengan fungsinya dalam sistem mekanik.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Munter Hitch",
+            "right": "Pengereman (Friction Braking)"
+          },
+          {
+            "left": "Prusik Hitch",
+            "right": "Penahan Beban (Load Capture)"
+          },
+          {
+            "left": "Taut-line Hitch",
+            "right": "Pengatur Tegangan (Tensioning)"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u2_l4_08",
+      "level_id": "tali_u2_l4",
+      "type": "multiple_choice",
+      "question": "Apa keunikan simpul 'Rolling Hitch' (Simpul Geser) dibandingkan simpul pangkal?",
+      "payload": {
+        "options": [
+          "Dapat menahan beban tarikan yang sejajar dengan tiang tanpa meluncur",
+          "Lebih sulit dilepas",
+          "Hanya untuk tali ijuk",
+          "Tidak menggunakan lilitan silang"
+        ],
+        "correct_answer": "Dapat menahan beban tarikan yang sejajar dengan tiang tanpa meluncur",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u2_l5_01",
+      "level_id": "tali_u2_l5",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan SWL (Safe Working Load) pada sebuah sistem tali temali?",
+      "payload": {
+        "options": [
+          "Beban maksimal yang diizinkan untuk operasional aman, biasanya 1/5 atau 1/10 dari MBS",
+          "Beban maksimal sampai tali putus",
+          "Berat total tali itu sendiri",
+          "Ukuran panjang tali minimal"
+        ],
+        "correct_answer": "Beban maksimal yang diizinkan untuk operasional aman, biasanya 1/5 atau 1/10 dari MBS",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u2_l5_02",
+      "level_id": "tali_u2_l5",
+      "type": "fill_blank",
+      "question": "Tali yang memiliki inti serat sejajar dan dibungkus oleh anyaman serat luar pelindung disebut tali ____.",
+      "payload": {
+        "correct_answer": "kernmantle",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u2_l5_03",
+      "level_id": "tali_u2_l5",
+      "type": "multiple_choice",
+      "question": "Manakah material tali yang memiliki daya apung (buoyancy) paling tinggi sehingga cocok untuk penyelamatan air?",
+      "payload": {
+        "options": [
+          "Polypropylene",
+          "Nylon",
+          "Polyester",
+          "Kevlar"
+        ],
+        "correct_answer": "Polypropylene",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u2_l5_04",
+      "level_id": "tali_u2_l5",
+      "type": "word_bank",
+      "question": "Susun faktor yang mempercepat kerusakan tali (degradasi).",
+      "payload": {
+        "words": [
+          "Sinar UV",
+          "Pasir/Debu",
+          "Zat Kimia",
+          "Penyimpanan Lembab"
+        ],
+        "correct_order": [
+          "Sinar UV",
+          "Pasir/Debu",
+          "Zat Kimia",
+          "Penyimpanan Lembab"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u2_l5_05",
+      "level_id": "tali_u2_l5",
+      "type": "multiple_choice",
+      "question": "Secara rata-rata, sebuah simpul standar (seperti Simpul Tiang atau Delapan) mengurangi kekuatan asli tali sebesar?",
+      "payload": {
+        "options": [
+          "25% sampai 40%",
+          "0% (Tetap sama)",
+          "90%",
+          "Hanya 5%"
+        ],
+        "correct_answer": "25% sampai 40%",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u2_l5_06",
+      "level_id": "tali_u2_l5",
+      "type": "fill_blank",
+      "question": "Faktor keamanan (Safety Factor) standar untuk evakuasi manusia biasanya menggunakan rasio ____ banding 1 terhadap beban.",
+      "payload": {
+        "correct_answer": "10",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u2_l5_07",
+      "level_id": "tali_u2_l5",
+      "type": "matching",
+      "question": "Pasangkan karakteristik material tali.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Nylon",
+            "right": "Elastis (Menyerap Sentakan)"
+          },
+          {
+            "left": "Polyester",
+            "right": "Tahan Sinar UV & Rendah Regangan"
+          },
+          {
+            "left": "Manila",
+            "right": "Serat Alami & Tidak Licin"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u2_l5_08",
+      "level_id": "tali_u2_l5",
+      "type": "multiple_choice",
+      "question": "Apa tanda utama sebuah tali kernmantle harus segera dipensiunkan (discards)?",
+      "payload": {
+        "options": [
+          "Terdapat benjolan (core shot) atau bagian yang sangat lembek/keras pada inti tali",
+          "Warnanya memudar",
+          "Ujungnya terbakar",
+          "Pernah digunakan mengikat tenda"
+        ],
+        "correct_answer": "Terdapat benjolan (core shot) atau bagian yang sangat lembek/keras pada inti tali",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

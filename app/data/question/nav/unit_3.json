@@ -1,4 +1,684 @@
 {
-  "unit_id": "nav_unit_3",
-  "questions": []
+  "unit_id": "nav_u3",
+  "questions": [
+    {
+      "id": "q_nav_u3_l1_01",
+      "level_id": "nav_u3_l1",
+      "type": "multiple_choice",
+      "question": "Langkah pertama yang mutlak dilakukan saat membuka peta di lapangan sebelum bergerak adalah?",
+      "payload": {
+        "options": [
+          "Orientasi Peta (Menyamakan Utara Peta dengan Utara Kompas)",
+          "Melipat peta menjadi kecil",
+          "Mencari lokasi harta karun",
+          "Menghitung luas daerah"
+        ],
+        "correct_answer": "Orientasi Peta (Menyamakan Utara Peta dengan Utara Kompas)",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u3_l1_02",
+      "level_id": "nav_u3_l1",
+      "type": "fill_blank",
+      "question": "Tanda-tanda di lapangan yang mencolok dan mudah dikenali baik di peta maupun di kenyataan (seperti puncak gunung atau simpang sungai) disebut titik ____ (Landmark).",
+      "payload": {
+        "correct_answer": "acuan",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u3_l1_03",
+      "level_id": "nav_u3_l1",
+      "type": "multiple_choice",
+      "question": "Jika jarum kompas menunjuk ke angka 0 derajat, maka peta harus diputar sedemikian rupa hingga garis tegak peta (Grid) menunjuk ke arah?",
+      "payload": {
+        "options": [
+          "Sejajar dengan jarum kompas (Utara)",
+          "Tegak lurus dengan jarum kompas",
+          "Menghadap ke dada pembaca",
+          "Menunjuk ke arah matahari"
+        ],
+        "correct_answer": "Sejajar dengan jarum kompas (Utara)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u3_l1_04",
+      "level_id": "nav_u3_l1",
+      "type": "word_bank",
+      "question": "Susun langkah orientasi peta yang benar.",
+      "payload": {
+        "words": [
+          "Bentangkan Peta Datar",
+          "Letakkan Kompas di Atas Peta",
+          "Putar Peta Hingga Jarum Sejajar Garis Grid"
+        ],
+        "correct_order": [
+          "Bentangkan Peta Datar",
+          "Letakkan Kompas di Atas Peta",
+          "Putar Peta Hingga Jarum Sejajar Garis Grid"
+        ]
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u3_l1_05",
+      "level_id": "nav_u3_l1",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan 'Tanda Medan' dalam navigasi darat?",
+      "payload": {
+        "options": [
+          "Benda alam atau buatan yang statis dan menonjol sebagai pedoman posisi",
+          "Tanda jejak pramuka dari batu",
+          "Coretan di pohon",
+          "Bekas tapak kaki hewan"
+        ],
+        "correct_answer": "Benda alam atau buatan yang statis dan menonjol sebagai pedoman posisi",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u3_l1_06",
+      "level_id": "nav_u3_l1",
+      "type": "fill_blank",
+      "question": "Proses mencocokkan bentang alam di sekitar dengan simbol-simbol yang ada di peta disebut ____ medan.",
+      "payload": {
+        "correct_answer": "analisa",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u3_l1_07",
+      "level_id": "nav_u3_l1",
+      "type": "matching",
+      "question": "Pasangkan istilah orientasi dengan definisinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Orientasi Peta",
+            "right": "Menyamakan Arah Peta & Alam"
+          },
+          {
+            "left": "Cross Check",
+            "right": "Memeriksa Kebenaran Posisi"
+          },
+          {
+            "left": "Landmark",
+            "right": "Titik Acuan"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u3_l1_08",
+      "level_id": "nav_u3_l1",
+      "type": "multiple_choice",
+      "question": "Kapan waktu terbaik melakukan orientasi peta saat melakukan perjalanan jauh (Long March)?",
+      "payload": {
+        "options": [
+          "Setiap kali berhenti istirahat atau menemui percabangan jalan",
+          "Hanya saat berangkat",
+          "Hanya saat tersesat",
+          "Saat matahari terbenam saja"
+        ],
+        "correct_answer": "Setiap kali berhenti istirahat atau menemui percabangan jalan",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u3_l2_01",
+      "level_id": "nav_u3_l2",
+      "type": "multiple_choice",
+      "question": "Teknik menentukan posisi diri sendiri (My Position) di peta dengan membidik minimal dua tanda medan yang dikenal disebut?",
+      "payload": {
+        "options": [
+          "Resection (Reseksi)",
+          "Intersection (Interseksi)",
+          "Traversing",
+          "Orientering"
+        ],
+        "correct_answer": "Resection (Reseksi)",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u3_l2_02",
+      "level_id": "nav_u3_l2",
+      "type": "fill_blank",
+      "question": "Dalam melakukan Resection, sudut bidikan kompas (Azimuth) dari tanda medan harus diubah dulu menjadi ____ Azimuth sebelum ditarik garis di peta.",
+      "payload": {
+        "correct_answer": "back",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u3_l2_03",
+      "level_id": "nav_u3_l2",
+      "type": "multiple_choice",
+      "question": "Teknik menentukan posisi musuh, kebakaran, atau sasaran lain di peta dengan membidik dari dua posisi berbeda yang kita ketahui disebut?",
+      "payload": {
+        "options": [
+          "Intersection (Interseksi)",
+          "Resection",
+          "Levelling",
+          "Contouring"
+        ],
+        "correct_answer": "Intersection (Interseksi)",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u3_l2_04",
+      "level_id": "nav_u3_l2",
+      "type": "word_bank",
+      "question": "Susun logika teknik Intersection.",
+      "payload": {
+        "words": [
+          "Bidik Sasaran dari Posisi A",
+          "Pindah ke Posisi B",
+          "Bidik Sasaran dari Posisi B",
+          "Tarik Garis Perpotongan di Peta"
+        ],
+        "correct_order": [
+          "Bidik Sasaran dari Posisi A",
+          "Pindah ke Posisi B",
+          "Bidik Sasaran dari Posisi B",
+          "Tarik Garis Perpotongan di Peta"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u3_l2_05",
+      "level_id": "nav_u3_l2",
+      "type": "multiple_choice",
+      "question": "Syarat utama agar teknik Resection akurat adalah sudut antara dua bidikan sebaiknya mendekati?",
+      "payload": {
+        "options": [
+          "90 derajat",
+          "180 derajat",
+          "0 derajat",
+          "10 derajat"
+        ],
+        "correct_answer": "90 derajat",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u3_l2_06",
+      "level_id": "nav_u3_l2",
+      "type": "fill_blank",
+      "question": "Jika kita berada tepat di tepi jalan raya atau sungai yang tertera di peta, kita hanya perlu melakukan Resection dengan membidik ____ tanda medan saja.",
+      "payload": {
+        "correct_answer": "satu",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u3_l2_07",
+      "level_id": "nav_u3_l2",
+      "type": "matching",
+      "question": "Pasangkan teknik dengan tujuannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Resection",
+            "right": "Mencari Koordinat Sendiri"
+          },
+          {
+            "left": "Intersection",
+            "right": "Mencari Koordinat Sasaran"
+          },
+          {
+            "left": "Orientasi",
+            "right": "Mencocokkan Arah Peta"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u3_l2_08",
+      "level_id": "nav_u3_l2",
+      "type": "multiple_choice",
+      "question": "Dalam Resection, titik pertemuan dari garis-garis Back Azimuth di peta menunjukkan?",
+      "payload": {
+        "options": [
+          "Posisi kita berdiri saat ini",
+          "Posisi tujuan akhir",
+          "Posisi musuh",
+          "Lokasi mata air"
+        ],
+        "correct_answer": "Posisi kita berdiri saat ini",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u3_l3_01",
+      "level_id": "nav_u3_l3",
+      "type": "multiple_choice",
+      "question": "Teknik menghindari rintangan (seperti danau atau rawa) dengan membelokkan arah jalan 90 derajat lalu kembali ke jalur semula disebut?",
+      "payload": {
+        "options": [
+          "Obstacle Detour (Bypass)",
+          "Resection",
+          "Cutting Compass",
+          "Man to Man"
+        ],
+        "correct_answer": "Obstacle Detour (Bypass)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u3_l3_02",
+      "level_id": "nav_u3_l3",
+      "type": "fill_blank",
+      "question": "Dalam teknik Bypass (menghindar), jika kita berbelok ke kanan sejauh 100 langkah, maka setelah melewati rintangan kita harus berbelok kembali ke ____ sejauh 100 langkah.",
+      "payload": {
+        "correct_answer": "kiri",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u3_l3_03",
+      "level_id": "nav_u3_l3",
+      "type": "multiple_choice",
+      "question": "Kompas Jalan (Man to Man) adalah teknik navigasi di mana?",
+      "payload": {
+        "options": [
+          "Satu orang menjadi bidikan diam, satu orang memegang kompas mengarahkan dari belakang",
+          "Setiap orang memegang kompas sendiri-sendiri",
+          "Berjalan sambil melihat kompas terus menerus",
+          "Menggunakan GPS"
+        ],
+        "correct_answer": "Satu orang menjadi bidikan diam, satu orang memegang kompas mengarahkan dari belakang",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u3_l3_04",
+      "level_id": "nav_u3_l3",
+      "type": "word_bank",
+      "question": "Susun urutan teknik Kompas Jalan.",
+      "payload": {
+        "words": [
+          "Bidik Teman di Depan",
+          "Arahkan ke Azimuth Tujuan",
+          "Teman Berhenti di Titik",
+          "Navigator Menyusul ke Titik"
+        ],
+        "correct_order": [
+          "Arahkan ke Azimuth Tujuan",
+          "Bidik Teman di Depan",
+          "Teman Berhenti di Titik",
+          "Navigator Menyusul ke Titik"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u3_l3_05",
+      "level_id": "nav_u3_l3",
+      "type": "multiple_choice",
+      "question": "Jika Azimuth perjalanan adalah 90 derajat (Timur), maka arah Back Azimuth untuk kembali pulang ke titik start adalah?",
+      "payload": {
+        "options": [
+          "270 derajat (Barat)",
+          "180 derajat (Selatan)",
+          "0 derajat (Utara)",
+          "90 derajat (Timur)"
+        ],
+        "correct_answer": "270 derajat (Barat)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u3_l3_06",
+      "level_id": "nav_u3_l3",
+      "type": "fill_blank",
+      "question": "Kesalahan navigasi sering terjadi karena 'Penyimpangan ke Kanan/Kiri' tanpa disadari karena panjang langkah kaki yang tidak sama, fenomena ini disebut 'Langkah ____'.",
+      "payload": {
+        "correct_answer": "kuda",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u3_l3_07",
+      "level_id": "nav_u3_l3",
+      "type": "matching",
+      "question": "Pasangkan teknik dengan fungsinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Bypass",
+            "right": "Menghindari Rintangan"
+          },
+          {
+            "left": "Man to Man",
+            "right": "Menjaga Kelurusan Arah"
+          },
+          {
+            "left": "Pacing",
+            "right": "Menghitung Jarak Langkah"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u3_l3_08",
+      "level_id": "nav_u3_l3",
+      "type": "multiple_choice",
+      "question": "Mengapa kita tidak boleh berjalan sambil terus-menerus menatap kompas?",
+      "payload": {
+        "options": [
+          "Karena berbahaya (bisa tersandung) dan membuat pusing, sebaiknya bidik objek jauh sebagai patokan",
+          "Karena kompas akan rusak jika diguncang",
+          "Karena baterai kompas akan habis",
+          "Agar tidak ketahuan musuh"
+        ],
+        "correct_answer": "Karena berbahaya (bisa tersandung) dan membuat pusing, sebaiknya bidik objek jauh sebagai patokan",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u3_l4_01",
+      "level_id": "nav_u3_l4",
+      "type": "multiple_choice",
+      "question": "Laporan perjalanan yang berisi catatan arah, jarak, waktu, dan situasi kiri-kanan jalan dalam bentuk kolom disebut?",
+      "payload": {
+        "options": [
+          "Peta Pita",
+          "Peta Panorama",
+          "Peta Topografi",
+          "Peta Buta"
+        ],
+        "correct_answer": "Peta Pita",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u3_l4_02",
+      "level_id": "nav_u3_l4",
+      "type": "fill_blank",
+      "question": "Cara menggambar Peta Pita yang benar adalah dimulai dari bagian ____ kertas menuju ke atas.",
+      "payload": {
+        "correct_answer": "bawah",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u3_l4_03",
+      "level_id": "nav_u3_l4",
+      "type": "multiple_choice",
+      "question": "Dalam Peta Pita, kolom 'Azimuth' atau 'Arah' diisi dengan?",
+      "payload": {
+        "options": [
+          "Derajat sudut kompas dari titik berangkat ke titik tujuan berikutnya",
+          "Arah mata angin (Utara/Selatan)",
+          "Gambar panah",
+          "Nama jalan"
+        ],
+        "correct_answer": "Derajat sudut kompas dari titik berangkat ke titik tujuan berikutnya",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u3_l4_04",
+      "level_id": "nav_u3_l4",
+      "type": "word_bank",
+      "question": "Susun kolom standar Peta Pita.",
+      "payload": {
+        "words": [
+          "Nomor",
+          "Waktu",
+          "Azimuth",
+          "Jarak",
+          "Keterangan"
+        ],
+        "correct_order": [
+          "Nomor",
+          "Waktu",
+          "Azimuth",
+          "Jarak",
+          "Keterangan"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u3_l4_05",
+      "level_id": "nav_u3_l4",
+      "type": "multiple_choice",
+      "question": "Perbedaan utama Peta Pita dengan Peta Perjalanan adalah?",
+      "payload": {
+        "options": [
+          "Peta Pita berbentuk gulungan memanjang fokus pada rute, Peta Perjalanan adalah gambaran denah area",
+          "Peta Pita digambar dari atas ke bawah",
+          "Peta Pita menggunakan skala 1:100.000",
+          "Tidak ada perbedaan"
+        ],
+        "correct_answer": "Peta Pita berbentuk gulungan memanjang fokus pada rute, Peta Perjalanan adalah gambaran denah area",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u3_l4_06",
+      "level_id": "nav_u3_l4",
+      "type": "fill_blank",
+      "question": "Dalam kolom keterangan Peta Pita, situasi di sebelah kiri dan kanan jalan digambarkan menggunakan ____ peta.",
+      "payload": {
+        "correct_answer": "simbol",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u3_l4_07",
+      "level_id": "nav_u3_l4",
+      "type": "matching",
+      "question": "Pasangkan data Peta Pita dengan satuannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Jarak",
+            "right": "Meter / Langkah"
+          },
+          {
+            "left": "Arah",
+            "right": "Derajat"
+          },
+          {
+            "left": "Waktu",
+            "right": "Jam : Menit"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u3_l4_08",
+      "level_id": "nav_u3_l4",
+      "type": "multiple_choice",
+      "question": "Apa fungsi utama pembuatan Peta Pita dalam kegiatan pengembaraan?",
+      "payload": {
+        "options": [
+          "Sebagai dokumentasi rute agar bisa dilalui kembali oleh orang lain",
+          "Syarat administrasi lomba",
+          "Untuk menghitung kalori",
+          "Agar peta terlihat indah"
+        ],
+        "correct_answer": "Sebagai dokumentasi rute agar bisa dilalui kembali oleh orang lain",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u3_l5_01",
+      "level_id": "nav_u3_l5",
+      "type": "multiple_choice",
+      "question": "Fenomena di mana arah Utara Peta (Grid North) tidak sama persis dengan Utara Magnetis bumi disebut?",
+      "payload": {
+        "options": [
+          "Deklinasi",
+          "Deviasi",
+          "Inklinasi",
+          "Konvergensi Meridian"
+        ],
+        "correct_answer": "Deklinasi",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u3_l5_02",
+      "level_id": "nav_u3_l5",
+      "type": "fill_blank",
+      "question": "Jika peta memiliki 'Deklinasi Timur' 2 derajat, dan Azimuth Peta adalah 90 derajat, maka Azimuth Kompas (Magnetis) adalah 90 dikurangi 2, yaitu ____ derajat.",
+      "payload": {
+        "correct_answer": "88",
+        "case_sensitive": false
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u3_l5_03",
+      "level_id": "nav_u3_l5",
+      "type": "multiple_choice",
+      "question": "Apa itu 'Grid Magnetic Angle' (GMA)?",
+      "payload": {
+        "options": [
+          "Sudut selisih antara Utara Grid peta dengan Utara Magnetis (Ikhtisar Muka Peta)",
+          "Sudut kemiringan lereng",
+          "Sudut pandang mata",
+          "Sudut putar bumi"
+        ],
+        "correct_answer": "Sudut selisih antara Utara Grid peta dengan Utara Magnetis (Ikhtisar Muka Peta)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u3_l5_04",
+      "level_id": "nav_u3_l5",
+      "type": "word_bank",
+      "question": "Susun hierarki tiga jenis Utara dalam navigasi.",
+      "payload": {
+        "words": [
+          "Utara",
+          "Sebenarnya",
+          "Utara",
+          "Peta",
+          "Utara",
+          "Magnetis"
+        ],
+        "correct_order": [
+          "Utara",
+          "Sebenarnya",
+          "Utara",
+          "Peta",
+          "Utara",
+          "Magnetis"
+        ]
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u3_l5_05",
+      "level_id": "nav_u3_l5",
+      "type": "multiple_choice",
+      "question": "Dalam navigasi malam tanpa kompas, rasi bintang 'Crux' (Salib Selatan) digunakan untuk menentukan arah?",
+      "payload": {
+        "options": [
+          "Selatan",
+          "Utara",
+          "Barat",
+          "Timur"
+        ],
+        "correct_answer": "Selatan",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u3_l5_06",
+      "level_id": "nav_u3_l5",
+      "type": "fill_blank",
+      "question": "Global Positioning System (GPS) menentukan posisi koordinat dengan menerima sinyal dari minimal ____ satelit.",
+      "payload": {
+        "correct_answer": "3",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u3_l5_07",
+      "level_id": "nav_u3_l5",
+      "type": "matching",
+      "question": "Pasangkan istilah lanjutan navigasi.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "True North",
+            "right": "Kutub Utara Bumi"
+          },
+          {
+            "left": "Magnetic North",
+            "right": "Arah Jarum Kompas"
+          },
+          {
+            "left": "Grid North",
+            "right": "Garis Tegak Peta"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u3_l5_08",
+      "level_id": "nav_u3_l5",
+      "type": "multiple_choice",
+      "question": "Rumus konversi sederhana: Magnetis ke Peta (M-G) di daerah deklinasi Barat adalah?",
+      "payload": {
+        "options": [
+          "Dikurang (Azimuth Magnetis - Deklinasi)",
+          "Ditambah (Azimuth Magnetis + Deklinasi)",
+          "Dikali dua",
+          "Dibagi rata"
+        ],
+        "correct_answer": "Dikurang (Azimuth Magnetis - Deklinasi)",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

@@ -1,0 +1,679 @@
+{
+    "unit_id": "ppgd_u3",
+    "questions": [
+        {
+            "id": "q_ppgd_u3_l1_01",
+            "level_id": "ppgd_u3_l1",
+            "type": "multiple_choice",
+            "question": "Jaringan ikat yang menghubungkan otot dengan tulang dan berfungsi menyalurkan gaya gerak disebut?",
+            "payload": {
+                "options": [
+                    "Tendon",
+                    "Ligamen",
+                    "Fasia",
+                    "Kartilago"
+                ],
+                "correct_answer": "Tendon",
+                "shuffle": true
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u3_l1_02",
+            "level_id": "ppgd_u3_l1",
+            "type": "fill_blank",
+            "question": "Jaringan ikat yang menghubungkan antara tulang dengan tulang dan berfungsi menjaga stabilitas sendi disebut ____.",
+            "payload": {
+                "correct_answer": "ligamen",
+                "case_sensitive": false
+            },
+            "xp": 5
+        },
+        {
+            "id": "q_ppgd_u3_l1_03",
+            "level_id": "ppgd_u3_l1",
+            "type": "multiple_choice",
+            "question": "Cedera berupa robekan pada jaringan otot atau tendon akibat peregangan berlebih disebut?",
+            "payload": {
+                "options": [
+                    "Strain (Terkilir Otot)",
+                    "Sprain (Terkilir Sendi)",
+                    "Dislokasi",
+                    "Fraktur"
+                ],
+                "correct_answer": "Strain (Terkilir Otot)",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u3_l1_04",
+            "level_id": "ppgd_u3_l1",
+            "type": "word_bank",
+            "question": "Susun komponen sistem muskuloskeletal manusia.",
+            "payload": {
+                "words": [
+                    "Tulang",
+                    "Otot",
+                    "Sendi",
+                    "Ligamen",
+                    "Tendon"
+                ],
+                "correct_order": [
+                    "Tulang",
+                    "Otot",
+                    "Sendi",
+                    "Ligamen",
+                    "Tendon"
+                ]
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u3_l1_05",
+            "level_id": "ppgd_u3_l1",
+            "type": "multiple_choice",
+            "question": "Apa fungsi utama dari tulang pipih (seperti tulang tengkorak atau tulang dada)?",
+            "payload": {
+                "options": [
+                    "Melindungi organ vital di bawahnya",
+                    "Memberikan pengungkit gerak yang besar",
+                    "Tempat utama produksi sel lemak",
+                    "Menahan beban berat tubuh"
+                ],
+                "correct_answer": "Melindungi organ vital di bawahnya",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u3_l1_06",
+            "level_id": "ppgd_u3_l1",
+            "type": "fill_blank",
+            "question": "Kondisi di mana tulang terlepas sepenuhnya dari mangkuk sendinya disebut ____.",
+            "payload": {
+                "correct_answer": "dislokasi",
+                "case_sensitive": false
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u3_l1_07",
+            "level_id": "ppgd_u3_l1",
+            "type": "matching",
+            "question": "Pasangkan jenis cedera dengan jaringan yang terkena.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Sprain",
+                        "right": "Ligamen"
+                    },
+                    {
+                        "left": "Strain",
+                        "right": "Otot/Tendon"
+                    },
+                    {
+                        "left": "Fraktur",
+                        "right": "Tulang"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u3_l1_08",
+            "level_id": "ppgd_u3_l1",
+            "type": "multiple_choice",
+            "question": "Memar pada otot akibat benturan benda tumpul yang menyebabkan pendarahan di bawah kulit disebut?",
+            "payload": {
+                "options": [
+                    "Kontusio",
+                    "Laserasi",
+                    "Insisus",
+                    "Abrasi"
+                ],
+                "correct_answer": "Kontusio",
+                "shuffle": true
+            },
+            "xp": 6
+        },
+        {
+            "id": "q_ppgd_u3_l2_01",
+            "level_id": "ppgd_u3_l2",
+            "type": "multiple_choice",
+            "question": "Tanda pasti dari patah tulang yang ditandai dengan perubahan posisi atau bentuk anggota tubuh yang tidak wajar disebut?",
+            "payload": {
+                "options": [
+                    "Deformitas",
+                    "Krepitasi",
+                    "Hematoma",
+                    "Edema"
+                ],
+                "correct_answer": "Deformitas",
+                "shuffle": true
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u3_l2_02",
+            "level_id": "ppgd_u3_l2",
+            "type": "fill_blank",
+            "question": "Bunyi berderit atau sensasi bergeseknya ujung-ujung tulang yang patah disebut ____.",
+            "payload": {
+                "correct_answer": "krepitasi",
+                "case_sensitive": false
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u3_l2_03",
+            "level_id": "ppgd_u3_l2",
+            "type": "multiple_choice",
+            "question": "Apa risiko terbesar dari patah tulang terbuka (Open Fracture) dibandingkan patah tulang tertutup?",
+            "payload": {
+                "options": [
+                    "Risiko infeksi/kontaminasi langsung dari lingkungan luar",
+                    "Nyeri yang lebih ringan",
+                    "Lebih sulit untuk difiksasi",
+                    "Tidak memerlukan pembidaian"
+                ],
+                "correct_answer": "Risiko infeksi/kontaminasi langsung dari lingkungan luar",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l2_04",
+            "level_id": "ppgd_u3_l2",
+            "type": "word_bank",
+            "question": "Susun langkah penanganan patah tulang terbuka.",
+            "payload": {
+                "words": [
+                    "Hentikan Pendarahan",
+                    "Tutup Luka dengan Kasa Steril",
+                    "Pasang Bidai (Imobilisasi)",
+                    "Evaluasi PMS"
+                ],
+                "correct_order": [
+                    "Hentikan Pendarahan",
+                    "Tutup Luka dengan Kasa Steril",
+                    "Pasang Bidai (Imobilisasi)",
+                    "Evaluasi PMS"
+                ]
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l2_05",
+            "level_id": "ppgd_u3_l2",
+            "type": "multiple_choice",
+            "question": "Jenis patah tulang di mana tulang pecah menjadi beberapa fragmen kecil disebut?",
+            "payload": {
+                "options": [
+                    "Fraktur Komunitif",
+                    "Fraktur Greenstick",
+                    "Fraktur Transversal",
+                    "Fraktur Spiral"
+                ],
+                "correct_answer": "Fraktur Komunitif",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l2_06",
+            "level_id": "ppgd_u3_l2",
+            "type": "fill_blank",
+            "question": "Patah tulang yang sering terjadi pada anak-anak di mana tulang melengkung atau patah sebagian disebut fraktur ____.",
+            "payload": {
+                "correct_answer": "greenstick",
+                "case_sensitive": false
+            },
+            "xp": 7
+        },
+        {
+            "id": "q_ppgd_u3_l2_07",
+            "level_id": "ppgd_u3_l2",
+            "type": "matching",
+            "question": "Pasangkan istilah gejala patah tulang dengan maknanya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Deformitas",
+                        "right": "Perubahan Bentuk"
+                    },
+                    {
+                        "left": "Krepitasi",
+                        "right": "Suara Gesekan Tulang"
+                    },
+                    {
+                        "left": "Angulasi",
+                        "right": "Pembengkokan Sudut"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l2_08",
+            "level_id": "ppgd_u3_l2",
+            "type": "multiple_choice",
+            "question": "Mengapa kita tidak boleh mencoba 'mengembalikan' atau menarik posisi tulang yang patah ke posisi semula?",
+            "payload": {
+                "options": [
+                    "Dapat merusak jaringan saraf dan pembuluh darah di sekitarnya",
+                    "Dapat membuat luka cepat kering",
+                    "Menghilangkan rasa nyeri",
+                    "Membantu tulang cepat menyambung"
+                ],
+                "correct_answer": "Dapat merusak jaringan saraf dan pembuluh darah di sekitarnya",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l3_01",
+            "level_id": "ppgd_u3_l3",
+            "type": "multiple_choice",
+            "question": "Prinsip utama pembidaian (Splinting) untuk fraktur tulang panjang adalah bidai harus melewati?",
+            "payload": {
+                "options": [
+                    "Minimal dua sendi di dekat area patah",
+                    "Minimal satu sendi",
+                    "Tepat pada titik yang patah saja",
+                    "Hanya bagian yang bengkak"
+                ],
+                "correct_answer": "Minimal dua sendi di dekat area patah",
+                "shuffle": true
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l3_02",
+            "level_id": "ppgd_u3_l3",
+            "type": "fill_blank",
+            "question": "Pengecekan PMS sebelum dan sesudah pembidaian adalah singkatan dari Pulse (Nadi), Motorik (Gerak), dan ____ (Rasa).",
+            "payload": {
+                "correct_answer": "sensorik",
+                "case_sensitive": false
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l3_03",
+            "level_id": "ppgd_u3_l3",
+            "type": "multiple_choice",
+            "question": "Tujuan utama dari pemberian bantalan (Padding) pada bidai adalah?",
+            "payload": {
+                "options": [
+                    "Mengurangi tekanan pada tonjolan tulang dan kenyamanan korban",
+                    "Agar bidai tidak basah",
+                    "Menyerap pendarahan",
+                    "Mempercepat penyambungan tulang"
+                ],
+                "correct_answer": "Mengurangi tekanan pada tonjolan tulang dan kenyamanan korban",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l3_04",
+            "level_id": "ppgd_u3_l3",
+            "type": "word_bank",
+            "question": "Susun urutan tindakan pembidaian yang benar.",
+            "payload": {
+                "words": [
+                    "Cek PMS Awal",
+                    "Ukur Bidai",
+                    "Ikat Bidai",
+                    "Cek PMS Akhir"
+                ],
+                "correct_order": [
+                    "Cek PMS Awal",
+                    "Ukur Bidai",
+                    "Ikat Bidai",
+                    "Cek PMS Akhir"
+                ]
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l3_05",
+            "level_id": "ppgd_u3_l3",
+            "type": "multiple_choice",
+            "question": "Jika saat mengecek PMS akhir ditemukan kuku korban membiru dan dingin, tindakan apa yang harus dilakukan?",
+            "payload": {
+                "options": [
+                    "Segera kendurkan ikatan bidai karena mengganggu sirkulasi darah",
+                    "Tambahkan ikatan agar lebih kuat",
+                    "Beri kompres panas",
+                    "Dibiarkan saja karena itu normal"
+                ],
+                "correct_answer": "Segera kendurkan ikatan bidai karena mengganggu sirkulasi darah",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l3_06",
+            "level_id": "ppgd_u3_l3",
+            "type": "fill_blank",
+            "question": "Perban segitiga yang umum digunakan untuk fiksasi atau penyangga lengan (Sling) disebut ____.",
+            "payload": {
+                "correct_answer": "mitela",
+                "case_sensitive": false
+            },
+            "xp": 8
+        },
+        {
+            "id": "q_ppgd_u3_l3_07",
+            "type": "matching",
+            "question": "Pasangkan lokasi cedera dengan jenis pembidaiannya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Patah Lengan Bawah",
+                        "right": "Bidai Bilateral & Sling"
+                    },
+                    {
+                        "left": "Patah Jari",
+                        "right": "Buddy Splinting"
+                    },
+                    {
+                        "left": "Patah Tulang Belakang",
+                        "right": "Papan Rigid/LSB"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l3_08",
+            "level_id": "ppgd_u3_l3",
+            "type": "multiple_choice",
+            "question": "Kapan pembidaian boleh dilepaskan oleh seorang penolong pertama?",
+            "payload": {
+                "options": [
+                    "Tidak boleh, bidai dilepaskan hanya oleh tenaga medis di rumah sakit",
+                    "Setelah pendarahan berhenti",
+                    "Setelah sampai di dalam ambulans",
+                    "Jika korban mengeluh gatal"
+                ],
+                "correct_answer": "Tidak boleh, bidai dilepaskan hanya oleh tenaga medis di rumah sakit",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l4_01",
+            "level_id": "ppgd_u3_l4",
+            "type": "multiple_choice",
+            "question": "Protokol standar penanganan cedera sendi (Terkilir) dalam 48 jam pertama adalah RICE. Huruf 'R' dalam RICE berarti?",
+            "payload": {
+                "options": [
+                    "Rest (Istirahatkan bagian yang cedera)",
+                    "Run (Tetap digunakan beraktivitas)",
+                    "Rescue (Segera evakuasi)",
+                    "Rub (Pijat secara perlahan)"
+                ],
+                "correct_answer": "Rest (Istirahatkan bagian yang cedera)",
+                "shuffle": true
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l4_02",
+            "level_id": "ppgd_u3_l4",
+            "type": "fill_blank",
+            "question": "Pemberian kompres dingin (Ice) pada cedera sendi bertujuan untuk mengurangi ____ dan nyeri.",
+            "payload": {
+                "correct_answer": "pembengkakan",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l4_03",
+            "level_id": "ppgd_u3_l4",
+            "type": "multiple_choice",
+            "question": "Berapa lama durasi maksimal pemberian kompres es dalam satu sesi?",
+            "payload": {
+                "options": [
+                    "15 - 20 menit",
+                    "1 jam penuh",
+                    "5 menit saja",
+                    "Sepanjang malam"
+                ],
+                "correct_answer": "15 - 20 menit",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u3_l4_04",
+            "level_id": "ppgd_u3_l4",
+            "type": "word_bank",
+            "question": "Susun langkah protokol RICE.",
+            "payload": {
+                "words": [
+                    "Rest",
+                    "Ice",
+                    "Compression",
+                    "Elevation"
+                ],
+                "correct_order": [
+                    "Rest",
+                    "Ice",
+                    "Compression",
+                    "Elevation"
+                ]
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u3_l4_05",
+            "level_id": "ppgd_u3_l4",
+            "type": "multiple_choice",
+            "question": "Mengapa tindakan pijat (Massage) dilarang pada tahap awal cedera otot/sendi?",
+            "payload": {
+                "options": [
+                    "Dapat memperparah kerusakan jaringan dan pendarahan internal",
+                    "Karena tidak enak rasanya",
+                    "Mempercepat kesembuhan",
+                    "Mengurangi rasa bengkak"
+                ],
+                "correct_answer": "Dapat memperparah kerusakan jaringan dan pendarahan internal",
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u3_l4_06",
+            "level_id": "ppgd_u3_l4",
+            "type": "fill_blank",
+            "question": "Tindakan meninggikan bagian yang cedera melebihi tinggi jantung dalam protokol RICE disebut ____.",
+            "payload": {
+                "correct_answer": "elevation",
+                "case_sensitive": false
+            },
+            "xp": 9
+        },
+        {
+            "id": "q_ppgd_u3_l4_07",
+            "type": "matching",
+            "question": "Pasangkan tingkatan (Grade) Sprain dengan gejalanya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Grade 1 (Ringan)",
+                        "right": "Peregangan Mikro Ligamen"
+                    },
+                    {
+                        "left": "Grade 2 (Sedang)",
+                        "right": "Robekan Parsial Ligamen"
+                    },
+                    {
+                        "left": "Grade 3 (Berat)",
+                        "right": "Putusnya Ligamen Total"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 11
+        },
+        {
+            "id": "q_ppgd_u3_l4_08",
+            "level_id": "ppgd_u3_l4",
+            "type": "multiple_choice",
+            "question": "Kapan penggunaan kompres panas mulai diizinkan pada cedera jaringan lunak?",
+            "payload": {
+                "options": [
+                    "Setelah fase akut berakhir (biasanya 48-72 jam setelah cedera)",
+                    "Segera setelah kejadian",
+                    "Hanya jika luka berdarah",
+                    "Setiap saat korban merasa dingin"
+                ],
+                "correct_answer": "Setelah fase akut berakhir (biasanya 48-72 jam setelah cedera)",
+                "shuffle": true
+            },
+            "xp": 10
+        },
+        {
+            "id": "q_ppgd_u3_l5_01",
+            "level_id": "ppgd_u3_l5",
+            "type": "multiple_choice",
+            "question": "Apa tanda fisik utama kecurigaan cedera tulang belakang (Spinal Cord Injury) pada korban kecelakaan?",
+            "payload": {
+                "options": [
+                    "Kelumpuhan anggota gerak dan mati rasa (Parastesia)",
+                    "Pusing kepala ringan",
+                    "Mata memerah",
+                    "Nadi terasa cepat"
+                ],
+                "correct_answer": "Kelumpuhan anggota gerak dan mati rasa (Parastesia)",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u3_l5_02",
+            "level_id": "ppgd_u3_l5",
+            "type": "fill_blank",
+            "question": "Mekanisme perpindahan korban trauma secara bersama-sama untuk menjaga kelurusan tulang belakang disebut teknik ____.",
+            "payload": {
+                "correct_answer": "log roll",
+                "case_sensitive": false
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u3_l5_03",
+            "level_id": "ppgd_u3_l5",
+            "type": "multiple_choice",
+            "question": "Dalam memindahkan korban kecurigaan cedera leher, siapa yang bertugas memberikan komando gerakan?",
+            "payload": {
+                "options": [
+                    "Penolong yang memegang/menstabilkan kepala korban",
+                    "Penolong yang paling kuat tenaganya",
+                    "Warga sekitar yang menonton",
+                    "Sopir ambulans"
+                ],
+                "correct_answer": "Penolong yang memegang/menstabilkan kepala korban",
+                "shuffle": true
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u3_l5_04",
+            "level_id": "ppgd_u3_l5",
+            "type": "word_bank",
+            "question": "Susun langkah evakuasi korban dengan Long Spine Board (LSB).",
+            "payload": {
+                "words": [
+                    "Stabilisasi Manual Kepala",
+                    "Pasang Cervical Collar",
+                    "Log Roll ke Atas Papan",
+                    "Ikat Tubuh ke Papan"
+                ],
+                "correct_order": [
+                    "Stabilisasi Manual Kepala",
+                    "Pasang Cervical Collar",
+                    "Log Roll ke Atas Papan",
+                    "Ikat Tubuh ke Papan"
+                ]
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u3_l5_05",
+            "level_id": "ppgd_u3_l5",
+            "type": "multiple_choice",
+            "question": "Tanda priapismus (ereksi tanpa rangsangan pada pria) saat kecelakaan mengindikasikan kerusakan pada?",
+            "payload": {
+                "options": [
+                    "Sistem saraf pusat/tulang belakang",
+                    "Otot kaki",
+                    "Paru-paru",
+                    "Tulang tangan"
+                ],
+                "correct_answer": "Sistem saraf pusat/tulang belakang",
+                "shuffle": true
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u3_l5_06",
+            "level_id": "ppgd_u3_l5",
+            "type": "fill_blank",
+            "question": "Alat bantu khusus yang digunakan untuk meminimalkan pergerakan leher selama transportasi disebut ____.",
+            "payload": {
+                "correct_answer": "cervical collar",
+                "case_sensitive": false
+            },
+            "xp": 12
+        },
+        {
+            "id": "q_ppgd_u3_l5_07",
+            "type": "matching",
+            "question": "Pasangkan alat evakuasi dengan fungsinya.",
+            "payload": {
+                "pairs": [
+                    {
+                        "left": "Long Spine Board",
+                        "right": "Imobilisasi Total Tulang Belakang"
+                    },
+                    {
+                        "left": "Scoop Stretcher",
+                        "right": "Mengangkat Korban Tanpa Log Roll"
+                    },
+                    {
+                        "left": "Kendrick Extrication Device",
+                        "right": "Evakuasi dari Dalam Mobil"
+                    }
+                ],
+                "shuffle": true
+            },
+            "xp": 13
+        },
+        {
+            "id": "q_ppgd_u3_l5_08",
+            "level_id": "ppgd_u3_l5",
+            "type": "multiple_choice",
+            "question": "Apa prioritas utama saat menolong korban yang terjepit di dalam kendaraan dengan kecurigaan cedera spinal?",
+            "payload": {
+                "options": [
+                    "Menjaga saluran napas dan stabilisasi manual kepala/leher di tempat",
+                    "Menarik tangan korban secepatnya",
+                    "Memberi minum agar tenang",
+                    "Mencabut kunci mobil"
+                ],
+                "correct_answer": "Menjaga saluran napas dan stabilisasi manual kepala/leher di tempat",
+                "shuffle": true
+            },
+            "xp": 13
+        }
+    ]
+}

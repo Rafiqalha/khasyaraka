@@ -5,15 +5,15 @@
       "id": "q_puk_u5_l1_01",
       "level_id": "puk_u5_l1",
       "type": "multiple_choice",
-      "question": "Siapakah bapak pandu sedunia?",
+      "question": "Buku 'Scouting for Boys' (1908) awalnya diterbitkan dalam bentuk enam seri terpisah. Metode pendidikan yang ditawarkan Baden-Powell dalam buku ini merupakan antitesis terhadap?",
       "payload": {
         "options": [
-          "Lord Baden Powell",
-          "William Smith",
-          "Sri Sultan HB IX",
-          "Agus Salim"
+          "Pendidikan formal sekolah yang kaku dan pasif",
+          "Latihan militer tentara dewasa",
+          "Sistem pertanian tradisional",
+          "Revolusi Industri Inggris"
         ],
-        "correct_answer": "Lord Baden Powell",
+        "correct_answer": "Pendidikan formal sekolah yang kaku dan pasif",
         "shuffle": true
       },
       "xp": 2
@@ -22,9 +22,9 @@
       "id": "q_puk_u5_l1_02",
       "level_id": "puk_u5_l1",
       "type": "fill_blank",
-      "question": "Baden Powell lahir di negara ____.",
+      "question": "Eksperimen pertama Baden-Powell di Pulau Brownsea (1907) menguji konsep sistem ____ (Patrol System) yang membagi peserta ke dalam kelompok kecil mandiri.",
       "payload": {
-        "correct_answer": "inggris",
+        "correct_answer": "beregu",
         "case_sensitive": false
       },
       "xp": 3
@@ -33,15 +33,15 @@
       "id": "q_puk_u5_l1_03",
       "level_id": "puk_u5_l1",
       "type": "multiple_choice",
-      "question": "Buku karangan Baden Powell yang menjadi dasar kepramukaan adalah?",
+      "question": "Gelar 'Lord' yang diterima Baden-Powell pada tahun 1929 diambil dari nama tempat Jambore Dunia ke-3, yaitu?",
       "payload": {
         "options": [
-          "Scouting for Boys",
-          "Rovering to Success",
-          "Aids to Scouting",
-          "Jungle Book"
+          "Gilwell",
+          "Olympia",
+          "Brownsea",
+          "Mafeking"
         ],
-        "correct_answer": "Scouting for Boys",
+        "correct_answer": "Gilwell",
         "shuffle": true
       },
       "xp": 3
@@ -50,21 +50,19 @@
       "id": "q_puk_u5_l1_04",
       "level_id": "puk_u5_l1",
       "type": "word_bank",
-      "question": "Susun nama lengkap Bapak Pandu Dunia.",
+      "question": "Susun nama lokasi peristirahatan terakhir Baden-Powell.",
       "payload": {
         "words": [
-          "Robert",
-          "Stephenson",
-          "Smyth",
-          "Baden",
-          "Powell"
+          "Nyeri",
+          "Kenya",
+          "Paxtu",
+          "Cottage"
         ],
         "correct_order": [
-          "Robert",
-          "Stephenson",
-          "Smyth",
-          "Baden",
-          "Powell"
+          "Paxtu",
+          "Cottage",
+          "Nyeri",
+          "Kenya"
         ]
       },
       "xp": 3
@@ -73,15 +71,15 @@
       "id": "q_puk_u5_l1_05",
       "level_id": "puk_u5_l1",
       "type": "multiple_choice",
-      "question": "Perkemahan kepanduan pertama di dunia diadakan di pulau?",
+      "question": "Simbol lingkaran dengan titik di tengah pada nisan Baden-Powell adalah tanda jejak yang berarti?",
       "payload": {
         "options": [
-          "Brownsea Island",
-          "Treasure Island",
-          "Java Island",
-          "Gilwell Park"
+          "I have gone home (Aku telah pulang)",
+          "End of trail (Jejak berakhir)",
+          "Turn right (Belok kanan)",
+          "Camp here (Berkemah di sini)"
         ],
-        "correct_answer": "Brownsea Island",
+        "correct_answer": "I have gone home (Aku telah pulang)",
         "shuffle": true
       },
       "xp": 4
@@ -90,9 +88,9 @@
       "id": "q_puk_u5_l1_06",
       "level_id": "puk_u5_l1",
       "type": "fill_blank",
-      "question": "Perkemahan pertama di Pulau Brownsea diadakan pada tahun ____.",
+      "question": "Istri Baden-Powell, Olave, dinobatkan sebagai 'World ____ Guide' pada tahun 1930.",
       "payload": {
-        "correct_answer": "1907",
+        "correct_answer": "chief",
         "case_sensitive": false
       },
       "xp": 3
@@ -101,20 +99,20 @@
       "id": "q_puk_u5_l1_07",
       "level_id": "puk_u5_l1",
       "type": "matching",
-      "question": "Pasangkan tokoh dengan perannya.",
+      "question": "Pasangkan buku Baden-Powell dengan target pembacanya.",
       "payload": {
         "pairs": [
           {
-            "left": "Baden Powell",
-            "right": "Bapak Pandu Dunia"
+            "left": "The Wolf Cub's Handbook",
+            "right": "Pramuka Siaga (Cub)"
           },
           {
-            "left": "Olave St. Clair Soames",
-            "right": "Istri Baden Powell"
+            "left": "Rovering to Success",
+            "right": "Pramuka Penegak/Pandega"
           },
           {
-            "left": "Agnes Baden Powell",
-            "right": "Pendiri Girl Guides"
+            "left": "Aids to Scoutmastership",
+            "right": "Pembina Pramuka"
           }
         ],
         "shuffle": true
@@ -125,15 +123,15 @@
       "id": "q_puk_u5_l1_08",
       "level_id": "puk_u5_l1",
       "type": "multiple_choice",
-      "question": "Pekerjaan Baden Powell sebelum mendirikan pramuka adalah?",
+      "question": "Peristiwa 'Siege of Mafeking' (Pengepungan Mafeking) menjadi inspirasi kepanduan karena?",
       "payload": {
         "options": [
-          "Tentara / Letnan Jenderal",
-          "Guru",
-          "Dokter",
-          "Pedagang"
+          "Keterlibatan korps kadet anak-anak yang membantu tugas logistik dan komunikasi",
+          "Kemenangan militer Inggris yang mutlak",
+          "Penggunaan senjata modern pertama kali",
+          "Aliansi dengan suku Zulu"
         ],
-        "correct_answer": "Tentara / Letnan Jenderal",
+        "correct_answer": "Keterlibatan korps kadet anak-anak yang membantu tugas logistik dan komunikasi",
         "shuffle": true
       },
       "xp": 4
@@ -141,95 +139,96 @@
     {
       "id": "q_puk_u5_l2_01",
       "level_id": "puk_u5_l2",
-      "type": "multiple_choice",
-      "question": "Organisasi kepanduan dunia untuk putra (dan campuran) disingkat?",
+      "type": "fill_blank",
+      "question": "WOSM memiliki status konsultatif khusus di PBB melalui dewan ____ (ECOSOC).",
       "payload": {
-        "options": [
-          "WOSM",
-          "WAGGGS",
-          "WHO",
-          "UNESCO"
-        ],
-        "correct_answer": "WOSM",
-        "shuffle": true
+        "correct_answer": "ekonomi dan sosial",
+        "case_sensitive": false
       },
       "xp": 3
     },
     {
       "id": "q_puk_u5_l2_02",
       "level_id": "puk_u5_l2",
-      "type": "fill_blank",
-      "question": "Lambang WOSM adalah bunga ____ (Fleur-de-lis).",
+      "type": "multiple_choice",
+      "question": "Secara konstitusional, syarat mutlak sebuah NSO (National Scout Organization) diterima menjadi anggota WOSM adalah?",
       "payload": {
-        "correct_answer": "lili",
-        "case_sensitive": false
+        "options": [
+          "Bersifat terbuka untuk semua tanpa membedakan ras, kredo, dan asal-usul",
+          "Memiliki lebih dari 1 juta anggota",
+          "Didukung penuh oleh pemerintah negara",
+          "Menggunakan seragam cokelat"
+        ],
+        "correct_answer": "Bersifat terbuka untuk semua tanpa membedakan ras, kredo, dan asal-usul",
+        "shuffle": true
       },
       "xp": 3
     },
     {
       "id": "q_puk_u5_l2_03",
       "level_id": "puk_u5_l2",
-      "type": "multiple_choice",
-      "question": "Warna dasar bendera WOSM adalah?",
+      "type": "word_bank",
+      "question": "Susun lokasi perpindahan kantor pusat WOSM secara kronologis.",
       "payload": {
-        "options": [
-          "Ungu",
-          "Biru",
-          "Merah",
-          "Coklat"
+        "words": [
+          "London",
+          "Ottawa",
+          "Jenewa",
+          "Kuala",
+          "Lumpur"
         ],
-        "correct_answer": "Ungu",
-        "shuffle": true
+        "correct_order": [
+          "London",
+          "Ottawa",
+          "Jenewa",
+          "Kuala",
+          "Lumpur"
+        ]
       },
       "xp": 4
     },
     {
       "id": "q_puk_u5_l2_04",
       "level_id": "puk_u5_l2",
-      "type": "word_bank",
-      "question": "Susun kepanjangan WOSM.",
+      "type": "multiple_choice",
+      "question": "Tali melingkar dengan Simpul Mati (Reef Knot) pada logo WOSM memiliki filosofi?",
       "payload": {
-        "words": [
-          "World",
-          "Organization",
-          "Scout",
-          "Movement"
+        "options": [
+          "Persaudaraan dunia yang tak terputus (World Brotherhood)",
+          "Kekuatan fisik pramuka",
+          "Ikatan janji setia",
+          "Simbol kemaritiman"
         ],
-        "correct_order": [
-          "World",
-          "Organization",
-          "of",
-          "Scout",
-          "Movement"
-        ]
+        "correct_answer": "Persaudaraan dunia yang tak terputus (World Brotherhood)",
+        "shuffle": true
       },
       "xp": 4
     },
     {
       "id": "q_puk_u5_l2_05",
       "level_id": "puk_u5_l2",
-      "type": "multiple_choice",
-      "question": "Organisasi kepanduan dunia khusus putri disingkat?",
+      "type": "fill_blank",
+      "question": "Warna ungu pada bendera WOSM melambangkan ____ dan kepemimpinan.",
       "payload": {
-        "options": [
-          "WAGGGS",
-          "WOSM",
-          "UNICEF",
-          "WWF"
-        ],
-        "correct_answer": "WAGGGS",
-        "shuffle": true
+        "correct_answer": "pelayanan",
+        "case_sensitive": false
       },
       "xp": 4
     },
     {
       "id": "q_puk_u5_l2_06",
       "level_id": "puk_u5_l2",
-      "type": "fill_blank",
-      "question": "Tali simpul mati pada lambang WOSM melambangkan ____ antar sesama pandu.",
+      "type": "multiple_choice",
+      "question": "Apa perbedaan mendasar antara WOSM dan WAGGGS?",
       "payload": {
-        "correct_answer": "persaudaraan",
-        "case_sensitive": false
+        "options": [
+          "WOSM menerima anggota putra/putri (co-ed), WAGGGS fokus pada pemberdayaan perempuan",
+          "WOSM berpusat di Amerika, WAGGGS di Eropa",
+          "WOSM organisasi politik, WAGGGS organisasi sosial",
+          "Tidak ada perbedaan, hanya nama"
+        ],
+        "correct_answer": "WOSM menerima anggota putra/putri (co-ed), WAGGGS fokus pada pemberdayaan perempuan",
+        "shuffle": true
       },
       "xp": 4
     },
@@ -237,20 +236,20 @@
       "id": "q_puk_u5_l2_07",
       "level_id": "puk_u5_l2",
       "type": "matching",
-      "question": "Pasangkan organisasi dengan markas/biro dunianya (World Scout Bureau).",
+      "question": "Pasangkan elemen logo WOSM dengan maknanya.",
       "payload": {
         "pairs": [
           {
-            "left": "WOSM (Pusat)",
-            "right": "Kuala Lumpur"
+            "left": "Tiga Kelopak",
+            "right": "Tiga Kewajiban (Duty to God, Others, Self)"
           },
           {
-            "left": "WAGGGS (Pusat)",
-            "right": "London"
+            "left": "Jarum Kompas",
+            "right": "Selalu menunjukkan jalan yang benar"
           },
           {
-            "left": "WOSM (Hukum)",
-            "right": "Jenewa"
+            "left": "Dua Bintang",
+            "right": "Kebenaran & Pengetahuan"
           }
         ],
         "shuffle": true
@@ -261,32 +260,32 @@
       "id": "q_puk_u5_l2_08",
       "level_id": "puk_u5_l2",
       "type": "multiple_choice",
-      "question": "Dua bintang pada lambang WOSM melambangkan?",
+      "question": "Istilah 'National Scout Organization' (NSO) merujuk pada?",
       "payload": {
         "options": [
-          "Kebenaran dan Pengetahuan",
-          "Siaga dan Penggalang",
-          "Siang dan Malam",
-          "Matahari dan Bulan"
+          "Organisasi induk pramuka resmi di satu negara yang diakui WOSM",
+          "Gugus depan di kedutaan besar",
+          "Organisasi pecinta alam nasional",
+          "Lembaga pemerintah bidang pemuda"
         ],
-        "correct_answer": "Kebenaran dan Pengetahuan",
+        "correct_answer": "Organisasi induk pramuka resmi di satu negara yang diakui WOSM",
         "shuffle": true
       },
-      "xp": 5
+      "xp": 4
     },
     {
       "id": "q_puk_u5_l3_01",
       "level_id": "puk_u5_l3",
       "type": "multiple_choice",
-      "question": "Jambore Dunia (World Scout Jamboree) diadakan setiap berapa tahun sekali?",
+      "question": "World Scout Moot adalah pertemuan internasional khusus untuk golongan?",
       "payload": {
         "options": [
-          "4 Tahun",
-          "2 Tahun",
-          "5 Tahun",
-          "1 Tahun"
+          "Rovers (Penegak/Pandega usia 18-26)",
+          "Scouts (Penggalang usia 11-15)",
+          "Cubs (Siaga usia 7-10)",
+          "Adult Leaders (Pembina)"
         ],
-        "correct_answer": "4 Tahun",
+        "correct_answer": "Rovers (Penegak/Pandega usia 18-26)",
         "shuffle": true
       },
       "xp": 4
@@ -295,9 +294,9 @@
       "id": "q_puk_u5_l3_02",
       "level_id": "puk_u5_l3",
       "type": "fill_blank",
-      "question": "Jambore Dunia pertama kali diadakan di kota ____, Inggris.",
+      "question": "JOTA-JOTI adalah event pramuka terbesar di dunia yang dikelola oleh tim WOSM bernama ____ Team.",
       "payload": {
-        "correct_answer": "london",
+        "correct_answer": "jota-joti",
         "case_sensitive": false
       },
       "xp": 4
@@ -306,19 +305,21 @@
       "id": "q_puk_u5_l3_03",
       "level_id": "puk_u5_l3",
       "type": "word_bank",
-      "question": "Susun kepanjangan JOTA.",
+      "question": "Susun tema JOTA-JOTI yang sering digunakan.",
       "payload": {
         "words": [
-          "Jamboree",
-          "On",
-          "The",
-          "Air"
+          "Scouts",
+          "For",
+          "A",
+          "Greener",
+          "World"
         ],
         "correct_order": [
-          "Jamboree",
-          "On",
-          "The",
-          "Air"
+          "Scouts",
+          "For",
+          "A",
+          "Greener",
+          "World"
         ]
       },
       "xp": 5
@@ -327,15 +328,15 @@
       "id": "q_puk_u5_l3_04",
       "level_id": "puk_u5_l3",
       "type": "multiple_choice",
-      "question": "Kegiatan JOTA menggunakan media komunikasi berupa?",
+      "question": "Jambore Dunia ke-20 di Thailand (2002/2003) memiliki keunikan sejarah karena?",
       "payload": {
         "options": [
-          "Radio Amatir",
-          "Internet",
-          "Surat Menyurat",
-          "Sandi Morse"
+          "Pertama kali diadakan di Asia Tenggara",
+          "Pertama kali diadakan di musim dingin",
+          "Dibatalkan karena perang",
+          "Hanya diikuti negara Asia"
         ],
-        "correct_answer": "Radio Amatir",
+        "correct_answer": "Pertama kali diadakan di Asia Tenggara",
         "shuffle": true
       },
       "xp": 5
@@ -344,9 +345,9 @@
       "id": "q_puk_u5_l3_05",
       "level_id": "puk_u5_l3",
       "type": "fill_blank",
-      "question": "JOTI adalah singkatan dari Jamboree On The ____.",
+      "question": "Kode panggil (Callsign) khusus untuk stasiun induk JOTA Nasional Indonesia adalah ____.",
       "payload": {
-        "correct_answer": "internet",
+        "correct_answer": "yb0s",
         "case_sensitive": false
       },
       "xp": 5
@@ -355,20 +356,20 @@
       "id": "q_puk_u5_l3_06",
       "level_id": "puk_u5_l3",
       "type": "matching",
-      "question": "Pasangkan kegiatan dengan deskripsinya.",
+      "question": "Pasangkan frekuensi radio JOTA dengan pitanya.",
       "payload": {
         "pairs": [
           {
-            "left": "Jambore Dunia",
-            "right": "Pesta Penggalang Sedunia"
+            "left": "VHF (Very High Frequency)",
+            "right": "Komunikasi Lokal (2 meter band)"
           },
           {
-            "left": "Moot",
-            "right": "Pertemuan Penegak/Pandega Dunia"
+            "left": "HF (High Frequency)",
+            "right": "Komunikasi Antar Benua (DX)"
           },
           {
-            "left": "Comdeca",
-            "right": "Pesta Pembangunan Masyarakat"
+            "left": "UHF (Ultra High Frequency)",
+            "right": "Satelit Amatir Radio (AO-91 dll)"
           }
         ],
         "shuffle": true
@@ -379,15 +380,15 @@
       "id": "q_puk_u5_l3_07",
       "level_id": "puk_u5_l3",
       "type": "multiple_choice",
-      "question": "Tujuan utama dari Jambore Dunia adalah?",
+      "question": "Apa itu 'JamID' dalam sistem JOTA-JOTI?",
       "payload": {
         "options": [
-          "Mempererat persahabatan dan perdamaian dunia",
-          "Lomba baris berbaris",
-          "Pameran senjata",
-          "Liburan mewah"
+          "Kode unik pendaftaran (JID) untuk log in di Scout.org",
+          "Nama panggilan radio",
+          "Sandi rahasia negara",
+          "Nomor tenda jambore"
         ],
-        "correct_answer": "Mempererat persahabatan dan perdamaian dunia",
+        "correct_answer": "Kode unik pendaftaran (JID) untuk log in di Scout.org",
         "shuffle": true
       },
       "xp": 5
@@ -396,15 +397,15 @@
       "id": "q_puk_u5_l3_08",
       "level_id": "puk_u5_l3",
       "type": "multiple_choice",
-      "question": "JOTA dan JOTI biasanya dilaksanakan setiap bulan?",
+      "question": "World Scout Conference berfungsi sebagai?",
       "payload": {
         "options": [
-          "Oktober",
-          "Agustus",
-          "Februari",
-          "Desember"
+          "Badan legislatif tertinggi WOSM (General Assembly)",
+          "Pesta siaga dunia",
+          "Lomba debat bahasa Inggris",
+          "Pertemuan para donatur"
         ],
-        "correct_answer": "Oktober",
+        "correct_answer": "Badan legislatif tertinggi WOSM (General Assembly)",
         "shuffle": true
       },
       "xp": 5
@@ -413,15 +414,15 @@
       "id": "q_puk_u5_l4_01",
       "level_id": "puk_u5_l4",
       "type": "multiple_choice",
-      "question": "Ada berapa kawasan (Region) dalam WOSM?",
+      "question": "Mengapa WOSM membagi dunia menjadi 6 Kawasan (Region)?",
       "payload": {
         "options": [
-          "6",
-          "5",
-          "7",
-          "4"
+          "Desentralisasi manajemen untuk mendukung keunikan budaya lokal",
+          "Agar lebih mudah mengumpulkan iuran",
+          "Perintah PBB",
+          "Mengikuti pembagian benua secara geologis"
         ],
-        "correct_answer": "6",
+        "correct_answer": "Desentralisasi manajemen untuk mendukung keunikan budaya lokal",
         "shuffle": true
       },
       "xp": 5
@@ -430,9 +431,9 @@
       "id": "q_puk_u5_l4_02",
       "level_id": "puk_u5_l4",
       "type": "fill_blank",
-      "question": "Indonesia termasuk dalam kawasan WOSM region ____.",
+      "question": "Kawasan WOSM yang tidak memiliki kantor region fisik karena situasi geopolitik adalah kawasan ____.",
       "payload": {
-        "correct_answer": "asia pasifik",
+        "correct_answer": "eurasia",
         "case_sensitive": false
       },
       "xp": 5
@@ -441,15 +442,15 @@
       "id": "q_puk_u5_l4_03",
       "level_id": "puk_u5_l4",
       "type": "multiple_choice",
-      "question": "Hari Bapak Pandu Dunia (Founder's Day) diperingati setiap tanggal?",
+      "question": "Penghargaan 'Bronze Wolf Award' adalah satu-satunya penghargaan WOSM yang diberikan untuk?",
       "payload": {
         "options": [
-          "22 Februari",
-          "14 Agustus",
-          "20 Mei",
-          "1 Januari"
+          "Jasa luar biasa (Exceptional Service) terhadap kepanduan dunia",
+          "Pemenang lomba lari maraton",
+          "Penyumbang dana terbesar",
+          "Pramuka termuda"
         ],
-        "correct_answer": "22 Februari",
+        "correct_answer": "Jasa luar biasa (Exceptional Service) terhadap kepanduan dunia",
         "shuffle": true
       },
       "xp": 6
@@ -458,17 +459,19 @@
       "id": "q_puk_u5_l4_04",
       "level_id": "puk_u5_l4",
       "type": "word_bank",
-      "question": "Susun singkatan APR dalam kepramukaan.",
+      "question": "Susun nama pusat kepanduan dunia di Swiss.",
       "payload": {
         "words": [
-          "Asia",
-          "Pacific",
-          "Region"
+          "Kandersteg",
+          "International",
+          "Scout",
+          "Centre"
         ],
         "correct_order": [
-          "Asia",
-          "Pacific",
-          "Region"
+          "Kandersteg",
+          "International",
+          "Scout",
+          "Centre"
         ]
       },
       "xp": 6
@@ -477,15 +480,15 @@
       "id": "q_puk_u5_l4_05",
       "level_id": "puk_u5_l4",
       "type": "multiple_choice",
-      "question": "Logo 'Messenger of Peace' (MoP) berbentuk?",
+      "question": "Lagu resmi WOSM berjudul?",
       "payload": {
         "options": [
-          "Burung Merpati",
-          "Bunga Lili",
-          "Tunas Kelapa",
-          "Bola Dunia"
+          "World Scout Song (Cipt. Jean-Jacques Goldman)",
+          "We Are The World",
+          "Scouting Spirit",
+          "I Have a Dream"
         ],
-        "correct_answer": "Burung Merpati",
+        "correct_answer": "World Scout Song (Cipt. Jean-Jacques Goldman)",
         "shuffle": true
       },
       "xp": 6
@@ -494,20 +497,20 @@
       "id": "q_puk_u5_l4_06",
       "level_id": "puk_u5_l4",
       "type": "matching",
-      "question": "Pasangkan Kawasan dengan Benua/Lokasinya.",
+      "question": "Pasangkan Region dengan Karakteristiknya.",
       "payload": {
         "pairs": [
           {
-            "left": "Eurasia",
-            "right": "Rusia & Sekitarnya"
-          },
-          {
-            "left": "Interamerica",
-            "right": "Benua Amerika"
+            "left": "Asia-Pacific",
+            "right": "Jumlah anggota terbesar (meliputi India & Indonesia)"
           },
           {
             "left": "Africa",
-            "right": "Benua Afrika"
+            "right": "Fokus pada pengembangan komunitas & kesehatan"
+          },
+          {
+            "left": "Arab",
+            "right": "Identitas budaya & bahasa yang kuat"
           }
         ],
         "shuffle": true
@@ -518,15 +521,15 @@
       "id": "q_puk_u5_l4_07",
       "level_id": "puk_u5_l4",
       "type": "multiple_choice",
-      "question": "Markas WOSM Asia-Pacific Region berada di negara?",
+      "question": "Program 'Ticket to Life' (TTL) di Asia Pasifik ditujukan untuk?",
       "payload": {
         "options": [
-          "Filipina (Makati City)",
-          "Indonesia (Jakarta)",
-          "Jepang (Tokyo)",
-          "Australia (Canberra)"
+          "Anak jalanan dan kaum marginal agar bisa ikut Pramuka",
+          "Tiket gratis nonton bioskop",
+          "Beasiswa kuliah ke luar negeri",
+          "Program pertukaran pelajar elit"
         ],
-        "correct_answer": "Filipina (Makati City)",
+        "correct_answer": "Anak jalanan dan kaum marginal agar bisa ikut Pramuka",
         "shuffle": true
       },
       "xp": 6
@@ -535,9 +538,9 @@
       "id": "q_puk_u5_l4_08",
       "level_id": "puk_u5_l4",
       "type": "fill_blank",
-      "question": "Woggle atau ring kacu khas yang terbuat dari anyaman kulit disebut ____ woggle.",
+      "question": "KISC (Kandersteg International Scout Centre) memiliki julukan sebagai 'Permanent Mini ____'.",
       "payload": {
-        "correct_answer": "gilwell",
+        "correct_answer": "jamboree",
         "case_sensitive": false
       },
       "xp": 6
@@ -546,15 +549,15 @@
       "id": "q_puk_u5_l5_01",
       "level_id": "puk_u5_l5",
       "type": "multiple_choice",
-      "question": "SDGs adalah tujuan pembangunan berkelanjutan yang didukung Pramuka. Kepanjangan SDGs adalah?",
+      "question": "Inisiatif 'Scouts for SDGs' memobilisasi 57 juta pramuka untuk berkontribusi pada?",
       "payload": {
         "options": [
-          "Sustainable Development Goals",
-          "Scout Development Guides",
-          "Social Development Groups",
-          "Systematic Design Goals"
+          "Agenda 2030 PBB untuk Pembangunan Berkelanjutan",
+          "Perang Dunia Ketiga",
+          "Kolonisasi Mars",
+          "Olimpiade Olahraga"
         ],
-        "correct_answer": "Sustainable Development Goals",
+        "correct_answer": "Agenda 2030 PBB untuk Pembangunan Berkelanjutan",
         "shuffle": true
       },
       "xp": 7
@@ -563,9 +566,9 @@
       "id": "q_puk_u5_l5_02",
       "level_id": "puk_u5_l5",
       "type": "fill_blank",
-      "question": "Ada berapa total tujuan (goals) dalam SDGs? (Tulis angka)",
+      "question": "Penghargaan 'Scouts of the World Award' (SWA) fokus pada tiga pilar: Pembangunan, Perdamaian, dan ____.",
       "payload": {
-        "correct_answer": "17",
+        "correct_answer": "lingkungan",
         "case_sensitive": false
       },
       "xp": 7
@@ -574,19 +577,17 @@
       "id": "q_puk_u5_l5_03",
       "level_id": "puk_u5_l5",
       "type": "word_bank",
-      "question": "Susun pesan terakhir Baden Powell.",
+      "question": "Susun nama program lingkungan WOSM.",
       "payload": {
         "words": [
-          "Leave",
-          "this",
-          "world",
-          "better"
+          "Earth",
+          "Tribe",
+          "Initiative"
         ],
         "correct_order": [
-          "Leave",
-          "this",
-          "world",
-          "better"
+          "Earth",
+          "Tribe",
+          "Initiative"
         ]
       },
       "xp": 8
@@ -595,15 +596,15 @@
       "id": "q_puk_u5_l5_04",
       "level_id": "puk_u5_l5",
       "type": "multiple_choice",
-      "question": "Kalung manik-manik kayu (Wood Badge) diberikan kepada?",
+      "question": "Dalam kerangka 'Better World Framework', lencana 'Tide Turners Plastic' bekerjasama dengan lembaga?",
       "payload": {
         "options": [
-          "Pembina yang lulus pelatihan mahir (KMD/KML)",
-          "Pramuka Garuda",
-          "Anggota baru",
-          "Pemenang lomba"
+          "UN Environment Programme (UNEP)",
+          "WWF",
+          "Greenpeace",
+          "NASA"
         ],
-        "correct_answer": "Pembina yang lulus pelatihan mahir (KMD/KML)",
+        "correct_answer": "UN Environment Programme (UNEP)",
         "shuffle": true
       },
       "xp": 8
@@ -612,15 +613,15 @@
       "id": "q_puk_u5_l5_05",
       "level_id": "puk_u5_l5",
       "type": "multiple_choice",
-      "question": "Earth Hour adalah gerakan global mematikan lampu selama 1 jam untuk?",
+      "question": "Wood Badge (Manik Kayu) yang asli berasal dari manik-manik milik Raja Dinizulu yang ditemukan Baden-Powell saat bertugas di?",
       "payload": {
         "options": [
-          "Menghemat energi dan peduli perubahan iklim",
-          "Menghemat biaya listrik negara",
-          "Mengenang Baden Powell",
-          "Merayakan tahun baru"
+          "Afrika Selatan (Zululand)",
+          "India",
+          "Kanada",
+          "Australia"
         ],
-        "correct_answer": "Menghemat energi dan peduli perubahan iklim",
+        "correct_answer": "Afrika Selatan (Zululand)",
         "shuffle": true
       },
       "xp": 7
@@ -629,20 +630,20 @@
       "id": "q_puk_u5_l5_06",
       "level_id": "puk_u5_l5",
       "type": "matching",
-      "question": "Pasangkan Tujuan SDGs dengan Nomornya.",
+      "question": "Pasangkan Badge Tantangan Global dengan Temanya.",
       "payload": {
         "pairs": [
           {
-            "left": "Tanpa Kemiskinan (No Poverty)",
-            "right": "Goal 1"
+            "left": "Champions for Nature",
+            "right": "Keanekaragaman Hayati"
           },
           {
-            "left": "Pendidikan Berkualitas",
-            "right": "Goal 4"
+            "left": "Scouts Go Solar",
+            "right": "Energi Terbarukan"
           },
           {
-            "left": "Penanganan Perubahan Iklim",
-            "right": "Goal 13"
+            "left": "Patrimonito",
+            "right": "Warisan Dunia (UNESCO)"
           }
         ],
         "shuffle": true
@@ -653,9 +654,9 @@
       "id": "q_puk_u5_l5_07",
       "level_id": "puk_u5_l5",
       "type": "fill_blank",
-      "question": "Slogan 'Creating a Better World' adalah visi dari organisasi ____.",
+      "question": "KAICIID dan WOSM bekerjasama dalam program 'Dialogue for ____' untuk melatih kemampuan mediasi konflik.",
       "payload": {
-        "correct_answer": "wosm",
+        "correct_answer": "peace",
         "case_sensitive": false
       },
       "xp": 8
@@ -664,15 +665,15 @@
       "id": "q_puk_u5_l5_08",
       "level_id": "puk_u5_l5",
       "type": "multiple_choice",
-      "question": "Penghargaan tertinggi PBB untuk lingkungan hidup yang juga didukung Pramuka adalah?",
+      "question": "Filosofi 'Global Citizenship Education' dalam kepramukaan bertujuan membentuk anggota yang?",
       "payload": {
         "options": [
-          "Champions of the Earth",
-          "Nobel Peace Prize",
-          "Oscar",
-          "Grammy"
+          "Bertanggung jawab secara lokal namun berpikir secara global (Glocal)",
+          "Bisa keliling dunia gratis",
+          "Menjadi diplomat PBB",
+          "Melupakan budaya asalnya"
         ],
-        "correct_answer": "Champions of the Earth",
+        "correct_answer": "Bertanggung jawab secara lokal namun berpikir secara global (Glocal)",
         "shuffle": true
       },
       "xp": 9

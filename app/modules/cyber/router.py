@@ -10,6 +10,7 @@ from sqlalchemy import select, func
 
 from app.db.session import get_db
 from app.core.security import get_current_user
+from app.modules.users.models import User
 from app.modules.cyber.models import CyberCategory, CyberChallenge, CyberModule
 from app.modules.cyber.service import CyberService
 from app.modules.cyber.schemas import (
@@ -20,7 +21,12 @@ from app.modules.cyber.schemas import (
     CyberModuleListResponse,
     CyberModuleResponse,
     CyberLevelsResponse,
-    CyberLevelQuestionsResponse
+    CyberLevelQuestionsResponse,
+    SandiListResponse,
+    SandiResponse,
+    CyberToolRequest,
+    CyberToolResponse,
+    SandiExamResponse
 )
 
 router = APIRouter(prefix="/cyber", tags=["Cyber"])
@@ -546,3 +552,81 @@ async def seed_cyber_data(
         "challenges_created": len(challenges_data),
         "total_levels": 25  # 5 modules × 5 levels
     }
+
+
+# ============ SANDI PRAMUKA ENDPOINTS ============
+
+@router.get(
+    "/list",
+    response_model=SandiListResponse,
+    summary="Get all Sandi Pramuka types",
+    description="Returns list of all 15 Sandi Pramuka cipher types"
+)
+async def get_sandi_list(
+    service: CyberService = Depends(get_service)
+):
+    """Get all Sandi types"""
+    sandi_types = await service.get_all_sandi_types()
+    return SandiListResponse(
+        total=len(sandi_types),
+        sandi_types=[SandiResponse.model_validate(st) for st in sandi_types]
+    )
+
+
+@router.post(
+    "/tool/process",
+    response_model=CyberToolResponse,
+    summary="Process encryption/decryption",
+    description="Encrypt or decrypt text using a Sandi cipher (Tool Mode)"
+)
+async def process_cipher_tool(
+    request: CyberToolRequest,
+    current_user: User = Depends(get_current_user),
+    service: CyberService = Depends(get_service)
+):
+    """
+    Process text encryption/decryption using cipher tool.
+    Records activity in EncryptionLog for audit trail.
+    """
+    try:
+        result = await service.process_cipher_tool(
+            user_id=current_user.id,
+            request=request
+        )
+        return result
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Processing error: {str(e)}")
+
+
+@router.get(
+    "/exam/{sandi_id}",
+    response_model=SandiExamResponse,
+    summary="Get Sandi exam questions",
+    description="Returns random exam questions for a specific Sandi type"
+)
+async def get_sandi_exam(
+    sandi_id: int,
+    limit: int = 5,
+    service: CyberService = Depends(get_service)
+):
+    """
+    Get random exam questions for a Sandi type.
+    
+    Args:
+        sandi_id: Sandi Type ID
+        limit: Number of questions (default: 5, max: 20)
+    """
+    if limit > 20:
+        limit = 20
+    if limit < 1:
+        limit = 5
+    
+    try:
+        result = await service.get_sandi_exam(sandi_id=sandi_id, limit=limit)
+        return result
+    except ValueError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Error fetching exam: {str(e)}")

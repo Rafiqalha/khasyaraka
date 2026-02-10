@@ -1,4 +1,672 @@
 {
-  "unit_id": "tali_unit_3",
-  "questions": []
+  "unit_id": "tali_u3",
+  "questions": [
+    {
+      "id": "q_tali_u3_l1_01",
+      "level_id": "tali_u3_l1",
+      "type": "multiple_choice",
+      "question": "Ikatan yang digunakan untuk menyatukan dua tongkat yang bersilangan dengan sudut 90 derajat (tegak lurus) adalah?",
+      "payload": {
+        "options": [
+          "Ikatan Silang",
+          "Ikatan Palang",
+          "Ikatan Canggah",
+          "Ikatan Kaki Tiga"
+        ],
+        "correct_answer": "Ikatan Palang",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u3_l1_02",
+      "level_id": "tali_u3_l1",
+      "type": "fill_blank",
+      "question": "Simpul yang digunakan untuk mengawali ikatan palang pada salah satu tiang adalah simpul ____.",
+      "payload": {
+        "correct_answer": "pangkal",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u3_l1_03",
+      "level_id": "tali_u3_l1",
+      "type": "multiple_choice",
+      "question": "Lilitan yang dilakukan di antara dua tiang untuk mengencangkan ikatan (bukan melilit tiang) disebut?",
+      "payload": {
+        "options": [
+          "Lilitan Penarik",
+          "Lilitan Dasar",
+          "Frapping (Lilitan Pengunci)",
+          "Lilitan Pembantu"
+        ],
+        "correct_answer": "Frapping (Lilitan Pengunci)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u3_l1_04",
+      "level_id": "tali_u3_l1",
+      "type": "word_bank",
+      "question": "Susunlah urutan pembuatan Ikatan Palang.",
+      "payload": {
+        "words": [
+          "Simpul Pangkal",
+          "Lilitan Tiang",
+          "Frapping",
+          "Simpul Pangkal Akhir"
+        ],
+        "correct_order": [
+          "Simpul Pangkal",
+          "Lilitan Tiang",
+          "Frapping",
+          "Simpul Pangkal Akhir"
+        ]
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u3_l1_05",
+      "level_id": "tali_u3_l1",
+      "type": "multiple_choice",
+      "question": "Berapakah jumlah lilitan utama yang ideal pada ikatan palang sebelum dilakukan lilitan pengunci?",
+      "payload": {
+        "options": [
+          "1 lilitan",
+          "3 - 4 lilitan",
+          "10 lilitan",
+          "Bebas semampunya"
+        ],
+        "correct_answer": "3 - 4 lilitan",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u3_l1_06",
+      "level_id": "tali_u3_l1",
+      "type": "fill_blank",
+      "question": "Ikatan yang digunakan untuk menyambung dua tongkat secara sejajar agar menjadi lebih panjang disebut ikatan ____.",
+      "payload": {
+        "correct_answer": "canggah",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u3_l1_07",
+      "level_id": "tali_u3_l1",
+      "type": "matching",
+      "question": "Pasangkan ikatan dengan kegunaan utamanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Ikatan Palang",
+            "right": "Sudut 90 Derajat"
+          },
+          {
+            "left": "Ikatan Silang",
+            "right": "Sudut Diagonal / Bebas"
+          },
+          {
+            "left": "Ikatan Kaki Tiga",
+            "right": "Penyangga Tripod"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u3_l1_08",
+      "level_id": "tali_u3_l1",
+      "type": "multiple_choice",
+      "question": "Ikatan canggah dianggap aman jika menggunakan minimal berapa buah ikatan pada sambungannya?",
+      "payload": {
+        "options": [
+          "Hanya 1 ikatan",
+          "Minimal 2 ikatan",
+          "Hanya di ujung saja",
+          "Menggunakan paku"
+        ],
+        "correct_answer": "Minimal 2 ikatan",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u3_l2_01",
+      "level_id": "tali_u3_l2",
+      "type": "multiple_choice",
+      "question": "Manakah ikatan yang paling disarankan untuk diawali dengan Simpul Tambat (Timber Hitch)?",
+      "payload": {
+        "options": [
+          "Ikatan Palang",
+          "Ikatan Canggah",
+          "Ikatan Silang",
+          "Ikatan Kaki Tiga"
+        ],
+        "correct_answer": "Ikatan Silang",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u3_l2_02",
+      "level_id": "tali_u3_l2",
+      "type": "fill_blank",
+      "question": "Fungsi utama dari Ikatan Kaki Tiga adalah untuk membuat struktur penyangga berbentuk ____.",
+      "payload": {
+        "correct_answer": "tripod",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u3_l2_03",
+      "level_id": "tali_u3_l2",
+      "type": "multiple_choice",
+      "question": "Bagaimanakah pola lilitan tali di antara tiga tiang pada ikatan kaki tiga yang benar?",
+      "payload": {
+        "options": [
+          "Dililit melingkar ketiga tiang sekaligus",
+          "Dililit selang-seling (angka 8) di sela tiang",
+          "Dililit hanya pada tiang tengah",
+          "Dililit menyilang membentuk huruf X"
+        ],
+        "correct_answer": "Dililit selang-seling (angka 8) di sela tiang",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l2_04",
+      "level_id": "tali_u3_l2",
+      "type": "word_bank",
+      "question": "Susunlah teknik penguatan ikatan dari yang paling kendor.",
+      "payload": {
+        "words": [
+          "Lilitan Longgar",
+          "Lilitan Rapi",
+          "Frapping Kencang"
+        ],
+        "correct_order": [
+          "Lilitan Longgar",
+          "Lilitan Rapi",
+          "Frapping Kencang"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l2_05",
+      "level_id": "tali_u3_l2",
+      "type": "multiple_choice",
+      "question": "Apa yang harus dilakukan agar kaki-kaki pada ikatan kaki tiga dapat direnggangkan tanpa membuat ikatan putus?",
+      "payload": {
+        "options": [
+          "Lilitan tidak boleh terlalu rapat/kencang sebelum tiang direnggangkan",
+          "Menggunakan tali yang sangat elastis",
+          "Menggunakan pelumas pada tali",
+          "Mengikat hanya dua tiang saja"
+        ],
+        "correct_answer": "Lilitan tidak boleh terlalu rapat/kencang sebelum tiang direnggangkan",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l2_06",
+      "level_id": "tali_u3_l2",
+      "type": "fill_blank",
+      "question": "Ikatan silang sangat efektif menahan beban tarikan yang bersifat ____ (miring).",
+      "payload": {
+        "correct_answer": "diagonal",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u3_l2_07",
+      "level_id": "tali_u3_l2",
+      "type": "matching",
+      "question": "Pasangkan awal ikatan dengan jenis ikatannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Simpul Pangkal",
+            "right": "Ikatan Palang"
+          },
+          {
+            "left": "Simpul Tambat",
+            "right": "Ikatan Silang"
+          },
+          {
+            "left": "Simpul Mati",
+            "right": "Bukan Awal Ikatan"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l2_08",
+      "level_id": "tali_u3_l2",
+      "type": "multiple_choice",
+      "question": "Pada ikatan kaki tiga, di tiang manakah simpul pangkal awal sebaiknya dibuat?",
+      "payload": {
+        "options": [
+          "Tiang yang paling kanan",
+          "Tiang yang paling kiri",
+          "Tiang yang berada di tengah",
+          "Bebas di tiang mana saja"
+        ],
+        "correct_answer": "Tiang yang berada di tengah",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l3_01",
+      "level_id": "tali_u3_l3",
+      "type": "multiple_choice",
+      "question": "Dalam pembuatan menara pandang, ikatan manakah yang paling banyak digunakan untuk memperkuat rangka horisontal dan vertikal?",
+      "payload": {
+        "options": [
+          "Ikatan Canggah",
+          "Ikatan Kaki Tiga",
+          "Ikatan Palang",
+          "Ikatan Silang"
+        ],
+        "correct_answer": "Ikatan Palang",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l3_02",
+      "level_id": "tali_u3_l3",
+      "type": "fill_blank",
+      "question": "Jika dua tiang bersilangan namun membentuk sudut 45 derajat, maka ikatan yang digunakan adalah ikatan ____.",
+      "payload": {
+        "correct_answer": "silang",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l3_03",
+      "level_id": "tali_u3_l3",
+      "type": "multiple_choice",
+      "question": "Mengapa lilitan pengunci (frapping) dilakukan di antara dua kayu?",
+      "payload": {
+        "options": [
+          "Agar kayu tidak berderit",
+          "Agar tali tidak basah",
+          "Menarik lilitan sebelumnya agar menjepit tiang lebih kuat",
+          "Hanya sebagai tanda ikatan selesai"
+        ],
+        "correct_answer": "Menarik lilitan sebelumnya agar menjepit tiang lebih kuat",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u3_l3_04",
+      "level_id": "tali_u3_l3",
+      "type": "word_bank",
+      "question": "Urutkan arah lilitan pengunci (frapping) pada ikatan palang.",
+      "payload": {
+        "words": [
+          "Melilit Tali",
+          "Membelah Sela Kayu",
+          "Ditarik Kencang"
+        ],
+        "correct_order": [
+          "Membelah Sela Kayu",
+          "Melilit Tali",
+          "Ditarik Kencang"
+        ]
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u3_l3_05",
+      "level_id": "tali_u3_l3",
+      "type": "multiple_choice",
+      "question": "Manakah pernyataan yang BENAR mengenai perbedaan ikatan palang dan silang?",
+      "payload": {
+        "options": [
+          "Palang dimulai dengan simpul pangkal, Silang dimulai dengan simpul tambat",
+          "Palang untuk tiang miring, Silang untuk tiang tegak",
+          "Palang tidak menggunakan frapping",
+          "Silang hanya untuk membuat jemuran"
+        ],
+        "correct_answer": "Palang dimulai dengan simpul pangkal, Silang dimulai dengan simpul tambat",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u3_l3_06",
+      "level_id": "tali_u3_l3",
+      "type": "fill_blank",
+      "question": "Ikatan canggah yang menggunakan tiga buah tongkat atau lebih untuk disambung disebut ikatan canggah ____.",
+      "payload": {
+        "correct_answer": "berganda",
+        "case_sensitive": false
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u3_l3_07",
+      "level_id": "tali_u3_l3",
+      "type": "matching",
+      "question": "Pasangkan nama inggris ikatan dengan nama indonesianya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Square Lashing",
+            "right": "Ikatan Palang"
+          },
+          {
+            "left": "Diagonal Lashing",
+            "right": "Ikatan Silang"
+          },
+          {
+            "left": "Tripod Lashing",
+            "right": "Ikatan Kaki Tiga"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u3_l3_08",
+      "level_id": "tali_u3_l3",
+      "type": "multiple_choice",
+      "question": "Bagaimana posisi penempatan ikatan canggah yang benar pada dua tiang yang disambung?",
+      "payload": {
+        "options": [
+          "Satu ikatan tepat di tengah sambungan",
+          "Dua ikatan di masing-masing ujung tumpukan tiang",
+          "Ikat secara acak sepanjang tiang",
+          "Hanya diikat di bagian bawah saja"
+        ],
+        "correct_answer": "Dua ikatan di masing-masing ujung tumpukan tiang",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u3_l4_01",
+      "level_id": "tali_u3_l4",
+      "type": "multiple_choice",
+      "question": "Saat membangun pagar pionering, ikatan apakah yang digunakan untuk memasang bambu horisontal pada patok vertikal?",
+      "payload": {
+        "options": [
+          "Ikatan Canggah",
+          "Ikatan Silang",
+          "Ikatan Kaki Tiga",
+          "Ikatan Palang"
+        ],
+        "correct_answer": "Ikatan Palang",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u3_l4_02",
+      "level_id": "tali_u3_l4",
+      "type": "fill_blank",
+      "question": "Prinsip utama pionering adalah kekuatan struktur yang bergantung pada kekencangan ____.",
+      "payload": {
+        "correct_answer": "ikatan",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u3_l4_03",
+      "level_id": "tali_u3_l4",
+      "type": "multiple_choice",
+      "question": "Dalam ikatan silang, setelah simpul tambat dibuat, arah lilitan pertama diarahkan ke?",
+      "payload": {
+        "options": [
+          "Mengelilingi tiang secara horisontal",
+          "Secara diagonal menyilang di antara kedua tiang",
+          "Mengikuti arah serat kayu",
+          "Dibalutkan pada simpul tambat"
+        ],
+        "correct_answer": "Secara diagonal menyilang di antara kedua tiang",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u3_l4_04",
+      "level_id": "tali_u3_l4",
+      "type": "word_bank",
+      "question": "Urutkan jenis lashing dari yang paling sederhana prosesnya.",
+      "payload": {
+        "words": [
+          "Ikatan Palang",
+          "Ikatan Silang",
+          "Ikatan Kaki Tiga"
+        ],
+        "correct_order": [
+          "Ikatan Palang",
+          "Ikatan Silang",
+          "Ikatan Kaki Tiga"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u3_l4_05",
+      "level_id": "tali_u3_l4",
+      "type": "multiple_choice",
+      "question": "Apa fungsi lilitan 'angka 8' pada ikatan kaki tiga?",
+      "payload": {
+        "options": [
+          "Sebagai hiasan agar bagus",
+          "Menyatukan tiga tiang dengan distribusi beban yang merata",
+          "Agar tali tidak boros",
+          "Memudahkan tali dipotong"
+        ],
+        "correct_answer": "Menyatukan tiga tiang dengan distribusi beban yang merata",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u3_l4_06",
+      "level_id": "tali_u3_l4",
+      "type": "fill_blank",
+      "question": "Ikatan ____ digunakan untuk menyambung dua tiang yang bertemu di ujungnya saja (seperti huruf V terbalik).",
+      "payload": {
+        "correct_answer": "palang",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u3_l4_07",
+      "level_id": "tali_u3_l4",
+      "type": "matching",
+      "question": "Pasangkan masalah ikatan dengan penyebabnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Ikatan Bergeser",
+            "right": "Kurang Frapping"
+          },
+          {
+            "left": "Tali Putus",
+            "right": "Gesekan Kayu Tajam"
+          },
+          {
+            "left": "Struktur Goyah",
+            "right": "Tiang Tidak Sejajar"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u3_l4_08",
+      "level_id": "tali_u3_l4",
+      "type": "multiple_choice",
+      "question": "Mengapa penggunaan kawat dilarang dalam lomba pionering Pramuka?",
+      "payload": {
+        "options": [
+          "Karena kawat terlalu mahal",
+          "Melanggar prinsip ketangkasan tali-temali tradisional",
+          "Kawat dapat merusak kayu",
+          "Kawat tidak bisa diikat simpul pangkal"
+        ],
+        "correct_answer": "Melanggar prinsip ketangkasan tali-temali tradisional",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u3_l5_01",
+      "level_id": "tali_u3_l5",
+      "type": "multiple_choice",
+      "question": "Analisis Struktur: Manakah kombinasi ikatan yang paling stabil untuk membuat kaki menara pandang setinggi 5 meter?",
+      "payload": {
+        "options": [
+          "Ikatan Canggah Berganda + Ikatan Kaki Tiga",
+          "Hanya Ikatan Palang",
+          "Ikatan Silang + Simpul Mati",
+          "Ikatan Jangkar + Ikatan Palang"
+        ],
+        "correct_answer": "Ikatan Canggah Berganda + Ikatan Kaki Tiga",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u3_l5_02",
+      "level_id": "tali_u3_l5",
+      "type": "fill_blank",
+      "question": "Beban kerja aman (SWL) sebuah ikatan dipengaruhi oleh jenis material tali dan ____ diameter tiang.",
+      "payload": {
+        "correct_answer": "besar",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u3_l5_03",
+      "level_id": "tali_u3_l5",
+      "type": "multiple_choice",
+      "question": "Dalam rigging pionering berat, lilitan frapping sebaiknya ditarik menggunakan bantuan?",
+      "payload": {
+        "options": [
+          "Tangan kosong saja",
+          "Alat bantu ungkit atau tenaga dua orang",
+          "Batu pemberat",
+          "Mesin katrol"
+        ],
+        "correct_answer": "Alat bantu ungkit atau tenaga dua orang",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u3_l5_04",
+      "level_id": "tali_u3_l5",
+      "type": "word_bank",
+      "question": "Susun alur pemeriksaan keamanan (Safety Check) pada ikatan tiang.",
+      "payload": {
+        "words": [
+          "Cek Kerapian",
+          "Guncang Tiang",
+          "Uji Beban Terukur"
+        ],
+        "correct_order": [
+          "Cek Kerapian",
+          "Guncang Tiang",
+          "Uji Beban Terukur"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u3_l5_05",
+      "level_id": "tali_u3_l5",
+      "type": "multiple_choice",
+      "question": "Fenomena 'Lashing Creep' atau ikatan yang melonggar seiring waktu paling sering terjadi pada?",
+      "payload": {
+        "options": [
+          "Tali berbahan nilon (plastik) yang terpapar panas",
+          "Tali manila yang basah",
+          "Tali ijuk",
+          "Tali baja"
+        ],
+        "correct_answer": "Tali berbahan nilon (plastik) yang terpapar panas",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u3_l5_06",
+      "level_id": "tali_u3_l5",
+      "type": "fill_blank",
+      "question": "Untuk bangunan yang akan menahan beban dinamis (bergerak), jumlah frapping harus ____ daripada bangunan statis.",
+      "payload": {
+        "correct_answer": "lebih banyak",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u3_l5_07",
+      "level_id": "tali_u3_l5",
+      "type": "matching",
+      "question": "Pasangkan jenis lashing dengan tantangan mekanisnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Lashing Vertikal",
+            "right": "Gaya Gravitasi"
+          },
+          {
+            "left": "Lashing Horisontal",
+            "right": "Gaya Geser"
+          },
+          {
+            "left": "Lashing Tripod",
+            "right": "Gaya Tekan Pusat"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u3_l5_08",
+      "level_id": "tali_u3_l5",
+      "type": "multiple_choice",
+      "question": "Apa langkah antisipasi jika tali pionering yang tersedia terlalu pendek untuk menyelesaikan satu ikatan palang?",
+      "payload": {
+        "options": [
+          "Menyambung tali menggunakan simpul mati",
+          "Menyambung tali menggunakan simpul anyam atau kembar sebelum mulai mengikat",
+          "Mengurangi jumlah lilitan",
+          "Menggunakan paku sebagai tambahan"
+        ],
+        "correct_answer": "Menyambung tali menggunakan simpul anyam atau kembar sebelum mulai mengikat",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

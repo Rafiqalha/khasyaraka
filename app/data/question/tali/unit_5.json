@@ -1,4 +1,684 @@
 {
-  "unit_id": "tali_unit_5",
-  "questions": []
+  "unit_id": "tali_u5",
+  "questions": [
+    {
+      "id": "q_tali_u5_l1_01",
+      "level_id": "tali_u5_l1",
+      "type": "multiple_choice",
+      "question": "Apa perbedaan utama antara tali Dinamis dan tali Statis dalam pendakian teknis?",
+      "payload": {
+        "options": [
+          "Tali dinamis lebih tebal dan berat",
+          "Tali statis digunakan untuk menahan jatuh, dinamis untuk abseiling",
+          "Tali dinamis memiliki elastisitas tinggi untuk menyerap hentakan (shock), statis tidak",
+          "Tali statis berwarna terang, dinamis berwarna gelap"
+        ],
+        "correct_answer": "Tali dinamis memiliki elastisitas tinggi untuk menyerap hentakan (shock), statis tidak",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u5_l1_02",
+      "level_id": "tali_u5_l1",
+      "type": "fill_blank",
+      "question": "Konstruksi tali modern yang memiliki inti (core) dan selubung pelindung (sheath) disebut konstruksi ____.",
+      "payload": {
+        "correct_answer": "kernmantle",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u5_l1_03",
+      "level_id": "tali_u5_l1",
+      "type": "multiple_choice",
+      "question": "Karabiner jenis 'Screw-gate' wajib dikunci dengan posisi gerbang menghadap ke?",
+      "payload": {
+        "options": [
+          "Samping",
+          "Bawah (agar gravitasi membantu mengunci jika bergetar)",
+          "Atas (agar mudah dilihat)",
+          "Bebas sesuai selera"
+        ],
+        "correct_answer": "Bawah (agar gravitasi membantu mengunci jika bergetar)",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u5_l1_04",
+      "level_id": "tali_u5_l1",
+      "type": "word_bank",
+      "question": "Susun komponen standar personal rappelling kit.",
+      "payload": {
+        "words": [
+          "Harness",
+          "Descender",
+          "Carabiner",
+          "Prusik",
+          "Cowlstail"
+        ],
+        "correct_order": [
+          "Harness",
+          "Descender",
+          "Carabiner",
+          "Prusik",
+          "Cowlstail"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u5_l1_05",
+      "level_id": "tali_u5_l1",
+      "type": "multiple_choice",
+      "question": "Alat mekanik yang digunakan untuk memanjat tali (ascending) dan hanya bisa bergerak satu arah ke atas adalah?",
+      "payload": {
+        "options": [
+          "Jumar / Hand Ascender",
+          "Figure of Eight",
+          "Autostop",
+          "Pulley"
+        ],
+        "correct_answer": "Jumar / Hand Ascender",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u5_l1_06",
+      "level_id": "tali_u5_l1",
+      "type": "fill_blank",
+      "question": "Batas beban maksimal sebelum tali putus disebut MBS (____ Breaking Strength).",
+      "payload": {
+        "correct_answer": "minimum",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u5_l1_07",
+      "level_id": "tali_u5_l1",
+      "type": "matching",
+      "question": "Pasangkan alat dengan fungsi spesifiknya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "ATC / Belay Device",
+            "right": "Pengereman jatuh (Belaying)"
+          },
+          {
+            "left": "Webbing",
+            "right": "Pembuatan Anchor"
+          },
+          {
+            "left": "Maillon Rapide",
+            "right": "Koneksi Semi-permanen"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u5_l1_08",
+      "level_id": "tali_u5_l1",
+      "type": "multiple_choice",
+      "question": "Mengapa kita dilarang menginjak tali pendakian (rope care)?",
+      "payload": {
+        "options": [
+          "Hanya masalah etika",
+          "Agar tali tidak kotor saja",
+          "Partikel pasir halus dapat masuk ke dalam inti tali dan memotong serat dari dalam",
+          "Tali akan menjadi sangat lentur"
+        ],
+        "correct_answer": "Partikel pasir halus dapat masuk ke dalam inti tali dan memotong serat dari dalam",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u5_l2_01",
+      "level_id": "tali_u5_l2",
+      "type": "multiple_choice",
+      "question": "Prinsip 'ERNEST' dalam pembuatan anchor, huruf 'E' berarti?",
+      "payload": {
+        "options": [
+          "Emergency",
+          "Equalized (Beban terbagi rata)",
+          "Extra Strong",
+          "Easy to make"
+        ],
+        "correct_answer": "Equalized (Beban terbagi rata)",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u5_l2_02",
+      "level_id": "tali_u5_l2",
+      "type": "fill_blank",
+      "question": "Sudut ideal antara dua kaki anchor (V-angle) agar beban tidak meledak melampaui 100% pada tiap titik adalah di bawah ____ derajat.",
+      "payload": {
+        "correct_answer": "60",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u5_l2_03",
+      "level_id": "tali_u5_l2",
+      "type": "multiple_choice",
+      "question": "Apa risiko penggunaan 'Deadman Anchor' (pasak tanam) di medan salju atau pasir?",
+      "payload": {
+        "options": [
+          "Terlalu kuat",
+          "Sulit dibongkar",
+          "Risiko tercabut jika sudut tarikan tidak tepat atau konsistensi medium berubah",
+          "Hanya bisa untuk beban ringan"
+        ],
+        "correct_answer": "Risiko tercabut jika sudut tarikan tidak tepat atau konsistensi medium berubah",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u5_l2_04",
+      "level_id": "tali_u5_l2",
+      "type": "word_bank",
+      "question": "Susun langkah evaluasi anchor 'SERENE'.",
+      "payload": {
+        "words": [
+          "Strong",
+          "Equalized",
+          "Redundant",
+          "Efficient",
+          "No Extension"
+        ],
+        "correct_order": [
+          "Strong",
+          "Equalized",
+          "Redundant",
+          "Efficient",
+          "No Extension"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u5_l2_05",
+      "level_id": "tali_u5_l2",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan 'Redundancy' dalam sistem anchor?",
+      "payload": {
+        "options": [
+          "Sistem memiliki cadangan sehingga jika satu titik gagal, sistem tidak langsung runtuh",
+          "Sistem menggunakan terlalu banyak tali",
+          "Sistem sangat rumit",
+          "Tali diletakkan secara berlapis"
+        ],
+        "correct_answer": "Sistem memiliki cadangan sehingga jika satu titik gagal, sistem tidak langsung runtuh",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u5_l2_06",
+      "level_id": "tali_u5_l2",
+      "type": "fill_blank",
+      "question": "Titik tempat berkumpulnya semua kaki anchor menuju satu koneksi utama disebut ____ point.",
+      "payload": {
+        "correct_answer": "master",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u5_l2_07",
+      "level_id": "tali_u5_l2",
+      "type": "matching",
+      "question": "Pasangkan sudut anchor dengan beban pada tiap kaki (beban total 100 kg).",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Sudut 0 Derajat",
+            "right": "50 kg tiap kaki"
+          },
+          {
+            "left": "Sudut 120 Derajat",
+            "right": "100 kg tiap kaki"
+          },
+          {
+            "left": "Sudut 160 Derajat",
+            "right": "290 kg tiap kaki"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u5_l2_08",
+      "level_id": "tali_u5_l2",
+      "type": "multiple_choice",
+      "question": "Teknik anchor yang menggunakan fitur alam seperti pohon atau bongkahan batu besar disebut?",
+      "payload": {
+        "options": [
+          "Natural Anchor",
+          "Bollard",
+          "Artificial Anchor",
+          "Pitons"
+        ],
+        "correct_answer": "Natural Anchor",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u5_l3_01",
+      "level_id": "tali_u5_l3",
+      "type": "multiple_choice",
+      "question": "Sistem katrol 3:1 (Z-drag) memberikan keuntungan mekanis. Jika beban adalah 90 kg, berapa tenaga yang diperlukan (abaikan gesekan)?",
+      "payload": {
+        "options": [
+          "90 kg",
+          "45 kg",
+          "30 kg",
+          "10 kg"
+        ],
+        "correct_answer": "30 kg",
+        "shuffle": true
+      },
+      "xp": 14
+    },
+    {
+      "id": "q_tali_u5_l3_02",
+      "level_id": "tali_u5_l3",
+      "type": "fill_blank",
+      "question": "Alat penahan beban otomatis agar beban tidak merosot kembali saat ditarik disebut Load ____ Device.",
+      "payload": {
+        "correct_answer": "capture",
+        "case_sensitive": false
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u5_l3_03",
+      "level_id": "tali_u5_l3",
+      "type": "multiple_choice",
+      "question": "Dalam sistem hauling, apa fungsi 'Prusik Minded Pulley'?",
+      "payload": {
+        "options": [
+          "Hanya memperlancar tarikan",
+          "Mencegah simpul prusik masuk ke dalam roda katrol saat Load Capture bekerja",
+          "Mengukur berat beban",
+          "Menghubungkan dua tali"
+        ],
+        "correct_answer": "Mencegah simpul prusik masuk ke dalam roda katrol saat Load Capture bekerja",
+        "shuffle": true
+      },
+      "xp": 14
+    },
+    {
+      "id": "q_tali_u5_l3_04",
+      "level_id": "tali_u5_l3",
+      "type": "word_bank",
+      "question": "Susun urutan sistem mekanik dari paling sederhana ke paling kompleks.",
+      "payload": {
+        "words": [
+          "1:1 (Direct)",
+          "2:1 (Mechanical)",
+          "3:1 (Z-Drag)",
+          "9:1 (Compound)"
+        ],
+        "correct_order": [
+          "1:1 (Direct)",
+          "2:1 (Mechanical)",
+          "3:1 (Z-Drag)",
+          "9:1 (Compound)"
+        ]
+      },
+      "xp": 14
+    },
+    {
+      "id": "q_tali_u5_l3_05",
+      "level_id": "tali_u5_l3",
+      "type": "multiple_choice",
+      "question": "Mengapa gesekan (friction) sangat krusial dalam perhitungan hauling lapangan?",
+      "payload": {
+        "options": [
+          "Karena gesekan menambah beban tarikan hingga 30-50% tergantung efisiensi pulley",
+          "Gesekan mempercepat proses hauling",
+          "Gesekan tidak berpengaruh",
+          "Gesekan mendinginkan tali"
+        ],
+        "correct_answer": "Karena gesekan menambah beban tarikan hingga 30-50% tergantung efisiensi pulley",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u5_l3_06",
+      "level_id": "tali_u5_l3",
+      "type": "fill_blank",
+      "question": "Sistem katrol yang menggabungkan dua sistem sederhana (misal 3:1 menarik 3:1 lainnya) disebut sistem ____.",
+      "payload": {
+        "correct_answer": "compound",
+        "case_sensitive": false
+      },
+      "xp": 14
+    },
+    {
+      "id": "q_tali_u5_l3_07",
+      "level_id": "tali_u5_l3",
+      "type": "matching",
+      "question": "Pasangkan konfigurasi dengan keuntungan mekanisnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Pulley tetap pada Anchor",
+            "right": "Keuntungan 1:1"
+          },
+          {
+            "left": "Pulley bergerak pada Beban",
+            "right": "Keuntungan 2:1"
+          },
+          {
+            "left": "Sistem Piggyback",
+            "right": "Keuntungan Ganda"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 14
+    },
+    {
+      "id": "q_tali_u5_l3_08",
+      "level_id": "tali_u5_l3",
+      "type": "multiple_choice",
+      "question": "Apa itu 'Vector Pull' dalam navigasi tali?",
+      "payload": {
+        "options": [
+          "Menarik tali ke arah samping untuk memberikan tegangan tambahan sesaat",
+          "Menarik secara vertikal",
+          "Mendorong beban",
+          "Memutar tali"
+        ],
+        "correct_answer": "Menarik tali ke arah samping untuk memberikan tegangan tambahan sesaat",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u5_l4_01",
+      "level_id": "tali_u5_l4",
+      "type": "multiple_choice",
+      "question": "Dalam rappelling, apa fungsi penggunaan 'Prusik Backup' di bawah alat descender?",
+      "payload": {
+        "options": [
+          "Agar turun lebih cepat",
+          "Sebagai rem tangan otomatis jika tangan pengerem terlepas",
+          "Hanya variasi gaya",
+          "Mendinginkan carabiner"
+        ],
+        "correct_answer": "Sebagai rem tangan otomatis jika tangan pengerem terlepas",
+        "shuffle": true
+      },
+      "xp": 15
+    },
+    {
+      "id": "q_tali_u5_l4_02",
+      "level_id": "tali_u5_l4",
+      "type": "fill_blank",
+      "question": "Teknik belaying menggunakan simpul ____ (Munter Hitch) adalah teknik darurat paling vital jika alat belay hilang.",
+      "payload": {
+        "correct_answer": "italian",
+        "case_sensitive": false
+      },
+      "xp": 15
+    },
+    {
+      "id": "q_tali_u5_l4_03",
+      "level_id": "tali_u5_l4",
+      "type": "multiple_choice",
+      "question": "Apa bahaya terbesar 'Pendulum' saat melakukan traversing di tebing?",
+      "payload": {
+        "options": [
+          "Tali menjadi panas",
+          "Terbentur dinding tebing secara keras saat jatuh di sisi samping anchor",
+          "Pusing kepala",
+          "Alat belay terkunci"
+        ],
+        "correct_answer": "Terbentur dinding tebing secara keras saat jatuh di sisi samping anchor",
+        "shuffle": true
+      },
+      "xp": 15
+    },
+    {
+      "id": "q_tali_u5_l4_04",
+      "level_id": "tali_u5_l4",
+      "type": "word_bank",
+      "question": "Susun alur komunikasi belaying yang benar.",
+      "payload": {
+        "words": [
+          "On Belay?",
+          "Belay On",
+          "Climbing",
+          "Climb on"
+        ],
+        "correct_order": [
+          "On Belay?",
+          "Belay On",
+          "Climbing",
+          "Climb on"
+        ]
+      },
+      "xp": 15
+    },
+    {
+      "id": "q_tali_u5_l4_05",
+      "level_id": "tali_u5_l4",
+      "type": "multiple_choice",
+      "question": "Teknik 'Simul-climbing' dilakukan dengan cara?",
+      "payload": {
+        "options": [
+          "Dua pendaki bergerak bersamaan pada satu tali untuk efisiensi waktu",
+          "Satu diam, satu bergerak",
+          "Hanya satu orang yang memakai harness",
+          "Tidak menggunakan anchor"
+        ],
+        "correct_answer": "Dua pendaki bergerak bersamaan pada satu tali untuk efisiensi waktu",
+        "shuffle": true
+      },
+      "xp": 15
+    },
+    {
+      "id": "q_tali_u5_l4_06",
+      "level_id": "tali_u5_l4",
+      "type": "fill_blank",
+      "question": "Fenomena tali yang saling melilit dan menghambat rappelling disebut 'Rope ____'.",
+      "payload": {
+        "correct_answer": "twist",
+        "case_sensitive": false
+      },
+      "xp": 14
+    },
+    {
+      "id": "q_tali_u5_l4_07",
+      "level_id": "tali_u5_l4",
+      "type": "matching",
+      "question": "Pasangkan teknik dengan tingkat risikonya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Top-rope",
+            "right": "Risiko Jatuh Rendah"
+          },
+          {
+            "left": "Lead Climbing",
+            "right": "Risiko Jatuh Tinggi"
+          },
+          {
+            "left": "Free Solo",
+            "right": "Risiko Kematian Mutlak"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 15
+    },
+    {
+      "id": "q_tali_u5_l4_08",
+      "level_id": "tali_u5_l4",
+      "type": "multiple_choice",
+      "question": "Apa itu 'Soft Lock' pada alat descender?",
+      "payload": {
+        "options": [
+          "Kuncian sementara agar tangan bisa dilepas dari pengerem saat posisi menggantung",
+          "Alat yang rusak",
+          "Alat yang licin",
+          "Tali yang lembek"
+        ],
+        "correct_answer": "Kuncian sementara agar tangan bisa dilepas dari pengerem saat posisi menggantung",
+        "shuffle": true
+      },
+      "xp": 15
+    },
+    {
+      "id": "q_tali_u5_l5_01",
+      "level_id": "tali_u5_l5",
+      "type": "multiple_choice",
+      "question": "Hitung Fall Factor: Pendaki jatuh sejauh 4 meter (H), dan panjang tali yang mengulur adalah 10 meter (L). Berapakah Fall Factor ($$f = H/L$$)?",
+      "payload": {
+        "options": [
+          "0.4",
+          "2.0",
+          "40",
+          "0.1"
+        ],
+        "correct_answer": "0.4",
+        "shuffle": true
+      },
+      "xp": 18
+    },
+    {
+      "id": "q_tali_u5_l5_02",
+      "level_id": "tali_u5_l5",
+      "type": "fill_blank",
+      "question": "Nilai Fall Factor maksimal dalam pendakian standar (sebelum risiko kegagalan sistem meningkat tajam) adalah ____.",
+      "payload": {
+        "correct_answer": "2",
+        "case_sensitive": false
+      },
+      "xp": 17
+    },
+    {
+      "id": "q_tali_u5_l5_03",
+      "level_id": "tali_u5_l5",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan 'Impact Force'?",
+      "payload": {
+        "options": [
+          "Gaya kejut yang dirasakan tubuh dan sistem anchor saat menghentikan jatuh",
+          "Berat badan pendaki",
+          "Gaya dorong ke atas",
+          "Kekuatan tarikan horizontal"
+        ],
+        "correct_answer": "Gaya kejut yang dirasakan tubuh dan sistem anchor saat menghentikan jatuh",
+        "shuffle": true
+      },
+      "xp": 18
+    },
+    {
+      "id": "q_tali_u5_l5_04",
+      "level_id": "tali_u5_l5",
+      "type": "word_bank",
+      "question": "Susun langkah self-rescue: Menghadapi simpul di tali saat rappelling.",
+      "payload": {
+        "words": [
+          "Pasang Prusik",
+          "Transfer Beban",
+          "Lewati Simpul",
+          "Lanjutkan Rappel"
+        ],
+        "correct_order": [
+          "Pasang Prusik",
+          "Transfer Beban",
+          "Lewati Simpul",
+          "Lanjutkan Rappel"
+        ]
+      },
+      "xp": 20
+    },
+    {
+      "id": "q_tali_u5_l5_05",
+      "level_id": "tali_u5_l5",
+      "type": "multiple_choice",
+      "question": "Apa bahaya utama dari 'Suspension Trauma' (Harness Hang Syndrome)?",
+      "payload": {
+        "options": [
+          "Gangguan aliran darah karena tergantung diam terlalu lama yang bisa menyebabkan kematian",
+          "Harness sobek",
+          "Luka lecet di paha",
+          "Pusing karena ketinggian"
+        ],
+        "correct_answer": "Gangguan aliran darah karena tergantung diam terlalu lama yang bisa menyebabkan kematian",
+        "shuffle": true
+      },
+      "xp": 18
+    },
+    {
+      "id": "q_tali_u5_l5_06",
+      "level_id": "tali_u5_l5",
+      "type": "fill_blank",
+      "question": "Teknik menurunkan korban dan penolong secara bersamaan dalam satu tali disebut ____ rappel.",
+      "payload": {
+        "correct_answer": "tandem",
+        "case_sensitive": false
+      },
+      "xp": 18
+    },
+    {
+      "id": "q_tali_u5_l5_07",
+      "level_id": "tali_u5_l5",
+      "type": "matching",
+      "question": "Pasangkan rasio mekanik dengan aplikasi lapangannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "3:1",
+            "right": "Standard Rescue / Z-Drag"
+          },
+          {
+            "left": "5:1",
+            "right": "Heavy Load / Rescue Pro"
+          },
+          {
+            "left": "1:1",
+            "right": "Personal Ascent"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 18
+    },
+    {
+      "id": "q_tali_u5_l5_08",
+      "level_id": "tali_u5_l5",
+      "type": "multiple_choice",
+      "question": "Dalam rigging expert, mengapa arah tarikan beban (Resultant Force) harus selalu berada di tengah-tengah kaki anchor?",
+      "payload": {
+        "options": [
+          "Agar distribusi beban tetap merata di semua titik penyangga",
+          "Agar terlihat rapi",
+          "Agar tali tidak melilit",
+          "Hanya formalitas"
+        ],
+        "correct_answer": "Agar distribusi beban tetap merata di semua titik penyangga",
+        "shuffle": true
+      },
+      "xp": 17
+    }
+  ]
 }

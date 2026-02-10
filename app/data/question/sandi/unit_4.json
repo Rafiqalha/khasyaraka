@@ -1,4 +1,680 @@
 {
-  "unit_id": "sandi_unit_4",
-  "questions": []
+  "unit_id": "sandi_u4",
+  "questions": [
+    {
+      "id": "q_sandi_u4_l1_01",
+      "level_id": "sandi_u4_l1",
+      "type": "multiple_choice",
+      "question": "Sandi AZ atau sering disebut Atbash Cipher bekerja dengan cara membalik urutan alfabet. Huruf apakah yang menjadi pengganti huruf 'A' dalam sandi ini?",
+      "payload": {
+        "options": [
+          "Huruf Z",
+          "Huruf N",
+          "Huruf M",
+          "Huruf B"
+        ],
+        "correct_answer": "Huruf Z",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u4_l1_02",
+      "level_id": "sandi_u4_l1",
+      "type": "fill_blank",
+      "question": "Dalam Sandi AZ, jika huruf B diganti dengan Y, maka huruf C akan diganti dengan huruf ____.",
+      "payload": {
+        "correct_answer": "x",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u4_l1_03",
+      "level_id": "sandi_u4_l1",
+      "type": "multiple_choice",
+      "question": "Huruf manakah yang merupakan titik tengah dalam Sandi AZ, di mana kedua huruf tersebut saling menggantikan satu sama lain?",
+      "payload": {
+        "options": [
+          "M dan N",
+          "L dan O",
+          "A dan Z",
+          "K dan P"
+        ],
+        "correct_answer": "M dan N",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u4_l1_04",
+      "level_id": "sandi_u4_l1",
+      "type": "word_bank",
+      "question": "Susunlah alfabet bantu untuk Sandi AZ baris pertama (A sampai E).",
+      "payload": {
+        "words": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ],
+        "correct_order": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u4_l1_05",
+      "level_id": "sandi_u4_l1",
+      "type": "multiple_choice",
+      "question": "Terjemahkan kata 'PRAMUKA' menggunakan Sandi AZ.",
+      "payload": {
+        "options": [
+          "KIZNFPZ",
+          "CEANMZN",
+          "KIZNUPZ",
+          "KIRNFPZ"
+        ],
+        "correct_answer": "KIZNFPZ",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u4_l1_06",
+      "level_id": "sandi_u4_l1",
+      "type": "fill_blank",
+      "question": "Sandi AZ termasuk dalam jenis sandi ____ tunggal, karena satu huruf selalu digantikan oleh satu huruf lain yang tetap.",
+      "payload": {
+        "correct_answer": "substitusi",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u4_l1_07",
+      "level_id": "sandi_u4_l1",
+      "type": "matching",
+      "question": "Pasangkan huruf asli dengan pasangannya dalam Sandi AZ.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "D",
+            "right": "W"
+          },
+          {
+            "left": "E",
+            "right": "V"
+          },
+          {
+            "left": "F",
+            "right": "U"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u4_l1_08",
+      "level_id": "sandi_u4_l1",
+      "type": "multiple_choice",
+      "question": "Kata 'BUI' jika diubah ke dalam Sandi AZ menjadi?",
+      "payload": {
+        "options": [
+          "YFR",
+          "YFS",
+          "XER",
+          "ZGS"
+        ],
+        "correct_answer": "YFR",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u4_l2_01",
+      "level_id": "sandi_u4_l2",
+      "type": "multiple_choice",
+      "question": "Sandi AN membagi 26 alfabet menjadi dua bagian sejajar (A-M dan N-Z). Huruf apakah yang menggantikan huruf 'A'?",
+      "payload": {
+        "options": [
+          "Huruf N",
+          "Huruf Z",
+          "Huruf M",
+          "Huruf B"
+        ],
+        "correct_answer": "Huruf N",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u4_l2_02",
+      "level_id": "sandi_u4_l2",
+      "type": "fill_blank",
+      "question": "Dalam Sandi AN, jika kita menuliskan alfabet secara sejajar, maka huruf 'M' akan berpasangan dengan huruf ____.",
+      "payload": {
+        "correct_answer": "z",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u4_l2_03",
+      "level_id": "sandi_u4_l2",
+      "type": "multiple_choice",
+      "question": "Terjemahkan kata 'SCOUT' ke dalam Sandi AN.",
+      "payload": {
+        "options": [
+          "FPBHG",
+          "HKBGT",
+          "EPBGT",
+          "FQCHH"
+        ],
+        "correct_answer": "FPBHG",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u4_l2_04",
+      "level_id": "sandi_u4_l2",
+      "type": "word_bank",
+      "question": "Susunlah alfabet pengganti (baris kedua) dalam Sandi AN untuk huruf A, B, C, D.",
+      "payload": {
+        "words": [
+          "N",
+          "O",
+          "P",
+          "Q"
+        ],
+        "correct_order": [
+          "N",
+          "O",
+          "P",
+          "Q"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u4_l2_05",
+      "level_id": "sandi_u4_l2",
+      "type": "multiple_choice",
+      "question": "Apa perbedaan visual paling mendasar saat menyusun kunci Sandi AN dibandingkan Sandi AZ?",
+      "payload": {
+        "options": [
+          "AN disusun sejajar (A di atas N), AZ disusun berbalik (A di atas Z)",
+          "AN menggunakan angka",
+          "AZ hanya untuk huruf vokal",
+          "AN tidak menggunakan huruf M"
+        ],
+        "correct_answer": "AN disusun sejajar (A di atas N), AZ disusun berbalik (A di atas Z)",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u4_l2_06",
+      "level_id": "sandi_u4_l2",
+      "type": "fill_blank",
+      "question": "Sandi AN sering disebut juga sebagai sandi ____ dalam beberapa literatur kriptografi sederhana.",
+      "payload": {
+        "correct_answer": "rot13",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u4_l2_07",
+      "level_id": "sandi_u4_l2",
+      "type": "matching",
+      "question": "Pasangkan kata asli dengan ciphertext-nya menggunakan Sandi AN.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "AKU",
+            "right": "NXH"
+          },
+          {
+            "left": "DIA",
+            "right": "QV N"
+          },
+          {
+            "left": "IBU",
+            "right": "VOH"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u4_l2_08",
+      "level_id": "sandi_u4_l2",
+      "type": "multiple_choice",
+      "question": "Jika sebuah pesan rahasia berbunyi 'CENZHXN', maka pesan aslinya dalam Sandi AN adalah?",
+      "payload": {
+        "options": [
+          "PRAMUKA",
+          "PANDUAN",
+          "PRESTASI",
+          "PEMBINA"
+        ],
+        "correct_answer": "PRAMUKA",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u4_l3_01",
+      "level_id": "sandi_u4_l3",
+      "type": "multiple_choice",
+      "question": "Proses mengubah pesan asli yang dapat dibaca (Plaintext) menjadi pesan rahasia yang tidak dapat dibaca disebut?",
+      "payload": {
+        "options": [
+          "Enkripsi",
+          "Dekripsi",
+          "Koding",
+          "Hashing"
+        ],
+        "correct_answer": "Enkripsi",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u4_l3_02",
+      "level_id": "sandi_u4_l3",
+      "type": "fill_blank",
+      "question": "Proses memecahkan atau mengubah kembali pesan rahasia menjadi pesan asli yang dapat dimengerti disebut ____.",
+      "payload": {
+        "correct_answer": "dekripsi",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u4_l3_03",
+      "level_id": "sandi_u4_l3",
+      "type": "multiple_choice",
+      "question": "Apa yang dimaksud dengan 'Ciphertext' dalam dunia persandian?",
+      "payload": {
+        "options": [
+          "Pesan yang sudah disandikan/diacak",
+          "Kertas untuk menulis sandi",
+          "Alat pengirim sandi",
+          "Pesan asli sebelum diolah"
+        ],
+        "correct_answer": "Pesan yang sudah disandikan/diacak",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u4_l3_04",
+      "level_id": "sandi_u4_l3",
+      "type": "word_bank",
+      "question": "Susunlah alur komunikasi rahasia yang benar.",
+      "payload": {
+        "words": [
+          "Plaintext",
+          "Enkripsi",
+          "Ciphertext",
+          "Dekripsi"
+        ],
+        "correct_order": [
+          "Plaintext",
+          "Enkripsi",
+          "Ciphertext",
+          "Dekripsi"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l3_05",
+      "level_id": "sandi_u4_l3",
+      "type": "multiple_choice",
+      "question": "Dalam Sandi AN dan AZ, kunci (Key) yang digunakan adalah urutan alfabet itu sendiri. Jenis kriptografi ini disebut?",
+      "payload": {
+        "options": [
+          "Symmetric Key (Kunci Simetris)",
+          "Asymmetric Key",
+          "Public Key",
+          "Quantum Crypto"
+        ],
+        "correct_answer": "Symmetric Key (Kunci Simetris)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l3_06",
+      "level_id": "sandi_u4_l3",
+      "type": "fill_blank",
+      "question": "Sandi yang menggeser huruf atau mengganti huruf dengan pola tertentu tanpa mengubah urutan kata disebut sandi ____.",
+      "payload": {
+        "correct_answer": "substitusi",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u4_l3_07",
+      "level_id": "sandi_u4_l3",
+      "type": "matching",
+      "question": "Pasangkan istilah kriptografi dengan artinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Plaintext",
+            "right": "Teks Terang"
+          },
+          {
+            "left": "Cipher",
+            "right": "Algoritma Sandi"
+          },
+          {
+            "left": "Key",
+            "right": "Kata Kunci"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l3_08",
+      "level_id": "sandi_u4_l3",
+      "type": "multiple_choice",
+      "question": "Mengapa pengirim dan penerima pesan harus menggunakan algoritma/sandi yang sama?",
+      "payload": {
+        "options": [
+          "Agar proses dekripsi menghasilkan pesan asli yang tepat",
+          "Agar pesan lebih cepat sampai",
+          "Agar kertas tidak boros",
+          "Hanya formalitas"
+        ],
+        "correct_answer": "Agar proses dekripsi menghasilkan pesan asli yang tepat",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u4_l4_01",
+      "level_id": "sandi_u4_l4",
+      "type": "multiple_choice",
+      "question": "Pesan: 'HWDIN'. Jika diterjemahkan menggunakan Sandi AZ menjadi 'SDARE'. Sandi apakah yang paling mungkin digunakan untuk menghasilkan kata 'PANDU'?",
+      "payload": {
+        "options": [
+          "Sandi AN",
+          "Sandi AZ",
+          "Sandi Kotak",
+          "Sandi Morse"
+        ],
+        "correct_answer": "Sandi AN",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l4_02",
+      "level_id": "sandi_u4_l4",
+      "type": "fill_blank",
+      "question": "Ciphertext: 'GVIZGNV'. Plaintext (Sandi AZ): 'TERATAI'. Maka Ciphertext untuk kata 'AIR' adalah ____.",
+      "payload": {
+        "correct_answer": "zri",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l4_03",
+      "level_id": "sandi_u4_l4",
+      "type": "multiple_choice",
+      "question": "Manakah pernyataan yang BENAR mengenai perbedaan Sandi AN dan AZ?",
+      "payload": {
+        "options": [
+          "AZ membalik alfabet, AN menggeser alfabet sejauh 13 langkah",
+          "AN hanya untuk angka",
+          "AZ membutuhkan titik",
+          "AN lebih tua dari AZ"
+        ],
+        "correct_answer": "AZ membalik alfabet, AN menggeser alfabet sejauh 13 langkah",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l4_04",
+      "level_id": "sandi_u4_l4",
+      "type": "word_bank",
+      "question": "Analisis Ciphertext: 'QREH'. Jika ini Sandi AN, susunlah Plaintext-nya.",
+      "payload": {
+        "words": [
+          "D",
+          "E",
+          "R",
+          "U"
+        ],
+        "correct_order": [
+          "D",
+          "E",
+          "R",
+          "U"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u4_l4_05",
+      "level_id": "sandi_u4_l4",
+      "type": "multiple_choice",
+      "question": "Sandi AN sering disebut sebagai involusi. Apa maksud istilah tersebut dalam kriptografi?",
+      "payload": {
+        "options": [
+          "Algoritma yang merupakan kebalikan dari dirinya sendiri (Enkripsi = Dekripsi)",
+          "Sandi yang tidak bisa dipecahkan",
+          "Sandi yang menggunakan mesin",
+          "Sandi yang berubah setiap jam"
+        ],
+        "correct_answer": "Algoritma yang merupakan kebalikan dari dirinya sendiri (Enkripsi = Dekripsi)",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u4_l4_06",
+      "level_id": "sandi_u4_l4",
+      "type": "fill_blank",
+      "question": "Jika 'PRAMUKA' (AZ) menjadi 'KIZNFPZ', maka kata 'Khasyaraka' diawali dengan huruf ____.",
+      "payload": {
+        "correct_answer": "p",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l4_07",
+      "level_id": "sandi_u4_l4",
+      "type": "matching",
+      "question": "Pasangkan kata asli dengan Ciphertext-nya (Campuran AN/AZ).",
+      "payload": {
+        "pairs": [
+          {
+            "left": "PRJA (AZ)",
+            "right": "KIZZ"
+          },
+          {
+            "left": "PRJA (AN)",
+            "right": "CENM"
+          },
+          {
+            "left": "SIAGA (AN)",
+            "right": "FVNTN"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u4_l4_08",
+      "level_id": "sandi_u4_l4",
+      "type": "multiple_choice",
+      "question": "Mengapa Sandi AN dan AZ dikategorikan sebagai sandi yang lemah di era modern?",
+      "payload": {
+        "options": [
+          "Karena polanya sangat sederhana dan mudah ditebak (Frequency Analysis)",
+          "Karena tidak bisa menulis angka",
+          "Karena terlalu panjang",
+          "Karena membutuhkan kertas besar"
+        ],
+        "correct_answer": "Karena polanya sangat sederhana dan mudah ditebak (Frequency Analysis)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u4_l5_01",
+      "level_id": "sandi_u4_l5",
+      "type": "multiple_choice",
+      "question": "Seorang 'Cryptanalyst' mencoba memecahkan Sandi AN tanpa kunci. Teknik manakah yang paling efektif digunakan?",
+      "payload": {
+        "options": [
+          "Analisis Frekuensi Huruf",
+          "Menebak nama pengirim",
+          "Menunggu sinyal radio",
+          "Menghitung jumlah kata"
+        ],
+        "correct_answer": "Analisis Frekuensi Huruf",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u4_l5_02",
+      "level_id": "sandi_u4_l5",
+      "type": "fill_blank",
+      "question": "Jika 'SATYA' dienkrpisi dua kali (Sandi AN lalu Sandi AN lagi), maka hasilnya adalah ____.",
+      "payload": {
+        "correct_answer": "satya",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u4_l5_03",
+      "level_id": "sandi_u4_l5",
+      "type": "multiple_choice",
+      "question": "Sandi AZ dikenal dalam sejarah Yahudi kuno sebagai Atbash. Dalam sistem ini, huruf pertama (Aleph) diganti huruf terakhir (Taw). Siapa yang menggunakan sandi ini dalam Alkitab?",
+      "payload": {
+        "options": [
+          "Nabi Yeremia",
+          "Raja Daud",
+          "Nabi Musa",
+          "Raja Salomo"
+        ],
+        "correct_answer": "Nabi Yeremia",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u4_l5_04",
+      "level_id": "sandi_u4_l5",
+      "type": "word_bank",
+      "question": "Susunlah karakteristik algoritma Symmetric Encryption.",
+      "payload": {
+        "words": [
+          "Satu Kunci",
+          "Cepat",
+          "Privasi Tinggi"
+        ],
+        "correct_order": [
+          "Satu Kunci",
+          "Cepat",
+          "Privasi Tinggi"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u4_l5_05",
+      "level_id": "sandi_u4_l5",
+      "type": "multiple_choice",
+      "question": "Dalam Sandi AZ, huruf 'G' menjadi 'T'. Dalam Sandi AN, huruf 'G' menjadi 'T'. Mengapa hal ini bisa terjadi secara teknis?",
+      "payload": {
+        "options": [
+          "Karena huruf G berada pada posisi ke-7, dan total alfabet 26 (posisi 7 + 13 = 20/T dan 26 - 7 + 1 = 20/T)",
+          "Hanya kebetulan",
+          "Karena kedua sandi identik",
+          "Sandi salah cetak"
+        ],
+        "correct_answer": "Karena huruf G berada pada posisi ke-7, dan total alfabet 26 (posisi 7 + 13 = 20/T dan 26 - 7 + 1 = 20/T)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u4_l5_06",
+      "level_id": "sandi_u4_l5",
+      "type": "fill_blank",
+      "question": "Ciphertext 'SVOOK' dalam Sandi AZ adalah kata 'HELLO'. Dalam Sandi AN, 'HELLO' akan menjadi ____.",
+      "payload": {
+        "correct_answer": "uryyb",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u4_l5_07",
+      "level_id": "sandi_u4_l5",
+      "type": "matching",
+      "question": "Pasangkan teknik keamanan dengan tujuannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Confidentiality",
+            "right": "Kerahasiaan Pesan"
+          },
+          {
+            "left": "Integrity",
+            "right": "Keaslian Pesan"
+          },
+          {
+            "left": "Authentication",
+            "right": "Identitas Pengirim"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u4_l5_08",
+      "level_id": "sandi_u4_l5",
+      "type": "multiple_choice",
+      "question": "Jika Anda menggabungkan dua sandi (Super-encryption), misal menulis pesan dalam AZ lalu hasilnya disandi AN lagi, maka level keamanannya?",
+      "payload": {
+        "options": [
+          "Meningkat karena pola pergeseran menjadi lebih kompleks bagi cryptanalyst awam",
+          "Sama saja",
+          "Malah menjadi lemah",
+          "Pesan tidak bisa dibuka"
+        ],
+        "correct_answer": "Meningkat karena pola pergeseran menjadi lebih kompleks bagi cryptanalyst awam",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

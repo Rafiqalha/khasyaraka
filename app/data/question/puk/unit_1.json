@@ -5,13 +5,13 @@
       "id": "q_puk_u1_l1_01",
       "level_id": "puk_u1_l1",
       "type": "multiple_choice",
-      "question": "Siapakah yang dikenal sebagai Bapak Pramuka Indonesia?",
+      "question": "Tokoh yang mendapat julukan sebagai Bapak Pramuka Indonesia dan menjabat sebagai Ketua Kwartir Nasional pertama adalah?",
       "payload": {
         "options": [
+          "Prof. DR. Mashudi SH",
           "Sri Sultan Hamengkubuwono IX",
-          "Soekarno",
-          "Jenderal Soedirman",
-          "Baden Powell"
+          "Letjen TNI Mashudi",
+          "Dr. Azis Saleh"
         ],
         "correct_answer": "Sri Sultan Hamengkubuwono IX",
         "shuffle": true
@@ -22,9 +22,9 @@
       "id": "q_puk_u1_l1_02",
       "level_id": "puk_u1_l1",
       "type": "fill_blank",
-      "question": "Hari Pramuka diperingati setiap tanggal 14 bulan ____.",
+      "question": "Hari Pramuka yang diperingati setiap 14 Agustus sebenarnya merupakan peringatan pelantikan Mapinas, Kwarnas dan Kwarnari tahun ____.",
       "payload": {
-        "correct_answer": "agustus",
+        "correct_answer": "1961",
         "case_sensitive": false
       },
       "xp": 2
@@ -33,13 +33,13 @@
       "id": "q_puk_u1_l1_03",
       "level_id": "puk_u1_l1",
       "type": "multiple_choice",
-      "question": "Tahun berapakah Gerakan Pramuka resmi diperkenalkan kepada masyarakat Indonesia?",
+      "question": "Gerakan Pramuka resmi diperkenalkan kepada khalayak umum melalui apel besar yang dihadiri 10.000 anggota Pramuka dari seluruh Indonesia pada tahun?",
       "payload": {
         "options": [
-          "1961",
-          "1945",
-          "1928",
-          "1955"
+          "1957",
+          "1959",
+          "1960",
+          "1961"
         ],
         "correct_answer": "1961",
         "shuffle": true
@@ -50,7 +50,7 @@
       "id": "q_puk_u1_l1_04",
       "level_id": "puk_u1_l1",
       "type": "word_bank",
-      "question": "Susun kepanjangan dari PRAMUKA.",
+      "question": "Susun kepanjangan lengkap dari singkatan PRAMUKA dengan urutan yang benar.",
       "payload": {
         "words": [
           "Praja",
@@ -69,13 +69,13 @@
       "id": "q_puk_u1_l1_05",
       "level_id": "puk_u1_l1",
       "type": "multiple_choice",
-      "question": "Istilah 'Praja Muda Karana' memiliki arti?",
+      "question": "Filosofi dari istilah 'Praja Muda Karana' yang dipilih sebagai nama Gerakan Pramuka Indonesia mengandung makna?",
       "payload": {
         "options": [
+          "Pemuda pembela tanah air",
+          "Pemuda yang setia kepada negara",
           "Jiwa muda yang suka berkarya",
-          "Pasukan muda yang berani",
-          "Pemuda yang menjaga negara",
-          "Anak muda yang disiplin"
+          "Rakyat muda yang berdikari"
         ],
         "correct_answer": "Jiwa muda yang suka berkarya",
         "shuffle": true
@@ -86,7 +86,7 @@
       "id": "q_puk_u1_l1_06",
       "level_id": "puk_u1_l1",
       "type": "fill_blank",
-      "question": "Presiden Indonesia yang menandatangani Keppres No. 238 Tahun 1961 adalah Presiden ____.",
+      "question": "Keputusan Presiden Republik Indonesia Nomor 238 Tahun 1961 tentang Gerakan Pramuka ditandatangani oleh Presiden ____.",
       "payload": {
         "correct_answer": "soekarno",
         "case_sensitive": false
@@ -97,15 +97,15 @@
       "id": "q_puk_u1_l1_07",
       "level_id": "puk_u1_l1",
       "type": "multiple_choice",
-      "question": "Apa nama organisasi kepanduan dunia?",
+      "question": "Organisasi kepanduan putra tingkat dunia yang diakui secara internasional dan Indonesia menjadi anggotanya adalah?",
       "payload": {
         "options": [
-          "WOSM",
-          "UNICEF",
-          "WHO",
-          "NASA"
+          "WAGGGS (World Association of Girl Guides and Girl Scouts)",
+          "WOSM (World Organization of the Scout Movement)",
+          "WSB (World Scout Bureau)",
+          "ISGF (International Scout and Guide Fellowship)"
         ],
-        "correct_answer": "WOSM",
+        "correct_answer": "WOSM (World Organization of the Scout Movement)",
         "shuffle": true
       },
       "xp": 4
@@ -114,7 +114,7 @@
       "id": "q_puk_u1_l1_08",
       "level_id": "puk_u1_l1",
       "type": "matching",
-      "question": "Pasangkan Tanggal dengan Peristiwanya.",
+      "question": "Pasangkan tanggal bersejarah dengan peristiwa penting dalam Gerakan Pramuka Indonesia.",
       "payload": {
         "pairs": [
           {
@@ -123,11 +123,11 @@
           },
           {
             "left": "22 Februari",
-            "right": "Baden Powell Day"
+            "right": "Hari Ulang Tahun Baden Powell"
           },
           {
             "left": "20 Mei",
-            "right": "Kebangkitan Nasional"
+            "right": "Hari Kebangkitan Nasional"
           }
         ],
         "shuffle": true
@@ -138,13 +138,13 @@
       "id": "q_puk_u1_l2_01",
       "level_id": "puk_u1_l2",
       "type": "multiple_choice",
-      "question": "Buku legendaris Baden Powell yang menjadi awal mula kepramukaan adalah?",
+      "question": "Buku karya Lord Baden Powell yang menjadi panduan dasar kepramukaan dunia dan diterbitkan pertama kali dalam bentuk berseri adalah?",
       "payload": {
         "options": [
+          "Aids to Scoutmastership",
           "Scouting for Boys",
-          "Rovering to Success",
-          "Jungle Book",
-          "My Adventures"
+          "The Wolf Cub's Handbook",
+          "Girl Guiding"
         ],
         "correct_answer": "Scouting for Boys",
         "shuffle": true
@@ -155,7 +155,7 @@
       "id": "q_puk_u1_l2_02",
       "level_id": "puk_u1_l2",
       "type": "fill_blank",
-      "question": "Perkemahan kepanduan pertama di dunia dilaksanakan di Pulau ____.",
+      "question": "Perkemahan kepanduan eksperimental pertama di dunia yang dilaksanakan Baden Powell berlangsung di Pulau ____.",
       "payload": {
         "correct_answer": "brownsea",
         "case_sensitive": false
@@ -166,13 +166,13 @@
       "id": "q_puk_u1_l2_03",
       "level_id": "puk_u1_l2",
       "type": "multiple_choice",
-      "question": "Tahun berapakah Baden Powell mengadakan perkemahan pertama?",
+      "question": "Perkemahan kepanduan eksperimental pertama yang diikuti oleh 20 orang anak dari berbagai latar belakang sosial dilaksanakan pada tahun?",
       "payload": {
         "options": [
-          "1907",
-          "1908",
-          "1912",
-          "1920"
+          "1899",
+          "1900",
+          "1905",
+          "1907"
         ],
         "correct_answer": "1907",
         "shuffle": true
@@ -183,7 +183,7 @@
       "id": "q_puk_u1_l2_04",
       "level_id": "puk_u1_l2",
       "type": "word_bank",
-      "question": "Susun nama negara asal Baden Powell.",
+      "question": "Susun dengan benar nama negara asal pendiri gerakan kepanduan dunia.",
       "payload": {
         "words": [
           "Inggris",
@@ -202,13 +202,13 @@
       "id": "q_puk_u1_l2_05",
       "level_id": "puk_u1_l2",
       "type": "multiple_choice",
-      "question": "Apa pangkat militer terakhir Baden Powell?",
+      "question": "Pangkat militer tertinggi yang pernah disandang oleh Robert Baden Powell sebelum pensiun dari kemiliteran adalah?",
       "payload": {
         "options": [
+          "Mayor Jenderal",
+          "Brigadir Jenderal",
           "Letnan Jenderal",
-          "Kapten",
-          "Sersan Mayor",
-          "Kolonel"
+          "Jenderal Penuh"
         ],
         "correct_answer": "Letnan Jenderal",
         "shuffle": true
@@ -219,20 +219,20 @@
       "id": "q_puk_u1_l2_06",
       "level_id": "puk_u1_l2",
       "type": "matching",
-      "question": "Pasangkan istilah dengan artinya.",
+      "question": "Pasangkan istilah kepanduan dengan terjemahan atau maknanya yang tepat.",
       "payload": {
         "pairs": [
           {
             "left": "Scout",
-            "right": "Pandu"
+            "right": "Pengintai/Pandu"
           },
           {
             "left": "Guide",
-            "right": "Penunjuk Jalan"
+            "right": "Pembimbing/Penunjuk Jalan"
           },
           {
             "left": "Rover",
-            "right": "Pengembara"
+            "right": "Pengembara/Penjelajah"
           }
         ],
         "shuffle": true
@@ -243,9 +243,9 @@
       "id": "q_puk_u1_l2_07",
       "level_id": "puk_u1_l2",
       "type": "fill_blank",
-      "question": "Istri Baden Powell yang memimpin kepanduan putri bernama ____.",
+      "question": "Istri Baden Powell yang memimpin gerakan kepanduan putri dunia dan dikenal sebagai Chief Guide of the World bernama Lady Olave ____.",
       "payload": {
-        "correct_answer": "olave",
+        "correct_answer": "baden powell",
         "case_sensitive": false
       },
       "xp": 5
@@ -254,13 +254,13 @@
       "id": "q_puk_u1_l2_08",
       "level_id": "puk_u1_l2",
       "type": "multiple_choice",
-      "question": "Julukan Baden Powell di Afrika adalah 'Impeesa', yang artinya?",
+      "question": "Julukan 'Impeesa' yang diberikan suku Matabele kepada Baden Powell saat bertugas di Afrika Selatan memiliki arti?",
       "payload": {
         "options": [
+          "Elang yang tajam penglihatannya",
           "Serigala yang tidak pernah tidur",
-          "Singa yang pemberani",
-          "Elang yang tajam matanya",
-          "Harimau yang kuat"
+          "Harimau yang menerkam di kegelapan",
+          "Singa yang melindungi kawanannya"
         ],
         "correct_answer": "Serigala yang tidak pernah tidur",
         "shuffle": true
@@ -271,15 +271,15 @@
       "id": "q_puk_u1_l3_01",
       "level_id": "puk_u1_l3",
       "type": "multiple_choice",
-      "question": "Organisasi kepanduan Belanda yang pertama masuk ke Indonesia adalah?",
+      "question": "Organisasi kepanduan pertama yang masuk ke Hindia Belanda dan khusus untuk anak-anak Belanda adalah?",
       "payload": {
         "options": [
-          "NIPV",
-          "JPO",
-          "HW",
-          "SIAP"
+          "JPO (Javaansche Padvinders Organisatie)",
+          "NIPV (Nederlandsch Indische Padvinders Vereeniging)",
+          "SIAP (Syarikat Islam Afdeeling Pandu)",
+          "NPO (Nationale Padvinders Organisatie)"
         ],
-        "correct_answer": "NIPV",
+        "correct_answer": "NIPV (Nederlandsch Indische Padvinders Vereeniging)",
         "shuffle": true
       },
       "xp": 4
@@ -288,7 +288,7 @@
       "id": "q_puk_u1_l3_02",
       "level_id": "puk_u1_l3",
       "type": "fill_blank",
-      "question": "Istilah 'Pandu' untuk menggantikan 'Padvinder' dicetuskan oleh KH. ____ Salim.",
+      "question": "Tokoh nasional yang mencetuskan penggunaan istilah 'Pandu' sebagai pengganti 'Padvinder' agar lebih mudah diterima oleh pribumi adalah KH. ____ Salim.",
       "payload": {
         "correct_answer": "agus",
         "case_sensitive": false
@@ -299,13 +299,13 @@
       "id": "q_puk_u1_l3_03",
       "level_id": "puk_u1_l3",
       "type": "multiple_choice",
-      "question": "Organisasi kepanduan pribumi pertama yang didirikan Mangkunegara VII adalah?",
+      "question": "Organisasi kepanduan berbasis pribumi pertama yang didirikan oleh Mangkunegara VII di Surakarta pada tahun 1916 adalah?",
       "payload": {
         "options": [
-          "JPO (Javaansche Padvinders Organisatie)",
-          "NIPV",
+          "Hizbul Wathan",
           "Padvinder Muhammadiyah",
-          "Syarikat Islam Afdeeling Pandu"
+          "JPO (Javaansche Padvinders Organisatie)",
+          "Natipij (Nationale Islamitische Padvinders)"
         ],
         "correct_answer": "JPO (Javaansche Padvinders Organisatie)",
         "shuffle": true
@@ -316,7 +316,7 @@
       "id": "q_puk_u1_l3_04",
       "level_id": "puk_u1_l3",
       "type": "word_bank",
-      "question": "Susun tahun Sumpah Pemuda yang juga menjadi tonggak kepanduan.",
+      "question": "Susun tahun bersejarah pelaksanaan Kongres Pemuda II yang melahirkan Sumpah Pemuda yang juga menjadi momentum kebangkitan kepanduan pribumi.",
       "payload": {
         "words": [
           "1928"
@@ -331,15 +331,15 @@
       "id": "q_puk_u1_l3_05",
       "level_id": "puk_u1_l3",
       "type": "multiple_choice",
-      "question": "Mengapa Belanda melarang penggunaan istilah 'Padvinder' oleh pribumi?",
+      "question": "Alasan utama pemerintah kolonial Belanda melarang organisasi kepanduan pribumi menggunakan istilah 'Padvinder' adalah?",
       "payload": {
         "options": [
-          "Khawatir membangkitkan semangat kemerdekaan",
-          "Nama itu sudah dipatenkan",
-          "Terlalu sulit diucapkan",
-          "Hanya untuk orang Eropa"
+          "Nama tersebut sudah dipatenkan oleh organisasi Belanda",
+          "Khawatir menumbuhkan semangat nasionalisme dan kemerdekaan",
+          "Pribumi dianggap belum mampu menjalankan sistem kepanduan",
+          "Istilah tersebut hanya untuk bangsa Eropa saja"
         ],
-        "correct_answer": "Khawatir membangkitkan semangat kemerdekaan",
+        "correct_answer": "Khawatir menumbuhkan semangat nasionalisme dan kemerdekaan",
         "shuffle": true
       },
       "xp": 5
@@ -348,7 +348,7 @@
       "id": "q_puk_u1_l3_06",
       "level_id": "puk_u1_l3",
       "type": "matching",
-      "question": "Pasangkan Organisasi dengan Afiliasinya.",
+      "question": "Pasangkan organisasi kepanduan dengan organisasi induk atau afiliasinya di masa pergerakan nasional.",
       "payload": {
         "pairs": [
           {
@@ -357,7 +357,7 @@
           },
           {
             "left": "NIPV",
-            "right": "Belanda"
+            "right": "Pemerintah Hindia Belanda"
           },
           {
             "left": "Pandu Ansor",
@@ -372,7 +372,7 @@
       "id": "q_puk_u1_l3_07",
       "level_id": "puk_u1_l3",
       "type": "fill_blank",
-      "question": "Kepanduan Hizbul Wathan didirikan oleh KH. Ahmad ____.",
+      "question": "Pendiri organisasi Muhammadiyah yang juga mempelopori berdirinya Hizbul Wathan sebagai kepanduan Islam adalah KH. Ahmad ____.",
       "payload": {
         "correct_answer": "dahlan",
         "case_sensitive": false
@@ -383,15 +383,15 @@
       "id": "q_puk_u1_l3_08",
       "level_id": "puk_u1_l3",
       "type": "multiple_choice",
-      "question": "Pada masa penjajahan Jepang, organisasi kepanduan dilarang dan diganti dengan organisasi bentukan Jepang seperti?",
+      "question": "Pada masa pendudukan Jepang (1942-1945), seluruh organisasi kepanduan pribumi dilarang dan digantikan dengan organisasi semi-militer bentukan Jepang seperti?",
       "payload": {
         "options": [
-          "Seinendan & Keibodan",
-          "PETA & Heiho",
-          "Jawa Hokokai",
-          "Putera"
+          "PETA dan Heiho",
+          "Jawa Hokokai dan Putera",
+          "Seinendan dan Keibodan",
+          "Fujinkai dan Seinen Dojo"
         ],
-        "correct_answer": "Seinendan & Keibodan",
+        "correct_answer": "Seinendan dan Keibodan",
         "shuffle": true
       },
       "xp": 6
@@ -400,13 +400,13 @@
       "id": "q_puk_u1_l4_01",
       "level_id": "puk_u1_l4",
       "type": "multiple_choice",
-      "question": "Setelah kemerdekaan, terbentuklah satu wadah 'Pandu Rakyat Indonesia' di kota?",
+      "question": "Pasca proklamasi kemerdekaan, organisasi kepanduan yang terpecah-pecah berusaha bersatu dalam wadah 'Pandu Rakyat Indonesia' yang diprakarsai di kota?",
       "payload": {
         "options": [
-          "Surakarta (Solo)",
           "Yogyakarta",
-          "Jakarta",
-          "Surabaya"
+          "Surakarta (Solo)",
+          "Bandung",
+          "Jakarta"
         ],
         "correct_answer": "Surakarta (Solo)",
         "shuffle": true
@@ -417,7 +417,7 @@
       "id": "q_puk_u1_l4_02",
       "level_id": "puk_u1_l4",
       "type": "fill_blank",
-      "question": "Pidato Presiden Soekarno yang melebur semua organisasi kepanduan menjadi Pramuka terjadi pada tanggal 9 ____ 1961.",
+      "question": "Pidato bersejarah Presiden Soekarno di hadapan para tokoh kepanduan yang menjadi tonggak kelahiran Gerakan Pramuka disampaikan pada tanggal 9 ____ 1961.",
       "payload": {
         "correct_answer": "maret",
         "case_sensitive": false
@@ -428,15 +428,15 @@
       "id": "q_puk_u1_l4_03",
       "level_id": "puk_u1_l4",
       "type": "multiple_choice",
-      "question": "Apa alasan utama Presiden Soekarno membubarkan organisasi kepanduan lama?",
+      "question": "Latar belakang Presiden Soekarno memutuskan untuk melebur semua organisasi kepanduan menjadi satu wadah Gerakan Pramuka adalah?",
       "payload": {
         "options": [
-          "Terlalu banyak (sekitar 60) dan terpecah belah",
-          "Tidak memiliki dana",
-          "Kurang diminati pemuda",
-          "Dipengaruhi asing"
+          "Keinginan menyeragamkan ideologi pemuda Indonesia",
+          "Perpecahan yang terjadi karena terlalu banyak organisasi kepanduan (sekitar 60-100 organisasi)",
+          "Desakan dari pihak militer untuk mengontrol pemuda",
+          "Pengaruh dari negara-negara sosialis yang dikunjungi"
         ],
-        "correct_answer": "Terlalu banyak (sekitar 60) dan terpecah belah",
+        "correct_answer": "Perpecahan yang terjadi karena terlalu banyak organisasi kepanduan (sekitar 60-100 organisasi)",
         "shuffle": true
       },
       "xp": 6
@@ -445,7 +445,7 @@
       "id": "q_puk_u1_l4_04",
       "level_id": "puk_u1_l4",
       "type": "word_bank",
-      "question": "Susun tanggal Hari Tunas Gerakan Pramuka.",
+      "question": "Susun tanggal yang diperingati sebagai Hari Tunas Kelahiran Gerakan Pramuka Indonesia.",
       "payload": {
         "words": [
           "9",
@@ -462,12 +462,12 @@
       "id": "q_puk_u1_l4_05",
       "level_id": "puk_u1_l4",
       "type": "multiple_choice",
-      "question": "Keppres No. 238 Tahun 1961 diterbitkan pada tanggal?",
+      "question": "Keputusan Presiden Republik Indonesia Nomor 238 Tahun 1961 yang menjadi dasar hukum pembentukan Gerakan Pramuka ditetapkan pada tanggal?",
       "payload": {
         "options": [
-          "20 Mei 1961",
-          "14 Agustus 1961",
           "9 Maret 1961",
+          "14 Agustus 1961",
+          "20 Mei 1961",
           "30 Juli 1961"
         ],
         "correct_answer": "20 Mei 1961",
@@ -479,20 +479,20 @@
       "id": "q_puk_u1_l4_06",
       "level_id": "puk_u1_l4",
       "type": "matching",
-      "question": "Pasangkan Hari Peringatan dalam Sejarah Pramuka.",
+      "question": "Pasangkan tanggal bersejarah dengan peristiwa penting dalam tahapan pembentukan Gerakan Pramuka.",
       "payload": {
         "pairs": [
           {
-            "left": "Hari Pidato Presiden",
+            "left": "Pidato Presiden Soekarno",
             "right": "9 Maret"
           },
           {
-            "left": "Hari Permulaan Tahun Kerja",
+            "left": "Penandatanganan Keppres 238",
             "right": "20 Mei"
           },
           {
-            "left": "Hari Ikrar",
-            "right": "30 Juli"
+            "left": "Pelantikan Pimpinan Pramuka",
+            "right": "14 Agustus"
           }
         ],
         "shuffle": true
@@ -503,9 +503,9 @@
       "id": "q_puk_u1_l4_07",
       "level_id": "puk_u1_l4",
       "type": "fill_blank",
-      "question": "Peristiwa pelantikan Mapinas, Kwarnas, dan Kwarnari di Istana Negara dikenal sebagai Hari ____ Pramuka.",
+      "question": "Peristiwa pelantikan Mapinas, Kwarnas, dan Kwarnari di Istana Negara pada 14 Agustus 1961 diperingati sebagai Hari ____ Gerakan Pramuka.",
       "payload": {
-        "correct_answer": "ulang tahun",
+        "correct_answer": "pramuka",
         "case_sensitive": false
       },
       "xp": 5
@@ -514,15 +514,15 @@
       "id": "q_puk_u1_l4_08",
       "level_id": "puk_u1_l4",
       "type": "multiple_choice",
-      "question": "Siapakah Ketua Kwartir Nasional (Ka Kwarnas) pertama?",
+      "question": "Tokoh yang dipercaya sebagai Ketua Kwartir Nasional (Ka Kwarnas) Gerakan Pramuka Indonesia yang pertama adalah?",
       "payload": {
         "options": [
-          "Sri Sultan HB IX",
-          "Letjen Sarbini",
-          "Azis Saleh",
-          "Mashudi"
+          "Dr. Azis Saleh",
+          "Sri Sultan Hamengkubuwono IX",
+          "Prof. DR. Mashudi SH",
+          "Letjen TNI Mashudi"
         ],
-        "correct_answer": "Sri Sultan HB IX",
+        "correct_answer": "Sri Sultan Hamengkubuwono IX",
         "shuffle": true
       },
       "xp": 6
@@ -531,13 +531,13 @@
       "id": "q_puk_u1_l5_01",
       "level_id": "puk_u1_l5",
       "type": "multiple_choice",
-      "question": "Jambore Nasional (Jamnas) Pramuka pertama kali diadakan tahun 1973 di?",
+      "question": "Jambore Nasional (Jamnas) I Gerakan Pramuka Indonesia yang pertama kali diselenggarakan berlangsung di lokasi?",
       "payload": {
         "options": [
+          "Cibubur, Jakarta Timur",
+          "Sibolangit, Sumatera Utara",
           "Situ Baru, Jakarta",
-          "Sibolangit, Sumut",
-          "Cibubur, Jakarta",
-          "Baturraden, Jateng"
+          "Bumi Perkemahan Wiladatika"
         ],
         "correct_answer": "Situ Baru, Jakarta",
         "shuffle": true
@@ -548,9 +548,9 @@
       "id": "q_puk_u1_l5_02",
       "level_id": "puk_u1_l5",
       "type": "fill_blank",
-      "question": "Penghargaan 'Bronze Wolf Award' dari WOSM pernah diterima oleh Sri Sultan ____.",
+      "question": "Penghargaan tertinggi kepramukaan dunia 'Bronze Wolf Award' dari WOSM pernah diterima oleh tokoh Pramuka Indonesia yaitu Sri Sultan ____ IX.",
       "payload": {
-        "correct_answer": "hamengkubuwono ix",
+        "correct_answer": "hamengkubuwono",
         "case_sensitive": false
       },
       "xp": 7
@@ -559,12 +559,12 @@
       "id": "q_puk_u1_l5_03",
       "level_id": "puk_u1_l5",
       "type": "multiple_choice",
-      "question": "Revitalisasi Gerakan Pramuka dicanangkan pada tahun 2006 oleh Presiden?",
+      "question": "Program Revitalisasi Gerakan Pramuka yang bertujuan mengembalikan semangat dan peran Pramuka dalam pembinaan karakter generasi muda dicanangkan oleh Presiden?",
       "payload": {
         "options": [
-          "Susilo Bambang Yudhoyono",
           "Megawati Soekarnoputri",
-          "B.J. Habibie",
+          "Susilo Bambang Yudhoyono",
+          "Abdurrahman Wahid",
           "Joko Widodo"
         ],
         "correct_answer": "Susilo Bambang Yudhoyono",
@@ -576,7 +576,7 @@
       "id": "q_puk_u1_l5_04",
       "level_id": "puk_u1_l5",
       "type": "word_bank",
-      "question": "Susun lokasi bumi perkemahan nasional.",
+      "question": "Susun lokasi lengkap Bumi Perkemahan Nasional Gerakan Pramuka Indonesia yang terkenal.",
       "payload": {
         "words": [
           "Cibubur,",
@@ -595,15 +595,15 @@
       "id": "q_puk_u1_l5_05",
       "level_id": "puk_u1_l5",
       "type": "multiple_choice",
-      "question": "Undang-Undang Nomor 12 Tahun 2010 mengatur tentang?",
+      "question": "Landasan hukum tertinggi yang mengatur tentang kedudukan, fungsi, peran, dan penyelenggaraan Gerakan Pramuka di Indonesia adalah?",
       "payload": {
         "options": [
-          "Gerakan Pramuka",
-          "Sistem Pendidikan Nasional",
-          "Kepemudaan",
-          "Bela Negara"
+          "Keppres Nomor 238 Tahun 1961",
+          "Undang-Undang Nomor 20 Tahun 2003",
+          "Undang-Undang Nomor 12 Tahun 2010",
+          "Peraturan Pemerintah Nomor 17 Tahun 2010"
         ],
-        "correct_answer": "Gerakan Pramuka",
+        "correct_answer": "Undang-Undang Nomor 12 Tahun 2010",
         "shuffle": true
       },
       "xp": 8
@@ -612,20 +612,20 @@
       "id": "q_puk_u1_l5_06",
       "level_id": "puk_u1_l5",
       "type": "matching",
-      "question": "Pasangkan Istilah dengan Deskripsinya.",
+      "question": "Pasangkan istilah dengan pengertian atau cakupannya dalam konteks kepramukaan Indonesia.",
       "payload": {
         "pairs": [
           {
             "left": "Pramuka",
-            "right": "Orangnya (Anggota)"
+            "right": "Sebutan untuk anggota Gerakan Pramuka"
           },
           {
             "left": "Kepramukaan",
-            "right": "Proses Pendidikannya"
+            "right": "Sistem pendidikan dan metodenya"
           },
           {
             "left": "Gerakan Pramuka",
-            "right": "Organisasinya"
+            "right": "Organisasi dan wadahnya"
           }
         ],
         "shuffle": true
@@ -636,9 +636,9 @@
       "id": "q_puk_u1_l5_07",
       "level_id": "puk_u1_l5",
       "type": "fill_blank",
-      "question": "Tanda penghargaan tertinggi dalam Gerakan Pramuka untuk orang dewasa disebut Lencana ____.",
+      "question": "Tanda penghargaan kehormatan tertinggi dalam Gerakan Pramuka Indonesia yang diberikan kepada Pembina Pramuka berjasa luar biasa disebut Lencana ____.",
       "payload": {
-        "correct_answer": "tunas kencana",
+        "correct_answer": "melati",
         "case_sensitive": false
       },
       "xp": 9
@@ -647,13 +647,13 @@
       "id": "q_puk_u1_l5_08",
       "level_id": "puk_u1_l5",
       "type": "multiple_choice",
-      "question": "Asas Gerakan Pramuka berdasarkan Anggaran Dasar adalah?",
+      "question": "Landasan idiil yang menjadi asas Gerakan Pramuka Indonesia sebagaimana tercantum dalam Anggaran Dasar Gerakan Pramuka adalah?",
       "payload": {
         "options": [
+          "Bhinneka Tunggal Ika",
+          "Pancasila dan UUD 1945",
           "Pancasila",
-          "Gotong Royong",
-          "Kemandirian",
-          "Demokrasi"
+          "Tri Satya dan Dasa Dharma"
         ],
         "correct_answer": "Pancasila",
         "shuffle": true

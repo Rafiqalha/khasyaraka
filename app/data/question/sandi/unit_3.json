@@ -1,4 +1,674 @@
 {
-  "unit_id": "sandi_unit_3",
-  "questions": []
+  "unit_id": "sandi_u3",
+  "questions": [
+    {
+      "id": "q_sandi_u3_l1_01",
+      "level_id": "sandi_u3_l1",
+      "type": "multiple_choice",
+      "question": "Berapakah jumlah ruang (kotak) utama yang digunakan dalam kerangka Sandi Kotak 1 untuk menampung huruf A sampai R?",
+      "payload": {
+        "options": [
+          "9 ruang",
+          "8 ruang",
+          "10 ruang",
+          "12 ruang"
+        ],
+        "correct_answer": "9 ruang",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u3_l1_02",
+      "level_id": "sandi_u3_l1",
+      "type": "fill_blank",
+      "question": "Dalam Sandi Kotak 1, perbedaan antara huruf pertama (misal A) dan huruf kedua (misal B) dalam satu ruang ditandai dengan adanya ____.",
+      "payload": {
+        "correct_answer": "titik",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u3_l1_03",
+      "level_id": "sandi_u3_l1",
+      "type": "multiple_choice",
+      "question": "Huruf S, T, U, V, W, X, Y, Z dalam Sandi Kotak 1 diletakkan pada kerangka yang berbentuk?",
+      "payload": {
+        "options": [
+          "Silang (X)",
+          "Pagar (#)",
+          "Lingkaran",
+          "Segitiga"
+        ],
+        "correct_answer": "Silang (X)",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u3_l1_04",
+      "level_id": "sandi_u3_l1",
+      "type": "word_bank",
+      "question": "Susunlah pasangan huruf yang berada dalam satu ruang pada kerangka silang Sandi Kotak 1.",
+      "payload": {
+        "words": [
+          "ST",
+          "UV",
+          "WX",
+          "YZ"
+        ],
+        "correct_order": [
+          "ST",
+          "UV",
+          "WX",
+          "YZ"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u3_l1_05",
+      "level_id": "sandi_u3_l1",
+      "type": "multiple_choice",
+      "question": "Bagaimanakah bentuk sandi untuk huruf 'A' pada Sandi Kotak 1?",
+      "payload": {
+        "options": [
+          "Sudut siku-siku kiri atas tanpa titik",
+          "Sudut siku-siku kiri atas dengan titik",
+          "Kotak penuh tanpa titik",
+          "Garis vertikal tunggal"
+        ],
+        "correct_answer": "Sudut siku-siku kiri atas tanpa titik",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u3_l1_06",
+      "level_id": "sandi_u3_l1",
+      "type": "fill_blank",
+      "question": "Dalam satu kotak pada Sandi Kotak 2, terdapat ____ buah huruf alfabet.",
+      "payload": {
+        "correct_answer": "3",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_sandi_u3_l1_07",
+      "level_id": "sandi_u3_l1",
+      "type": "matching",
+      "question": "Pasangkan huruf dengan jumlah titiknya pada Sandi Kotak 2.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Huruf A, D, G",
+            "right": "Tanpa Titik"
+          },
+          {
+            "left": "Huruf B, E, H",
+            "right": "Satu Titik"
+          },
+          {
+            "left": "Huruf C, F, I",
+            "right": "Dua Titik"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u3_l1_08",
+      "level_id": "sandi_u3_l1",
+      "type": "multiple_choice",
+      "question": "Apa perbedaan utama antara struktur kerangka Sandi Kotak 1 dan Sandi Kotak 2?",
+      "payload": {
+        "options": [
+          "Sandi Kotak 2 hanya menggunakan kerangka pagar (#) tanpa kerangka silang (X)",
+          "Sandi Kotak 2 tidak menggunakan titik",
+          "Sandi Kotak 2 memiliki 12 ruang",
+          "Sandi Kotak 2 menggunakan angka"
+        ],
+        "correct_answer": "Sandi Kotak 2 hanya menggunakan kerangka pagar (#) tanpa kerangka silang (X)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_sandi_u3_l2_01",
+      "level_id": "sandi_u3_l2",
+      "type": "multiple_choice",
+      "question": "Simbol berbentuk sudut siku-siku kanan bawah dengan dua titik di dalamnya pada Sandi Kotak 2 melambangkan huruf?",
+      "payload": {
+        "options": [
+          "Huruf R",
+          "Huruf I",
+          "Huruf Q",
+          "Huruf L"
+        ],
+        "correct_answer": "Huruf R",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u3_l2_02",
+      "level_id": "sandi_u3_l2",
+      "type": "fill_blank",
+      "question": "Huruf terakhir yang berada dalam kerangka pagar Sandi Kotak 2 (sebelum masuk ke huruf Y dan Z) adalah huruf ____.",
+      "payload": {
+        "correct_answer": "x",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u3_l2_03",
+      "level_id": "sandi_u3_l2",
+      "type": "multiple_choice",
+      "question": "Pada Sandi Kotak 2, huruf Y dan Z biasanya diletakkan pada?",
+      "payload": {
+        "options": [
+          "Kotak terakhir (kanan bawah) dengan titik yang menyesuaikan",
+          "Kerangka silang khusus",
+          "Di luar kerangka",
+          "Dihilangkan"
+        ],
+        "correct_answer": "Kotak terakhir (kanan bawah) dengan titik yang menyesuaikan",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u3_l2_04",
+      "level_id": "sandi_u3_l2",
+      "type": "word_bank",
+      "question": "Urutkan letak huruf J, K, L pada Sandi Kotak 2 sesuai posisi ruangannya.",
+      "payload": {
+        "words": [
+          "Baris Kedua",
+          "Kolom Pertama",
+          "Kiri Tengah"
+        ],
+        "correct_order": [
+          "Baris Kedua",
+          "Kolom Pertama",
+          "Kiri Tengah"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u3_l2_05",
+      "level_id": "sandi_u3_l2",
+      "type": "multiple_choice",
+      "question": "Jika Anda melihat simbol 'Kotak Tertutup' tanpa titik pada Sandi Kotak 1, huruf apakah itu?",
+      "payload": {
+        "options": [
+          "Huruf E",
+          "Huruf B",
+          "Huruf H",
+          "Huruf K"
+        ],
+        "correct_answer": "Huruf E",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u3_l2_06",
+      "level_id": "sandi_u3_l2",
+      "type": "fill_blank",
+      "question": "Simbol 'V terbalik' (^) dengan satu titik pada Sandi Kotak 1 melambangkan huruf ____.",
+      "payload": {
+        "correct_answer": "v",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u3_l2_07",
+      "type": "matching",
+      "question": "Pasangkan huruf Sandi Kotak 1 dengan bentuk kerangkanya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "J",
+            "right": "Siku Kanan Atas"
+          },
+          {
+            "left": "U",
+            "right": "V Terbuka Atas"
+          },
+          {
+            "left": "E",
+            "right": "Kotak Penuh"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_sandi_u3_l2_08",
+      "level_id": "sandi_u3_l2",
+      "type": "multiple_choice",
+      "question": "Bagaimanakah urutan penulisan huruf dalam ruang Sandi Kotak secara umum?",
+      "payload": {
+        "options": [
+          "Mendatar (Kiri ke Kanan), lalu Baris berikutnya",
+          "Menurun (Atas ke Bawah)",
+          "Zig-zag",
+          "Acak"
+        ],
+        "correct_answer": "Mendatar (Kiri ke Kanan), lalu Baris berikutnya",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_sandi_u3_l3_01",
+      "level_id": "sandi_u3_l3",
+      "type": "multiple_choice",
+      "question": "Struktur kerangka Sandi Kotak 3 berbeda total dengan sebelumnya. Kerangka utamanya berbentuk gabungan antara kotak dan?",
+      "payload": {
+        "options": [
+          "Belah Ketupat / Diagonal",
+          "Lingkaran Sempurna",
+          "Tanda Tambah (+)",
+          "Garis Lengkung"
+        ],
+        "correct_answer": "Belah Ketupat / Diagonal",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u3_l3_02",
+      "level_id": "sandi_u3_l3",
+      "type": "fill_blank",
+      "question": "Sandi Kotak 3 sering disebut juga sandi ____ karena bentuk kerangkanya yang menyerupai susunan bintang atau kristal.",
+      "payload": {
+        "correct_answer": "variasi",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u3_l3_03",
+      "level_id": "sandi_u3_l3",
+      "type": "multiple_choice",
+      "question": "Dalam Sandi Kotak 3, huruf 'A' diletakkan di bagian mana pada kerangka?",
+      "payload": {
+        "options": [
+          "Tengah (Kotak Pusat)",
+          "Pojok Kiri Atas",
+          "Sisi Luar Belah Ketupat",
+          "Bawah"
+        ],
+        "correct_answer": "Tengah (Kotak Pusat)",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u3_l3_04",
+      "level_id": "sandi_u3_l3",
+      "type": "word_bank",
+      "question": "Susunlah karakteristik visual Sandi Kotak 3.",
+      "payload": {
+        "words": [
+          "Garis Tegak",
+          "Garis Datar",
+          "Garis Miring"
+        ],
+        "correct_order": [
+          "Garis Tegak",
+          "Garis Datar",
+          "Garis Miring"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l3_05",
+      "level_id": "sandi_u3_l3",
+      "type": "multiple_choice",
+      "question": "Huruf apakah yang berada tepat di atas huruf A pada pusat kerangka Sandi Kotak 3?",
+      "payload": {
+        "options": [
+          "Huruf B",
+          "Huruf E",
+          "Huruf M",
+          "Huruf R"
+        ],
+        "correct_answer": "Huruf B",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l3_06",
+      "level_id": "sandi_u3_l3",
+      "type": "fill_blank",
+      "question": "Pada Sandi Kotak 3, jumlah total variasi bentuk ruang yang unik (termasuk posisi miring) berjumlah ____ ruang.",
+      "payload": {
+        "correct_answer": "13",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u3_l3_07",
+      "type": "matching",
+      "question": "Pasangkan jenis Sandi Kotak dengan ciri khas titiknya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Kotak 1",
+            "right": "Maksimal 1 Titik"
+          },
+          {
+            "left": "Kotak 2",
+            "right": "Maksimal 2 Titik"
+          },
+          {
+            "left": "Kotak 3",
+            "right": "Tanpa Titik (Posisi Berbeda)"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l3_08",
+      "level_id": "sandi_u3_l3",
+      "type": "multiple_choice",
+      "question": "Mengapa Sandi Kotak 3 dianggap lebih sulit bagi pemula dibandingkan Kotak 1 dan 2?",
+      "payload": {
+        "options": [
+          "Karena orientasi garisnya yang miring (diagonal) menyulitkan identifikasi",
+          "Karena menggunakan tinta khusus",
+          "Karena jumlah hurufnya lebih banyak",
+          "Karena tidak boleh ditulis di kertas"
+        ],
+        "correct_answer": "Karena orientasi garisnya yang miring (diagonal) menyulitkan identifikasi",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_sandi_u3_l4_01",
+      "level_id": "sandi_u3_l4",
+      "type": "multiple_choice",
+      "question": "Sandi Koordinat bekerja dengan sistem matriks. Jika kata kunci (Key) yang digunakan adalah 'GUDEG', maka kolom dan baris diwakili oleh huruf?",
+      "payload": {
+        "options": [
+          "G, U, D, E, G",
+          "P, R, A, M, U",
+          "1, 2, 3, 4, 5",
+          "A, B, C, D, E"
+        ],
+        "correct_answer": "G, U, D, E, G",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l4_02",
+      "level_id": "sandi_u3_l4",
+      "type": "fill_blank",
+      "question": "Dalam Sandi Koordinat Merah Putih, huruf 'A' biasanya dilambangkan dengan koordinat ____.",
+      "payload": {
+        "correct_answer": "mp",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l4_03",
+      "level_id": "sandi_u3_l4",
+      "type": "multiple_choice",
+      "question": "Manakah syarat utama sebuah kata dapat dijadikan 'Key' (Kata Kunci) dalam Sandi Koordinat 5x5?",
+      "payload": {
+        "options": [
+          "Harus terdiri dari 5 huruf yang berbeda (tidak ada huruf kembar)",
+          "Harus nama pahlawan",
+          "Harus terdiri dari 10 huruf",
+          "Harus bahasa asing"
+        ],
+        "correct_answer": "Harus terdiri dari 5 huruf yang berbeda (tidak ada huruf kembar)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l4_04",
+      "level_id": "sandi_u3_l4",
+      "type": "word_bank",
+      "question": "Susunlah tabel Sandi Koordinat dengan kata kunci 'TUNAS' (Baris x Kolom).",
+      "payload": {
+        "words": [
+          "T",
+          "U",
+          "N",
+          "A",
+          "S"
+        ],
+        "correct_order": [
+          "T",
+          "U",
+          "N",
+          "A",
+          "S"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u3_l4_05",
+      "level_id": "sandi_u3_l4",
+      "type": "multiple_choice",
+      "question": "Jika menggunakan kunci 'GUDEG' (5x5), huruf alfabet manakah yang biasanya digabung dalam satu sel koordinat agar cukup 25 sel?",
+      "payload": {
+        "options": [
+          "Huruf J dan I",
+          "Huruf X dan Y",
+          "Huruf A dan B",
+          "Huruf Q dan Z"
+        ],
+        "correct_answer": "Huruf J dan I",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u3_l4_06",
+      "level_id": "sandi_u3_l4",
+      "type": "fill_blank",
+      "question": "Sandi Koordinat juga sering disebut Sandi ____ karena membutuhkan tabel untuk memecahkannya.",
+      "payload": {
+        "correct_answer": "matriks",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l4_07",
+      "type": "matching",
+      "question": "Pasangkan kunci Sandi Koordinat dengan jumlah selnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Kunci 5 Huruf",
+            "right": "25 Huruf Alfabet"
+          },
+          {
+            "left": "Kunci 6 Huruf",
+            "right": "36 Karakter (A-Z + 0-9)"
+          },
+          {
+            "left": "Kunci 2 Huruf",
+            "right": "Hanya 4 Huruf"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_sandi_u3_l4_08",
+      "level_id": "sandi_u3_l4",
+      "type": "multiple_choice",
+      "question": "Apa keunggulan Sandi Koordinat dibandingkan Sandi Kotak?",
+      "payload": {
+        "options": [
+          "Kata kuncinya dapat diubah-ubah sesuai kesepakatan (lebih aman)",
+          "Lebih mudah digambar",
+          "Lebih cepat ditulis",
+          "Tidak memerlukan kertas"
+        ],
+        "correct_answer": "Kata kuncinya dapat diubah-ubah sesuai kesepakatan (lebih aman)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_sandi_u3_l5_01",
+      "level_id": "sandi_u3_l5",
+      "type": "multiple_choice",
+      "question": "Dalam analisis kriptografi sederhana, jika Anda menemukan pesan Sandi Kotak 1 tanpa ada satu pun tanda titik, apa kemungkinan isinya?",
+      "payload": {
+        "options": [
+          "Hanya berisi huruf urutan pertama (A, C, E, G, I, K, M, O, Q, S, U, W, Y)",
+          "Pesan tersebut salah",
+          "Hanya berisi angka",
+          "Pesan tersebut adalah Sandi Morse"
+        ],
+        "correct_answer": "Hanya berisi huruf urutan pertama (A, C, E, G, I, K, M, O, Q, S, U, W, Y)",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u3_l5_02",
+      "level_id": "sandi_u3_l5",
+      "type": "fill_blank",
+      "question": "Istilah untuk proses mengubah pesan rahasia (Ciphertext) kembali menjadi pesan asli (Plaintext) disebut ____.",
+      "payload": {
+        "correct_answer": "dekripsi",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u3_l5_03",
+      "level_id": "sandi_u3_l5",
+      "type": "multiple_choice",
+      "question": "Bagaimanakah cara paling efisien menghafal Sandi Kotak tanpa menggambar kerangkanya setiap saat?",
+      "payload": {
+        "options": [
+          "Membayangkan angka jam (Clock face) atau letak baris-kolom",
+          "Membaca kamus",
+          "Menghafal bentuk satu per satu secara acak",
+          "Menunggu petunjuk pembina"
+        ],
+        "correct_answer": "Membayangkan angka jam (Clock face) atau letak baris-kolom",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u3_l5_04",
+      "level_id": "sandi_u3_l5",
+      "type": "word_bank",
+      "question": "Susunlah alur pengiriman pesan rahasia yang aman.",
+      "payload": {
+        "words": [
+          "Tentukan Kunci",
+          "Proses Enkripsi",
+          "Kirim Ciphertext",
+          "Proses Dekripsi"
+        ],
+        "correct_order": [
+          "Tentukan Kunci",
+          "Proses Enkripsi",
+          "Kirim Ciphertext",
+          "Proses Dekripsi"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u3_l5_05",
+      "level_id": "sandi_u3_l5",
+      "type": "multiple_choice",
+      "question": "Dalam Sandi Koordinat, jika penerima tidak mengetahui 'Key' (Kata Kunci) yang digunakan pengirim, apa yang terjadi?",
+      "payload": {
+        "options": [
+          "Pesan tidak akan bisa diterjemahkan dengan benar",
+          "Pesan otomatis hancur",
+          "Pesan tetap bisa dibaca dengan menebak-nebak",
+          "Kunci tidak penting dalam sandi koordinat"
+        ],
+        "correct_answer": "Pesan tidak akan bisa diterjemahkan dengan benar",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u3_l5_06",
+      "level_id": "sandi_u3_l5",
+      "type": "fill_blank",
+      "question": "Proses menyembunyikan data dalam media lain agar kehadirannya tidak disadari disebut ____ (mirip dengan fungsi sandi dalam pramuka).",
+      "payload": {
+        "correct_answer": "steganografi",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_sandi_u3_l5_07",
+      "type": "matching",
+      "question": "Pasangkan tantangan sandi dengan solusinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Lupa Letak Huruf",
+            "right": "Gambar Kerangka Cepat"
+          },
+          {
+            "left": "Simbol Terlalu Mirip",
+            "right": "Gunakan Titik yang Tegas"
+          },
+          {
+            "left": "Kunci Bocor",
+            "right": "Ganti Kata Kunci Segera"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_sandi_u3_l5_08",
+      "level_id": "sandi_u3_l5",
+      "type": "multiple_choice",
+      "question": "Apa saran teknis terbaik saat menulis sandi di lapangan yang basah atau gelap?",
+      "payload": {
+        "options": [
+          "Menulis dengan ukuran lebih besar dan simbol yang lebih sederhana (seperti Kotak 1)",
+          "Menggunakan tinta warna-warni",
+          "Berhenti menulis",
+          "Menulis di atas daun"
+        ],
+        "correct_answer": "Menulis dengan ukuran lebih besar dan simbol yang lebih sederhana (seperti Kotak 1)",
+        "shuffle": true
+      },
+      "xp": 13
+    }
+  ]
 }

@@ -4,30 +4,672 @@
     {
       "id": "q_nav_u1_l1_01",
       "level_id": "nav_u1_l1",
+      "type": "multiple_choice",
+      "question": "Arah mata angin yang berada di antara Barat dan Utara adalah?",
+      "payload": {
+        "options": [
+          "Barat Laut",
+          "Barat Daya",
+          "Timur Laut",
+          "Tenggara"
+        ],
+        "correct_answer": "Barat Laut",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u1_l1_02",
+      "level_id": "nav_u1_l1",
+      "type": "fill_blank",
+      "question": "Dalam navigasi, arah Timur ditunjukkan dengan derajat sebesar ____ derajat.",
+      "payload": {
+        "correct_answer": "90",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u1_l1_03",
+      "level_id": "nav_u1_l1",
+      "type": "multiple_choice",
+      "question": "Jika Anda menghadap ke arah Selatan, maka arah di sebelah kiri Anda adalah?",
+      "payload": {
+        "options": [
+          "Timur",
+          "Barat",
+          "Utara",
+          "Tenggara"
+        ],
+        "correct_answer": "Timur",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u1_l1_04",
+      "level_id": "nav_u1_l1",
+      "type": "word_bank",
+      "question": "Susunlah 4 arah mata angin utama (Primer) mulai dari arah Utara searah jarum jam.",
+      "payload": {
+        "words": [
+          "Utara",
+          "Timur",
+          "Selatan",
+          "Barat"
+        ],
+        "correct_order": [
+          "Utara",
+          "Timur",
+          "Selatan",
+          "Barat"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_nav_u1_l1_05",
+      "level_id": "nav_u1_l1",
+      "type": "multiple_choice",
+      "question": "Mata angin yang memiliki derajat 225 derajat adalah?",
+      "payload": {
+        "options": [
+          "Barat Daya",
+          "Barat Laut",
+          "Tenggara",
+          "Timur Laut"
+        ],
+        "correct_answer": "Barat Daya",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u1_l1_06",
+      "level_id": "nav_u1_l1",
+      "type": "fill_blank",
+      "question": "Arah yang berlawanan dengan Timur Laut adalah ____.",
+      "payload": {
+        "correct_answer": "barat daya",
+        "case_sensitive": false
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u1_l1_07",
+      "level_id": "nav_u1_l1",
       "type": "matching",
-      "question": "Cocokkan arah mata angin dengan singkatannya yang benar!",
+      "question": "Pasangkan arah mata angin dengan derajatnya.",
       "payload": {
         "pairs": [
           {
             "left": "Utara",
-            "right": "U"
-          },
-          {
-            "left": "Selatan",
-            "right": "S"
-          },
-          {
-            "left": "Timur",
-            "right": "T"
+            "right": "0/360"
           },
           {
             "left": "Barat",
-            "right": "B"
+            "right": "270"
+          },
+          {
+            "left": "Tenggara",
+            "right": "135"
           }
         ],
         "shuffle": true
       },
-      "xp": 2
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u1_l1_08",
+      "level_id": "nav_u1_l1",
+      "type": "multiple_choice",
+      "question": "Berapakah selisih derajat antara setiap mata angin utama (misal Utara ke Timur)?",
+      "payload": {
+        "options": [
+          "90 derajat",
+          "45 derajat",
+          "180 derajat",
+          "60 derajat"
+        ],
+        "correct_answer": "90 derajat",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_nav_u1_l2_01",
+      "level_id": "nav_u1_l2",
+      "type": "multiple_choice",
+      "question": "Bagian kompas yang berfungsi untuk membidik sasaran adalah?",
+      "payload": {
+        "options": [
+          "Visir",
+          "Dial",
+          "Kaca Pembesar",
+          "Jarum Penunjuk"
+        ],
+        "correct_answer": "Visir",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u1_l2_02",
+      "level_id": "nav_u1_l2",
+      "type": "fill_blank",
+      "question": "Permukaan kompas tempat angka dan huruf mata angin tertera disebut ____.",
+      "payload": {
+        "correct_answer": "dial",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u1_l2_03",
+      "level_id": "nav_u1_l2",
+      "type": "multiple_choice",
+      "question": "Mengapa saat menggunakan kompas kita harus menjauh dari benda logam atau alat elektronik?",
+      "payload": {
+        "options": [
+          "Karena dapat memengaruhi medan magnet jarum kompas (Deviasi)",
+          "Agar kompas tidak berkarat",
+          "Supaya visir tidak pecah",
+          "Agar angka dial terlihat jelas"
+        ],
+        "correct_answer": "Karena dapat memengaruhi medan magnet jarum kompas (Deviasi)",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u1_l2_04",
+      "level_id": "nav_u1_l2",
+      "type": "word_bank",
+      "question": "Susun langkah menggunakan kompas bidik.",
+      "payload": {
+        "words": [
+          "Letakkan di Permukaan Datar",
+          "Buka Tutup Kompas",
+          "Bidik Sasaran Melalui Visir",
+          "Baca Angka pada Dial"
+        ],
+        "correct_order": [
+          "Letakkan di Permukaan Datar",
+          "Buka Tutup Kompas",
+          "Bidik Sasaran Melalui Visir",
+          "Baca Angka pada Dial"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u1_l2_05",
+      "level_id": "nav_u1_l2",
+      "type": "multiple_choice",
+      "question": "Kompas yang digunakan khusus untuk pemetaan dan orientasi peta adalah?",
+      "payload": {
+        "options": [
+          "Kompas Silva",
+          "Kompas Bidik (Prisma)",
+          "Kompas Geologi",
+          "Kompas Digital"
+        ],
+        "correct_answer": "Kompas Silva",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u1_l2_06",
+      "level_id": "nav_u1_l2",
+      "type": "fill_blank",
+      "question": "Cairan di dalam kompas berfungsi untuk ____ getaran jarum agar lebih tenang.",
+      "payload": {
+        "correct_answer": "meredam",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u1_l2_07",
+      "level_id": "nav_u1_l2",
+      "type": "matching",
+      "question": "Pasangkan bagian kompas bidik dengan fungsinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Kaca Pembesar",
+            "right": "Melihat Angka Dial"
+          },
+          {
+            "left": "Cincin Jempol",
+            "right": "Pegangan agar Stabil"
+          },
+          {
+            "left": "Garis Visir",
+            "right": "Meluruskan Objek"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_nav_u1_l2_08",
+      "level_id": "nav_u1_l2",
+      "type": "multiple_choice",
+      "question": "Apa fungsi dari Phosphorescent (titik cahaya) pada jarum kompas?",
+      "payload": {
+        "options": [
+          "Agar kompas dapat digunakan dalam kondisi gelap/malam hari",
+          "Sebagai hiasan",
+          "Menunjukkan kekuatan magnet",
+          "Mencegah karat"
+        ],
+        "correct_answer": "Agar kompas dapat digunakan dalam kondisi gelap/malam hari",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_nav_u1_l3_01",
+      "level_id": "nav_u1_l3",
+      "type": "multiple_choice",
+      "question": "Sudut yang dibentuk antara arah Utara dengan sasaran searah jarum jam disebut?",
+      "payload": {
+        "options": [
+          "Azimuth",
+          "Back Azimuth",
+          "Bearing",
+          "Plotting"
+        ],
+        "correct_answer": "Azimuth",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u1_l3_02",
+      "level_id": "nav_u1_l3",
+      "type": "fill_blank",
+      "question": "Jika Azimuth sebuah objek adalah 60 derajat, maka Back Azimuth-nya adalah ____ derajat.",
+      "payload": {
+        "correct_answer": "240",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u1_l3_03",
+      "level_id": "nav_u1_l3",
+      "type": "multiple_choice",
+      "question": "Rumus mencari Back Azimuth (BA) jika Azimuth (A) lebih besar dari 180 derajat adalah?",
+      "payload": {
+        "options": [
+          "BA = A - 180",
+          "BA = A + 180",
+          "BA = 360 - A",
+          "BA = A / 2"
+        ],
+        "correct_answer": "BA = A - 180",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u1_l3_04",
+      "level_id": "nav_u1_l3",
+      "type": "word_bank",
+      "question": "Hitunglah Back Azimuth dari 210 derajat.",
+      "payload": {
+        "words": [
+          "30",
+          "derajat"
+        ],
+        "correct_order": [
+          "30"
+        ]
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u1_l3_05",
+      "level_id": "nav_u1_l3",
+      "type": "multiple_choice",
+      "question": "Apa kegunaan utama dari perhitungan Back Azimuth dalam perjalanan?",
+      "payload": {
+        "options": [
+          "Untuk menentukan jalan pulang agar tetap pada jalur yang sama",
+          "Menentukan jarak tempuh",
+          "Menghitung waktu perjalanan",
+          "Mengukur ketinggian tempat"
+        ],
+        "correct_answer": "Untuk menentukan jalan pulang agar tetap pada jalur yang sama",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u1_l3_06",
+      "level_id": "nav_u1_l3",
+      "type": "fill_blank",
+      "question": "Sudut bidik dari objek kembali ke posisi kita disebut ____ Azimuth.",
+      "payload": {
+        "correct_answer": "back",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u1_l3_07",
+      "level_id": "nav_u1_l3",
+      "type": "matching",
+      "question": "Pasangkan Azimuth dengan Back Azimuth-nya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "90 (Timur)",
+            "right": "270 (Barat)"
+          },
+          {
+            "left": "180 (Selatan)",
+            "right": "360 (Utara)"
+          },
+          {
+            "left": "0 (Utara)",
+            "right": "180 (Selatan)"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u1_l3_08",
+      "level_id": "nav_u1_l3",
+      "type": "multiple_choice",
+      "question": "Jika Azimuth Anda tepat 180 derajat, berapakah Back Azimuth-nya?",
+      "payload": {
+        "options": [
+          "0 atau 360 derajat",
+          "90 derajat",
+          "270 derajat",
+          "180 derajat"
+        ],
+        "correct_answer": "0 atau 360 derajat",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_nav_u1_l4_01",
+      "level_id": "nav_u1_l4",
+      "type": "multiple_choice",
+      "question": "Arah manakah yang ditunjukkan oleh posisi matahari saat terbit?",
+      "payload": {
+        "options": [
+          "Timur",
+          "Barat",
+          "Utara",
+          "Selatan"
+        ],
+        "correct_answer": "Timur",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u1_l4_02",
+      "level_id": "nav_u1_l4",
+      "type": "fill_blank",
+      "question": "Rasi bintang Salib Selatan (Crux) dapat digunakan untuk menentukan arah ____.",
+      "payload": {
+        "correct_answer": "selatan",
+        "case_sensitive": false
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u1_l4_03",
+      "level_id": "nav_u1_l4",
+      "type": "multiple_choice",
+      "question": "Lumut yang tumbuh di batang pohon di tengah hutan lebat biasanya lebih tebal pada sisi yang jarang terkena matahari, yaitu sisi?",
+      "payload": {
+        "options": [
+          "Barat atau Selatan (tergantung posisi matahari)",
+          "Utara",
+          "Timur",
+          "Tenggara"
+        ],
+        "correct_answer": "Barat atau Selatan (tergantung posisi matahari)",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u1_l4_04",
+      "level_id": "nav_u1_l4",
+      "type": "word_bank",
+      "question": "Susun rasi bintang yang sering digunakan sebagai penunjuk arah.",
+      "payload": {
+        "words": [
+          "Crux",
+          "Orion",
+          "Ursa",
+          "Major"
+        ],
+        "correct_order": [
+          "Crux",
+          "Orion",
+          "Ursa",
+          "Major"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u1_l4_05",
+      "level_id": "nav_u1_l4",
+      "type": "multiple_choice",
+      "question": "Bagaimana cara menentukan arah Utara menggunakan jarum jam di belahan bumi selatan?",
+      "payload": {
+        "options": [
+          "Arahkan angka 12 ke matahari, arah Utara berada di tengah antara angka 12 dan jarum jam pendek",
+          "Arahkan jarum pendek ke matahari",
+          "Letakkan jam di tanah",
+          "Gunakan tali jam"
+        ],
+        "correct_answer": "Arahkan angka 12 ke matahari, arah Utara berada di tengah antara angka 12 dan jarum jam pendek",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u1_l4_06",
+      "level_id": "nav_u1_l4",
+      "type": "fill_blank",
+      "question": "Bintang Polaris adalah penunjuk arah ____ yang sangat akurat di belahan bumi utara.",
+      "payload": {
+        "correct_answer": "utara",
+        "case_sensitive": false
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u1_l4_07",
+      "level_id": "nav_u1_l4",
+      "type": "matching",
+      "question": "Pasangkan tanda alam dengan arah yang ditunjukkannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Matahari Terbenam",
+            "right": "Barat"
+          },
+          {
+            "left": "Rasi Bintang Orion",
+            "right": "Barat (Ekuator)"
+          },
+          {
+            "left": "Pohon yang condong",
+            "right": "Arah angin dominan"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_nav_u1_l4_08",
+      "level_id": "nav_u1_l4",
+      "type": "multiple_choice",
+      "question": "Masjid di Indonesia umumnya menghadap ke arah Barat/Barat Laut (Kiblat). Hal ini dapat digunakan sebagai penunjuk arah?",
+      "payload": {
+        "options": [
+          "Barat (Kiblat)",
+          "Selatan",
+          "Timur",
+          "Utara"
+        ],
+        "correct_answer": "Barat (Kiblat)",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_nav_u1_l5_01",
+      "level_id": "nav_u1_l5",
+      "type": "multiple_choice",
+      "question": "Tindakan menyamakan arah utara peta dengan arah utara kompas disebut?",
+      "payload": {
+        "options": [
+          "Orientasi Peta",
+          "Reseksi",
+          "Interseksi",
+          "Plotting"
+        ],
+        "correct_answer": "Orientasi Peta",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u1_l5_02",
+      "level_id": "nav_u1_l5",
+      "type": "fill_blank",
+      "question": "Teknik menentukan posisi diri di peta dengan membidik dua atau lebih objek medan yang dikenal disebut ____.",
+      "payload": {
+        "correct_answer": "reseksi",
+        "case_sensitive": false
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u1_l5_03",
+      "level_id": "nav_u1_l5",
+      "type": "multiple_choice",
+      "question": "Selisih antara arah Utara Magnetis (kompas) dengan Utara Sebenarnya (peta) disebut?",
+      "payload": {
+        "options": [
+          "Deklinasi (Variasi Magnetik)",
+          "Deviasi",
+          "Inklinasi",
+          "Azimuth"
+        ],
+        "correct_answer": "Deklinasi (Variasi Magnetik)",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u1_l5_04",
+      "level_id": "nav_u1_l5",
+      "type": "word_bank",
+      "question": "Susun langkah teknik reseksi.",
+      "payload": {
+        "words": [
+          "Orientasi Peta",
+          "Bidik Sasaran Medan",
+          "Tarik Garis BA di Peta",
+          "Temukan Titik Potong"
+        ],
+        "correct_order": [
+          "Orientasi Peta",
+          "Bidik Sasaran Medan",
+          "Tarik Garis BA di Peta",
+          "Temukan Titik Potong"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u1_l5_05",
+      "level_id": "nav_u1_l5",
+      "type": "multiple_choice",
+      "question": "Teknik untuk menentukan posisi suatu objek di medan pada peta dengan membidik dari dua titik yang sudah diketahui koordinatnya disebut?",
+      "payload": {
+        "options": [
+          "Interseksi",
+          "Reseksi",
+          " resection",
+          "Kompas Jalan"
+        ],
+        "correct_answer": "Interseksi",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u1_l5_06",
+      "level_id": "nav_u1_l5",
+      "type": "fill_blank",
+      "question": "Garis khayal pada peta yang menghubungkan titik-titik dengan ketinggian yang sama disebut garis ____.",
+      "payload": {
+        "correct_answer": "kontur",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_nav_u1_l5_07",
+      "level_id": "nav_u1_l5",
+      "type": "matching",
+      "question": "Pasangkan istilah navigasi dengan artinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Titik Koordinat",
+            "right": "Posisi Absolut"
+          },
+          {
+            "left": "Skala Peta",
+            "right": "Perbandingan Jarak"
+          },
+          {
+            "left": "Legenda",
+            "right": "Simbol-simbol Peta"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_nav_u1_l5_08",
+      "level_id": "nav_u1_l5",
+      "type": "multiple_choice",
+      "question": "Jika garis kontur pada peta terlihat sangat rapat, hal itu menandakan medan tersebut bersifat?",
+      "payload": {
+        "options": [
+          "Curam/Terjal",
+          "Landai",
+          "Datar/Lembah",
+          "Perairan"
+        ],
+        "correct_answer": "Curam/Terjal",
+        "shuffle": true
+      },
+      "xp": 13
     }
-  ]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+  ]
 }

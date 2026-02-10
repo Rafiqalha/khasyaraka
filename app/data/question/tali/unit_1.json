@@ -5,18 +5,660 @@
       "id": "q_tali_u1_l1_01",
       "level_id": "tali_u1_l1",
       "type": "multiple_choice",
-      "question": "Bagian tali yang paling ujung dan biasanya diberi simpul untuk mencegah terurai disebut?",
+      "question": "Simpul yang digunakan untuk menyambung dua utas tali yang sama besar dalam kondisi kering adalah?",
       "payload": {
         "options": [
-          "Ujung tali",
-          "Badan tali",
-          "Lengkungan tali",
-          "Tengah tali"
+          "Simpul Mati",
+          "Simpul Anyam",
+          "Simpul Pangkal",
+          "Simpul Tiang"
         ],
-        "correct_answer": "Ujung tali",
+        "correct_answer": "Simpul Mati",
         "shuffle": true
       },
-      "xp": 2
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u1_l1_02",
+      "level_id": "tali_u1_l1",
+      "type": "fill_blank",
+      "question": "Simpul yang digunakan untuk mengawali dan mengakhiri sebuah ikatan pada tongkat adalah simpul ____.",
+      "payload": {
+        "correct_answer": "pangkal",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u1_l1_03",
+      "level_id": "tali_u1_l1",
+      "type": "multiple_choice",
+      "question": "Simpul yang berfungsi untuk membuat jerat yang mudah dilepaskan kembali adalah?",
+      "payload": {
+        "options": [
+          "Simpul Hidup",
+          "Simpul Mati",
+          "Simpul Jangkar",
+          "Simpul Erat"
+        ],
+        "correct_answer": "Simpul Hidup",
+        "shuffle": true
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u1_l1_04",
+      "level_id": "tali_u1_l1",
+      "type": "word_bank",
+      "question": "Susunlah nama simpul yang sering digunakan untuk membuat tandu (dragbar).",
+      "payload": {
+        "words": [
+          "Simpul",
+          "Jangkar"
+        ],
+        "correct_order": [
+          "Simpul",
+          "Jangkar"
+        ]
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u1_l1_05",
+      "level_id": "tali_u1_l1",
+      "type": "multiple_choice",
+      "question": "Kesalahan saat membuat simpul mati yang mengakibatkan ujung tali tidak sejajar disebut?",
+      "payload": {
+        "options": [
+          "Simpul Betina (Granny Knot)",
+          "Simpul Hidup",
+          "Simpul Anyam",
+          "Simpul Delapan"
+        ],
+        "correct_answer": "Simpul Betina (Granny Knot)",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u1_l1_06",
+      "level_id": "tali_u1_l1",
+      "type": "fill_blank",
+      "question": "Simpul ____ digunakan untuk menambatkan tali pada benda bulat seperti cincin atau ember.",
+      "payload": {
+        "correct_answer": "jangkar",
+        "case_sensitive": false
+      },
+      "xp": 5
+    },
+    {
+      "id": "q_tali_u1_l1_07",
+      "level_id": "tali_u1_l1",
+      "type": "matching",
+      "question": "Pasangkan simpul dengan kegunaan dasarnya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Simpul Mati",
+            "right": "Menyambung Tali Sama Besar"
+          },
+          {
+            "left": "Simpul Pangkal",
+            "right": "Mengikat Tali ke Tiang"
+          },
+          {
+            "left": "Simpul Hidup",
+            "right": "Mengikat Tiang Jemuran"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u1_l1_08",
+      "level_id": "tali_u1_l1",
+      "type": "multiple_choice",
+      "question": "Dalam P3K, simpul mati digunakan untuk mengakhiri balutan karena?",
+      "payload": {
+        "options": [
+          "Permukaannya rata (flat) dan tidak menyakiti kulit korban",
+          "Sangat sulit dilepas",
+          "Paling kuat menahan beban",
+          "Terlihat rapi"
+        ],
+        "correct_answer": "Permukaannya rata (flat) dan tidak menyakiti kulit korban",
+        "shuffle": true
+      },
+      "xp": 6
+    },
+    {
+      "id": "q_tali_u1_l2_01",
+      "level_id": "tali_u1_l2",
+      "type": "multiple_choice",
+      "question": "Simpul yang digunakan untuk menyambung dua utas tali yang ukurannya tidak sama besar (satu besar, satu kecil) adalah?",
+      "payload": {
+        "options": [
+          "Simpul Anyam",
+          "Simpul Mati",
+          "Simpul Kembar",
+          "Simpul Erat"
+        ],
+        "correct_answer": "Simpul Anyam",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u1_l2_02",
+      "level_id": "tali_u1_l2",
+      "type": "fill_blank",
+      "question": "Untuk menyambung dua utas tali yang licin atau dalam kondisi basah, kita menggunakan simpul ____.",
+      "payload": {
+        "correct_answer": "kembar",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u1_l2_03",
+      "level_id": "tali_u1_l2",
+      "type": "multiple_choice",
+      "question": "Apa keunggulan Simpul Anyam Berganda (Double Sheet Bend) dibandingkan Simpul Anyam Tunggal?",
+      "payload": {
+        "options": [
+          "Lebih aman untuk tali yang sangat licin atau perbedaan diameter yang jauh",
+          "Lebih mudah dibuka",
+          "Lebih cepat dibuat",
+          "Menggunakan tali yang lebih pendek"
+        ],
+        "correct_answer": "Lebih aman untuk tali yang sangat licin atau perbedaan diameter yang jauh",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u1_l2_04",
+      "level_id": "tali_u1_l2",
+      "type": "word_bank",
+      "question": "Susunlah nama alternatif dari simpul kembar.",
+      "payload": {
+        "words": [
+          "Simpul",
+          "Nelayan"
+        ],
+        "correct_order": [
+          "Simpul",
+          "Nelayan"
+        ]
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u1_l2_05",
+      "level_id": "tali_u1_l2",
+      "type": "multiple_choice",
+      "question": "Bagaimanakah struktur dasar dari simpul kembar?",
+      "payload": {
+        "options": [
+          "Terdiri dari dua simpul hidup yang saling mengunci",
+          "Terdiri dari dua simpul mati yang digabung",
+          "Terdiri dari lilitan ganda pada satu tiang",
+          "Gabungan simpul tiang dan jangkar"
+        ],
+        "correct_answer": "Terdiri dari dua simpul hidup yang saling mengunci",
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u1_l2_06",
+      "level_id": "tali_u1_l2",
+      "type": "fill_blank",
+      "question": "Simpul anyam berganda membutuhkan ____ kali lilitan pada tali yang lebih kecil.",
+      "payload": {
+        "correct_answer": "2",
+        "case_sensitive": false
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u1_l2_07",
+      "level_id": "tali_u1_l2",
+      "type": "matching",
+      "question": "Pasangkan kondisi tali dengan simpul penyambung yang tepat.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Sama Besar & Kering",
+            "right": "Simpul Mati"
+          },
+          {
+            "left": "Beda Besar & Kering",
+            "right": "Simpul Anyam"
+          },
+          {
+            "left": "Licin / Basah",
+            "right": "Simpul Kembar"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 8
+    },
+    {
+      "id": "q_tali_u1_l2_08",
+      "level_id": "tali_u1_l2",
+      "type": "multiple_choice",
+      "question": "Mengapa simpul anyam dianggap lebih aman daripada simpul mati untuk tali yang berbeda ukuran?",
+      "payload": {
+        "options": [
+          "Karena tekanan tali besar akan mengunci tali kecil dengan lebih efektif",
+          "Karena simpul anyam lebih berat",
+          "Karena simpul mati tidak bisa ditarik",
+          "Hanya masalah tradisi"
+        ],
+        "correct_answer": "Karena tekanan tali besar akan mengunci tali kecil dengan lebih efektif",
+        "shuffle": true
+      },
+      "xp": 7
+    },
+    {
+      "id": "q_tali_u1_l3_01",
+      "level_id": "tali_u1_l3",
+      "type": "multiple_choice",
+      "question": "Simpul yang berfungsi untuk membuat kolong yang tetap (tidak menjerat) di ujung tali adalah?",
+      "payload": {
+        "options": [
+          "Simpul Tiang",
+          "Simpul Hidup",
+          "Simpul Penjerat",
+          "Simpul Laso"
+        ],
+        "correct_answer": "Simpul Tiang",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u1_l3_02",
+      "level_id": "tali_u1_l3",
+      "type": "fill_blank",
+      "question": "Simpul ____ sering disebut sebagai raja simpul karena kekuatannya dalam proses penyelamatan (rescue).",
+      "payload": {
+        "correct_answer": "tiang",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u1_l3_03",
+      "level_id": "tali_u1_l3",
+      "type": "multiple_choice",
+      "question": "Simpul yang memiliki dua mata simpul dan digunakan untuk menaikkan atau menurunkan korban dari ketinggian adalah?",
+      "payload": {
+        "options": [
+          "Simpul Kursi",
+          "Simpul Tiang Berganda",
+          "Simpul Pangkal",
+          "Simpul Erat"
+        ],
+        "correct_answer": "Simpul Kursi",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u1_l3_04",
+      "level_id": "tali_u1_l3",
+      "type": "word_bank",
+      "question": "Susunlah nama simpul yang digunakan untuk membuat jerat di leher hewan agar tidak tercekik.",
+      "payload": {
+        "words": [
+          "Simpul",
+          "Tiang"
+        ],
+        "correct_order": [
+          "Simpul",
+          "Tiang"
+        ]
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l3_05",
+      "level_id": "tali_u1_l3",
+      "type": "multiple_choice",
+      "question": "Apa fungsi utama dari Simpul Penjerat (Running Bowline)?",
+      "payload": {
+        "options": [
+          "Membuat jerat yang kuat namun mudah digeser ukurannya",
+          "Menyambung dua tali",
+          "Memendekkan tali",
+          "Mengakhiri ikatan palang"
+        ],
+        "correct_answer": "Membuat jerat yang kuat namun mudah digeser ukurannya",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l3_06",
+      "level_id": "tali_u1_l3",
+      "type": "fill_blank",
+      "question": "Dalam skenario darurat, simpul tiang dapat dibuat hanya menggunakan satu ____ oleh orang yang sedang ditolong.",
+      "payload": {
+        "correct_answer": "tangan",
+        "case_sensitive": false
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u1_l3_07",
+      "level_id": "tali_u1_l3",
+      "type": "matching",
+      "question": "Pasangkan simpul penyelamat dengan kegunaannya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Simpul Tiang",
+            "right": "Menambatkan Perahu"
+          },
+          {
+            "left": "Simpul Kursi",
+            "right": "Menurunkan Korban"
+          },
+          {
+            "left": "Simpul Penjerat",
+            "right": "Menangkap Kaki Hewan"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l3_08",
+      "level_id": "tali_u1_l3",
+      "type": "multiple_choice",
+      "question": "Manakah pernyataan yang BENAR mengenai simpul tiang?",
+      "payload": {
+        "options": [
+          "Semakin ditarik, kolongnya tidak akan mengecil",
+          "Sangat mudah lepas saat ditarik",
+          "Hanya bisa dibuat di tengah tali",
+          "Membutuhkan dua orang untuk membuatnya"
+        ],
+        "correct_answer": "Semakin ditarik, kolongnya tidak akan mengecil",
+        "shuffle": true
+      },
+      "xp": 9
+    },
+    {
+      "id": "q_tali_u1_l4_01",
+      "level_id": "tali_u1_l4",
+      "type": "multiple_choice",
+      "question": "Simpul yang digunakan untuk memendekkan tali tanpa harus memotongnya adalah?",
+      "payload": {
+        "options": [
+          "Simpul Erat",
+          "Simpul Pangkal",
+          "Simpul Mati",
+          "Simpul Hidup"
+        ],
+        "correct_answer": "Simpul Erat",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l4_02",
+      "level_id": "tali_u1_l4",
+      "type": "fill_blank",
+      "question": "Simpul yang diletakkan di ujung tali agar tali tidak terlepas dari katrol disebut simpul ____.",
+      "payload": {
+        "correct_answer": "delapan",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l4_03",
+      "level_id": "tali_u1_l4",
+      "type": "multiple_choice",
+      "question": "Simpul yang digunakan untuk menyeret batang kayu besar di hutan adalah?",
+      "payload": {
+        "options": [
+          "Simpul Tambat",
+          "Simpul Pangkal",
+          "Simpul Jangkar",
+          "Simpul Penarik"
+        ],
+        "correct_answer": "Simpul Tambat",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l4_04",
+      "level_id": "tali_u1_l4",
+      "type": "word_bank",
+      "question": "Susunlah nama simpul yang digunakan untuk mengatur ketegangan tali jemuran.",
+      "payload": {
+        "words": [
+          "Simpul",
+          "Penarik"
+        ],
+        "correct_order": [
+          "Simpul",
+          "Penarik"
+        ]
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u1_l4_05",
+      "level_id": "tali_u1_l4",
+      "type": "multiple_choice",
+      "question": "Apa syarat mutlak agar Simpul Erat (Sheepshank) tidak terlepas?",
+      "payload": {
+        "options": [
+          "Kedua ujung tali harus selalu dalam keadaan tegang",
+          "Tali harus dalam keadaan basah",
+          "Harus ditambah simpul mati",
+          "Hanya bisa menggunakan tali nilon"
+        ],
+        "correct_answer": "Kedua ujung tali harus selalu dalam keadaan tegang",
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u1_l4_06",
+      "level_id": "tali_u1_l4",
+      "type": "fill_blank",
+      "question": "Simpul tambat dianggap aman jika memiliki minimal ____ kali lilitan pada badan talinya sendiri.",
+      "payload": {
+        "correct_answer": "3",
+        "case_sensitive": false
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l4_07",
+      "level_id": "tali_u1_l4",
+      "type": "matching",
+      "question": "Pasangkan simpul dengan kategori mekanismenya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Simpul Delapan",
+            "right": "Stopper Knot"
+          },
+          {
+            "left": "Simpul Tambat",
+            "right": "Friction Hitch"
+          },
+          {
+            "left": "Simpul Erat",
+            "right": "Shortening Knot"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 11
+    },
+    {
+      "id": "q_tali_u1_l4_08",
+      "level_id": "tali_u1_l4",
+      "type": "multiple_choice",
+      "question": "Mengapa simpul delapan lebih baik daripada simpul sederhana (overhand knot) sebagai stopper?",
+      "payload": {
+        "options": [
+          "Lebih mudah dibuka kembali setelah ditarik kencang",
+          "Lebih kecil ukurannya",
+          "Lebih sulit dibuat",
+          "Hanya untuk dekorasi"
+        ],
+        "correct_answer": "Lebih mudah dibuka kembali setelah ditarik kencang",
+        "shuffle": true
+      },
+      "xp": 10
+    },
+    {
+      "id": "q_tali_u1_l5_01",
+      "level_id": "tali_u1_l5",
+      "type": "multiple_choice",
+      "question": "Simpul friksi yang digunakan oleh pendaki untuk memanjat tali utama atau membuat sistem mekanik adalah?",
+      "payload": {
+        "options": [
+          "Simpul Prusik",
+          "Simpul Pangkal",
+          "Simpul Jangkar",
+          "Simpul Erat"
+        ],
+        "correct_answer": "Simpul Prusik",
+        "shuffle": true
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u1_l5_02",
+      "level_id": "tali_u1_l5",
+      "type": "fill_blank",
+      "question": "Bahan tali yang paling tahan terhadap cuaca dan abrasi untuk kegiatan pioneering jangka panjang adalah ____.",
+      "payload": {
+        "correct_answer": "manila",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u1_l5_03",
+      "level_id": "tali_u1_l5",
+      "type": "multiple_choice",
+      "question": "Dalam analisis kekuatan simpul, manakah pernyataan yang paling akurat?",
+      "payload": {
+        "options": [
+          "Setiap simpul yang dibuat akan mengurangi kekuatan putus (breaking strength) tali asli",
+          "Simpul membuat tali menjadi lebih kuat",
+          "Simpul tidak berpengaruh pada kekuatan tali",
+          "Hanya simpul mati yang melemahkan tali"
+        ],
+        "correct_answer": "Setiap simpul yang dibuat akan mengurangi kekuatan putus (breaking strength) tali asli",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u1_l5_04",
+      "level_id": "tali_u1_l5",
+      "type": "word_bank",
+      "question": "Susunlah urutan pembuatan sistem katrol sederhana (Z-Drag) menggunakan simpul friksi.",
+      "payload": {
+        "words": [
+          "Anchor",
+          "Prusik",
+          "Pulley",
+          "Load"
+        ],
+        "correct_order": [
+          "Anchor",
+          "Prusik",
+          "Pulley",
+          "Load"
+        ]
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u1_l5_05",
+      "level_id": "tali_u1_l5",
+      "type": "multiple_choice",
+      "question": "Apa kegunaan Simpul Kupu-Kupu (Alpine Butterfly Knot)?",
+      "payload": {
+        "options": [
+          "Membuat kolong di tengah tali yang stabil ditarik dari dua arah",
+          "Menyambung dua tali pancing",
+          "Mengikat tiang tenda",
+          "Hanya sebagai hiasan kacu"
+        ],
+        "correct_answer": "Membuat kolong di tengah tali yang stabil ditarik dari dua arah",
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u1_l5_06",
+      "level_id": "tali_u1_l5",
+      "type": "fill_blank",
+      "question": "Teknik membakar atau melilit ujung tali agar seratnya tidak terurai disebut ____.",
+      "payload": {
+        "correct_answer": "whipping",
+        "case_sensitive": false
+      },
+      "xp": 12
+    },
+    {
+      "id": "q_tali_u1_l5_07",
+      "level_id": "tali_u1_l5",
+      "type": "matching",
+      "question": "Pasangkan istilah mekanika tali dengan definisinya.",
+      "payload": {
+        "pairs": [
+          {
+            "left": "Bight",
+            "right": "Lengkungan Tali"
+          },
+          {
+            "left": "Standing End",
+            "right": "Badan Tali Utama"
+          },
+          {
+            "left": "Working End",
+            "right": "Ujung Tali Bebas"
+          }
+        ],
+        "shuffle": true
+      },
+      "xp": 13
+    },
+    {
+      "id": "q_tali_u1_l5_08",
+      "level_id": "tali_u1_l5",
+      "type": "multiple_choice",
+      "question": "Apa kelemahan utama tali nilon saat digunakan untuk membuat bangunan pioneering?",
+      "payload": {
+        "options": [
+          "Memiliki sifat elastisitas tinggi sehingga ikatan mudah menjadi kendor (melar)",
+          "Terlalu kuat untuk dipotong",
+          "Warnanya terlalu terang",
+          "Mudah terbakar sinar matahari"
+        ],
+        "correct_answer": "Memiliki sifat elastisitas tinggi sehingga ikatan mudah menjadi kendor (melar)",
+        "shuffle": true
+      },
+      "xp": 13
     }
   ]
 }

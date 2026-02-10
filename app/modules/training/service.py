@@ -27,6 +27,13 @@ from app.modules.training.schemas import (
 )
 
 
+
+from app.core.redis import get_redis
+from app.services.user_service import CacheKeys, CACHE_TTL_LEVELS
+from app.core.logging import get_logger
+
+logger = get_logger(__name__)
+
 class TrainingService:
     """
     Training Service
@@ -207,23 +214,23 @@ class TrainingService:
         Determine level status based on unlock_rule and user progress.
         
         Status values:
-        - "locked": Level is locked (previous level not completed)
-        - "available": Level is unlocked and available to play
-        - "in_progress": User has started but not completed this level
-        - "completed": User has completed this level
+        - "LOCKED": Level is locked (previous level not completed)
+        - "UNLOCKED": Level is unlocked and available to play
+        - "UNLOCKED": Level is in progress (treated as unlocked)
+        - "COMPLETED": User has completed this level
         """
         if not user_id:
             # No user context: only unlock level 1 of each unit
             if level.level_number == 1:
-                return "available"
-            return "locked"
+                return "UNLOCKED"
+            return "LOCKED"
         
         # Get user progress for this level
         progress = await self.repository.get_user_progress(user_id, level.id)
         
         if progress:
-            # User has progress: return their status
-            return progress.status
+            # User has progress: return their status (ensure UPPERCASE)
+            return progress.status.upper()
         
         # No progress yet: check unlock rule
         unlock_rule = level.unlock_rule or {}
@@ -231,18 +238,18 @@ class TrainingService:
         
         if rule_type == "start":
             # First level: always available
-            return "available"
+            return "UNLOCKED"
         elif rule_type == "level_completed":
             # Check if prerequisite level is completed
             prereq_level_id = unlock_rule.get("value")
             if prereq_level_id:
                 prereq_progress = await self.repository.get_user_progress(user_id, prereq_level_id)
-                if prereq_progress and prereq_progress.status == "completed":
-                    return "available"
-            return "locked"
+                if prereq_progress and prereq_progress.status.upper() == "COMPLETED":
+                    return "UNLOCKED"
+            return "LOCKED"
         else:
             # Unknown rule: default to locked
-            return "locked"
+            return "LOCKED"
     
     async def submit_progress(
         self,
@@ -328,7 +335,7 @@ class TrainingService:
         
         # Determine status
         if correct_answers >= level.min_correct:
-            status = "completed"
+            status = "COMPLETED"
             # ✅ Calculate XP from questions.xp based on correct question IDs
             # Get questions WHERE id IN correct_question_ids
             questions_stmt = (
@@ -364,7 +371,7 @@ class TrainingService:
                 logger.warning(f"⚠️ [XP_CALC] WARNING: Some question IDs not found in database: {missing_ids}")
                 logger.warning(f"   XP calculation may be incomplete")
         else:
-            status = "in_progress"
+            status = "UNLOCKED" # Treated as UNLOCKED (in progress)
             # ✅ NO XP for incomplete attempts
             xp_earned = 0
             logger.info(f"📊 [XP_CALC] Level {level_id}: Status=in_progress (correct_answers={correct_answers} < min_correct={level.min_correct}), xp_earned=0")
@@ -420,6 +427,23 @@ class TrainingService:
         # ✅ CRITICAL: Commit ONCE for both progress and XP update (atomic transaction)
         await self.db.commit()
         logger.info(f"✅ [XP_UPDATE] Committed transaction (progress + XP update)")
+        
+        # ✅ REFRESH CACHE: Invalidate map progress to force fresh fetch
+        # The new architecture requires deleting the key so next read fetches DB -> Cache
+        try:
+            redis = await get_redis()
+            # 1. Update individual level status (for quick lookups)
+            cache_key_levels = CacheKeys.levels(str(user_id))
+            await redis.hset(cache_key_levels, level_id, status)
+            await redis.expire(cache_key_levels, CACHE_TTL_LEVELS)
+            
+            # 2. INVALIDATE the full map progress list
+            cache_key_map = CacheKeys.map_progress(str(user_id))
+            await redis.delete(cache_key_map)
+            
+            logger.info(f"🔓 [REDIS] Updated level {level_id} -> {status}, Invalidated map cache")
+        except Exception as e:
+            logger.warning(f"⚠️ Failed to update level status in Redis: {e}")
         
         # ✅ Refresh progress to get latest data
         await self.db.refresh(progress)
@@ -480,51 +504,216 @@ class TrainingService:
                 logger.error(f"❌ [XP_UPDATE] Verification query failed: User {user_id} not found after commit!")
         
         # If completed, unlock next level
-        if status == "completed":
-            await self._unlock_next_level(user_id, level)
+        next_level_id = None
+        if status == "COMPLETED":
+            next_level_id = await self._unlock_next_level(user_id, level)
+            
+        # ✅ FORCE REDIS INVALIDATION (FINAL SAFETY NET)
+        # This ensures that even if _unlock_next_level failed to invalidate, we do it here
+        try:
+            redis = await get_redis()
+            cache_key_map = CacheKeys.map_progress(str(user_id))
+            cache_key_levels = CacheKeys.levels(str(user_id))
+            
+            # Delete map progress (to refresh path)
+            await redis.delete(cache_key_map)
+            
+            # Update current level status in Redis hash
+            await redis.hset(cache_key_levels, level_id, status)
+            
+            logger.info(f"🧹 [SUBMIT] Final cache invalidation for user {user_id} (Map deleted, Level updated)")
+        except Exception as e:
+            logger.warning(f"⚠️ Final cache invalidation failed: {e}")
         
-        return progress
+        # ✅ Return proper dictionary response
+        # This matches what the frontend expects
+        return {
+            "status": status,
+            "xp_earned": xp_earned,
+            "total_xp": new_total_xp if new_total_xp is not None else 0,
+            "streak": 0, # TODO: Implement streak logic properly
+            "next_level_id": next_level_id,
+            "level_id": level_id
+        }
     
     async def _unlock_next_level(self, user_id: int, completed_level: TrainingLevel):
-        """Unlock the next level in the same unit after completing current level"""
-        # Get all levels in the unit
-        unit_levels = await self.repository.get_levels_by_unit(completed_level.unit_id)
-        unit_levels = sorted(unit_levels, key=lambda l: l.level_number)
+        """
+        GLOBAL LINEAR PROGRESSION: Unlock the NEXT level in GLOBAL order.
         
-        # Find next level
+        Global Order: Section.order → Unit.order → Level.level_number
+        
+        Example progression (5 sections × 5 units × 5 levels = 125 levels):
+        puk_u1_l1 → puk_u1_l2 → ... → puk_u1_l5 → puk_u2_l1 → ... → puk_u5_l5 → ppgd_u1_l1 → ...
+        """
+        if not self.repository:
+            raise ValueError("Repository required")
+            
+        from sqlalchemy import select
+        from app.modules.training.models import TrainingLevel, TrainingUnit, TrainingSection
+        
+        # ✅ Get current level's global position
+        current_unit_stmt = select(TrainingUnit).where(TrainingUnit.id == completed_level.unit_id)
+        current_unit_result = await self.db.execute(current_unit_stmt)
+        current_unit = current_unit_result.scalar_one_or_none()
+        
+        if not current_unit:
+            logger.error(f"❌ [GLOBAL] Unit not found for level {completed_level.id}")
+            return
+            
+        current_section_stmt = select(TrainingSection).where(TrainingSection.id == current_unit.section_id)
+        current_section_result = await self.db.execute(current_section_stmt)
+        current_section = current_section_result.scalar_one_or_none()
+        
+        if not current_section:
+            logger.error(f"❌ [GLOBAL] Section not found for unit {current_unit.id}")
+            return
+        
+        logger.info(f"🔍 [GLOBAL] Current position: Section {current_section.order}, Unit {current_unit.order}, Level {completed_level.level_number}")
+        
         next_level = None
-        for level in unit_levels:
-            if level.level_number == completed_level.level_number + 1:
-                next_level = level
-                break
+        
+        # ✅ Priority 1: Next level in SAME unit
+        next_in_unit_stmt = (
+            select(TrainingLevel)
+            .where(
+                TrainingLevel.unit_id == completed_level.unit_id,
+                TrainingLevel.level_number == completed_level.level_number + 1,
+                TrainingLevel.is_active == True
+            )
+        )
+        result = await self.db.execute(next_in_unit_stmt)
+        next_level = result.scalar_one_or_none()
         
         if next_level:
-            # Check if user already has progress for next level
+            logger.info(f"🔓 [GLOBAL] Next level in same unit: {next_level.id}")
+        
+        # ✅ Priority 2: DONE (Parallel Units Logic)
+        # We DO NOT auto-unlock the next unit. Units are parallel and independent.
+        # If no next level is found in the current unit, the unit is considered COMPLETED.
+        if not next_level:
+            logger.info(f"🏁 [GLOBAL] Unit {current_unit.id} completed. No next level to unlock (Parallel Units).")
+            return None
+        
+        # ✅ Priority 3: Removed (Sections are disconnected in Parallel Mode)
+        
+        # ✅ Create unlock record
+        if next_level:
             existing = await self.repository.get_user_progress(user_id, next_level.id)
+
             if not existing:
-                # Create progress with "available" status
-                # ✅ Commit here since this is a separate operation after main transaction
                 await self.repository.upsert_user_progress(
                     user_id=user_id,
                     level_id=next_level.id,
-                    status="available",
-                    commit=True,  # ✅ Commit this separate operation
+                    status="UNLOCKED",
+                    commit=True,
                 )
+                
+                # Invalidate all cache for this user
+                try:
+                    redis = await get_redis()
+                    cache_key_map = CacheKeys.map_progress(str(user_id))
+                    await redis.delete(cache_key_map)
+                    logger.info(f"🔓 [GLOBAL] Unlocked {next_level.id} for user {user_id} - Cache Invalidated")
+                except Exception as e:
+                    logger.warning(f"⚠️ Redis cache invalidation failed: {e}")
+            
+            return next_level.id
+        else:
+            logger.info(f"🏁 [GLOBAL] No next level found. User {user_id} completed all content!")
+            return None
     
-    async def get_progress_state(self, user_id: int, section_id: str) -> dict:
+    async def get_progress_state(self, user_id: int, section_id: Optional[str] = None) -> Dict[str, str]:
         """
-        Get progress state for all levels in a section.
+        Get progress state for ALL levels as a JSON List.
+        SERVER-SIDE SOURCE OF TRUTH.
         
-        Returns a dict mapping level_id to status.
+        ✅ STRICT LINEAR: If user has NO progress, auto-unlock first level only.
+        
+        NOTE: We ignore 'section_id' for the DB query to ensure the global 'map_progress' 
+        cache key is always populated with COMPLETE data, preventing cache corruption 
+        (where partial data overwrites global data).
         """
+        import json
+        
         if not self.repository:
-            raise ValueError("Database session required for repository-based methods")
+            raise ValueError("Repository required")
+            
+        cache_key = CacheKeys.map_progress(str(user_id))
         
-        progress_list = await self.repository.get_user_progress_by_section(user_id, section_id)
+        # ✅ Step 1: Try Redis Cache
+        try:
+            redis = await get_redis()
+            cached_json = await redis.get(cache_key)
+            if cached_json:
+                logger.info(f"📦 [CACHE HIT] Map progress for user {user_id}")
+                return json.loads(cached_json)
+        except Exception as e:
+            logger.warning(f"⚠️ Redis read failed in get_progress_state: {e}")
+            
+        # ✅ Step 2: DB Fallback (Cache Miss)
+        logger.info(f"📊 [CACHE MISS] Fetching map progress from DB for user {user_id}")
         
-        # Build dict: level_id -> status
-        progress_dict = {}
-        for progress in progress_list:
-            progress_dict[progress.level_id] = progress.status
+        # ✅ ALWAYS fetch GLOBAL progress (pass section_id=None)
+        # This ensures we don't cache partial data under the global key
+        progress_list = await self.repository.get_user_progress_by_section(user_id, None)
         
-        return progress_dict
+        # ✅ PARALLEL UNITS: If NO progress exists, auto-unlock ALL Level 1s globally
+        if not progress_list and user_id:
+            logger.info(f"🆕 [NEW_USER] No progress found for user {user_id}. Auto-unlocking ALL Level 1s (Global)...")
+            
+            # Find ALL Level 1s globally (active only)
+            from sqlalchemy import select
+            from app.modules.training.models import TrainingLevel, TrainingUnit, TrainingSection
+            
+            level1_stmt = (
+                select(TrainingLevel)
+                .join(TrainingUnit, TrainingLevel.unit_id == TrainingUnit.id)
+                .join(TrainingSection, TrainingUnit.section_id == TrainingSection.id)
+                .where(
+                    TrainingLevel.level_number == 1,
+                    TrainingLevel.is_active == True,
+                    TrainingUnit.is_active == True,
+                    TrainingSection.is_active == True,
+                )
+            )
+            level1_result = await self.db.execute(level1_stmt)
+            all_level1s = level1_result.scalars().all()
+            
+            if all_level1s:
+                logger.info(f"🔓 [NEW_USER] unlocking {len(all_level1s)} starting levels...")
+                for level in all_level1s:
+                    # Create progress record for EACH level 1
+                    # Use commit=False for batch insert efficiency
+                    await self.repository.upsert_user_progress(
+                        user_id=user_id,
+                        level_id=level.id,
+                        status="UNLOCKED",
+                        commit=False,
+                    )
+                
+                # Commit all
+                await self.db.commit()
+                logger.info(f"✅ [NEW_USER] All Level 1s unlocked successfully.")
+                
+                # Return the newly created progress (fetch again globally)
+                progress_list = await self.repository.get_user_progress_by_section(user_id, None)
+        
+        # Format as dict: {level_id: status}
+        result_dict = {
+            p.level_id: p.status.upper()
+            for p in progress_list
+        }
+        
+        # ✅ Step 3: Cache result
+        try:
+            redis = await get_redis()
+            await redis.setex(
+                cache_key,
+                3600,  # 1 hour
+                json.dumps(result_dict)
+            )
+            logger.info(f"💾 [CACHE SET] Map progress cached for user {user_id}")
+        except Exception as e:
+            logger.warning(f"⚠️ Redis cache failed in get_progress_state: {e}")
+        
+        return result_dict
