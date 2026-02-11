@@ -493,6 +493,15 @@ class TrainingService:
                     except Exception as verify_error:
                         logger.warning(f"⚠️ [REDIS_VERIFY] Could not verify Redis update: {verify_error}")
                     
+                    # ✅ Publish to Redis Pub/Sub for real-time SSE clients — O(N+M)
+                    try:
+                        await leaderboard_service.publish_leaderboard_update(
+                            user_id=str(user_id),
+                            total_xp=verify_total_xp
+                        )
+                    except Exception as pub_error:
+                        logger.warning(f"⚠️ [PUBSUB] Could not publish update: {pub_error}")
+                    
                 except Exception as e:
                     # ✅ CRITICAL: Don't fail the request if Redis update fails
                     # PostgreSQL is source of truth, Redis is cache-only

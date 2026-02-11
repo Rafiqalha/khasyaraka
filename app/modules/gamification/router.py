@@ -105,6 +105,106 @@ async def get_leaderboard(
     )
 
 
+@router.get(
+    "/live",
+    summary="Real-time compact leaderboard",
+    description="""
+    Lightweight leaderboard endpoint optimized for frequent polling (every 10s).
+    Uses Redis Sorted Set for O(log N + M) query performance.
+    
+    **Big O Complexity:**
+    - Redis ZREVRANGE: O(log N + M) — N=total users, M=limit
+    - Redis ZSCORE: O(1) — current user score
+    - Redis ZREVRANK: O(log N) — current user rank
+    - Redis MGET: O(K) — K=profile cache keys
+    - **Total: O(log N + M + K) — sublinear in total users**
+    """
+)
+async def get_leaderboard_live(
+    request: Request,
+    limit: int = Query(10, ge=1, le=20, description="Top users count (keep small for real-time)"),
+    service: LeaderboardService = Depends(get_service)
+):
+    current_user = get_current_user_optional(request)
+    current_user_id = str(current_user.get("sub")) if current_user else None
+    
+    data = await service.get_leaderboard_compact(
+        limit=limit,
+        current_user_id=current_user_id
+    )
+    
+    return success(data=data, message="Live leaderboard")
+
+
+@router.get(
+    "/stream",
+    summary="SSE stream for real-time leaderboard updates",
+    description="""
+    Server-Sent Events endpoint. Subscribes to Redis Pub/Sub channel
+    'leaderboard:updates' and pushes score changes to connected clients.
+    
+    **Big O per event:** O(1) — Redis Pub/Sub message relay
+    **Heartbeat:** every 15s to keep connection alive
+    **Timeout:** 5 minutes (Cloud Run limit)
+    """
+)
+async def stream_leaderboard(request: Request):
+    import asyncio
+    import json
+    from starlette.responses import StreamingResponse
+    from app.core.redis import get_redis
+    
+    async def event_generator():
+        try:
+            redis_client = await get_redis()
+            pubsub = redis_client.pubsub()
+            await pubsub.subscribe("leaderboard:updates")
+            logger.info("📡 [SSE] Client connected to leaderboard stream")
+            
+            heartbeat_interval = 15  # seconds
+            timeout = 300  # 5 minutes max
+            elapsed = 0
+            
+            while elapsed < timeout:
+                # Check if client disconnected
+                if await request.is_disconnected():
+                    logger.info("📡 [SSE] Client disconnected")
+                    break
+                
+                # O(1) — check for new message from Redis Pub/Sub
+                message = await pubsub.get_message(
+                    ignore_subscribe_messages=True,
+                    timeout=heartbeat_interval
+                )
+                
+                if message and message['type'] == 'message':
+                    data = message['data']
+                    yield f"data: {data}\n\n"
+                    elapsed = 0  # Reset timeout on activity
+                else:
+                    # Heartbeat to keep connection alive
+                    yield f": heartbeat\n\n"
+                    elapsed += heartbeat_interval
+            
+            await pubsub.unsubscribe("leaderboard:updates")
+            await pubsub.close()
+            logger.info("📡 [SSE] Stream ended (timeout or disconnect)")
+            
+        except Exception as e:
+            logger.error(f"❌ [SSE] Stream error: {e}")
+            yield f"data: {{\"error\": \"{str(e)}\"}}\n\n"
+    
+    return StreamingResponse(
+        event_generator(),
+        media_type="text/event-stream",
+        headers={
+            "Cache-Control": "no-cache",
+            "Connection": "keep-alive",
+            "X-Accel-Buffering": "no",
+        }
+    )
+
+
 @router.post(
     "/rebuild",
     summary="Rebuild leaderboard",

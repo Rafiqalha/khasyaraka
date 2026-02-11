@@ -89,6 +89,28 @@ class LeaderboardService:
             logger.error(f"❌ [REDIS_UPDATE] Failed to update Redis leaderboard: {e}")
             import traceback
             logger.error(f"   Traceback: {traceback.format_exc()}")
+    
+    async def publish_leaderboard_update(self, user_id: str, total_xp: int) -> None:
+        """
+        Publish leaderboard change event to Redis Pub/Sub channel.
+        Subscribers (SSE clients) will receive real-time notifications.
+        
+        **Complexity:** O(N+M) where N = subscribers, M = message size
+        **Channel:** leaderboard:updates
+        """
+        import json
+        try:
+            redis_client = await get_redis()
+            event = json.dumps({
+                "type": "score_update",
+                "user_id": user_id,
+                "total_xp": total_xp,
+                "timestamp": __import__('time').time()
+            })
+            await redis_client.publish("leaderboard:updates", event)
+            logger.info(f"📡 [PUBSUB] Published leaderboard update: user={user_id}, xp={total_xp}")
+        except Exception as e:
+            logger.warning(f"⚠️ [PUBSUB] Failed to publish update: {e}")
 
     async def _get_users_from_cache_or_db(self, user_ids: List[str]) -> List[dict]:
         """
@@ -404,6 +426,91 @@ class LeaderboardService:
             # Fallback for errors: Return unranked 0
             return MyRank(rank=0, xp=0)
     
+    async def get_leaderboard_compact(
+        self,
+        limit: int = 10,
+        current_user_id: Optional[str] = None
+    ) -> dict:
+        """
+        Lightweight leaderboard query optimized for real-time polling.
+        Returns minimal data to reduce bandwidth and latency.
+        
+        **Big O Complexity (Redis path):**
+        - ZREVRANGE: O(log N + M) where N = total users, M = limit
+        - ZSCORE:    O(1) per user
+        - ZREVRANK:  O(log N) per user
+        - ZCARD:     O(1)
+        - MGET:      O(K) where K = number of profile cache keys
+        - Total:     O(log N + M + K) — sublinear in total users
+        
+        **Big O Complexity (PostgreSQL fallback):**
+        - SELECT ... ORDER BY total_xp DESC LIMIT M: O(N log N) worst case
+        - With index on total_xp: O(M log N)
+        
+        Args:
+            limit: Number of top users (default 10, keep small for real-time)
+            current_user_id: Current user ID for rank info
+        
+        Returns:
+            Compact dict with top_users list and my_rank
+        """
+        import json as json_lib
+        
+        try:
+            redis_client = await get_redis()
+            zcard = await redis_client.zcard(LEADERBOARD_KEY)  # O(1)
+            
+            if zcard == 0:
+                # Fallback to PostgreSQL — O(N log N) or O(M log N) with index
+                full = await self._get_leaderboard_from_postgres(limit, current_user_id)
+                return {
+                    "top": [{"id": u.id, "name": u.name, "xp": u.xp, "rank": u.rank, "avatar": u.avatar} for u in full.top_users[:limit]],
+                    "me": {"rank": full.my_rank.rank, "xp": full.my_rank.xp} if full.my_rank else None,
+                    "total": 0,
+                }
+            
+            # O(log N + M) — Redis Sorted Set range query
+            top_entries = await redis_client.zrevrange(
+                LEADERBOARD_KEY, 0, limit - 1, withscores=True
+            )
+            
+            user_ids = [e[0] for e in top_entries]
+            scores = {e[0]: int(e[1]) for e in top_entries}
+            
+            # O(K) — batch profile fetch from Redis cache / PostgreSQL
+            users_data = await self._get_users_from_cache_or_db(user_ids)
+            user_map = {str(u['id']): u for u in users_data}
+            
+            top = []
+            for rank_idx, uid in enumerate(user_ids, start=1):
+                u = user_map.get(uid)
+                if u:
+                    top.append({
+                        "id": uid,
+                        "name": u.get('full_name', 'Unknown'),
+                        "xp": scores[uid],
+                        "rank": rank_idx,
+                        "avatar": u.get('picture_url'),
+                    })
+            
+            # O(log N) + O(1) — current user rank + score
+            me = None
+            if current_user_id:
+                my_score = await redis_client.zscore(LEADERBOARD_KEY, str(current_user_id))  # O(1)
+                my_rank = await redis_client.zrevrank(LEADERBOARD_KEY, str(current_user_id))  # O(log N)
+                if my_score is not None and my_rank is not None:
+                    me = {"rank": int(my_rank) + 1, "xp": int(my_score)}
+                else:
+                    pg_rank = await self._get_my_rank_from_postgres(current_user_id)
+                    if pg_rank:
+                        me = {"rank": pg_rank.rank, "xp": pg_rank.xp}
+            
+            return {"top": top, "me": me, "total": zcard}
+        
+        except Exception as e:
+            logger.error(f"❌ [COMPACT] Error: {e}")
+            return {"top": [], "me": None, "total": 0}
+
     async def rebuild_leaderboard(self) -> int:
         """
         Rebuild Redis leaderboard from PostgreSQL.
