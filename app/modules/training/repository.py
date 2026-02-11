@@ -287,7 +287,7 @@ class TrainingRepository:
             existing.xp_earned = xp_earned
             existing.time_spent_seconds = time_spent_seconds
             existing.updated_at = datetime.utcnow()
-            if status == "completed":
+            if status.upper() == "COMPLETED":
                 existing.completed_at = datetime.utcnow()
             if commit:
                 await self.db.commit()
@@ -305,7 +305,7 @@ class TrainingRepository:
                 xp_earned=xp_earned,
                 time_spent_seconds=time_spent_seconds,
             )
-            if status == "completed":
+            if status.upper() == "COMPLETED":
                 new_progress.completed_at = datetime.utcnow()
             self.db.add(new_progress)
             if commit:
