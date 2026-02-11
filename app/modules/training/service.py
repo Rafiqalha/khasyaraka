@@ -697,15 +697,26 @@ class TrainingService:
             # Re-fetch to include newly created records
             progress_list = await self.repository.get_user_progress_by_section(user_id, None)
         
-        # Format as dict: {level_id: status}
+        # ✅ Normalize legacy statuses to frontend-expected values
+        # DB may contain: AVAILABLE, IN_PROGRESS, COMPLETED, UNLOCKED, LOCKED
+        # Frontend expects: UNLOCKED, LOCKED, COMPLETED
+        STATUS_MAP = {
+            "COMPLETED": "COMPLETED",
+            "UNLOCKED": "UNLOCKED",
+            "AVAILABLE": "UNLOCKED",      # Legacy: AVAILABLE → UNLOCKED
+            "IN_PROGRESS": "UNLOCKED",    # Legacy: IN_PROGRESS → UNLOCKED (started but not completed)
+            "LOCKED": "LOCKED",
+        }
+        
+        # Format as dict: {level_id: normalized_status}
         result_dict = {
-            p.level_id: p.status.upper()
+            p.level_id: STATUS_MAP.get(p.status.upper(), "LOCKED")
             for p in progress_list
         }
         
         # ✅ SAFETY NET: Ensure ALL Level 1s are at least UNLOCKED in the result
         for level in all_level1s:
-            if level.id not in result_dict:
+            if level.id not in result_dict or result_dict[level.id] == "LOCKED":
                 result_dict[level.id] = "UNLOCKED"
         
         # ✅ Step 3: Cache result
