@@ -640,13 +640,21 @@ class TrainingService:
             
         cache_key = CacheKeys.map_progress(str(user_id))
         
-        # ✅ Step 1: Try Redis Cache
+        # ✅ Step 1: Try Redis Cache (but validate statuses are normalized)
         try:
             redis = await get_redis()
             cached_json = await redis.get(cache_key)
             if cached_json:
-                logger.info(f"📦 [CACHE HIT] Map progress for user {user_id}")
-                return json.loads(cached_json)
+                cached_data = json.loads(cached_json)
+                # Check if cache has legacy statuses that need normalization
+                has_legacy = any(v in ("AVAILABLE", "IN_PROGRESS") for v in cached_data.values())
+                if not has_legacy:
+                    logger.info(f"📦 [CACHE HIT] Map progress for user {user_id}")
+                    return cached_data
+                else:
+                    # Invalidate stale cache with legacy statuses
+                    await redis.delete(cache_key)
+                    logger.info(f"🧹 [CACHE] Invalidated stale cache with legacy statuses for user {user_id}")
         except Exception as e:
             logger.warning(f"⚠️ Redis read failed in get_progress_state: {e}")
             
