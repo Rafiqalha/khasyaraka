@@ -657,52 +657,56 @@ class TrainingService:
         # This ensures we don't cache partial data under the global key
         progress_list = await self.repository.get_user_progress_by_section(user_id, None)
         
-        # ✅ PARALLEL UNITS: If NO progress exists, auto-unlock ALL Level 1s globally
-        if not progress_list and user_id:
-            logger.info(f"🆕 [NEW_USER] No progress found for user {user_id}. Auto-unlocking ALL Level 1s (Global)...")
-            
-            # Find ALL Level 1s globally (active only)
-            from sqlalchemy import select
-            from app.modules.training.models import TrainingLevel, TrainingUnit, TrainingSection
-            
-            level1_stmt = (
-                select(TrainingLevel)
-                .join(TrainingUnit, TrainingLevel.unit_id == TrainingUnit.id)
-                .join(TrainingSection, TrainingUnit.section_id == TrainingSection.id)
-                .where(
-                    TrainingLevel.level_number == 1,
-                    TrainingLevel.is_active == True,
-                    TrainingUnit.is_active == True,
-                    TrainingSection.is_active == True,
-                )
+        # ✅ PARALLEL UNITS: Always ensure ALL Level 1s are UNLOCKED
+        # This runs for ALL users (not just new users) to guarantee Level 1 accessibility
+        from sqlalchemy import select
+        from app.modules.training.models import TrainingLevel, TrainingUnit, TrainingSection
+        
+        level1_stmt = (
+            select(TrainingLevel)
+            .join(TrainingUnit, TrainingLevel.unit_id == TrainingUnit.id)
+            .join(TrainingSection, TrainingUnit.section_id == TrainingSection.id)
+            .where(
+                TrainingLevel.level_number == 1,
+                TrainingLevel.is_active == True,
+                TrainingUnit.is_active == True,
+                TrainingSection.is_active == True,
             )
-            level1_result = await self.db.execute(level1_stmt)
-            all_level1s = level1_result.scalars().all()
-            
-            if all_level1s:
-                logger.info(f"🔓 [NEW_USER] unlocking {len(all_level1s)} starting levels...")
-                for level in all_level1s:
-                    # Create progress record for EACH level 1
-                    # Use commit=False for batch insert efficiency
-                    await self.repository.upsert_user_progress(
-                        user_id=user_id,
-                        level_id=level.id,
-                        status="UNLOCKED",
-                        commit=False,
-                    )
-                
-                # Commit all
-                await self.db.commit()
-                logger.info(f"✅ [NEW_USER] All Level 1s unlocked successfully.")
-                
-                # Return the newly created progress (fetch again globally)
-                progress_list = await self.repository.get_user_progress_by_section(user_id, None)
+        )
+        level1_result = await self.db.execute(level1_stmt)
+        all_level1s = level1_result.scalars().all()
+        
+        # Build set of existing level IDs for quick lookup
+        existing_level_ids = {p.level_id for p in progress_list}
+        
+        # Create UNLOCKED records for any Level 1 that doesn't have a progress record
+        new_records_created = 0
+        for level in all_level1s:
+            if level.id not in existing_level_ids:
+                await self.repository.upsert_user_progress(
+                    user_id=user_id,
+                    level_id=level.id,
+                    status="UNLOCKED",
+                    commit=False,
+                )
+                new_records_created += 1
+        
+        if new_records_created > 0:
+            await self.db.commit()
+            logger.info(f"🔓 [PROGRESS] Created {new_records_created} missing Level 1 UNLOCKED records for user {user_id}")
+            # Re-fetch to include newly created records
+            progress_list = await self.repository.get_user_progress_by_section(user_id, None)
         
         # Format as dict: {level_id: status}
         result_dict = {
             p.level_id: p.status.upper()
             for p in progress_list
         }
+        
+        # ✅ SAFETY NET: Ensure ALL Level 1s are at least UNLOCKED in the result
+        for level in all_level1s:
+            if level.id not in result_dict:
+                result_dict[level.id] = "UNLOCKED"
         
         # ✅ Step 3: Cache result
         try:
