@@ -80,6 +80,11 @@ class Settings(BaseSettings):
             path=postgres_db,
         ).unicode_string()
 
+    # --- IMAGEKIT (Avatar Storage) ---
+    IMAGEKIT_PRIVATE_KEY: str = ""
+    IMAGEKIT_PUBLIC_KEY: str = ""
+    IMAGEKIT_URL_ENDPOINT: str = ""
+
     # --- REDIS ---
     # Support both REDIS_URL (full URL including rediss:// for TLS) and individual components
     REDIS_URL: Union[str, None] = None

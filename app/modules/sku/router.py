@@ -13,6 +13,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.session import get_db
 from app.core.security import get_current_user
+from app.core.permissions import require_tier
 from app.modules.sku.service import SkuService
 from app.modules.sku.schemas import (
     SkuOverviewResponse,
@@ -38,6 +39,7 @@ def get_service(db: AsyncSession = Depends(get_db)) -> SkuService:
 @router.get("/overview", response_model=SkuOverviewResponse)
 async def get_overview(
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: SkuService = Depends(get_service)
 ):
     user_id = int(current_user.get("sub")) if current_user.get("sub") else None
@@ -50,6 +52,7 @@ async def get_overview(
 async def get_points(
     level: SkuLevel,
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: SkuService = Depends(get_service)
 ):
     user_id = int(current_user.get("sub")) if current_user.get("sub") else None
@@ -62,6 +65,7 @@ async def get_points(
 async def get_point_detail(
     point_id: str,
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: SkuService = Depends(get_service)
 ):
     user_id = int(current_user.get("sub")) if current_user.get("sub") else None
@@ -74,6 +78,7 @@ async def get_point_detail(
 async def submit_sku(
     payload: SkuSubmitRequest,
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: SkuService = Depends(get_service)
 ):
     user_id = int(current_user.get("sub")) if current_user.get("sub") else None

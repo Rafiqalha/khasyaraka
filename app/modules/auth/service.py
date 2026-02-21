@@ -176,6 +176,16 @@ class AuthService:
                 logger.warning(f"Google sign-in attempt for inactive user: {email}")
                 raise UserInactiveError()
             
+            # Refresh picture_url if current one is missing or uses old local avatar path
+            if picture and (
+                not db_user.picture_url
+                or "/me/avatar/" in (db_user.picture_url or "")
+            ):
+                db_user.picture_url = picture
+                await self.repository.db.commit()
+                await self.repository.db.refresh(db_user)
+                logger.info(f"Updated picture_url for user {email} (was stale/missing)")
+            
             # User exists: return user with new token
             access_token = self.create_access_token(db_user.id)
             logger.info(f"Google sign-in successful: {email} (ID: {db_user.id})")

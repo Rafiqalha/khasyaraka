@@ -10,6 +10,7 @@ from sqlalchemy import select, func
 
 from app.db.session import get_db
 from app.core.security import get_current_user
+from app.core.permissions import require_tier
 from app.modules.users.models import User
 from app.modules.cyber.models import CyberCategory, CyberChallenge, CyberModule
 from app.modules.cyber.service import CyberService
@@ -96,6 +97,7 @@ async def get_module_challenge(
 async def get_module_levels(
     module_id: str,
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: CyberService = Depends(get_service)
 ):
     user_id = int(current_user.get("sub")) if current_user.get("sub") else None
@@ -131,6 +133,7 @@ async def get_level_questions(
 )
 async def get_dashboard(
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: CyberService = Depends(get_service)
 ):
     user_id = int(current_user.get("sub")) if current_user.get("sub") else None
@@ -165,6 +168,7 @@ async def get_challenge(
 async def submit_answer(
     payload: CyberSubmitRequest = Body(...),
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: CyberService = Depends(get_service)
 ):
     try:
@@ -582,6 +586,7 @@ async def get_sandi_list(
 async def process_cipher_tool(
     request: CyberToolRequest,
     current_user: User = Depends(get_current_user),
+    _tier = Depends(require_tier("mid")),
     service: CyberService = Depends(get_service)
 ):
     """

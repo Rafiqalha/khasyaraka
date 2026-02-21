@@ -3,6 +3,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from app.db.session import get_db
 from app.core.security import get_current_user
+from app.core.permissions import require_tier
 from app.modules.users.models import User
 from app.modules.survival.repository import SurvivalRepository
 from app.modules.survival.service import SurvivalService
@@ -18,6 +19,7 @@ router = APIRouter()
 @router.get("/mastery", response_model=AllMasteryResponse)
 async def get_user_mastery(
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("pro")),
     db: AsyncSession = Depends(get_db)
 ):
     """
@@ -36,6 +38,7 @@ async def get_user_mastery(
 async def record_tool_action(
     request: RecordActionRequest,
     current_user: dict = Depends(get_current_user),
+    _tier = Depends(require_tier("pro")),
     db: AsyncSession = Depends(get_db)
 ):
     """

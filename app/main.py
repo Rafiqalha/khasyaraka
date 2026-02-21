@@ -231,9 +231,32 @@ async def startup_event():
             # Don't fail startup - log error but continue
             # App must start even if database check fails (for Cloud Run)
     
+    # ✅ CRITICAL: Initialize Arq Connection Pool
+    # This is used for reliable background task processing (Write-Behind)
+    try:
+        from arq import create_pool
+        from arq.connections import RedisSettings
+        
+        # Create Arq pool using computed Redis URL
+        redis_settings = RedisSettings.from_dsn(settings.REDIS_URL_COMPUTED)
+        app.state.arq_pool = await create_pool(redis_settings)
+        logger.info("✅ Arq Redis pool initialized for background jobs")
+    except Exception as e:
+        logger.error(f"❌ Failed to initialize Arq pool: {e}", exc_info=True)
+        # We continue without Arq, but background jobs will fail (critical but not fatal for startup)
+
     # Run verification in background (non-blocking)
     # App will start listening immediately
     asyncio.create_task(verify_training_data_background())
+    
+    # ✅ Subscription cron: expire lapsed subs + auto-renewal
+    try:
+        from app.tasks.subscription_tasks import subscription_cron_loop
+        asyncio.create_task(subscription_cron_loop())
+        logger.info("✅ Subscription cron task started (runs every 6h)")
+    except Exception as e:
+        logger.error(f"❌ Failed to start subscription cron: {e}", exc_info=True)
+    
     logger.info("✅ Application startup complete - Server ready to accept requests")
 
 
@@ -260,7 +283,7 @@ async def shutdown_event():
     except Exception as e:
         logger.warning(f"⚠️ Error closing Redis: {e}")
     
-    # Close database engine connections
+    # Close Database engine
     try:
         from app.db.session import engine
         # Dispose of all connections in the pool
@@ -269,6 +292,14 @@ async def shutdown_event():
     except Exception as e:
         logger.warning(f"⚠️ Error closing database connections: {e}")
     
+    # Close Arq Redis Pool
+    try:
+        if hasattr(app.state, "arq_pool"):
+            await app.state.arq_pool.close()
+            logger.info("✅ Arq Redis connection pool closed")
+    except Exception as e:
+        logger.warning(f"⚠️ Error closing Arq pool: {e}")
+
     # Give a small delay for cleanup tasks to complete
     await asyncio.sleep(0.1)
     logger.info("✅ Shutdown complete")

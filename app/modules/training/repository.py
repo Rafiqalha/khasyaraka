@@ -215,7 +215,7 @@ class TrainingRepository:
             )
         )
         result = await self.db.execute(stmt)
-        return result.scalar_one_or_none()
+        return result.scalars().first()
     
     async def get_user_progress_by_section(self, user_id: int, section_id: Optional[str] = None) -> List[UserProgress]:
         """

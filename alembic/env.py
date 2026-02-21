@@ -59,7 +59,19 @@ from app.modules.cyber.models import (  # noqa: F401
 )
 
 # Survival
+# Survival
 from app.modules.survival.models import SurvivalMastery  # noqa: F401
+
+# TKK
+from app.modules.tkk.models import ( # noqa: F401
+    UserTKK,
+    TKKLevel
+)
+
+# Subscription
+from app.modules.subscription.models import ( # noqa: F401
+    Subscription
+)
 
 # Add other module models as they are created:
 # from app.modules.hiking.models import HikingSpot  # noqa: F401

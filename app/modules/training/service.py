@@ -28,8 +28,9 @@ from app.modules.training.schemas import (
 
 
 
+import json as json_lib
 from app.core.redis import get_redis
-from app.services.user_service import CacheKeys, CACHE_TTL_LEVELS
+from app.services.user_service import CacheKeys, CACHE_TTL_LEVELS, CACHE_TTL_STATIC
 from app.core.logging import get_logger
 
 logger = get_logger(__name__)
@@ -92,10 +93,44 @@ class TrainingService:
     # ==================== NEW METHODS (Repository-based) ====================
     
     async def get_all_sections(self) -> List[TrainingSection]:
-        """Get all active sections"""
+        """Get all active sections with Redis caching"""
         if not self.repository:
             raise ValueError("Database session required for repository-based methods")
-        return await self.repository.get_all_sections()
+        
+        cache_key = CacheKeys.training_sections()
+        try:
+            redis = await get_redis()
+            cached = await redis.get(cache_key)
+            if cached:
+                logger.info(f"📦 [CACHE HIT] training:sections")
+                data = json_lib.loads(cached)
+                # Reconstruct ORM-like objects from cache
+                from app.modules.training.models import TrainingSection as TSModel
+                sections = []
+                for item in data:
+                    s = TSModel(**item)
+                    sections.append(s)
+                return sections
+        except Exception as e:
+            logger.warning(f"⚠️ Redis read failed for sections: {e}")
+        
+        sections = await self.repository.get_all_sections()
+        
+        # Cache the result
+        try:
+            redis = await get_redis()
+            serialized = json_lib.dumps([
+                {"id": s.id, "title": s.title, "description": s.description,
+                 "tier": s.tier, "order": s.order, "is_active": s.is_active,
+                 "created_at": s.created_at.isoformat() if s.created_at else None}
+                for s in sections
+            ])
+            await redis.setex(cache_key, CACHE_TTL_STATIC, serialized)
+            logger.info(f"💾 [CACHE SET] training:sections ({len(sections)} items)")
+        except Exception as e:
+            logger.warning(f"⚠️ Redis cache set failed for sections: {e}")
+        
+        return sections
 
     async def get_section_by_id(self, section_id: str) -> Optional[TrainingSection]:
         """Get a specific section by ID"""
@@ -156,15 +191,26 @@ class TrainingService:
 
     async def get_learning_path_for_section(self, section_id: str, user_id: Optional[int] = None) -> LearningPathResponse:
         """
-        Get structured learning path for a section.
+        Get structured learning path for a section with Redis caching.
         Returns Duolingo-style learning path with section → units → levels.
         
-        Args:
-            section_id: Section ID (e.g., 'puk')
-            user_id: Optional user ID to determine level status based on progress
+        Structure is cached in Redis (static content). User progress (status)
+        is handled separately by get_progress_state.
         """
         if not self.repository:
             raise ValueError("Database session required for repository-based methods")
+        
+        # Try Redis cache for the structure (user-independent)
+        cache_key = CacheKeys.learning_path(section_id)
+        try:
+            redis = await get_redis()
+            cached = await redis.get(cache_key)
+            if cached:
+                logger.info(f"📦 [CACHE HIT] training:path:{section_id}")
+                data = json_lib.loads(cached)
+                return LearningPathResponse(**data)
+        except Exception as e:
+            logger.warning(f"⚠️ Redis read failed for learning path {section_id}: {e}")
         
         section = await self.repository.get_section_with_units_and_levels(section_id)
         
@@ -203,11 +249,21 @@ class TrainingService:
                 levels=levels_data
             ))
         
-        return LearningPathResponse(
+        response = LearningPathResponse(
             section_id=section.id,
             section_title=section.title,
             units=units_data
         )
+        
+        # Cache the structure
+        try:
+            redis = await get_redis()
+            await redis.setex(cache_key, CACHE_TTL_STATIC, response.model_dump_json())
+            logger.info(f"💾 [CACHE SET] training:path:{section_id}")
+        except Exception as e:
+            logger.warning(f"⚠️ Redis cache set failed for learning path {section_id}: {e}")
+        
+        return response
     
     async def _determine_level_status(self, level: TrainingLevel, user_id: Optional[int] = None) -> str:
         """

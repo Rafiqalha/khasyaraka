@@ -522,40 +522,25 @@ async def submit_progress(
             time_spent_seconds=time_spent_seconds,
         )
         
-        # ✅ CRITICAL: Get current user state from database AFTER submit_progress
+        # ✅ Atomic streak update (timezone-aware, SELECT FOR UPDATE)
+        from app.services.streak_service import update_streak_atomic
         from app.modules.users.models import User
         from sqlalchemy import select
-        from datetime import date, timedelta
         
+        streak_result = await update_streak_atomic(service.db, user_id)
+        
+        # Get updated user state
         stmt = select(User).where(User.id == user_id)
         result = await service.db.execute(stmt)
         user = result.scalar_one_or_none()
         
         current_total_xp = (user.total_xp or 0) if user else 0
-        current_streak = (user.streak or 0) if user else 0
         
-        # ✅ Calculate and update streak server-side
-        today = date.today()
-        last_active = user.last_active_date if user else None
-        
-        if last_active is None:
-            new_streak = 1
-        elif last_active == today:
-            new_streak = current_streak
-        elif last_active == today - timedelta(days=1):
-            new_streak = current_streak + 1
-        else:
-            new_streak = 1
-        
-        # ✅ Update streak and last_active_date in database
-        if user:
-            user.streak = new_streak
-            user.last_active_date = today
-            await service.db.commit()
-            await service.db.refresh(user)
+        # Commit streak + progress together atomically
+        await service.db.commit()
         
         xp_earned = progress.get("xp_earned", 0)
-        logger.info(f"✅ [SUBMIT_PROGRESS] Response: xp_earned={xp_earned}, total_xp={current_total_xp}, streak={new_streak}")
+        logger.info(f"✅ [SUBMIT_PROGRESS] Response: xp_earned={xp_earned}, total_xp={current_total_xp}, streak={streak_result['streak']}")
         
         # ✅ Return COMPLETE user state - frontend needs NO additional API calls
         return {
@@ -567,9 +552,10 @@ async def submit_progress(
             "total_questions": total_questions,
             "xp_earned": xp_earned,
             "total_xp": (user.total_xp or 0) if user else current_total_xp,
-            "streak": new_streak,
+            "streak": streak_result["streak"],
+            "longest_streak": streak_result["longest_streak"],
             "next_level_id": progress.get("next_level_id"),
-            "last_active_date": today.isoformat() if today else None,
+            "last_active_date": streak_result["last_active_date"],
         }
     except ValueError as e:
         raise HTTPException(status_code=404, detail=str(e))

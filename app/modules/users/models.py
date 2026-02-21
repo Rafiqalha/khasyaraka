@@ -12,7 +12,10 @@ class User(Base):
     picture_url = Column(String, nullable=True)  # For Google profile picture
     total_xp = Column(Integer, default=0)
     streak = Column(Integer, default=0, nullable=False)  # Daily streak counter
+    longest_streak = Column(Integer, default=0, nullable=False)  # All-time longest streak
+    hearts = Column(Integer, default=5, nullable=False)  # Lives system (max 5)
     last_active_date = Column(Date, nullable=True)  # Last date user was active (for streak calculation)
+    timezone = Column(String, default="Asia/Jakarta", nullable=False)  # User timezone (IANA)
     hack_level = Column(String, default="Script Kiddie")
     decrypted_count = Column(Integer, default=0)
     is_active = Column(Boolean, default=True)
