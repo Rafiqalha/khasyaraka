@@ -218,39 +218,8 @@ async def decrement_user_hearts(
         )
 
 # Production increment is via AdMob SSV callback ONLY.
-# This debug endpoint simulates SSV for testing with test ad units
-# (Google does NOT send SSV callbacks for test ad units)
-@router.post(
-    "/{user_id}/hearts/debug-increment",
-    response_model=None,
-    summary="[DEBUG ONLY] Increment Hearts",
-    description="Simulates AdMob SSV reward for testing. BLOCKED in production.",
-)
-async def debug_increment_hearts(
-    request: Request,
-    user_id: str,
-):
-    """Debug-only: increment hearts. Returns 404 in production."""
-    if settings.ENVIRONMENT == "production":
-        raise HTTPException(status_code=404, detail="Not Found")
-    
-    try:
-        result = await increment_hearts(
-            request=request,
-            user_id=user_id,
-            amount=1,
-        )
-        logger.info(f"🧪 [DEBUG] Hearts incremented for user {user_id}: {result['hearts']}")
-        return success(
-            data=result,
-            message="[DEBUG] Hearts incremented"
-        )
-    except Exception as e:
-        logger.error(f"Error in debug increment: {e}", exc_info=True)
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Failed to increment hearts ({type(e).__name__})"
-        )
+# The debug endpoint simulating SSV is handled in app.modules.users.router
+
 
 
 @router.get(

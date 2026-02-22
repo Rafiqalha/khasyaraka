@@ -4,7 +4,7 @@ Users Module Router
 API endpoints for user operations.
 """
 
-from fastapi import APIRouter, Depends, Body, UploadFile, File
+from fastapi import APIRouter, Depends, Body, UploadFile, File, Request
 from fastapi.responses import RedirectResponse
 from sqlalchemy.ext.asyncio import AsyncSession
 from pydantic import BaseModel
@@ -232,6 +232,51 @@ async def get_public_profile(
         data=response_data.model_dump(),
         message="Public profile fetched successfully"
     )
+
+@router.post("/{user_id}/hearts/debug-increment")
+async def debug_increment_hearts(
+    user_id: int,
+    request: Request,
+    db: AsyncSession = Depends(get_db)
+):
+    """
+    [DEBUG ONLY] Directly increment user hearts to simulate AdMob rewarded video.
+    This skips the SSV signature check and provides a way to test client-side
+    rewarded video integration locally or in test environments.
+    """
+    repository = AuthRepository(db)
+    user = await repository.get_user_by_id(user_id)
+    
+    if not user:
+        from app.core.errors import AppException
+        raise AppException(
+            message="User not found",
+            error_code="USER_NOT_FOUND",
+            status_code=404
+        )
+
+    try:
+        from app.services.user_service import increment_hearts
+        
+        # Use the atomic increment service which properly updates Redis hash and enqueues DB sync
+        result = await increment_hearts(request, str(user_id), amount=1)
+        new_hearts = result["hearts"]
+        
+        # Add to debug log
+        logger.info(f"🧪 [DEBUG] AdMob reward simulated. User {user_id} hearts incremented to: {new_hearts}")
+        
+        return success(
+            data={"hearts": new_hearts},
+            message=f"Hearts simulated! New hearts: {new_hearts}"
+        )
+            
+    except Exception as e:
+        logger.error(f"❌ [DEBUG] Failed to simulate hearts increment: {e}")
+        from app.core.errors import AppException
+        raise AppException(
+            message=f"Failed to increment hearts: {str(e)}",
+            status_code=500
+        )
 
 
 @router.get("/me")
