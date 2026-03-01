@@ -230,8 +230,10 @@ class TrainingService:
                 if not level.is_active:
                     continue
                     
-                # Determine status based on unlock_rule and user progress
-                status = await self._determine_level_status(level, user_id)
+                # ALWAYS set baseline status to LOCKED for the structural cache.
+                # User-specific progress is fetched separately via `get_progress_state` 
+                # and merged on the frontend. This prevents cache poisoning.
+                status = "LOCKED"
                 
                 levels_data.append(PathLevelSchema(
                     level_id=level.id,
